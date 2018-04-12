@@ -1,0 +1,39 @@
+---
+layout: pagefullwidth
+title: "People"
+logo: /img/logos/mooc_logo.png
+description: "The Open Science MOOC people"
+header-img: "img/home-bg.jpg"
+ordernumber: 8
+---
+
+<div>
+
+	<ul>
+	  <h3> <li> <a href="#steering">Steering committee</a> </li> </h3>
+		<h3> <li> <a href="#production">Production team</a> </li> </h3>
+	</ul>
+
+<hr>
+
+<div class="row">
+	<h2>Steering committee</h2> <a name="steering"></a>
+{% for people in site.data.people %} {% if people.visible == true %} {% if people.type == "lead" %}
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	{% include addPerson.html people=site.data.people %}
+</div>
+{% endif %}{% endif %}{% endfor %}
+</div>
+
+<hr>
+
+<div class="row">
+<h2>Production team</h2> <a name="production"></a>
+{% for people in site.data.people %} {% if people.visible == true %} {% if people.type == "production" %}
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	{% include addPerson.html people=site.data.people %}
+</div>
+{% endif %}{% endif %}{% endfor %}
+</div>
+
+</div>

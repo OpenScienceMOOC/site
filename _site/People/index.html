@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+	<meta property="og:title" content="People" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:4000//Main//People/" />
+<meta property="og:image" content="http://localhost:4000//Main/img/home-bg.jpg">
+
+	<link rel='shortcut icon' type='image/png' href='/Main/favicon.png' />
+
+    <title>People - Open Science MOOC</title>
+
+    <link rel="canonical" href="http://localhost:4000/Main/People/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="http://localhost:4000/Main/css/bootstrap.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="http://localhost:4000/Main/css/clean-blog.css">
+
+	<!-- Adjust Colors -->
+    <link rel="stylesheet" href="http://localhost:4000/Main/colorscheme.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="http://localhost:4000/Main/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!-- Math Jax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript"
+	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+		TeX: { equationNumbers: { autoNumber: "AMS" } }
+	});
+	</script>
+
+	<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js" type="text/javascript"></script>-->
+
+    <!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="http://localhost:4000/Main/js/clean-blog.min.js "></script>
+
+	
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/Main/">Open Science MOOC</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="/Main/">
+                    <img alt="Home" style="height:2rem;" src="/Main/img/icons/home.png" />
+                  </a>
+                </li>
+
+                
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                      <li>
+                        <a href="/Main/About/">About</a>
+                      </li>
+                    
+                  
+                
+                  
+                    
+                      <li>
+                        <a href="/Main/Modules/">Modules</a>
+                      </li>
+                    
+                  
+                
+                  
+                    
+                      <li>
+                        <a href="/Main/Resources/">Resources</a>
+                      </li>
+                    
+                  
+                
+                  
+                    
+                      <li>
+                        <a href="/Main/Documents/">Documents</a>
+                      </li>
+                    
+                  
+                
+                  
+                    
+                      <li>
+                        <a href="/Main/Contact/">Contact</a>
+                      </li>
+                    
+                  
+                
+                  
+                    
+                      <li>
+                        <a href="/Main/People/">People</a>
+                      </li>
+                    
+                  
+                
+
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Page Header -->
+<header class="intro-header" style="background-image: url('/Main/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" style="padding: 50px 0 15px 0">
+					
+                    <!-- <h1>People</h1> -->
+                    
+                    <div>
+                    <img src= "/Main//img/logos/mooc_logo.png" style="height: 175px">
+                  </div>
+                    
+                    <br>
+                    <h1>People</h1>                    
+                    <span class="subheading">The Open Science MOOC people</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div style="margin-left: 3rem; margin-right: 3rem;">
+  <article style="width: 100%; ">
+  		<div>
+
+	<ul>
+	  <h3> <li> <a href="#steering">Steering committee</a> </li> </h3>
+		<h3> <li> <a href="#production">Production team</a> </li> </h3>
+	</ul>
+
+<hr>
+
+<div class="row">
+	<h2>Steering committee</h2> <a name="steering"></a>
+  
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	<style>
+table, th, td {
+    border: 0px solid black;
+}
+</style>
+
+<div>
+  <table style="width:100%" align="left">
+	<col width="25%">
+  <col width="auto%">
+  <tr>
+    <th></th>
+  </tr>
+  <tr>
+
+    <td valign="top" align="left">
+			
+			   <img src="/Main/img/people/kmm_profile_crop.jpg" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width: 95% !important">
+			
+	  </td>
+
+    <td valign="top" align="left">
+			
+				<h4>Dr. Kevin M Moerman</h4>
+			
+
+			
+			<span style="text-transform: uppercase;">
+				<b style="font-size:75%;">Research Scientist</b>
+			</span>
+			<br />
+			
+
+			
+			<!-- <a class="email">prename<img style="height:1em;" src="/Main/img/icons/atSym.png" class="atSymbol" alt="@">postName.com</a> -->
+				<i style="font-size:100%; color:#3366CC;"> <u>kmoerman [at] mit.edu</u> </i>
+				<br />
+			
+
+			
+
+			<!-- <div align="left"> -->
+				
+						<a href="https://kevinmoerman.org">
+							<img alt="e-mail" style="height:20px;" src="/Main/img/icons/profilePage.png" />
+						</a>
+				
+
+				
+						<a href="https://github.com/Kevin-Mattheus-Moerman">
+							<img alt="GitHub profile" style="height:20px;" src="/Main/img/icons/github-icon.png" />
+						</a>
+				
+
+				
+						<a href="http://orcid.org/0000-0003-3768-4269">
+							<img alt="ORCiD profile" style="height:20px;" src="/Main/img/icons/orcid.png" />
+						</a>
+				
+
+				
+						<a href="http://impactstory.org/u/0000-0003-3768-4269">
+							<img alt="ImpactStory profile" style="height:20px;" src="/Main/img/icons/impactStory.png" />
+						</a>
+				
+				
+						<a href="https://twitter.com/KMMoerman">
+							<img alt="Twitter profile" style="height:20px;" src="/Main/img/icons/twitter.png" />
+						</a>
+				
+
+				
+							<a href="https://www.linkedin.com/in/kevin-moerman-98923831">
+								<img alt="LinkedIn profile" style="height:20px;" src="/Main/img/icons/linkedin.png" />
+							</a>
+				
+			<!-- </div> -->
+
+		</td>
+  </tr>
+  <tr>
+    <td>
+		</td>
+  </tr>
+</table>
+<div>
+
+  <details>
+  <summary><u>Short bio</u></summary>
+  <span style="font-size:65%;">
+    Kevin is a biomechanical and design engineer. His research interests include soft tissue biomechanics, finite element analysis, continuum mechanics, image-based modeling, image-processing, robotics and medical device design. He holds a Bachelor degree in Mechanical Engineering, a Master’s degree in Bioengineering and a PhD degree on the topic of soft tissue biomechanics (2012, Trinity College Dublin). Kevin joined the Biomechatronics group in 2015 as post-doctoral associate at MIT Media Lab where his current focus is on computational modeling for prosthetic socket design. He also holds a visiting research fellow position at Trinity College Dublin collaborating on computational modeling of soft tissue mechanical behavior. Kevin has shared his work at international conferences and is often involved in the organization of special sessions and workshops.
+  </span>
+  </details>
+
+</div>
+
+</div>
+
+</div>
+  
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	<style>
+table, th, td {
+    border: 0px solid black;
+}
+</style>
+
+<div>
+  <table style="width:100%" align="left">
+	<col width="25%">
+  <col width="auto%">
+  <tr>
+    <th></th>
+  </tr>
+  <tr>
+
+    <td valign="top" align="left">
+			
+			   <img src="/Main/img/people/kmm_profile_crop.jpg" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width: 95% !important">
+			
+	  </td>
+
+    <td valign="top" align="left">
+			
+				<h4>Dr. Kevin M Moerman</h4>
+			
+
+			
+			<span style="text-transform: uppercase;">
+				<b style="font-size:75%;">Research Scientist</b>
+			</span>
+			<br />
+			
+
+			
+			<!-- <a class="email">prename<img style="height:1em;" src="/Main/img/icons/atSym.png" class="atSymbol" alt="@">postName.com</a> -->
+				<i style="font-size:100%; color:#3366CC;"> <u>kmoerman [at] mit.edu</u> </i>
+				<br />
+			
+
+			
+
+			<!-- <div align="left"> -->
+				
+						<a href="https://kevinmoerman.org">
+							<img alt="e-mail" style="height:20px;" src="/Main/img/icons/profilePage.png" />
+						</a>
+				
+
+				
+						<a href="https://github.com/Kevin-Mattheus-Moerman">
+							<img alt="GitHub profile" style="height:20px;" src="/Main/img/icons/github-icon.png" />
+						</a>
+				
+
+				
+						<a href="http://orcid.org/0000-0003-3768-4269">
+							<img alt="ORCiD profile" style="height:20px;" src="/Main/img/icons/orcid.png" />
+						</a>
+				
+
+				
+						<a href="http://impactstory.org/u/0000-0003-3768-4269">
+							<img alt="ImpactStory profile" style="height:20px;" src="/Main/img/icons/impactStory.png" />
+						</a>
+				
+				
+						<a href="https://twitter.com/KMMoerman">
+							<img alt="Twitter profile" style="height:20px;" src="/Main/img/icons/twitter.png" />
+						</a>
+				
+
+				
+							<a href="https://www.linkedin.com/in/kevin-moerman-98923831">
+								<img alt="LinkedIn profile" style="height:20px;" src="/Main/img/icons/linkedin.png" />
+							</a>
+				
+			<!-- </div> -->
+
+		</td>
+  </tr>
+  <tr>
+    <td>
+		</td>
+  </tr>
+</table>
+<div>
+
+  <details>
+  <summary><u>Short bio</u></summary>
+  <span style="font-size:65%;">
+    Kevin is a biomechanical and design engineer. His research interests include soft tissue biomechanics, finite element analysis, continuum mechanics, image-based modeling, image-processing, robotics and medical device design. He holds a Bachelor degree in Mechanical Engineering, a Master’s degree in Bioengineering and a PhD degree on the topic of soft tissue biomechanics (2012, Trinity College Dublin). Kevin joined the Biomechatronics group in 2015 as post-doctoral associate at MIT Media Lab where his current focus is on computational modeling for prosthetic socket design. He also holds a visiting research fellow position at Trinity College Dublin collaborating on computational modeling of soft tissue mechanical behavior. Kevin has shared his work at international conferences and is often involved in the organization of special sessions and workshops.
+  </span>
+  </details>
+
+</div>
+
+</div>
+
+</div>
+  
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	<style>
+table, th, td {
+    border: 0px solid black;
+}
+</style>
+
+<div>
+  <table style="width:100%" align="left">
+	<col width="25%">
+  <col width="auto%">
+  <tr>
+    <th></th>
+  </tr>
+  <tr>
+
+    <td valign="top" align="left">
+			
+			   <img src="/Main/img/people/kmm_profile_crop.jpg" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width: 95% !important">
+			
+	  </td>
+
+    <td valign="top" align="left">
+			
+				<h4>Dr. Kevin M Moerman</h4>
+			
+
+			
+			<span style="text-transform: uppercase;">
+				<b style="font-size:75%;">Research Scientist</b>
+			</span>
+			<br />
+			
+
+			
+			<!-- <a class="email">prename<img style="height:1em;" src="/Main/img/icons/atSym.png" class="atSymbol" alt="@">postName.com</a> -->
+				<i style="font-size:100%; color:#3366CC;"> <u>kmoerman [at] mit.edu</u> </i>
+				<br />
+			
+
+			
+
+			<!-- <div align="left"> -->
+				
+						<a href="https://kevinmoerman.org">
+							<img alt="e-mail" style="height:20px;" src="/Main/img/icons/profilePage.png" />
+						</a>
+				
+
+				
+						<a href="https://github.com/Kevin-Mattheus-Moerman">
+							<img alt="GitHub profile" style="height:20px;" src="/Main/img/icons/github-icon.png" />
+						</a>
+				
+
+				
+						<a href="http://orcid.org/0000-0003-3768-4269">
+							<img alt="ORCiD profile" style="height:20px;" src="/Main/img/icons/orcid.png" />
+						</a>
+				
+
+				
+						<a href="http://impactstory.org/u/0000-0003-3768-4269">
+							<img alt="ImpactStory profile" style="height:20px;" src="/Main/img/icons/impactStory.png" />
+						</a>
+				
+				
+						<a href="https://twitter.com/KMMoerman">
+							<img alt="Twitter profile" style="height:20px;" src="/Main/img/icons/twitter.png" />
+						</a>
+				
+
+				
+							<a href="https://www.linkedin.com/in/kevin-moerman-98923831">
+								<img alt="LinkedIn profile" style="height:20px;" src="/Main/img/icons/linkedin.png" />
+							</a>
+				
+			<!-- </div> -->
+
+		</td>
+  </tr>
+  <tr>
+    <td>
+		</td>
+  </tr>
+</table>
+<div>
+
+  <details>
+  <summary><u>Short bio</u></summary>
+  <span style="font-size:65%;">
+    Kevin is a biomechanical and design engineer. His research interests include soft tissue biomechanics, finite element analysis, continuum mechanics, image-based modeling, image-processing, robotics and medical device design. He holds a Bachelor degree in Mechanical Engineering, a Master’s degree in Bioengineering and a PhD degree on the topic of soft tissue biomechanics (2012, Trinity College Dublin). Kevin joined the Biomechatronics group in 2015 as post-doctoral associate at MIT Media Lab where his current focus is on computational modeling for prosthetic socket design. He also holds a visiting research fellow position at Trinity College Dublin collaborating on computational modeling of soft tissue mechanical behavior. Kevin has shared his work at international conferences and is often involved in the organization of special sessions and workshops.
+  </span>
+  </details>
+
+</div>
+
+</div>
+
+</div>
+  
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	<style>
+table, th, td {
+    border: 0px solid black;
+}
+</style>
+
+<div>
+  <table style="width:100%" align="left">
+	<col width="25%">
+  <col width="auto%">
+  <tr>
+    <th></th>
+  </tr>
+  <tr>
+
+    <td valign="top" align="left">
+			
+			   <img src="/Main/img/people/kmm_profile_crop.jpg" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width: 95% !important">
+			
+	  </td>
+
+    <td valign="top" align="left">
+			
+				<h4>Dr. Kevin M Moerman</h4>
+			
+
+			
+			<span style="text-transform: uppercase;">
+				<b style="font-size:75%;">Research Scientist</b>
+			</span>
+			<br />
+			
+
+			
+			<!-- <a class="email">prename<img style="height:1em;" src="/Main/img/icons/atSym.png" class="atSymbol" alt="@">postName.com</a> -->
+				<i style="font-size:100%; color:#3366CC;"> <u>kmoerman [at] mit.edu</u> </i>
+				<br />
+			
+
+			
+
+			<!-- <div align="left"> -->
+				
+						<a href="https://kevinmoerman.org">
+							<img alt="e-mail" style="height:20px;" src="/Main/img/icons/profilePage.png" />
+						</a>
+				
+
+				
+						<a href="https://github.com/Kevin-Mattheus-Moerman">
+							<img alt="GitHub profile" style="height:20px;" src="/Main/img/icons/github-icon.png" />
+						</a>
+				
+
+				
+						<a href="http://orcid.org/0000-0003-3768-4269">
+							<img alt="ORCiD profile" style="height:20px;" src="/Main/img/icons/orcid.png" />
+						</a>
+				
+
+				
+						<a href="http://impactstory.org/u/0000-0003-3768-4269">
+							<img alt="ImpactStory profile" style="height:20px;" src="/Main/img/icons/impactStory.png" />
+						</a>
+				
+				
+						<a href="https://twitter.com/KMMoerman">
+							<img alt="Twitter profile" style="height:20px;" src="/Main/img/icons/twitter.png" />
+						</a>
+				
+
+				
+							<a href="https://www.linkedin.com/in/kevin-moerman-98923831">
+								<img alt="LinkedIn profile" style="height:20px;" src="/Main/img/icons/linkedin.png" />
+							</a>
+				
+			<!-- </div> -->
+
+		</td>
+  </tr>
+  <tr>
+    <td>
+		</td>
+  </tr>
+</table>
+<div>
+
+  <details>
+  <summary><u>Short bio</u></summary>
+  <span style="font-size:65%;">
+    Kevin is a biomechanical and design engineer. His research interests include soft tissue biomechanics, finite element analysis, continuum mechanics, image-based modeling, image-processing, robotics and medical device design. He holds a Bachelor degree in Mechanical Engineering, a Master’s degree in Bioengineering and a PhD degree on the topic of soft tissue biomechanics (2012, Trinity College Dublin). Kevin joined the Biomechatronics group in 2015 as post-doctoral associate at MIT Media Lab where his current focus is on computational modeling for prosthetic socket design. He also holds a visiting research fellow position at Trinity College Dublin collaborating on computational modeling of soft tissue mechanical behavior. Kevin has shared his work at international conferences and is often involved in the organization of special sessions and workshops.
+  </span>
+  </details>
+
+</div>
+
+</div>
+
+</div>
+  
+</div>
+
+<hr>
+
+<div class="row">
+<h2>Production team</h2> <a name="production"></a>
+          
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+	<style>
+table, th, td {
+    border: 0px solid black;
+}
+</style>
+
+<div>
+  <table style="width:100%" align="left">
+	<col width="25%">
+  <col width="auto%">
+  <tr>
+    <th></th>
+  </tr>
+  <tr>
+
+    <td valign="top" align="left">
+			
+			   <img src="/Main/img/people/kmm_profile_crop.jpg" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width: 95% !important">
+			
+	  </td>
+
+    <td valign="top" align="left">
+			
+				<h4>Dr. Kevin M Moerman</h4>
+			
+
+			
+			<span style="text-transform: uppercase;">
+				<b style="font-size:75%;">Research Scientist</b>
+			</span>
+			<br />
+			
+
+			
+			<!-- <a class="email">prename<img style="height:1em;" src="/Main/img/icons/atSym.png" class="atSymbol" alt="@">postName.com</a> -->
+				<i style="font-size:100%; color:#3366CC;"> <u>kmoerman [at] mit.edu</u> </i>
+				<br />
+			
+
+			
+
+			<!-- <div align="left"> -->
+				
+						<a href="https://kevinmoerman.org">
+							<img alt="e-mail" style="height:20px;" src="/Main/img/icons/profilePage.png" />
+						</a>
+				
+
+				
+						<a href="https://github.com/Kevin-Mattheus-Moerman">
+							<img alt="GitHub profile" style="height:20px;" src="/Main/img/icons/github-icon.png" />
+						</a>
+				
+
+				
+						<a href="http://orcid.org/0000-0003-3768-4269">
+							<img alt="ORCiD profile" style="height:20px;" src="/Main/img/icons/orcid.png" />
+						</a>
+				
+
+				
+						<a href="http://impactstory.org/u/0000-0003-3768-4269">
+							<img alt="ImpactStory profile" style="height:20px;" src="/Main/img/icons/impactStory.png" />
+						</a>
+				
+				
+						<a href="https://twitter.com/KMMoerman">
+							<img alt="Twitter profile" style="height:20px;" src="/Main/img/icons/twitter.png" />
+						</a>
+				
+
+				
+							<a href="https://www.linkedin.com/in/kevin-moerman-98923831">
+								<img alt="LinkedIn profile" style="height:20px;" src="/Main/img/icons/linkedin.png" />
+							</a>
+				
+			<!-- </div> -->
+
+		</td>
+  </tr>
+  <tr>
+    <td>
+		</td>
+  </tr>
+</table>
+<div>
+
+  <details>
+  <summary><u>Short bio</u></summary>
+  <span style="font-size:65%;">
+    Kevin is a biomechanical and design engineer. His research interests include soft tissue biomechanics, finite element analysis, continuum mechanics, image-based modeling, image-processing, robotics and medical device design. He holds a Bachelor degree in Mechanical Engineering, a Master’s degree in Bioengineering and a PhD degree on the topic of soft tissue biomechanics (2012, Trinity College Dublin). Kevin joined the Biomechatronics group in 2015 as post-doctoral associate at MIT Media Lab where his current focus is on computational modeling for prosthetic socket design. He also holds a visiting research fellow position at Trinity College Dublin collaborating on computational modeling of soft tissue mechanical behavior. Kevin has shared his work at international conferences and is often involved in the organization of special sessions and workshops.
+  </span>
+  </details>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+  </article>
+</div>
+
+<hr>
+
+	
+    <!-- Footer -->
+<footer>
+  <div style="margin-left: 3rem; margin-right: 3rem;">
+                <ul class="list-inline text-center">
+                  
+                  <li>
+                      <a href="mailto:info@opensciencemooc.eu">
+                        <img alt="e-mail" style="height:2rem;" src="/Main/img/icons/email_icon.png" />
+                      </a>
+                  </li>
+                  
+                  
+                  <li>
+                      <a href="https://github.com/OpenScienceMOOC">
+                        <img alt="GitHub profile" style="height:2rem;" src="/Main/img/icons/github-icon.png" />
+                      </a>
+                  </li>
+                  
+                  
+                  
+
+                  
+
+                    
+                    <li>
+                        <a href="https://twitter.com/OpenSci_MOOC">
+                          <img alt="Twitter profile" style="height:2rem;" src="/Main/img/icons/twitter.png" />
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+                <p class="copyright text-muted">
+                  <b> © Open Science MOOC</b>
+                  <br/>                  
+                  <br/>Website content license: <a rel="Website license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="CC-BY-4.0" style="border-width:0" src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" /></a>
+                  <br/>Website design by <a rel="Kevin Moerman" href="https://kevinmoerman.org/">Kevin Moerman</a> based on the <a rel="project pages" href="https://projectpages.github.io/">project pages</a> template
+                </p>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
