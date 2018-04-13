@@ -1,100 +1,117 @@
+
 <style>
-table, th, td {
-    border: 0px solid black;
+.profile_img {
+    border-radius: 25%;
+   border:5px solid #F0F0F0;
+ }
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #F0F0F0;
+    border-width: thin;
+    border-radius: 10px; /* 5px rounded corners */
+    background-color: white;
+    margin-bottom: 30px;
 }
+.card-text {
+    word-wrap: break-word;
+    margin-left: 3rem;
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,255,0.2);
+    z-index: 2;
+-webkit-transition: all 200ms ease-in;
+-webkit-transform: scale(1.05);
+-ms-transition: all 200ms ease-in;
+-ms-transform: scale(1.05);
+-moz-transition: all 200ms ease-in;
+-moz-transform: scale(1.05);
+transition: all 200ms ease-in;
+transform: scale(1.05);
+}
+
+
 </style>
 
-<div>
-  <table style="width:100%" align="left">
-	<col width="25%">
-  <col width="auto%">
-  <tr>
-    <th></th>
-  </tr>
-  <tr>
+<div class="card" align="center">
 
-    <td valign="top" align="left">
-			{% if people.img %}
-			   <img src="{{ site.baseurl }}/img/people/{{ people.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width: 95% !important">
-			{% endif %}
-	  </td>
+        {% if people.img %}
+          <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ people.img }}" style="margin-top:5px; margin-bottom:5px; margin-right:10px; width: 50%">
+          <br />
+        {% endif %}
 
-    <td valign="top" align="left">
-			{% if people.name %}
-				<h4>{{ people.name }}</h4>
-			{% endif %}
+        {% if people.name %}
+          <b>{{ people.name }}</b>
+          <br />
+        {% endif %}
 
-			{% if people.role %}
-			<span style="text-transform: uppercase;">
-				<b style="font-size:75%;">{{ people.role }}</b>
-			</span>
-			<br />
-			{% endif %}
+        {% if people.location %}
+        <span style="text-transform: uppercase;">
+          <i style="font-size:75%; color:#C0C0C0;">{{ people.location }}</i>
+        </span>
+        <br />
+        {% endif %}
 
-			{% if people.email_address %}
-			<!-- <a class="email">prename<img style="height:1em;" src="{{ site.baseurl }}/img/icons/atSym.png" class="atSymbol" alt="@">postName.com</a> -->
-				<i style="font-size:100%; color:#3366CC;"> <u>{{ people.email_address }}</u> </i>
-				<br />
-			{% endif %}
+        {% if people.role %}
+          <i>{{ people.role }}</i>
+          <br />
+        {% endif %}
 
-			{% if people.office %}
-				<i class="copyright text-muted" style="font-size:100%;">Office: {{ people.office }} </i>
-					<br />
-			{% endif %}
+        <!-- <div align="left"> -->
+          {% if people.url %}
+              <a href="{{ people.url }}">
+                <img alt="e-mail" style="height:20px;" src="{{ site.baseurl }}/img/icons/profilePage.png" />
+              </a>
+          {% endif %}
 
-			<!-- <div align="left"> -->
-				{% if people.url %}
-						<a href="{{ people.url }}">
-							<img alt="e-mail" style="height:20px;" src="{{ site.baseurl }}/img/icons/profilePage.png" />
-						</a>
-				{% endif %}
+          {% if people.email_address %}
+            <a href="mailto:{{ people.email_address }}">
+              <img alt="e-mail" style="height:20px;" src="{{ site.baseurl }}/img/icons/email_icon.png" />
+            </a>
+          {% endif %}
 
-				{% if people.github_username %}
-						<a href="https://github.com/{{ people.github_username }}">
-							<img alt="GitHub profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/github-icon.png" />
-						</a>
-				{% endif %}
+          {% if people.github_username %}
+              <a href="https://github.com/{{ people.github_username }}">
+                <img alt="GitHub profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/github-icon.png" />
+              </a>
+          {% endif %}
 
-				{% if people.orcid_id %}
-						<a href="http://orcid.org/{{ people.orcid_id }}">
-							<img alt="ORCiD profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/orcid.png" />
-						</a>
-				{% endif %}
+          {% if people.orcid_id %}
+              <a href="http://orcid.org/{{ people.orcid_id }}">
+                <img alt="ORCiD profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/orcid.png" />
+              </a>
+          {% endif %}
 
-				{% if people.impactstory_id %}
-						<a href="http://impactstory.org/{{ people.impactstory_id }}">
-							<img alt="ImpactStory profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/impactStory.png" />
-						</a>
-				{% endif %}
-				{% if people.twitter_username %}
-						<a href="https://twitter.com/{{ people.twitter_username }}">
-							<img alt="Twitter profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/twitter.png" />
-						</a>
-				{% endif %}
+          {% if people.impactstory_id %}
+              <a href="http://impactstory.org/{{ people.impactstory_id }}">
+                <img alt="ImpactStory profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/impactStory.png" />
+              </a>
+          {% endif %}
 
-				{% if people.linkedin_username %}
-							<a href="https://www.linkedin.com/in/{{ people.linkedin_username }}">
-								<img alt="LinkedIn profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/linkedin.png" />
-							</a>
-				{% endif %}
-			<!-- </div> -->
+          {% if people.twitter_username %}
+              <a href="https://twitter.com/{{ people.twitter_username }}">
+                <img alt="Twitter profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/twitter.png" />
+              </a>
+          {% endif %}
 
-		</td>
-  </tr>
-  <tr>
-    <td>
-		</td>
-  </tr>
-</table>
-<div>
-{% if people.bio %}
-  <details>
-  <summary><u>Short bio</u></summary>
-  <span style="font-size:65%;">
-    {{ people.bio }}
-  </span>
-  </details>
-{% endif %}
-</div>
+          {% if people.linkedin_username %}
+                <a href="https://www.linkedin.com/in/{{ people.linkedin_username }}">
+                  <img alt="LinkedIn profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/linkedin.png" />
+                </a>
+          {% endif %}
 
+          {% if people.bio %}
+          <div>
+            <details>
+            <summary><u><i class="fa fa-chevron-down" aria-hidden="true"></i>Short bio</u></summary>
+            <span style="font-size:65%;">
+              {{ people.bio }}
+            </span>
+            </details>
+          </div>
+          {% endif %}
 </div>
