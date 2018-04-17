@@ -1,0 +1,148 @@
+---
+layout: pagefullwidth
+title: "Modules"
+logo: /img/logos/mooc_logo.png
+description: ""
+header-img: "img/home-bg.jpg"
+ordernumber: 2
+---
+
+<style>
+
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    overflow: hidden;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+    border-radius: 10px; /* 5px rounded corners */
+    margin-bottom: 30px;
+    opacity: 1;
+}
+.card-text {
+    word-wrap: break-word;
+    margin-left: 3rem;
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,255,0.2);
+    opacity: 1;
+    z-index: 2;
+-webkit-transition: all 200ms ease-in;
+-webkit-transform: scale(1.05);
+-ms-transition: all 200ms ease-in;
+-ms-transform: scale(1.05);
+-moz-transition: all 200ms ease-in;
+-moz-transform: scale(1.05);
+transition: all 200ms ease-in;
+transform: scale(1.05);
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 10px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+</style>
+
+<div>
+  {% assign sorted_items = site.modules | sort:"ordernumber"%}
+  {% for item in sorted_items %}
+<button class="accordion" style="background-color: {{ item.cardcolor }};"><i class="fa fa-chevron-down" aria-hidden="true"></i> {{ item.ordernumber }}. {{ item.title }}</button>
+  <div class="panel">
+    <p><small><a href="{{ site.baseurl }}{{ item.url }}"><b>{{ item.title }}</b></a></small></p>
+
+    {{ item.content }}
+
+  </div>
+  {% endfor %}
+</div>
+
+<hr>
+
+<div class="row">
+  {% assign sorted_items = site.modules | sort:"ordernumber"%}
+  {% for item in sorted_items %}
+  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+
+  <a href="{{ item.url | prepend: site.baseurl }}" >
+<div class="card" align="center" style="background-color: {{ item.cardcolor }};">
+        <b>{{ item.title }}</b>
+        {% if item.subtitle %}
+        <br />
+          <i class="post-subtitle">{{ item.subtitle }}</i>
+        {% endif %}
+        {% if item.thumbnail %}
+        <br />
+            <i class="post-subtitle">{{ item.subtitle }}</i>
+            <img alt="" src="{{ site.baseurl }}{{ item.thumbnail }}" style="width:70%;">
+        {% endif %}
+</div>
+</a>
+
+</div>
+
+{% endfor %}
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var panel = document.getElementsByClassName('panel');
+
+for (var i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() {
+        var setClasses = !this.classList.contains('active');
+        setClass(acc, 'active', 'remove');
+        setClass(panel, 'show', 'remove');
+
+        if (setClasses) {
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+        }
+    }
+}
+
+function setClass(els, className, fnName) {
+    for (var i = 0; i < els.length; i++) {
+        els[i].classList[fnName](className);
+    }
+}
+
+// var acc = document.getElementsByClassName("accordion");
+// var i;
+//
+// for (i = 0; i < acc.length; i++) {
+//     acc[i].addEventListener("click", function() {
+//         this.classList.toggle("active");
+//         var panel = this.nextElementSibling;
+//         if (panel.style.display === "block") {
+//             panel.style.display = "none";
+//         } else {
+//             panel.style.display = "block";
+//         }
+//     });
+// }
+</script>

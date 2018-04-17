@@ -13,9 +13,6 @@ logo: /img/logos/mooc_logo.png
 # Tertiary Parameters
 github_username: OpenScienceMOOC
 twitter_username: OpenSci_MOOC
-email_address: info@opensciencemooc.eu
-#disqus_shortname: OpenSci_MOOC
-#g-analytics: UA-75881392-1
 altmetric: true
 
 # Build settings
@@ -30,15 +27,21 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 defaults:
   - scope:
-      path: "projects"
-      type: "pages"
-    values:
-      layout: "project"
-      header-img: "img/home-bg.jpg"
-  - scope:
       path: "img/gallery"
     values:
       image: true
+  - scope:
+      path: ""
+      type: modules
+    values:
+      layout: page
+
+collections:
+- modules
+collections:
+  modules:
+    output: true
+    layout: ""
 
 # Prose Settings
 prose:
