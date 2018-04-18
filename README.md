@@ -1,28 +1,58 @@
-# Project Pages
+# Repository for the Open Science MOOC website
 
-Project Pages is Jekyll Template specifically geared towards collaborative science. For more information, click [here](https://github.com/projectpages/project-pages/wiki/).
+Currently at: [`https://opensciencemooc.github.io/site/`](https://opensciencemooc.github.io/site/)
 
-# Nav Bar Jumbles
+[![OpenScienceMooc](/img/moocgif.gif)](https://opensciencemooc.github.io/site/)
 
-If you have seemingly random pages popping up on your Nav Bar recently, this is due to the fact that GitHub/Jekyll changed a fundemental rule they used to render pages. 
+# Contributing to the website
+You can contribute by directly altering/proposing content on the [GitHub repository](https://github.com/OpenScienceMOOC/site).   
 
-## CAUSE:
-It used to be that if a markdown file didn't have `---` frontmatter at the beginning, it wasn't rendered as a page. This was changed very recently (like in the last 2 days) so that every markdown file anywhere no matter what gets rendered as a page.  
+To clone this repository locally use:
+```
+git init   
+git clone https://github.com/gibbonCode/GIBBON.git
+```
+**New to GIT and GitHub?** See [these learning resources](https://help.github.com/articles/git-and-github-learning-resources/) and this [10 min. GIT tutorial](https://try.github.io/levels/1/challenges/1).   
 
-## FIX:
+### Where are images?
+Images are located in the `/img` folder   
 
-1) Go to:
+### Altering the module content.   
+Modules descriptions are rendered from markdown files ([here is a useful markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)) located in the [`_modules`](https://github.com/OpenScienceMOOC/site/tree/master/_modules) folder. The module markdown files are plain markdown file. However, the top of each file contains some [YAML](https://en.wikipedia.org/wiki/YAML) data helping to render the content on the website. This YAML lines set the page layout, the title to render, the logo picture to use on the page, the description to use (rendered under title if provided), the page top header background image, a thumbnail to use when the module is rendered as a card, the cardcolor (as [RGBA](https://en.wikipedia.org/wiki/RGBA_color_space) values)
 
-`project-pages/plugin/projector/` or `yourreponame/plugin/projector/` and delete the `README.md` file. This can be done graphically for the non-Git-savvy by simply going to your:
+```yml
+---
+layout: page
+title: "Open Advocacy"
+logo: /img/logos/mooc_logo.png
+description: ""
+header-img: "img/home-bg.jpg"
+thumbnail:  "/img/logos/mooc_logo.png"
+cardcolor:  rgba(178,223,197,0.5)
+ordernumber: 10
+---
+  ```
+  ### How to add a person to be listed/rendered on the website
+  Currently adding a person involves adding data like the below in the [`_data/people.yml`](https://github.com/OpenScienceMOOC/site/blob/master/_data/people.yml) file.   
 
-GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo -> Plugin -> projector 
+  ```yml
+  - name: Dr. Jonathan Tennant
+    role: Founder
+    location: United Kingdom
+    img: jon.jpg
+    url: http://fossilsandshit.com/
+    github_username: Protohedgehog
+    twitter_username: Protohedgehog
+    orcid_id: 0000-0001-7794-0218
+    impactstory_id: u/0000-0001-7794-0218
+    linkedin_username: jonathan-tennant-3546953a
+    email_address: jon.tennant.2@gmail.com
+    bio: I'm a palaeontologist by training, but I now spend my days writing/talking/ranting about all things Open Science. I'm the Communications Director for ScienceOpen and the founder of paleorXiv, alongside ongoing research activities.
+    visible: true
+    type: lead
+  ```
 
-and clicking on the files, then clicking on the "thrash can / delete this file" icon on the top right corner of the file.
+# License
+The code for this site is covered by the MIT license: [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/OpenScienceMOOC/site/blob/master/LICENSE)   
 
-2) Go to:
-
-`project-pages/css/theme/` or `yourreponame/css/theme/` and delete the `README.md` file. This can be done graphically for the non-Git-savvy by simply going to your:
-
-GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo -> Plugin -> projector 
-
-and clicking on the files, then clicking on the "thrash can / delete this file" icon on the top right corner of the file.
+Website content license: [![conten license](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)   
