@@ -1,12 +1,3 @@
----
-layout: page
-title: "About"
-logo: /img/logos/mooc_logo.png
-description: "About the Open Science MOOC"
-header-img: "img/home-bg.jpg"
-ordernumber: 2
----
-
 # About us
 
 This project is carried out solely by volunteer work. We are very happy that within short time, more than 100 volunteers have signed up to support us. If you want to be one of them, just add your name to the [list](https://docs.google.com/spreadsheets/d/1FEbnxBkmIQFDEViTgZDn0AJ0MSK6eDSBEgZuCkW_B5s/edit?usp=drive_web) and join our slack channel [Sign up for slack Open Science MOOC](https://openmooc-ers-slackin.herokuapp.com/).
@@ -25,38 +16,4 @@ The content of this MOOC is distilled into 10 core modules. Each module will com
 
 The MOOC will be hosted through OpenEdX, an open source provider. We expect that in the future different systems of certification will be developed, including completion badges. We also intend to build a forum for the open discussion of the MOOC and any relevant topics.
 
-Disclaimer: We, the contributors, are fully aware that there is no magic “one size fits all solution” when it comes to implementing Open Science philosophies and best practices, especially when covering all research disciplines. However, we also believe that we should not limit ourselves from the onset, just because pragmatic solutions may not exist today for certain disciplines. We aim to set a highly inclusive standard, fully accepting the risk that for some disciplines this strategy may not be fully appropriate. Through that failure, we hope that you, the course users, will join us as course contributors and help us co-create bespoke solutions to your discipline based on principles of transparency, provenance, reproducibility and reuse of knowledge.
-
-## Partners
-### Core Partners
-
-<div>
-<center>
-<a href="https://www.centre4innovation.org/#about-cfi">
-<img alt="Leiden University Centre for Innovation" style="width:40%;" src="{{site.baseurl}}/img/CFI_LU.png" /> <br>
-<small>Leiden University Centre for Innovation</small>
-</a>
-</center>
-<br>
-<center>
-<a href="https://www.tib.eu/en/">
-<img alt="Technische Informationsbibliothek" style="width:40%;" src="{{site.baseurl}}/img/TIB.png" />
-<br>
-<small>Technische Informationsbibliothek (The German National Library of Science and Technology)</small>
-</a>
-</center>
-</div>
-
-### Institutional Partnerships
-
-You? [Get in touch!](mailto:info@opensciencemooc.eu)
-
-### Strategic Partnerships
-You? [Get in touch!](mailto:info@opensciencemooc.eu)
-
-### Sponsors
-You? [Get in touch!](mailto:info@opensciencemooc.eu)
-
-   
-
-Tools and visualisations used with permission from the Digital Learning Lab, Centre for Innovation, Leiden University.
+**_Disclaimer_**: We, the contributors, are fully aware that there is no magic “one size fits all solution” when it comes to implementing Open Science philosophies and best practices, especially when covering all research disciplines. However, we also believe that we should not limit ourselves from the onset, just because pragmatic solutions may not exist today for certain disciplines. We aim to set a highly inclusive standard, fully accepting the risk that for some disciplines this strategy may not be fully appropriate. Through that failure, we hope that you, the course users, will join us as course contributors and help us co-create bespoke solutions to your discipline based on principles of transparency, provenance, reproducibility and reuse of knowledge.

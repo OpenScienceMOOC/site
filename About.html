@@ -1,0 +1,130 @@
+---
+layout: pagefullwidth
+title: "About"
+logo: /img/logos/mooc_logo.png
+description: "About the Open Science MOOC"
+header-img: "img/home-bg.jpg"
+ordernumber: 2
+---
+
+
+<link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/lightslider.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/js/lightslider.js"></script>
+ <!-- Do not include both lightslider.js and lightslider.min.js -->
+
+ <script>
+    $(document).ready(function() {
+         $('#image-gallery').lightSlider({
+             gallery:true,
+             item:1,
+             thumbItem:10,
+             slideMargin: 0,
+             adaptiveHeight:false,
+             keyPress: true,
+             speed:1000,
+             pause:2000,
+             auto:true,
+             loop:true,
+             pauseOnHover: true,
+             onSliderLoad: function() {
+                 $('#image-gallery').removeClass('cS-hidden');
+             }
+         });
+    });
+ </script>
+
+
+<div class="row">
+ <div class="col-sm-6">
+   {% capture my_include %}{% include About.md %}{% endcapture %}
+   {{ my_include | markdownify }}
+ </div>
+
+ <div class="col-sm-6">
+ <h1>Partners</h1>
+ <h2>Core partners</h2>
+
+ <div class="row">
+  <div class="col-xs-6">
+  <center>
+ <a href="https://www.centre4innovation.org/#about-cfi">
+ <img alt="Leiden University Centre for Innovation" style="width:100%;" src="{{site.baseurl}}/img/CFI_LU.png" /> <br>
+ <small>Leiden University Centre for Innovation</small>
+ </a>
+ </center>
+ </div>
+
+ <div class="col-xs-6">
+ <center>
+ <a href="https://www.tib.eu/en/">
+ <img alt="Technische Informationsbibliothek" style="width:100%;" src="{{site.baseurl}}/img/TIB.png" />
+ <br>
+ <small>Technische Informationsbibliothek (The German National Library of Science and Technology)</small>
+ </a>
+ </center>
+</div>
+</div>
+
+ <h2>Institutional partnerships</h2>
+ <p>
+   <a>You? <a href="mailto:info@opensciencemooc.eu">Get in touch!</a>
+   <br>
+   An institutional partnership simply involves helping with delivery and communication for the MOOC modules, once they have completed production. Ideally this would be through graduate schools or similar training programs.
+ </p>
+
+ <h2>Strategic Partnerships</h2>
+ <p>
+   <a>You? <a href="mailto:info@opensciencemooc.eu">Get in touch!</a>
+   <br>
+   A strategic partnership with the MOOC involves just one key thing: We have a collective will to advance Open Science. Strategic partners can include organisations, tools, services, and platforms, all of which help to progress Open Science in some way. All we ask from partnership is reciprocal promotion for the MOOC, ideally through logo sharing and a bit of social media. In return, we can host your logo here, and also explore paths for involvement with the MOOC during development.
+
+   In the future, we envision that the organisations represented here could become some sort of collective, with a shared strategic vision for the future of Open Science.
+ </p>
+
+
+ <div>
+    <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+   {% for image in site.static_files %}
+      {% if image.path contains 'img/partnergallery' %}
+
+        <li data-thumb={{ site.baseurl }}{{ image.path }} style="text-align:center">
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" width="60%" align="middle">
+        </li>
+
+          <!-- <div  class=" col-md-4 col-xs-12 full" style=" border-width: 0px; margin-top:35px;">
+            <div class="well" style="height:300px; height:relative; background: url({{ site.baseurl }}{{ image.path }}); background-size: 100%; background-position:center; background-repeat: no-repeat; margin: 0px;">
+              <div style="height:50px; position:relative; top:250px; background:rgba(0,0,0,0.9); color: white; font-size: 16px; text-align: left; margin: -20px -20px -20px -20px">
+                 <a href="{{ site.baseurl }}{{ image.path }}" target="_blank" style="color: white !important"><p style="font-size:1em; position:relative; top:0px; width: 75%; white-space: nowrap; overflow: hidden !important; text-overflow: ellipsis; margin-left:5px">{{ image.name }}</p>
+                <i class="fa fa-chevron-right ico" style="font-size: 30px; color: white; position:relative; margin: -44px 5px 0px 0px; float:right"></i></a>
+              </div>
+            </div>
+          </div> -->
+
+      {% endif %}
+  {% endfor %}
+
+ </ul>
+
+ </div>
+
+
+ <h2>Sponsors</h2>
+ <p>
+   <a>You? <a href="mailto:info@opensciencemooc.eu">Get in touch!</a>
+   <br>
+ </p>
+
+ <center>
+ <a href="https://www.shuttleworthfoundation.org/">
+ <img alt="The shuttleworth Foundation" style="width:50%;" src="{{site.baseurl}}/img/shuttleworth.png" />
+ <br>
+ <small>The shuttleworth Foundation</small>
+ </a>
+ </center>
+
+The MOOC is entirely run by volunteers. We do accept small donations for support to cover our small costs, which are otherwise borne entirely by the founder and members of the Steering Committee at the present.
+
+ </div>
+
+</div>

@@ -27,14 +27,14 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 defaults:
   - scope:
-      path: "img/gallery"
-    values:
-      image: true
-  - scope:
       path: ""
       type: modules
     values:
       layout: page
+  - scope:
+      path: "img/partnergallery"
+    values:
+      image: true
 
 collections:
 - modules
