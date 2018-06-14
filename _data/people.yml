@@ -37,6 +37,9 @@
   url: http://onlinelearninglab.centre4innovation.org/
   github_username: BieTanjade
   twitter_username: BieTanjade
+  orcid_id:
+  impactstory_id:
+  linkedin_username:
   email_address: t.de.bie@fgga.leidenuniv.nl
   bio: I work at the Centre for Innovation of Leiden University, both as a community manager and project coordinator for MOOCs and other online learning. My personal background is in History as well as fifteen years of experience in managing roleplaying communities online.
   visible: true
@@ -51,6 +54,7 @@
   twitter_username: chartgerink
   orcid_id: 0000-0003-1050-6809
   impactstory_id: u/0000-0003-1050-6809
+  linkedin_username:
   email_address: chris@libscie.org
   bio: I'm a PhD-candidate at Tilburg University, part of a meta-research group. The closedness of academia drives me mad, and these kinds of projects energize me, keeping me sane and stable.
   visible: true
@@ -121,7 +125,10 @@
   location: Switzerland
   img: Monika.jpg
   url: http://relatris.ch/
+  github_username:
   twitter_username: mcschlatter
+  orcid_id:
+  impactstory_id:
   linkedin_username: relatris
   email_address: monika.schlatter@relatris.ch
   bio: I am a pharmacist with a PhD and more than ten years in academia. Today I am interested in learning and collaboration in the digital age including social learning, working out loud, and (personal) knowledge management. And real collaboration in research requires Open Science!
@@ -167,6 +174,7 @@
   twitter_username: ametodico
   orcid_id: 0000-0001-5058-9309
   impactstory_id: u/0000-0001-5058-9309
+  linkedin_username:
   email_address: ricardo.hartley@ucentral.cl
   bio: Ciudadano entusiasta. Hago clases, un poco de investigacin y otro poco de gestin. Ciencia abierta, reproducibilidad y valoracin del conocimiento son mis pasiones. Sumar, sumar y sumar.
   visible: true
@@ -181,6 +189,7 @@
   twitter_username: brusisceddu
   orcid_id: 0000-0002-6607-7145
   impactstory_id: u/0000-0002-6607-7145
+  linkedin_username:
   email_address: BBecker@csir.co.za
   bio: Ex-volleyball freak and physicist. Infrastructure guy. Skeptic. African. Islander. Dad. Open Everything.
   visible: true
@@ -246,7 +255,7 @@
   visible: true
   type: production
   
- - name: Ivo Grigorov
+- name: Ivo Grigorov
   role: Open Source Robin
   location: Denmark
   img: Ivo.jpg
