@@ -37,9 +37,6 @@
   url: http://onlinelearninglab.centre4innovation.org/
   github_username: BieTanjade
   twitter_username: BieTanjade
-  orcid_id: 
-  impactstory_id: 
-  linkedin_username: 
   email_address: t.de.bie@fgga.leidenuniv.nl
   bio: I work at the Centre for Innovation of Leiden University, both as a community manager and project coordinator for MOOCs and other online learning. My personal background is in History as well as 15+ years of experience in managing roleplaying communities online.
   visible: true
@@ -54,7 +51,6 @@
   twitter_username: chartgerink
   orcid_id: 0000-0003-1050-6809
   impactstory_id: u/0000-0003-1050-6809
-  linkedin_username: 
   email_address: chris@libscie.org
   bio: I'm a PhD-candidate at Tilburg University, part of a meta-research group. The closedness of academia drives me mad, and these kinds of projects energize me, keeping me sane and stable.
   visible: true
@@ -125,10 +121,7 @@
   location: Switzerland
   img: Monika.jpg
   url: http://relatris.ch/
-  github_username: 
   twitter_username: mcschlatter
-  orcid_id: 
-  impactstory_id: 
   linkedin_username: relatris
   email_address: monika.schlatter@relatris.ch
   bio: I am a pharmacist with a PhD and more than ten years in academia. Today I am interested in learning and collaboration in the digital age including social learning, working out loud, and (personal) knowledge management. And true collaboration in research requires Open Science!
@@ -174,7 +167,6 @@
   twitter_username: ametodico
   orcid_id: 0000-0001-5058-9309
   impactstory_id: u/0000-0001-5058-9309
-  linkedin_username: 
   email_address: ricardo.hartley@ucentral.cl
   bio: Ciudadano entusiasta. Hago clases, un poco de investigación y otro poco de gestión. Ciencia abierta, reproducibilidad y valoración del conocimiento son mis pasiones. Sumar, sumar y sumar.
   visible: true
@@ -182,16 +174,15 @@
   
 - name: Bruce Becker
   role: Steering Committee
-  location: 
+  location: Italy
   img: Bruce.jpg
   url: https://brucellino.github.io/
   github_username: brucellino
   twitter_username: brusisceddu
   orcid_id: 0000-0002-6607-7145
   impactstory_id: u/0000-0002-6607-7145
-  linkedin_username: 
   email_address: BBecker@csir.co.za
-  bio: 
+  bio: Ex-volleyball freak and physicist. Infrastructure guy. Skeptic. African. Islander. Dad. Open Everything.
   visible: true
   type: lead
   
@@ -236,7 +227,7 @@
   impactstory_id: u/0000-0001-7051-2624
   linkedin_username: 
   email_address: alex0morley@gmail.com
-  bio: 
+  bio: I am currently doing a PhD in Neuroscience at the University of Oxford, but data science and software development are what keep me up at night. Other than the MOOC the project I am currently most excited excited about is building a framework around the idea of Continuous Research. Stay tuned.
   visible: true
   type: production
   
@@ -251,7 +242,7 @@
   impactstory_id: u/0000-0002-8579-9717
   linkedin_username: 
   email_address: Simon.Worthington@tib.eu
-  bio: Publishing technologist, thinking about the 'future of the book', or maybe it's uncovering the past of the thinking about the 'future of the book' - think Alan Kay's 1968 #DynaBook concept - and trying to make it real. Editor at @Gen_R_ 'exploring new ways to research', Open Science platform from the Leibniz Research Alliance, Science 2.0. Based at Open Science Lab [http://tib.eu/osl], TIB - German National Library of Science and Technology. Some words in book form, ???oo?? lo l???? ???ulu???? http://linkme2.net/xc
+  bio: Publishing technologist, thinking about the 'future of the book', or maybe it's uncovering the past of the thinking about the 'future of the book'. Editor at @Gen_R_ 'exploring new ways to research', Open Science platform from the Leibniz Research Alliance, Science 2.0. Based at Open Science Lab [http://tib.eu/osl], TIB - German National Library of Science and Technology.
   visible: true
   type: production
   
