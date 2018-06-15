@@ -1,8 +1,20 @@
 
 <style>
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portrait {
+    height: 200px;
+    width:  200px;
+}
 .profile_img {
-    border-radius: 25%;
+    border-radius: 15%;
    border:5px solid #F0F0F0;
+   max-width: 100%;
+   max-height: 100%;
  }
 .card {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -40,8 +52,10 @@ transform: scale(1.05);
 <div class="card" align="center">
 
         {% if people.img %}
-          <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ people.img }}" style="margin-top:5px; margin-bottom:5px; margin-right:10px; width: 50%">
+        <div class="portrait">
+          <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ people.img }}" style="margin-top:5px; margin-bottom:5px; margin-right:10px;">
           <br />
+        </div>
         {% endif %}
 
         {% if people.name %}

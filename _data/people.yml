@@ -14,7 +14,7 @@
   bio: I'm the founder of the Open Science MOOC and the publishing platform paleorXiv, which I work on alongside m rogue research activities as a palaeontologist.
   visible: true
   type: lead
-  
+
 - name: Dr. Julien Colomb
   role: Steering Committee
   location: Germany
@@ -29,7 +29,7 @@
   bio: After 12 years spent on fundamental research (neuro-genetics) in which I gathered skills in experimental design, team leading and student teaching, I got most interested in open science and research reproducibility as well as the digital tools helping scientists to achieve it. I would like to apply these novel knowledge while doing research and mentoring students.
   visible: true
   type: lead
-  
+
 - name: Tanja de Bie
   role: Steering Committee
   location: Netherlands
@@ -44,7 +44,7 @@
   bio: I work at the Centre for Innovation of Leiden University, both as a community manager and project coordinator for MOOCs and other online learning. My personal background is in History as well as fifteen years of experience in managing roleplaying communities online.
   visible: true
   type: lead
-  
+
 - name: Chris Hartgerink
   role: Steering Committee
   location: Netherlands
@@ -59,7 +59,7 @@
   bio: I'm a PhD-candidate at Tilburg University, part of a meta-research group. The closedness of academia drives me mad, and these kinds of projects energize me, keeping me sane and stable.
   visible: true
   type: lead
-  
+
 - name: Bianca Kramer
   role: Steering Committee
   location: Netherlands
@@ -74,7 +74,7 @@
   bio: I work at Utrecht University Library and on the project One-Hundred and One Innovations in Scholarly Communication, charting open science principles, practices and platforms. I also do lots of workshops and training. I like talking with researchers, publishers, funders, anyone about motivations and barriers to open science, and how to make that happen - the sooner the better, the more the better.
   visible: true
   type: lead
-  
+
 - name: Chris Madan
   role: Steering Committee
   location: UK
@@ -89,7 +89,7 @@
   bio: I'm an Assistant Professor in Psychology at the University of Nottingham. I use a variety of approaches including cognitive psychology, neuroimaging, and computational modeling. I am interested in open science and how we can educate researchers to be work openly.
   visible: true
   type: lead
-  
+
 - name: Paola Masuzzo
   role: Steering Committee
   location: Italy
@@ -104,7 +104,7 @@
   bio: I am currently a postdoc at the CompOmics unit at UGent, but soon moving to industry for a bit. I am a big advocate for all things open, but my real passion deep inside is OPEN DATA. And as a real Italian I cannot live without coffee and good food!
   visible: true
   type: lead
-  
+
 - name: Lisa Matthias
   role: Steering Committee
   location: Germany
@@ -119,7 +119,7 @@
   bio: Lisa has a Master's degree in North American Studies at Freie Universit?t Berlin. She is now working as an Assistant Editor for the Open Library of Humanities, and managing the social media accounts of the Academic Mental Health Collective and Aletheia, an open source publishing platform.
   visible: true
   type: lead
-  
+
 - name: Monika Schlatter
   role: Steering Committee
   location: Switzerland
@@ -134,13 +134,13 @@
   bio: I am a pharmacist with a PhD and more than ten years in academia. Today I am interested in learning and collaboration in the digital age including social learning, working out loud, and (personal) knowledge management. And real collaboration in research requires Open Science!
   visible: true
   type: lead
-  
+
 - name: Nicolas Schmelling
   role: Steering Committee
   location: Germany
   img: Nicolas.jpg
   url: http://schmelling.github.io/
-  github_username: schmelling 
+  github_username: schmelling
   twitter_username: DerSchmelling
   orcid_id: 0000-0002-6981-397X
   impactstory_id: u/0000-0002-6981-397X
@@ -149,7 +149,7 @@
   bio: I am a PhD student in computational biology, and I advise our universities iGEM Team and teach data science classes to biology undergrads. I was part of Wikimedia Germany's first Open Science fellow program and am part of protocols.io ambassador program since last year December.
   visible: true
   type: lead
-  
+
 - name: Rutger Vos
   role: Steering Committee
   location: Netherlands
@@ -164,7 +164,7 @@
   bio: I work at the natural history museum of the Netherlands, Naturalis, as a computational evolutionary biologist. I am involved in a number of open source, open data, and open science initiatives and am keen to teach people how to use the tools and principles of all this openness to do better research.
   visible: true
   type: lead
-  
+
 - name: Ricardo Hartley
   role: Steering Committee
   location: Chile
@@ -179,7 +179,7 @@
   bio: Ciudadano entusiasta. Hago clases, un poco de investigacin y otro poco de gestin. Ciencia abierta, reproducibilidad y valoracin del conocimiento son mis pasiones. Sumar, sumar y sumar.
   visible: true
   type: lead
-  
+
 - name: Bruce Becker
   role: Steering Committee
   location: Italy
@@ -194,7 +194,7 @@
   bio: Ex-volleyball freak and physicist. Infrastructure guy. Skeptic. African. Islander. Dad. Open Everything.
   visible: true
   type: lead
-  
+
 - name: Ivo Grigorov
   role: Steering Committee
   location: Denmark
@@ -220,11 +220,11 @@
   orcid_id: 0000-0003-3768-4269
   impactstory_id: u/0000-0003-3768-4269
   linkedin_username: kevin-moerman-98923831
-  email_address: kmoerman [at] mit.edu
+  email_address: kmoerman@mit.edu
   bio: Kevin M. Moerman is a computational (bio)mechanics and computational design specialist. His research interests include soft tissue biomechanics, finite element analysis, continuum mechanics, image-based modeling, image-processing, medical device design, mechanobiology and morphogenesis. During his academic career he has amassed a wealth of computational tools for image-based modeling and inverse FEA, resulting in the creation of the GIBBON open-source software project.
   visible: true
   type: production
-  
+
 - name: Alex Morley
   role: Open Source Software
   location: UK
@@ -234,12 +234,12 @@
   twitter_username: alex__morley
   orcid_id: 0000-0001-7051-2624
   impactstory_id: u/0000-0001-7051-2624
-  linkedin_username: 
+  linkedin_username:
   email_address: alex0morley@gmail.com
   bio: I am currently doing a PhD in Neuroscience at the University of Oxford, but data science and software development are what keep me up at night. Other than the MOOC the project I am currently most excited excited about is building a framework around the idea of Continuous Research. Stay tuned.
   visible: true
   type: production
-  
+
 - name: Simon Worthington
   role: Book Liberationist
   location: Germany
@@ -249,12 +249,12 @@
   twitter_username: mrchristian99
   orcid_id: 0000-0002-8579-9717
   impactstory_id: u/0000-0002-8579-9717
-  linkedin_username: 
+  linkedin_username:
   email_address: Simon.Worthington@tib.eu
   bio: Publishing technologist, thinking about the future of the book, or maybe it is uncovering the past of the thinking about the future of the book. Editor at @Gen_R_ exploring new ways to research, Open Science platform from the Leibniz Research Alliance Based at Open Science Lab [http://tib.eu/osl], TIB - German National Library of Science and Technology.
   visible: true
   type: production
-  
+
 - name: Ivo Grigorov
   role: Open Source Robin
   location: Denmark
