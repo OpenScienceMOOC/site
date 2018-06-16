@@ -59,6 +59,7 @@ transform: scale(1.05);
         {% endif %}
 
         {% if people.name %}
+          <br />
           <b>{{ people.name }}</b>
           <br />
         {% endif %}
@@ -120,9 +121,9 @@ transform: scale(1.05);
 
           {% if people.bio %}
           <div>
-            <details>
+            <details style="padding: 10px;">
             <summary><u><i class="fa fa-chevron-down" aria-hidden="true"></i>Short bio</u></summary>
-            <span style="font-size:65%;">
+            <span style="font-size:70%;">
               {{ people.bio }}
             </span>
             </details>
