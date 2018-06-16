@@ -284,3 +284,22 @@
   bio: I am currently a postdoc at the CompOmics unit at UGent, but soon moving to industry for a bit. I am a big advocate for all things open, but my real passion deep inside is OPEN DATA. And as a real Italian I cannot live without coffee and good food!
   visible: true
   type: production
+
+
+- name: Dr. Tania Allard
+  role: Open Source Software
+  location: United Kingdom
+  img: Tania.jpg
+  url: https://bitsandchips.me
+  github_username: trallard
+  twitter_username: ixek
+  orcid_id:  0000-0002-5353-5397
+  impactstory_id:
+  linkedin_username: taniasanchezmonroy
+  email_address: taniar.allard@gmail.com
+  bio: "I have a PhD in computational nanomechanics focusing on soft tissue mechanics, Right now I work as a Research Software Engineer, and as such I work with other RSEs and researchers to help them develop better software for research and
+  also for them to make better use of their data. I am a passionate advocate for open research and open
+  source software and ,of course, the awesome communities aroun these. I am particularly interested in reproducibility, replicability, and provenance in
+  research and on data integrity and validation."
+  visible: true
+  type: production
