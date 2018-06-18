@@ -33,24 +33,30 @@ ordernumber: 10
 ---
   ```
   ### How to add a person to be listed/rendered on the website
-  Currently adding a person involves adding data like the below in the [`_data/people.yml`](https://github.com/OpenScienceMOOC/site/blob/master/_data/people.yml) file.   
+  Currently adding a person involves adding a markdown file in the [`_people`](https://github.com/OpenScienceMOOC/site/blob/master/_people) folder. Perhaps the easiest thing to do is to copy an existing file, e.g.  `Jonathan Tennant.md`. The people markerdown files contain some YML data at the top which is used to define items like the location of the profile image:
 
   ```yml
-  - name: Dr. Jonathan Tennant
-    role: Founder
-    location: United Kingdom
-    img: jon.jpg
-    url: http://fossilsandshit.com/
-    github_username: Protohedgehog
-    twitter_username: Protohedgehog
-    orcid_id: 0000-0001-7794-0218
-    impactstory_id: u/0000-0001-7794-0218
-    linkedin_username: jonathan-tennant-3546953a
-    email_address: jon.tennant.2@gmail.com
-    bio: I'm a palaeontologist by training, but I now spend my days writing/talking/ranting about all things Open Science. I'm the Communications Director for ScienceOpen and the founder of paleorXiv, alongside ongoing research activities.
-    visible: true
-    type: lead
+  ---
+  title: Jonathan Tennant
+  name: Dr. Jonathan Tennant
+  role: Founder
+  location: United Kingdom
+  img: jon.jpg
+  url: http://fossilsandshit.com/
+  github_username: Protohedgehog
+  twitter_username: Protohedgehog
+  orcid_id: 0000-0001-7794-0218
+  impactstory_id: u/0000-0001-7794-0218
+  linkedin_username: jonathan-tennant-3546953a
+  email_address: jon.tennant.2@gmail.com
+  type: lead
+  ---
   ```
+The markdown file also allows one to write a brief bio. Do this under the comment `<!-- START OF FREE MARKDOWN  -->`
+```Markdown
+<!-- START OF FREE MARKDOWN  -->
+My fancy bio in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
+```
 
 # License
 The code for this site is covered by the MIT license: [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/OpenScienceMOOC/site/blob/master/LICENSE)   
