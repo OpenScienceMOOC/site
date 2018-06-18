@@ -1,29 +1,25 @@
+<div align="right">
+<a href="{{ site.baseurl }}/People">
+  <i class="fa fa-arrow-left" aria-hidden="true"></i> <b>Back to people</b>
+</a>
+</div>
 
-<style>
-.profile_img {
-    border-radius: 25%;
-   border:5px solid #F0F0F0;
- }
- </style>
-
- <div class="row">
-  <div class="col-sm-4">
-
+  <div style="margin-bottom:10px;">
         {% if include.img %}
           <a href="{{ site.baseurl }}/people/{{ include.title }}">
-            <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ include.img }}" style="margin-top:5px; margin-bottom:5px; margin-right:10px; width: 200px">
+            <img alt="" src="{{ site.baseurl }}/img/people/{{ include.img }}" style="margin-top:5px; margin-bottom:5px; margin-right:10px; width: 200px">
           </a>
           <br />
         {% endif %}
 
-        {% if include.title %}
-          <b>{{ include.title }}</b>
+        {% if include.name %}
+          <b>{{ include.name }}</b>
           <br />
         {% endif %}
 
         {% if include.location %}
         <span style="text-transform: uppercase;">
-          <i style="font-size:75%; color:#C0C0C0;">{{ include.location }}</i>
+          <i style="font-size:75%; color:#A9A9A9;">{{ include.location }}</i>
         </span>
         <br />
         {% endif %}
@@ -75,12 +71,4 @@
                   <img alt="LinkedIn profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/linkedin.png" />
                 </a>
           {% endif %}
-        </div>
-
-<div class="col-sm-8">
-          {% if include.bio %}
-            <p> {{ include.bio }} </p>
-          {% endif %}
 </div>
-</div>
-<br>
