@@ -10,6 +10,12 @@ ordernumber: 6
 
 </style>
 
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/OpenScienceMOOC" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/OpenScienceMOOC', 'popupwindow', 'scrollbars=yes,width=400,height=300');return true">
+  <p><label for="tlemail">Enter your email address to sign up for our newlsetter. Thanks, TinyLetter!</label></p>
+  <p><input style="width:140px" name="email" id="tlemail" type="text"></p>
+  <p><input value="1" name="embed" type="hidden"><input value="Subscribe" type="submit"></p>
+</form>
+
 <div class="row">
  <div class="col-sm-9">
    {% capture my_include %}{% include Contact.md %}{% endcapture %}
