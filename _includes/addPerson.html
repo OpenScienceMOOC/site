@@ -53,7 +53,9 @@ transform: scale(1.05);
 
         {% if people.img %}
         <div class="portrait">
-          <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ people.img }}" style="margin-top:5px; margin-bottom:5px; margin-right:10px;">
+          <a href="{{ site.baseurl }}/people/{{ people.title }}">
+            <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ people.img }}" style="margin-top:5px; margin-bottom:5px; margin-right:10px; width: 200px">
+          </a>
           <br />
         </div>
         {% endif %}
@@ -117,15 +119,5 @@ transform: scale(1.05);
                   <img alt="LinkedIn profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/linkedin.png" />
                 </a>
           {% endif %}
-
-          {% if people.bio %}
-          <div>
-            <details>
-            <summary><u><i class="fa fa-chevron-down" aria-hidden="true"></i>Short bio</u></summary>
-            <span style="font-size:65%;">
-              {{ people.bio }}
-            </span>
-            </details>
-          </div>
-          {% endif %}
+          <br>
 </div>

@@ -1,0 +1,86 @@
+
+<style>
+.profile_img {
+    border-radius: 25%;
+   border:5px solid #F0F0F0;
+ }
+ </style>
+
+ <div class="row">
+  <div class="col-sm-4">
+
+        {% if include.img %}
+          <a href="{{ site.baseurl }}/people/{{ include.title }}">
+            <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ include.img }}" style="margin-top:5px; margin-bottom:5px; margin-right:10px; width: 200px">
+          </a>
+          <br />
+        {% endif %}
+
+        {% if include.title %}
+          <b>{{ include.title }}</b>
+          <br />
+        {% endif %}
+
+        {% if include.location %}
+        <span style="text-transform: uppercase;">
+          <i style="font-size:75%; color:#C0C0C0;">{{ include.location }}</i>
+        </span>
+        <br />
+        {% endif %}
+
+        {% if include.role %}
+          <i>{{ include.role }}</i>
+          <br />
+        {% endif %}
+
+        <!-- <div align="left"> -->
+          {% if include.url %}
+              <a href="{{ include.url }}">
+                <img alt="e-mail" style="height:20px;" src="{{ site.baseurl }}/img/icons/profilePage.png" />
+              </a>
+          {% endif %}
+
+          {% if include.email_address %}
+            <a href="mailto:{{ include.email_address }}">
+              <img alt="e-mail" style="height:20px;" src="{{ site.baseurl }}/img/icons/email_icon.png" />
+            </a>
+          {% endif %}
+
+          {% if include.github_username %}
+              <a href="https://github.com/{{ include.github_username }}">
+                <img alt="GitHub profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/github-icon.png" />
+              </a>
+          {% endif %}
+
+          {% if include.orcid_id %}
+              <a href="http://orcid.org/{{ include.orcid_id }}">
+                <img alt="ORCiD profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/orcid.png" />
+              </a>
+          {% endif %}
+
+          {% if include.impactstory_id %}
+              <a href="http://impactstory.org/{{ include.impactstory_id }}">
+                <img alt="ImpactStory profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/impactStory.png" />
+              </a>
+          {% endif %}
+
+          {% if include.twitter_username %}
+              <a href="https://twitter.com/{{ include.twitter_username }}">
+                <img alt="Twitter profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/twitter.png" />
+              </a>
+          {% endif %}
+
+          {% if include.linkedin_username %}
+                <a href="https://www.linkedin.com/in/{{ include.linkedin_username }}">
+                  <img alt="LinkedIn profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/linkedin.png" />
+                </a>
+          {% endif %}
+        </div>
+
+<div class="col-sm-8">
+          {% if include.bio %}
+            <p> {{ include.bio }} </p>
+          {% endif %}
+</div>
+</div>
+<br>
