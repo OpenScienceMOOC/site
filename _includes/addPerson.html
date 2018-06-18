@@ -1,8 +1,20 @@
 
 <style>
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portrait {
+    height: 200px;
+    width:  200px;
+}
 .profile_img {
-    border-radius: 25%;
+    border-radius: 15%;
    border:5px solid #F0F0F0;
+   max-width: 100%;
+   max-height: 100%;
  }
 .card {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -39,19 +51,23 @@ transform: scale(1.05);
 
 <div class="card" align="center">
 
+      <a href="{{ site.baseurl }}/people/{{ people.title }}">
         {% if people.img %}
-          <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ people.img }}" style="margin-top:5px; margin-bottom:5px; margin-right:10px; width: 50%">
+        <div class="portrait">
+            <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ people.img }}" style="margin-top:5px; margin-bottom:5px; margin-right:10px; ">
           <br />
+        </div>
         {% endif %}
 
         {% if people.name %}
+          <br />
           <b>{{ people.name }}</b>
           <br />
         {% endif %}
 
         {% if people.location %}
         <span style="text-transform: uppercase;">
-          <i style="font-size:75%; color:#C0C0C0;">{{ people.location }}</i>
+          <i style="font-size:75%; color:#A9A9A9;">{{ people.location }}</i>
         </span>
         <br />
         {% endif %}
@@ -60,8 +76,9 @@ transform: scale(1.05);
           <i>{{ people.role }}</i>
           <br />
         {% endif %}
+      </a>
 
-        <!-- <div align="left"> -->
+        <div style="margin-bottom:10px;">
           {% if people.url %}
               <a href="{{ people.url }}">
                 <img alt="e-mail" style="height:20px;" src="{{ site.baseurl }}/img/icons/profilePage.png" />
@@ -103,15 +120,5 @@ transform: scale(1.05);
                   <img alt="LinkedIn profile" style="height:20px;" src="{{ site.baseurl }}/img/icons/linkedin.png" />
                 </a>
           {% endif %}
-
-          {% if people.bio %}
-          <div>
-            <details>
-            <summary><u><i class="fa fa-chevron-down" aria-hidden="true"></i>Short bio</u></summary>
-            <span style="font-size:65%;">
-              {{ people.bio }}
-            </span>
-            </details>
-          </div>
-          {% endif %}
+        </div>
 </div>

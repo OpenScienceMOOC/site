@@ -35,13 +35,19 @@ defaults:
       path: "img/partnergallery"
     values:
       image: true
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: page
 
-collections:
-- modules
 collections:
   modules:
     output: true
     layout: ""
+  people:
+    output: true
+    layout: page
 
 # Prose Settings
 prose:
