@@ -2,7 +2,7 @@
 
 This project is carried out solely by volunteer work. We are very happy that within short time, more than 100 volunteers have signed up to support us. If you want to be one of them, just add your name to the [list](https://docs.google.com/spreadsheets/d/1FEbnxBkmIQFDEViTgZDn0AJ0MSK6eDSBEgZuCkW_B5s/edit?usp=drive_web) and join our slack channel [Sign up for slack Open Science MOOC](https://openmooc-ers-slackin.herokuapp.com/).
 
-Moreover, there are 14 people forming the Steering Committee for this MOOC- [here you can find some information about us](http://opensciencemooc.eu/steering-committee/).
+Moreover, there are 14 people forming the Steering Committee for this MOOC- [here you can find some information about us](https://opensciencemooc.github.io/site/People/#steering).
 
 ## Rationale
 
