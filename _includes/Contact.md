@@ -1,8 +1,8 @@
 # Contact us
 
-If you want to contribute, add yourself to the [GitHub project](https://github.com/OpenScienceMOOC) and join our Slack channel: [Sign up for slack Open Science MOOC](https://openmooc-ers-slackin.herokuapp.com/)
+If you would like to contribute to the MOOC, please check the [GitHub project](https://github.com/OpenScienceMOOC) for more details and join our [Slack channel](https://openmooc-ers-slackin.herokuapp.com/).
 
-If you have questions about the project, please email us directly or contact [Jon Tennant](mailto:jon.tennant.2@gmail.com).
+If you have questions about the project, please [email us directly](mailto:info@opensciencemooc.eu) or contact the project founder, [Jon Tennant](mailto:jon.tennant.2@gmail.com).
 
 Stay tuned on what’s happening on Twitter with [@OpenScienceMOOC](https://twitter.com/OpenSci_MOOC).
 
