@@ -2,8 +2,6 @@
 
 This website is aimed to provide information about our MOOC on Open Science principles and practices, its rationale, the current state of the project, and the [people](https://opensciencemooc.github.io/site/People/) behind it.
 
-<br/>
-
 CURRENT STATUS: **IN DEVELOPMENT** 
 
 The first draft of [Module 5](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/content_development) has been completed and awaiting feedback from the wider community (including you!)
