@@ -2,6 +2,7 @@
 title: Open Science MOOC
 description: ""
 url: "https://OpenScienceMOOC.github.io"
+encoding: UTF-8
 
 # Secondary Parameters
 baseurl: "/site"
