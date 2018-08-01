@@ -3,7 +3,7 @@ title: Jo Havemann
 name: Jo Havemann
 role: #ResearchinAfrica Highlighter
 location: Germany
-img: 
+img: jo.jpg
 url: http://access2perspectives.com/
 github_username: johav
 twitter_username: johave
@@ -11,7 +11,7 @@ orcid_id: 0000-0002-6157-1494
 impactstory_id: 
 linkedin_username: johavemann
 email_address: info@access2perspectives.com
-type: 
+type: production
 ---
 
 <!--HTML / LIQUID stuff to render picture and links  -->
