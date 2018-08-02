@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+  <!-- Page Header -->
+  <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <div class="site-heading" style="padding: 50px 0 15px 0">
+  					{% if page.url == '/' %}
+  					{% if site.logo %}
+            <img src= "{{ site.baseurl }}/{{ site.logo }}" style="height: 175px">
+  					{% endif %}
+  					{% else %}{% endif %}
+                      <!-- <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1> -->
+                      {% if page.logo %}
+                      <div>
+                      <img src= "{{ site.baseurl }}/{{ page.logo }}" style="height: 175px">
+                    </div>
+                      {% endif %}
+                      <br>
+                      <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>                    
+                      <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-lg-12">
+        <h2>List of blog entries</h2>
+        {% for post in site.posts %}
+          <article>
+            <header>
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <address>by {{ post.author }}</address>
+              <time datetime="{{ post.date }}">{{ post.date | date: "%b %d, %Y" }}</time>
+            </header>
+            <p>{{ post.excerpt }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </main>
+
