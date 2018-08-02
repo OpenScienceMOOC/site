@@ -35,7 +35,7 @@ layout: default
         {% for post in site.posts %}
           <article>
             <header>
-              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
               <address>by {{ post.author }}</address>
               <time datetime="{{ post.date }}">{{ post.date | date: "%b %d, %Y" }}</time>
             </header>
