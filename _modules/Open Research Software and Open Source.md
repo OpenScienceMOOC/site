@@ -10,6 +10,15 @@ ordernumber: 5
 ---
 
 # Open Research Software and Open Source
+
+**STATUS**: The first release for this module is now ready, and has been published on Zenodo: 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1325081.svg)](https://doi.org/10.5281/zenodo.1325081)
+
+To cite this work, please use the following:
+
+Tennant, J. et al. (01/08/2018) Open Science MOOC: Module 5, Open Research Software and Open Source (Version 1.0) Zenodo. [https://doi.org/10.5281/zenodo.1325081](https://zenodo.org/record/1325081#.W2GqGtL7RPY)
+
 **Rationale**
 Software and technology underpin modern science. There is an increasing demand for more sophisticated open source software, matched by an increasing willingness for researchers to openly collaborate on new tools. These
 developments come with a specific ethical, legal and economic challenges that impact upon research workflows. This module will introduce the necessary tools required for transforming software into something that can be openly accessed and re-used by others.
