@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-{% include head.html %}
-
-<body>
+---
+layout: default
+---
 
   <!-- Page Header -->
   <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
@@ -44,9 +41,4 @@
       </article>
     {% endfor %}
   </main>
-	
-    {% include footer.html %}
 
-</body>
-
-</html>
