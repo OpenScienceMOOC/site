@@ -28,17 +28,21 @@ layout: default
       </div>
   </header>
 
-  <main>
-    <h2>List of blog entries</h2>
-    {% for post in site.posts %}
-      <article>
-        <header>
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <address>by {{ post.author }}</address>
-          <time datetime="{{ post.date }}">{{ post.date | date: "%b %d, %Y" }}</time>
-        </header>
-        <p>{{ post.excerpt }}</p>
-      </article>
-    {% endfor %}
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-lg-12">
+        <h2>List of blog entries</h2>
+        {% for post in site.posts %}
+          <article>
+            <header>
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <address>by {{ post.author }}</address>
+              <time datetime="{{ post.date }}">{{ post.date | date: "%b %d, %Y" }}</time>
+            </header>
+            <p>{{ post.excerpt }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
   </main>
 
