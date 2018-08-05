@@ -1,7 +1,7 @@
 ---
 title: Jo Havemann
 name: Jo Havemann
-role: #ResearchinAfrica Highlighter
+role: Research in Africa Highlighter
 location: Germany
 img: jo.jpg
 url: http://access2perspectives.com/
