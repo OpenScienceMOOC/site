@@ -1,7 +1,7 @@
 ---
 title: Jonathan Tennant
 name: Dr. Jonathan Tennant
-role: Founder
+role: Founder, Rogue Scientist
 location: Rest of World
 img: jon.jpg
 url: http://fossilsandshit.com/

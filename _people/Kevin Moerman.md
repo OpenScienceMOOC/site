@@ -1,7 +1,7 @@
 ---
 title: Kevin Moerman
 name: Dr. Kevin M Moerman
-role: Open Source Software
+role: Open Sourceror
 location: Unites States of America
 img: kmm_profile_crop.jpg
 url: https://kevinmoerman.org

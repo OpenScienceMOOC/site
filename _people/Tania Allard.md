@@ -1,7 +1,7 @@
 ---
 title: Tania Allard
 name: Dr. Tania Allard
-role: Open Source Software
+role: Open Sourceress, Data Enchantress
 location: United Kingdom
 img: Tania.jpg
 url: https://bitsandchips.me

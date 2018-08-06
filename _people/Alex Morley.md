@@ -1,7 +1,7 @@
 ---
 title: Alex Morley
 name: Alex Morley
-role: Open Source Software
+role: Open Sourceror
 location: UK
 img: AlexMorley.png
 url: https://alexmorley.me/

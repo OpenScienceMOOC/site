@@ -1,7 +1,7 @@
 ---
 title: Paola Masuzzo
 name: Paola Masuzzo
-role: Steering Committee
+role: Steering Committee, Open Source Batman
 location: Italy
 img: Paola.jpg
 url: https://about.me/pmasuzzo

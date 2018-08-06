@@ -1,7 +1,7 @@
 ---
 title: Ivo Grigorov
 name: Ivo Grigorov
-role: Steering Committee
+role: Steering Committee, Open Source Robin
 location: Denmark
 img: Ivo.jpg
 url: https://www.linkedin.com/in/ivogrigorov/
