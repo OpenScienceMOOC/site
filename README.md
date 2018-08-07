@@ -10,7 +10,7 @@ You can contribute by directly altering/proposing content on the [GitHub reposit
 To clone this repository locally use:
 ```
 git init   
-git clone https://github.com/gibbonCode/GIBBON.git
+git https://github.com/OpenScienceMOOC/site.git
 ```
 **New to GIT and GitHub?** See [these learning resources](https://help.github.com/articles/git-and-github-learning-resources/) and this [10 min. GIT tutorial](https://try.github.io/levels/1/challenges/1).   
 
