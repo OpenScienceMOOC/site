@@ -1,7 +1,7 @@
 ---
 title: Daniel Katz
 name: Daniel Katz
-role: Open Source Guru
+role: Open Source Collectivist
 location: USA
 img: dan_katz.jpg
 url: http://danielskatz.org/

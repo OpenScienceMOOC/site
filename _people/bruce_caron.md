@@ -2,7 +2,7 @@
 title: Bruce Caron
 name: Bruce Caron
 role: Culture Work Architect
-location: Santa Barbara, CA
+location: USA
 img: BruceC.jpg
 url: http://cybersocialstructure.org/
 github_username: BruceCaron

@@ -2,7 +2,7 @@
 title: Kevin Moerman
 name: Dr. Kevin M Moerman
 role: Open Sourceror
-location: Unites States of America
+location: USA
 img: kmm_profile_crop.jpg
 url: https://kevinmoerman.org
 github_username:  Kevin-Mattheus-Moerman
