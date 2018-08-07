@@ -1,6 +1,6 @@
 ---
-title: Daniel Katz
-name: Daniel Katz
+title: Daniel S. Katz
+name: Daniel S. Katz
 role: Open Source Collectivist
 location: USA
 img: dan_katz.jpg
