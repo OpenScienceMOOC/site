@@ -51,7 +51,7 @@ transform: scale(1.05);
 
 <div class="card" align="center">
 
-      <a href="{{ site.baseurl }}/people/{{ people.title }}">
+      <a href="{{ people.url | relative_url }}">
         {% if people.img %}
         <div class="portrait">
             <img class="profile_img" alt="" src="{{ site.baseurl }}/img/people/{{ people.img }}" style="margin-top:5px; margin-bottom:5px; margin-right:10px; ">
@@ -80,7 +80,7 @@ transform: scale(1.05);
 
         <div style="margin-bottom:10px;">
           {% if people.url %}
-              <a href="{{ people.url }}">
+              <a href="{{ people.url | relative_url }}">
                 <img alt="e-mail" style="height:20px;" src="{{ site.baseurl }}/img/icons/profilePage.png" />
               </a>
           {% endif %}
