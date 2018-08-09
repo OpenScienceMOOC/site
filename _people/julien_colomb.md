@@ -15,7 +15,7 @@ type: lead
 ---
 
 <!--HTML / LIQUID stuff to render picture and links  -->
-{% include addPersonalInfo.html name=page.name description=page.description role=page.role type=page.type location=page.location img=page.img url=page.url github_username=page.github_username twitter_username=page.twitter_username orcid_id=page.orcid_id impactstory_id=page.impactstory_id linkedin_username=page.linkedin_username email_address=page.email_address %}
+{% include add-personal-info.html name=page.name description=page.description role=page.role type=page.type location=page.location img=page.img url=page.url github_username=page.github_username twitter_username=page.twitter_username orcid_id=page.orcid_id impactstory_id=page.impactstory_id linkedin_username=page.linkedin_username email_address=page.email_address %}
 
 <!-- START OF FREE MARKDOWN  -->
 After 12 years spent on fundamental research (neuro-genetics) in which I gathered skills in experimental design, team leading and student teaching, I got most interested in open science and research reproducibility as well as the digital tools helping scientists to achieve it. I would like to apply these novel knowledge while doing research and mentoring students.    

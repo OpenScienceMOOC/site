@@ -28,7 +28,7 @@ ordernumber: 8
 	{% assign sorted_people = site.people | sort:"role" %}
 	{% for people in sorted_people %} {% if people.type == "lead" %}
 		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-			{% include addPerson.html people=site.people %}
+			{% include add-person.html people=site.people %}
 		</div>
 	{% endif %}{% endfor %}
 </div>
@@ -40,7 +40,7 @@ ordernumber: 8
 	{% for people in site.people %} {% if people.type == "production" %}
 		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
 
-			{% include addPerson.html people=site.people %}
+			{% include add-person.html people=site.people %}
 		</div>
 	{% endif %}{% endfor %}
 </div>
