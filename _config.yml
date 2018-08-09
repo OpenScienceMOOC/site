@@ -28,3 +28,10 @@ collections:
   people:
     output: true
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "page"
