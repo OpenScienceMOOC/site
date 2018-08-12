@@ -1,4 +1,7 @@
-- 
+-
+  name:     "email"
+  url:      "mailto:"
+-
   name:     "github"
   url:      "https://github.com/"
 - 
@@ -13,3 +16,6 @@
 - 
   name:     "twitter"
   url:      "https://twitter.com/"
+- 
+  name:     "website"
+  url:      "//"
