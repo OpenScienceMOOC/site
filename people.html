@@ -24,25 +24,87 @@ ordernumber: 8
 
 <div class="row">
 	<h2>Steering committee</h2> <a name="steering"></a>
-	<!--Sorting on role makes FOUNDER appear first  -->
-	{% assign sorted_people = site.people | sort:"role" %}
-	{% for people in sorted_people %} {% if people.type == "lead" %}
-		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-			{% include add-person.html people=site.people %}
-		</div>
-	{% endif %}{% endfor %}
+  {% assign people = site.people | where: "type", "lead" | sort: "role" %}
+  {% for person in people %}
+	<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+      <div class="card">
+      <!-- person avatar -->
+      {% assign avatars = site.static_files | where: "avatar", true %}
+      {% assign person_basename = person.path | remove: "_people/" | remove: ".md"  %}
+      {% for avatar in avatars %}
+        {% if avatar.basename == person_basename %}
+          <div class="portrait">
+            <a href="{{ person.url | relative_url }}">
+              <img src="{{ avatar.path | relative_url }}" 
+                   alt="Picture of {{ person.name }}"
+                   class="profile_img">
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+      <!-- person name, role and location -->
+      <h3><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
+      {{ person.role }}<br>
+      {{ person.location }}<br>
+      
+      <!-- person contact -->
+      {% for contact in person.contact %}
+        {% for network in site.data.networks %}
+          <!-- contact[0] = key, contact[1] = value -->
+          {% if contact[0] == network.name %}
+            <a href="{{ network.url }}{{ contact[1] }}">
+              <i class="fa fa-2x fa-{{ network.name }}" aria-hidde="true"></i>
+              <span class="sr-only">{{ network.name }}</span>
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </div>
+	</div>
+  {% endfor %}
 </div>
 
 <hr>
 
 <div class="row">
 	<h2>Production team</h2> <a name="production"></a>
-	{% for people in site.people %} {% if people.type == "production" %}
-		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-
-			{% include add-person.html people=site.people %}
-		</div>
-	{% endif %}{% endfor %}
+  {% assign people = site.people | where: "type", "production" | sort: "role" %}
+  {% for person in people %}
+	<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+      <div class="card">
+      <!-- person avatar -->
+      {% assign avatars = site.static_files | where: "avatar", true %}
+      {% assign person_basename = person.path | remove: "_people/" | remove: ".md"  %}
+      {% for avatar in avatars %}
+        {% if avatar.basename == person_basename %}
+          <div class="portrait">
+            <a href="{{ person.url | relative_url }}">
+              <img src="{{ avatar.path | relative_url }}" 
+                   alt="Picture of {{ person.name }}"
+                   class="profile_img">
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+      <!-- person name, role and location -->
+      <h3><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
+      {{ person.role }}<br>
+      {{ person.location }}<br>
+      
+      <!-- person contact -->
+      {% for contact in person.contact %}
+        {% for network in site.data.networks %}
+          <!-- contact[0] = key, contact[1] = value -->
+          {% if contact[0] == network.name %}
+            <a href="{{ network.url }}{{ contact[1] }}">
+              <i class="fa fa-2x fa-{{ network.name }}" aria-hidde="true"></i>
+              <span class="sr-only">{{ network.name }}</span>
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </div>
+	</div>
+  {% endfor %}
 </div>
-
 </div>

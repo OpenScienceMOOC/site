@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" style="padding: 50px 0 15px 0">
+					{% if page.url == '/' %}
+					{% if site.logo %}
+					<img src= "{{ site.baseurl }}/{{ site.logo }}" style="height: 175px">
+					{% endif %}
+					{% else %}{% endif %}
+                    <!-- <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1> -->
+                    {% if page.logo %}
+                    <div>
+                    <img src= "{{ site.baseurl }}/{{ page.logo }}" style="height: 175px">
+                  </div>
+                    {% endif %}
+                    <br>
+                    <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
+                    <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+  <div class="col-md-4">
+      {% assign avatars = site.static_files | where: "avatar", true %}
+      {% assign person_basename = page.path | remove: "_people/" | remove: ".md"  %}
+      {% for avatar in avatars %}
+        {% if avatar.basename == person_basename %}
+          <div class="portrait">
+            <img src="{{ avatar.path | relative_url }}" 
+                 alt="Picture of {{ page.name }}"
+                 class="profile_img">
+          </div>
+        {% endif %}
+      {% endfor %}
+  </div>
+		<div class="col-md-8">
+      <p>{{ content }}</p>
+			       
+      <!-- person contact -->
+      {% for contact in page.contact %}
+        {% for network in site.data.networks %}
+          <!-- contact[0] = key, contact[1] = value -->
+          {% if contact[0] == network.name %}
+            <a href="{{ network.url }}{{ contact[1] }}">
+              <i class="fa fa-2x fa-{{ network.name }}" aria-hidde="true"></i>
+              <span class="sr-only">{{ network.name }}</span>
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+		</div>
+	</div>
+</div>
+
+<hr>
