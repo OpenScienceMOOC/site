@@ -29,9 +29,18 @@ collections:
     output: true
 
 defaults:
+  # default to people's layout for people's page
   -
     scope:
       path: ""
       type: "people"
     values:
-      layout: "page"
+      layout: "profile"
+  # Set a avatar variable to be able to loop trought people's avatar in 
+  # people's page.
+  -
+    scope:
+      path: "assets/img/people" 
+    values:
+      avatar: true
+

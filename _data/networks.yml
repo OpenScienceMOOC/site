@@ -1,0 +1,21 @@
+-
+  name:     "email"
+  url:      "mailto:"
+-
+  name:     "github"
+  url:      "https://github.com/"
+- 
+  name:     "impactstory"
+  url:      "https://profiles.impactstory.org/u/"
+- 
+  name:     "linkedin"
+  url:      "https://www.linkedin.com/in/"
+-
+  name:     "orcid"
+  url:      "https://orcid.org/"
+- 
+  name:     "twitter"
+  url:      "https://twitter.com/"
+- 
+  name:     "website"
+  url:      "//"
