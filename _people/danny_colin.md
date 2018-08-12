@@ -1,14 +1,14 @@
 ---
 title: "Danny Colin"
 name: "Danny Colin"
-type: "production"
 role: "Webdev Wizard"
 location: "Canada"
 contact:
   email:   "contact@dannycolin.com"  
-  twitter: "dannycolincom"
   github:  "dannycolin"
+  twitter: "dannycolincom"
   website: "dannycolin.com"
+type: "production"
 ---
 
 Hello my name is Danny. I am a student in anthropology at the
