@@ -15,7 +15,7 @@ git https://github.com/OpenScienceMOOC/site.git
 **New to GIT and GitHub?** See [these learning resources](https://help.github.com/articles/git-and-github-learning-resources/) and this [10 min. GIT tutorial](https://try.github.io/levels/1/challenges/1).   
 
 ### Where are images?
-Images are located in the `/img` folder   
+Images are located in the `/img` and `assets/img` folders. 
 
 ### Altering the module content.   
 Modules descriptions are rendered from markdown files ([here is a useful markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)) located in the [`_modules`](https://github.com/OpenScienceMOOC/site/tree/master/_modules) folder. The module markdown files are plain markdown file. However, the top of each file contains some [YAML](https://en.wikipedia.org/wiki/YAML) data helping to render the content on the website. This YAML lines set the page layout, the title to render, the logo picture to use on the page, the description to use (rendered under title if provided), the page top header background image, a thumbnail to use when the module is rendered as a card, the cardcolor (as [RGBA](https://en.wikipedia.org/wiki/RGBA_color_space) values)
@@ -32,31 +32,34 @@ cardcolor:  rgba(178,223,197,0.5)
 ordernumber: 10
 ---
   ```
-  ### How to add a person to be listed/rendered on the website
-  Currently adding a person involves adding a markdown file in the [`_people`](https://github.com/OpenScienceMOOC/site/blob/master/_people) folder. Perhaps the easiest thing to do is to copy an existing file, e.g.  `Jonathan Tennant.md`. The people markerdown files contain some YML data at the top which is used to define items like the location of the profile image:
+
+### How to add a person to be listed/rendered on the website
+
+Currently adding a person involves adding a markdown file in the [`_people`](https://github.com/OpenScienceMOOC/site/blob/master/_people) folder. Perhaps the easiest thing to do is to copy an existing file, e.g.  `Jonathan Tennant.md`. The people markerdown files contain some YML data at the top which is used to define items like the location of the profile image:
 
   ```yml
   ---
   title: Jonathan Tennant
   name: Dr. Jonathan Tennant
-  role: Founder
-  location: United Kingdom
-  img: jon.jpg
-  url: http://fossilsandshit.com/
-  github_username: Protohedgehog
-  twitter_username: Protohedgehog
-  orcid_id: 0000-0001-7794-0218
-  impactstory_id: u/0000-0001-7794-0218
-  linkedin_username: jonathan-tennant-3546953a
-  email_address: jon.tennant.2@gmail.com
+  role: Founder, Rogue Scientist
+  location: Rest of World
+  contact:
+    email: jon.tennant.2@gmail.com
+    github: Protohedgehog
+    impactstory: 0000-0001-7794-0218
+    linkedin: jonathan-tennant-3546953a
+    orcid: 0000-0001-7794-0218
+    twitter: Protohedgehog
+    website: fossilsandshit.com
   type: lead
   ---
+  
+  My fancy bio in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
+  
   ```
-The markdown file also allows one to write a brief bio. Do this under the comment `<!-- START OF FREE MARKDOWN  -->`
-```Markdown
-<!-- START OF FREE MARKDOWN  -->
-My fancy bio in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
-```
+
+If you want to add a picture of you, you simply need to add an image in the folder `assets/img/people`.
+The image should have the same name as your markdown file in `_people` (e.g jon_tennant.md -> jon_tennant.jpg).
 
 # License
 The code for this site is covered by the MIT license: [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/OpenScienceMOOC/site/blob/master/LICENSE)   
