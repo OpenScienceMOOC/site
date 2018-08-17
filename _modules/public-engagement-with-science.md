@@ -4,7 +4,7 @@ title: "Public Engagement with Science"
 logo: /img/logos/mooc_logo.png
 description: ""
 header-img: "img/home-bg.jpg"
-thumbnail:  "/img/logos/mooc_logo.png"
+thumbnail:  "assets/img/modules/public-engagement-with-science.png"
 cardcolor:  rgba(172,177,211,0.5)
 ordernumber: 8
 ---

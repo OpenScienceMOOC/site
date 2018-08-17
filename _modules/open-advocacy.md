@@ -4,7 +4,7 @@ title: "Open Advocacy"
 logo: /img/logos/mooc_logo.png
 description: ""
 header-img: "img/home-bg.jpg"
-thumbnail:  "/img/logos/mooc_logo.png"
+thumbnail:  "assets/img/modules/open-advocacy.png"
 cardcolor:  rgba(178,223,197,0.5)
 ordernumber: 10
 ---

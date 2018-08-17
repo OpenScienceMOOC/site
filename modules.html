@@ -20,6 +20,7 @@ ordernumber: 2
     border-radius: 10px; /* 5px rounded corners */
     margin-bottom: 30px;
     opacity: 1;
+    color: #333;
 }
 .card-text {
     word-wrap: break-word;
@@ -96,7 +97,7 @@ transform: scale(1.05);
         {% if item.thumbnail %}
         <br />
             <i class="post-subtitle">{{ item.subtitle }}</i>
-            <img alt="" src="{{ site.baseurl }}{{ item.thumbnail }}" style="width:70%;">
+            <img alt="" src="{{ item.thumbnail | relative_url }}" style="width:70%;">
         {% endif %}
 </div>
 </a>
@@ -106,7 +107,12 @@ transform: scale(1.05);
 {% endfor %}
 </div>
 
-
+<div class="row">
+  {% assign sorted_items = site.modules | sort:"ordernumber"%}
+  {% for item in sorted_items %}
+    {{ item.thumbail }}
+  {% endfor %}
+</div>
 
 <script>
 var acc = document.getElementsByClassName("accordion");

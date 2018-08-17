@@ -4,7 +4,7 @@ title: "Open Access to Research Papers"
 logo: /img/logos/mooc_logo.png
 description: ""
 header-img: "img/home-bg.jpg"
-thumbnail:  "/img/logos/mooc_logo.png"
+thumbnail:  "assets/img/modules/open-access-to-research-papers.png"
 cardcolor:  rgba(201,166,205,0.5)
 ordernumber: 6
 ---

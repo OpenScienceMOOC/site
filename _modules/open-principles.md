@@ -4,7 +4,7 @@ title: "Open principles"
 logo: /img/logos/mooc_logo.png
 description: ""
 header-img: "img/home-bg.jpg"
-thumbnail:  "/img/logos/mooc_logo.png"
+thumbnail:  "assets/img/modules/open-principles.png"
 cardcolor:  rgba(250,160,200,0.5)
 ordernumber: 1
 ---

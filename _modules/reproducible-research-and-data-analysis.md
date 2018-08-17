@@ -4,7 +4,7 @@ title: "Reproducible Research and Data Analysis"
 logo: /img/logos/mooc_logo.png
 description: ""
 header-img: "img/home-bg.jpg"
-thumbnail:  "/img/logos/mooc_logo.png"
+thumbnail:  "assets/img/modules/reproducible-research-and-data-analysis.png"
 cardcolor:  rgba(153,204,225,0.5)
 ordernumber: 3
 ---

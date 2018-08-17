@@ -4,7 +4,7 @@ title: "Open Research Software and Open Source"
 logo: /img/logos/mooc_logo.png
 description: ""
 header-img: "img/home-bg.jpg"
-thumbnail:  "/img/logos/mooc_logo.png"
+thumbnail:  "assets/img/modules/open-research-software-and-open-source.png"
 cardcolor:  rgba(157,218,194,0.5)
 ordernumber: 5
 ---
