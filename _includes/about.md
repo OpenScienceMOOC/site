@@ -16,4 +16,6 @@ The content of this MOOC will be distilled into 10 core modules. Each module wil
 
 The MOOC will be hosted through OpenEdX, an open source provider. We expect that in the future different systems of certification will be developed, including completion badges. We also intend to build a forum for the open discussion of the MOOC and any relevant topics.
 
+Rainbows :rainbow: and unicorns :unicorn: for all!
+
 **_Disclaimer_**: We, the contributors, are fully aware that there is no magic one size fits all solution when it comes to implementing Open Science philosophies and best practices, especially when covering all research disciplines. However, we also believe that we should not limit ourselves from the onset, just because pragmatic solutions may not exist today for certain disciplines. We aim to set a highly inclusive standard, fully accepting the risk that for some disciplines this strategy may not be fully appropriate. Through that failure, we hope that you, the course users, will join us as course contributors and help us co-create bespoke solutions to your discipline based on principles of transparency, provenance, reproducibility and reuse of knowledge.
