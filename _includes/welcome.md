@@ -1,14 +1,28 @@
 ## Welcome to the home of the Open Science MOOC!
 
-This website is aimed to provide information about our MOOC on Open Science principles and practices, its rationale, the current state of the project, and the [people](https://opensciencemooc.github.io/site/People/) behind it.
+This website provides information about our MOOC, its rationale, the current state of the project, and the [people](https://opensciencemooc.github.io/site/People/) behind it.
 
-CURRENT STATUS: **IN DEVELOPMENT**
+This is a mission-driven project to help make 'Open' the default setting for all global research. We want to help create a welcoming and supporting community, with good tools, teachers, and role-models, and built upon a solid values-based foundation of freedom and equitable access to research.
 
-The first draft of [Module 5](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/content_development) has been completed and awaiting feedback from the wider community (including you!)
+Therefore, we see Open Science as a goal: broad adoption of good scientific practices as a fundamental and essential part of the research process.
 
 <br/>
 
-This project was started in early 2017 after a barcamp at the Open Science Conference in Berlin. Soon, more than 30 people contributed and a first draft curriculum was made. Now, already more than 100 volunteers have agreed to share their knowledge about Open Science and to contribute to what they see as an extremely important issue in nowadays and future science. Concomitantly, the European Commission published its report [Providing researchers with the skills and competencies they need to practice Open Science](https://cdn1.euraxess.org/sites/default/files/policy_library/ec-rtd_os_skills_report_final_complete_2207_1.pdf), supporting the importance of the topic and thereby the necessity to explain, teach and support researchers to gain the necessary skills.
+### CURRENT STATUS: IN DEVELOPMENT
+
+This project is being developed in an open and agile way, meaning that all content is instantly available for re-use and iterative improvements, including as a teaching resource.
+
+<br/>
+
+The first release of [Module 5](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/content_development) on **Open Source and Open Research Software** has been completed and undergoing feedback from the wider community. We are currently improving this module by diversifying the content.
+
+<br/>
+
+[Module 1](https://github.com/OpenScienceMOOC/Module-1-Open-Principles/tree/master/content_development#in-markdown-format) on **Open Principles** is also currently in the early stages of development.
+
+<br/>
+
+This project was started in early 2017 after a barcamp at the Open Science Conference in Berlin. Soon, more than 30 people contributed and a first draft 'curriculum' was made. Now, an enormous community has come together to share their knowledge about and passion for Open Science and to contribute to what they see as an extremely important issue in nowadays and future science.
 
 <br/>
 

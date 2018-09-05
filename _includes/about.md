@@ -1,8 +1,10 @@
 # About us
 
-This project is carried out solely by volunteer work. We are very happy that within short time, more than 100 volunteers have signed up to support us. If you want to be one of them, just add your name to the [list](https://docs.google.com/spreadsheets/d/1FEbnxBkmIQFDEViTgZDn0AJ0MSK6eDSBEgZuCkW_B5s/edit?usp=drive_web) and join our slack channel [Sign up for slack Open Science MOOC](https://openmooc-ers-slackin.herokuapp.com/).
+Welcome to the Open Science MOOC! Here you can find out a little more about us, what we are doing, and why.
 
-Moreover, there are 14 people forming the Steering Committee for this MOOC- [here you can find some information about us](https://opensciencemooc.github.io/site/People/#steering).
+This project is carried out mostly by volunteer work. If you would like to contribute, please join our slack channel [Sign up for slack Open Science MOOC](https://openmooc-ers-slackin.herokuapp.com/) or join our [GitHub project page](https://github.com/OpenScienceMOOC).
+
+There are 14 people forming the [Steering Committee](https://opensciencemooc.github.io/site/People/#steering) for this project, as well as a core [Production Team](https://opensciencemooc.github.io/site/People/#production) which is [open to anyone to join](https://github.com/OpenScienceMOOC/site#how-to-add-a-person-to-be-listedrendered-on-the-website).
 
 ## Rationale
 
@@ -12,10 +14,8 @@ Open Science is about increased rigour, accountability, reproducibility for rese
 
 This MOOC is designed to help equip students and researchers with the skills they need to excel in a modern research environment. It brings together the efforts and resources of hundreds of researchers and practitioners who have all dedicated their time and experience to create a community platform to help propel research forward.
 
-The content of this MOOC will be distilled into 10 core modules. Each module will comprise a complete range of resources including videos, research articles, dummy datasets and code, as well as homework tasks to complete as individuals.
+The content of this MOOC will be distilled into 10 core modules. Each module will comprise a complete range of resources including videos, research articles, dummy datasets and code, as well as tasks to complete as individuals or groups.
 
-The MOOC will be hosted through OpenEdX, an open source provider. We expect that in the future different systems of certification will be developed, including completion badges. We also intend to build a forum for the open discussion of the MOOC and any relevant topics.
-
-Rainbows :rainbow: and unicorns :unicorn: for all!
+The MOOC will be hosted through an open source provider. We expect that in the future different systems of certification will be developed, including completion badges. We also intend to build a forum for the open discussion of the MOOC and any relevant topics.
 
 **_Disclaimer_**: We, the contributors, are fully aware that there is no magic one size fits all solution when it comes to implementing Open Science philosophies and best practices, especially when covering all research disciplines. However, we also believe that we should not limit ourselves from the onset, just because pragmatic solutions may not exist today for certain disciplines. We aim to set a highly inclusive standard, fully accepting the risk that for some disciplines this strategy may not be fully appropriate. Through that failure, we hope that you, the course users, will join us as course contributors and help us co-create bespoke solutions to your discipline based on principles of transparency, provenance, reproducibility and reuse of knowledge.
