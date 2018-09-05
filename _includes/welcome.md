@@ -10,7 +10,7 @@ Therefore, we see Open Science as a goal: broad adoption of good scientific prac
 
 ### CURRENT STATUS: IN DEVELOPMENT
 
-This project is being developed in an open and agile way, meaning that all content is instantly available for re-use and iterative improvements, including as a teaching resource.
+This project is being developed in an open and agile way, meaning that all content is instantly available for re-use and iterative improvements, including as a teaching resource. You can also follow regular updates on [Slack](https://openmooc-ers-slackin.herokuapp.com/) or [Twitter](https://twitter.com/OpenScienceMOOC).
 
 <br/>
 

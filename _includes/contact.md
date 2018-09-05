@@ -4,6 +4,6 @@ If you would like to contribute to the MOOC, please check the [GitHub project](h
 
 If you have questions about the project, please [email us directly](mailto:info@opensciencemooc.eu) or contact the project founder, [Jon Tennant](mailto:jon.tennant.2@gmail.com).
 
-Stay tuned on what’s happening on Twitter with [@OpenScienceMOOC](https://twitter.com/OpenSci_MOOC).
+Stay tuned on what’s happening on Twitter with [@OpenScienceMOOC](https://twitter.com/OpenScienceMOOC).
 
 We appreciate any input, and please help spread the word!
