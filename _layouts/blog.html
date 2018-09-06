@@ -10,13 +10,13 @@ layout: default
                   <div class="site-heading" style="padding: 50px 0 15px 0">
   					{% if page.url == '/' %}
   					{% if site.logo %}
-            <img src= "{{ site.baseurl }}/{{ site.logo }}" style="height: 175px">
+            <img src= "{{ site.logo | relative_url }}" style="height: 175px">
   					{% endif %}
   					{% else %}{% endif %}
                       <!-- <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1> -->
                       {% if page.logo %}
                       <div>
-                      <img src= "{{ site.baseurl }}/{{ page.logo }}" style="height: 175px">
+                      <img src= "{{ page.logo | relative_url }}" style="height: 175px">
                     </div>
                       {% endif %}
                       <br>
