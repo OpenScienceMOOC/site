@@ -3,7 +3,7 @@ title: Open Science MOOC
 description: ""
 
 url: "http://opensciencemooc.eu/"
-baseurl: "/site"
+baseurl: ""
 
 header-img: img/home-bg.jpg
 headercolor: "#000000"
