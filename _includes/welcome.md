@@ -1,6 +1,6 @@
 ## Welcome to the home of the Open Science MOOC!
 
-This website provides information about our MOOC, its rationale, the current state of the project, and the [people](https://opensciencemooc.github.io/site/People/) behind it.
+This website provides information about our MOOC, its rationale, the current state of the project, and the [people](https://opensciencemooc/People/) behind it.
 
 This is a mission-driven project to help make 'Open' the default setting for all global research. We want to help create a welcoming and supporting community, with good tools, teachers, and role-models, and built upon a solid values-based foundation of freedom and equitable access to research.
 

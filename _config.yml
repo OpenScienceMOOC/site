@@ -2,7 +2,7 @@
 title: Open Science MOOC
 description: ""
 
-url: "http://opensciencemooc.eu/"
+url: "http://opensciencemooc.eu"
 baseurl: ""
 
 header-img: img/home-bg.jpg
@@ -36,11 +36,10 @@ defaults:
       type: "people"
     values:
       layout: "profile"
-  # Set a avatar variable to be able to loop trought people's avatar in 
+  # Set a avatar variable to be able to loop trought people's avatar in
   # people's page.
   -
     scope:
-      path: "assets/img/people" 
+      path: "assets/img/people"
     values:
       avatar: true
-
