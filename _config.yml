@@ -7,7 +7,7 @@ baseurl: ""
 
 header-img: img/home-bg.jpg
 headercolor: "#000000"
-logo: /img/logos/mooc_logo.png
+logo: img/logos/mooc_logo.png
 
 github_username: OpenScienceMOOC
 twitter_username: OpenScienceMOOC
