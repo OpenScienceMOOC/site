@@ -11,9 +11,8 @@ Welcome to the Open Science MOOC! Here you can find out a little more about us, 
 </p>
 
 <p align="center">
-<footer>Available in PDF <a href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.pdf">PDF</a> or <a href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.odp">.odp</a> or href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.pptx">.pptx</a> formats </footer>
+<footer>Available in: <a href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.pdf">PDF</a> or <a href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.odp">.odp</a> or <a href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.pptx">.pptx</a> formats </footer>
 </p>
-
 
 This project is carried out mostly by volunteer work. If you would like to contribute, please join our slack channel [Sign up for slack Open Science MOOC](https://openmooc-ers-slackin.herokuapp.com/) or join our [GitHub project page](https://github.com/OpenScienceMOOC).
 
