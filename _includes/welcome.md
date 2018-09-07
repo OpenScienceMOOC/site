@@ -8,6 +8,18 @@ Therefore, we see Open Science as a goal: broad adoption of good scientific prac
 
 <br/>
 
+<p align="center">
+<object type="application/pdf"
+    data="{{ "assets/pdf/MOOC_presentation.pdf" | relative_url }}"
+    width="640"
+    height="400">
+</object>
+</p>
+
+<p align="center">
+<footer>Available in: <a href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.pdf">PDF</a> or <a href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.odp">.odp</a> or <a href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.pptx">.pptx</a> formats </footer>
+</p>
+
 ### CURRENT STATUS: IN DEVELOPMENT
 
 This project is being developed in an open and agile way, meaning that all content is instantly available for re-use and iterative improvements, including as a teaching resource. You can also follow regular updates on [Slack](https://openmooc-ers-slackin.herokuapp.com/) or [Twitter](https://twitter.com/OpenScienceMOOC).
