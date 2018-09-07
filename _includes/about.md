@@ -4,7 +4,7 @@ Welcome to the Open Science MOOC! Here you can find out a little more about us, 
 
 <p align="center">
 <object type="application/pdf"
-    data="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.pdf"
+    data="{{ "assets/pdf/MOOC_presentation.pdf" | relative_url }}"
     width="640"
     height="400">
 </object>
