@@ -22,15 +22,11 @@ So, what do you think? Let us know on social media, or by [email](mailto:info@op
 
 ## Other news
 
-* We were mentioned in this EuroScientist piece, [Accelerate Open Science Training for Researchers](https://www.euroscientist.com/accelerate-open-science-training-for-researchers/).
+* [**Task 3**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md) of the Open Source and Open Research Software module has been drafted! This is a cool task that puts some of the peer-to-peer learning aspects we mentioned above into action, and is all about integrating Git and RStudio for research workflows.
 
-* We became strategic partners with the [Joint Roadmap on Open Science Tools](https://jrost.org/) and [AfricArxiv]
+* We finally launched a [Facebook page](https://www.facebook.com/OpenScienceMOOC/) and gained more than 200 likes in a week! 
 
-* Task 3 of the Open Source and Open Research Software module has been drafted! This is a cool task that puts some of the peer-to-peer learning aspects we mentioned above into action, and is all about integrating Git and RStudio for research workflows.
-
-* We finally launched a [Facebook page](https://www.facebook.com/OpenScienceMOOC/) and gained more than 200 likes in a week!
-
-* We also created this cool presentation below that describes the purpose of the MOOC. This can be re-used and presented by anyone who wishes!
+* We also created this cool presentation below that describes the purpose of the MOOC. This can be re-used and presented by anyone who wishes! Let us know if you feel it can be improved in any way too.
 
 <p align="center">
 <object type="application/pdf"
@@ -44,9 +40,13 @@ So, what do you think? Let us know on social media, or by [email](mailto:info@op
 <footer>Available in: <a href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.pdf">PDF</a> or <a href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.odp">.odp</a> or <a href="https://github.com/OpenScienceMOOC/Main/blob/master/MOOC_presentation.pptx">.pptx</a> formats </footer>
 </p>
 
-* We also set up a neat little [app](https://open-science-mooc-invite.herokuapp.com/) that allows anyone to automatically join the GitHub team for the MOOC development.
+* We also set up a neat little [app](https://open-science-mooc-invite.herokuapp.com/) that allows anyone to automatically join the [GitHub team](https://github.com/orgs/OpenScienceMOOC/people) for the MOOC development.
 
 * Our website domain was updated to [opensciencemooc.eu](https://opensciencemooc.eu/).
+
+* We were mentioned in this EuroScientist piece, [Accelerate Open Science Training for Researchers](https://www.euroscientist.com/accelerate-open-science-training-for-researchers/).
+
+* We became strategic partners with the [Joint Roadmap on Open Science Tools](https://jrost.org/) and [AfricArxiv](https://osf.io/preprints/africarxiv/).
 
 ## What can you do to help out?
 
