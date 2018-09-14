@@ -1,6 +1,6 @@
 ---
-title: Ricardo Hartley
-name: Ricardo Hartley
+title: Antonio Hartley
+name: Antonio Hartley
 role: Steering Committee
 location: Chile
 contact:
