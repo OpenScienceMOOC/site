@@ -1,6 +1,6 @@
 # Repository for the Open Science MOOC website
 
-Currently at: [`https://opensciencemooc.eu`](https://opensciencemooc)
+Currently at: [`https://opensciencemooc.eu`](https://opensciencemooc.eu)
 
 [![OpenScienceMooc](/img/moocgif.gif)](https://opensciencemooc)
 
