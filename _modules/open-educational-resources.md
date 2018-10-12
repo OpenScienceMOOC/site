@@ -17,4 +17,4 @@ Open Educational Resources (OERs) are freely accessible, openly licensed materia
 * The researcher will be able to identify and implement the steps to either prepare content for educational re-use purposes, or be able to design their own OER.
 * The researcher will be able to either identify relevant places where their research can be integrated into Wikipedia, or integrate it themselves if they are a user.
 
-[_Resources_](http://opensciencemooc.eu/open-science-resources/#nine)
+[_Resources_](https://opensciencemooc.eu/resources/)
