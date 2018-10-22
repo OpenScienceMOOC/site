@@ -64,36 +64,15 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 **Key posts**
 
-- [Anatomy of an Open Science Paper](https://intermolecular.wordpress.com/2014/12/15/anatomy-of-an-open-science-paper/),
-,Matt Todd
-- [Changing hiring practices towards research transparency: The first
-,open science statement in a professorship
-,advertisement](http://www.nicebread.de/open-science-hiring-practices/),
-,Felix Schoenbrodt
-- [The ][SV-POW
-,Tutorials](https://svpow.com/tutorials/)[
-,include a helpful ][definition of Open
-,Access](https://svpow.com/2012/11/15/tutorial-19a-open-access-definitions-and-clarifications-part-1-what-actually-is-open-access/)[
-,and clarifications on licensing, copyright and related topics
-,(Tutorial 19)
-- [Science 2.0 repositories: Time for a change in scholarly
-,communication](http://www.dlib.org/dlib/january15/assante/01assante.html)[
-,(Assante et al., 2015)
-- [Power and inequality in Open Science
-,discourses](https://medium.com/@denalbz/power-and-inequality-in-open-science-discourses-9d425b0c2b63),
-,Denisse Albornoz
-- [Clash of cultures: Why all science isn't open
-,science](https://danielskatzblog.wordpress.com/2016/10/25/clash-of-cultures-why-all-science-isnt-open-science/),
-,Daniel Katz
-- [Preliminary Findings: Rent Seeking by
-,Elsevier](http://knowledgegap.org/index.php/sub-projects/rent-seeking-and-financialization-of-the-academic-publishing-industry/preliminary-findings/),
-,Alejandro Posada
-- [Reassessing the 'Digital
-,Commons'](http://ivory.idyll.org/blog/2017-digital-commons-funding.html),
-,Â Marianne Corvellec and Jeanne Corvellec
-- [A list of publicly available grant proposals in the biological
-,sciences](https://jabberwocky.weecology.org/2012/08/10/a-list-of-publicly-available-grant-proposals-in-the-biological-sciences/)[
-,(Jabberwocky)
+- [Anatomy of an Open Science Paper](https://intermolecular.wordpress.com/2014/12/15/anatomy-of-an-open-science-paper/), Matt Todd
+- [Changing hiring practices towards research transparency: The first open science statement in a professorship advertisement](http://www.nicebread.de/open-science-hiring-practices/), Felix Schoenbrodt
+- [The SV-POW Tutorials](https://svpow.com/tutorials/) include a helpful [definition of Open Access](https://svpow.com/2012/11/15/tutorial-19a-open-access-definitions-and-clarifications-part-1-what-actually-is-open-access/) and clarifications on licensing, copyright and related topics (Tutorial 19)
+- [Science 2.0 repositories: Time for a change in scholarly communication](http://www.dlib.org/dlib/january15/assante/01assante.html), Assante et al., 2015
+- [Power and inequality in Open Science discourses](https://medium.com/@denalbz/power-and-inequality-in-open-science-discourses-9d425b0c2b63), Denisse Albornoz
+- [Clash of cultures: Why all science isn't open science](https://danielskatzblog.wordpress.com/2016/10/25/clash-of-cultures-why-all-science-isnt-open-science/), Daniel Katz
+- [Preliminary Findings: Rent Seeking by Elsevier](http://knowledgegap.org/index.php/sub-projects/rent-seeking-and-financialization-of-the-academic-publishing-industry/preliminary-findings/), Alejandro Posada
+- [Reassessing the 'Digital Commons'](http://ivory.idyll.org/blog/2017-digital-commons-funding.html), Marianne Corvellec and Jeanne Corvellec
+- [A list of publicly available grant proposals in the biological sciences](https://jabberwocky.weecology.org/2012/08/10/a-list-of-publicly-available-grant-proposals-in-the-biological-sciences/), Jabberwocky
 
 **Other**
 
