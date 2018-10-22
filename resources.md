@@ -7,13 +7,26 @@ header-img: "img/home-bg.jpg"
 ordernumber: 3 
 ---
 
+## Module list
+
+1. [Open principles](#one)
+2. [Open Collaboration](#two)
+3. [Reproducible Research and Data Analysis](#three)
+4. [Open Research Data](#four)
+5. [Open Source and Open Research Software](#five)
+6. [Open Access to Research Papers](#six)
+7. [Open Evaluation](#seven)
+8. [Public Engagement with Science](#eight)
+9. [Open Educational Resources](#nine)
+10. [Open Advocacy](#ten)
+
 **See something missing? Please [write to us](http://opensciencemooc.eu/contact-us/) or leave a comment [here](https://github.com/OpenScienceMOOC)!**
 
 All research articles and reports below are Open Access versions (i.e., free to read and re-use).
 
 ------------------------------------------------------------------------
 
-**1: Open Principles**
+**1: Open Principles** <a name="one"></a>
 
 **Tools**
 
@@ -143,7 +156,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 ------------------------------------------------------------------------
 
-**2: Open Collaboration**
+**2: Open Collaboration** <a name="two"></a>
 
 **Tools**
 
@@ -245,7 +258,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 ------------------------------------------------------------------------
 
-**3: Reproducible Research and Data Analysis**
+**3: Reproducible Research and Data Analysis** <a name="three"></a>
 
 **Tools**
 
@@ -287,18 +300,17 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [Labguru](https://www.labguru.com/)
 - [sciNote](https://scinote.net/)
 - [AsPredicted](https://aspredicted.org/),
-- [The ][Sci-Gaia Open Science Platform](http://www.sci-gaia.eu/osp/)
+- [The Sci-Gaia Open Science Platform](http://www.sci-gaia.eu/osp/)
 - [Improving your statistical inferences](https://www.coursera.org/learn/statistical-inferences), Daniel Lakens
-,- [Open Stats Lab](https://sites.trinity.edu/osl/data-sets-and-activities), Kevin McIntyre
+ - [Open Stats Lab](https://sites.trinity.edu/osl/data-sets-and-activities), Kevin McIntyre
 - [R for Data Science](http://r4ds.had.co.nz/)
-,- [R tutorial: Introduction to cleaning data with R](https://www.youtube.com/watch?v=6PVMJE3HBN0), DataCamp
+ - [R tutorial: Introduction to cleaning data with R](https://www.youtube.com/watch?v=6PVMJE3HBN0), DataCamp
 - [Nextflow](https://www.nextflow.io/),,open source tool than enables reproducible and portable computational workflows across cloud and clusters
 
 **Research Articles and Reports**
 
-- [Reproducibility, Virtual Appliances, and Cloud Computing](https://osf.io/sp2vg/), Howe,,2012
-- [The Ironic Effect of Significant Results on the Credibility of Multiple-Study
-,Articles](http://datacolada.org/wp-content/uploads/2014/06/3644-Schimmack-PM-2012-the-ironic-effect-of-significant-results-on-the-credibilit-of-multiple-study-articles.pdf), Schimmack, 2012
+- [Reproducibility, Virtual Appliances, and Cloud Computing](https://osf.io/sp2vg/), Howe,2012
+- [The Ironic Effect of Significant Results on the Credibility of Multiple-Study Articles](http://datacolada.org/wp-content/uploads/2014/06/3644-Schimmack-PM-2012-the-ironic-effect-of-significant-results-on-the-credibilit-of-multiple-study-articles.pdf), Schimmack, 2012
 - [Power failure: why small sample size undermines the reliability of neuroscience](https://www.nature.com/articles/nrn3475), Button et al., 2013
 - [Git can facilitate greater reproducibility and increased transparency in science](https://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7). Ram, 2013
 - [Ten simple rules for reproducible computational research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285), Sandve et al., 2013
@@ -432,7 +444,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 ------------------------------------------------------------------------
 
-**4: Open Research Data**
+**4: Open Research Data** <a name="four"></a>
 
 **Tools**
 
@@ -677,7 +689,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 ------------------------------------------------------------------------
 
-**5: Open Research Software and Open Source**
+**5: Open Research Software and Open Source** <a name="five"></a>
 
 **Tools**
 
@@ -793,7 +805,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 ------------------------------------------------------------------------
 
-**6: Open Access to Research Papers**
+**6: Open Access to Research Papers** <a name="six"></a>
 
 **Tools**
 
@@ -903,11 +915,9 @@ All research articles and reports below are Open Access versions (i.e., free to 
 ,- [preLights](https://prelights.biologists.com/)[
 ,- [Peer Community
 ,,in](https://peercommunityin.org/)[
-- [Overlay journals:]
-,- [Open
-,,Journals](http://www.theoj.org/)[
-,- [Discrete
-,,Analysis](http://discreteanalysisjournal.com/)[
+- [Overlay journals:
+ - [Open Journals](http://www.theoj.org/)[
+- [Discrete Analysis](http://discreteanalysisjournal.com/)
 ,- [biOverlay](https://www.bioverlay.org/post/welcome/)[
 
 **Research Articles and Reports**
@@ -993,90 +1003,43 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 **Key posts**
 
-- [Good practices for university open-access
-,policies](https://cyber.harvard.edu/hoap/Good_practices_for_university_open-access_policies),
-,Harvard University, 2017
-- [Open Access Policy concerning UNESCO
-,publications](http://www.unesco.org/new/fileadmin/MULTIMEDIA/HQ/ERI/pdf/oa_policy_rev2.pdf),
-,UNESCO
-- [A genealogy of open access: negotiations between openness and
-,access to
-,research](http://journals.openedition.org/rfsic/3220),
-,Samuel Moore
-- [Open access and development: Research
-,findings](http://blogs.worldbank.org/voices/open-order-end-extreme-poverty-open-access-and-development-research-findings),
-,Elisa Liberatori Prati
-- [DOAJ APC information as of Jan 31,
-,2018](https://sustainingknowledgecommons.org/2018/02/06/doaj-apc-information-as-of-jan-31-2018/),
-,Heather Morrison
-- [Open access policies and mandates around the
-,globe](https://www.editage.com/insights/open-access-policies-and-mandates-around-the-globe?utm_source=twitter&utm_medium=referral&utm_campaign=OpenAccessWeek),
-,Jayashree Rajagopalan
+- [Good practices for university open-access policies](https://cyber.harvard.edu/hoap/Good_practices_for_university_open-access_policies), Harvard University
+- [Open Access Policy concerning UNESCO publications](http://www.unesco.org/new/fileadmin/MULTIMEDIA/HQ/ERI/pdf/oa_policy_rev2.pdf), UNESCO
+- [A genealogy of open access: negotiations between openness and access to research](http://journals.openedition.org/rfsic/3220), Samuel Moore
+- [Open access and development: Research findings](http://blogs.worldbank.org/voices/open-order-end-extreme-poverty-open-access-and-development-research-findings) ,Elisa Liberatori Prati
+- [DOAJ APC information as of Jan 31, 2018](https://sustainingknowledgecommons.org/2018/02/06/doaj-apc-information-as-of-jan-31-2018/), Heather Morrison
+- [Open access policies and mandates around the globe](https://www.editage.com/insights/open-access-policies-and-mandates-around-the-globe?utm_source=twitter&utm_medium=referral&utm_campaign=OpenAccessWeek), Jayashree Rajagopalan
 
 **Other**
 
-- [OpenDOAR](http://www.opendoar.org/)[
-,(Directory of Open Access Repositories) and the
-,][Registry of Open Access Repository
-,Mandates and
-,Policies](http://roarmap.eprints.org/)[
-,(ROARMAP)
-- [UK Scholarly Communications Licence and model
-,policy](http://ukscl.ac.uk/)[
-,(UKSCL)
-- [Directory of Open Access
-,Books](http://www.doab.org/)[
-,(DOAB)
-- [Knowledge
-,Unlatched](http://www.knowledgeunlatched.org/)[
-- [Compact on Open-Access Publishing
-,Equity](http://www.oacompact.org/)[.
-,]
-- [Quality Open Access
-,Market](https://www.qoam.eu/)[
-- [Scientific Electronic Library
-,Online](http://www.scielo.org/php/index.php?lang=en),
-,SciELO
-- [SCOAP3](https://scoap3.org/)[ --
-,Sponsoring Consortium for Open Access Publishing in Particle
-,Physics
-- [SPARC article and data sharing requirements by federal
-,agency](http://researchsharing.sparcopen.org/)[
-- [Open APC
-,initiative](https://treemaps.intact-project.org/),
-,information on fees paid for OA journal articles by universities and
-,research institutions under an Open Database
-,License
-- [Free Journal
-,Network](http://freejournals.org/)[
-- [Information Note: Towards a Horizon 2020 platform for Open
-,Access](https://ec.europa.eu/research/openscience/pdf/information_note_platform_public.pdf),
-,European Commission
-- [Declarations in Support of Open
-,Access](http://oad.simmons.edu/oadwiki/Declarations_in_support_of_OA)[
-,-- the Open Access Directory
-,- [The ][Budapest Open Access
-,,Initiative](http://www.budapestopenaccessinitiative.org/)[
-- [HRCAK](https://hrcak.srce.hr/?lang=en)[
-,Repository of the Croatian OA journals
+- [OpenDOAR](http://www.opendoar.org/), Directory of Open Access Repositories
+- [ROARMAP](http://roarmap.eprints.org/), Registry of Open Access Repository Mandates and Policies
+- [UK Scholarly Communications Licence and model policy](http://ukscl.ac.uk/), UKSCL
+- [Directory of Open Access Books](http://www.doab.org/), DOAB
+- [Knowledge Unlatched](http://www.knowledgeunlatched.org/)
+- [Compact on Open-Access Publishing Equity](http://www.oacompact.org/)
+- [Quality Open Access Market](https://www.qoam.eu/)
+- [Scientific Electronic Library Online](http://www.scielo.org/php/index.php?lang=en), SciELO
+- [SCOAP3](https://scoap3.org/), Sponsoring Consortium for Open Access Publishing in Particle Physics
+- [SPARC article and data sharing requirements by federal agency](http://researchsharing.sparcopen.org/)
+- [Open APC initiative](https://treemaps.intact-project.org/), information on fees paid for OA journal articles by universities and research institutions under an Open Database License
+- [Free Journal Network](http://freejournals.org/), 
+- [Information Note: Towards a Horizon 2020 platform for Open Access](https://ec.europa.eu/research/openscience/pdf/information_note_platform_public.pdf), European Commission
+- [Declarations in Support of Open Access](http://oad.simmons.edu/oadwiki/Declarations_in_support_of_OA), the Open Access Directory
+ - [The Budapest Open Access Initiative](http://www.budapestopenaccessinitiative.org/)
+- [HRCAK](https://hrcak.srce.hr/), Repository of the Croatian OA journals
 
 ------------------------------------------------------------------------
 
-**7: Open Evaluation**
+**7: Open Evaluation** <a name="seven"></a>
 
 **Tools**
 
-- [Peer review report
-,template](https://www.authorea.com/templates/peer_review_report_template),
-,Authorea
-- [Eigenfactor](http://www.eigenfactor.org/index.php)[
-,project
-- [Publons
-,Academy](https://publons.com/community/academy)[
-- [Metrics
-,Toolkit](http://www.metrics-toolkit.org/)[
-- [Open
-,Badges](https://openbadges.org/)[
+- [Peer review report template](https://www.authorea.com/templates/peer_review_report_template), Authorea
+- [Eigenfactor project](http://www.eigenfactor.org/index.php)
+- [Publons Academy](https://publons.com/community/academy)
+- [Metrics Toolkit](http://www.metrics-toolkit.org/)
+- [Open Badges](https://openbadges.org/)
 
 **Research Articles and Reports**
 
@@ -1184,74 +1147,36 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 **Key posts**
 
-- [Six essential reads on peer
-,review](http://asapbio.org/six-essential-reads-on-peer-review),
-,ASAPbio
-- [Peer reviews are open for registering at
-,Crossref](https://www.crossref.org/blog/peer-reviews-are-open-for-registering-at-crossref/),
-,Jennifer Lin
-- [Why we don't sign our peer
-,reviews](http://www.molecularecologist.com/2014/04/why-we-dont-sign/),
-,Jeremy Yoder
-- [The Fractured Logic of Blinded Peer Review in
-,Journals](http://blogs.plos.org/absolutely-maybe/2017/10/31/the-fractured-logic-of-blinded-peer-review-in-journals/),
-,Hilda Bastian
-- [The peer review process: challenges and
-,progress](https://www.editage.com/insights/the-peer-review-process-challenges-and-progress),
-,Irene Hames
-- [Responsible metrics: Where it's
-,at?](https://thebibliomagician.wordpress.com/2018/02/16/responsible-metrics-where-its-at/),
-,Lizzie Gadd
-- [Goodhart's Law and why measurement is
-,hard](https://www.ribbonfarm.com/2016/06/09/goodharts-law-and-why-measurement-is-hard/),
-,David Manheim
-- [Academe's prestige problem: We're all complicit in perpetuating a
-,rigged
-,system](https://www.chronicle.com/article/Academe-s-Prestige-Problem/241432),
-,Maximillian Alvarez
-- [Let's move beyond the rhetoric: it's time to change how we judge
-,research](https://www.nature.com/articles/d41586-018-01642-w),
-,Stephen Curry
-- [Blockchain offers a true route to a scholarly
-,commons](https://www.researchresearch.com/news/article/?articleId=1373351),
-,Lambert Heller
+- [Six essential reads on peer review](http://asapbio.org/six-essential-reads-on-peer-review), ASAPbio
+- [Peer reviews are open for registering at Crossref](https://www.crossref.org/blog/peer-reviews-are-open-for-registering-at-crossref/), Jennifer Lin
+- [Why we don't sign our peer reviews](http://www.molecularecologist.com/2014/04/why-we-dont-sign/), Jeremy Yoder
+- [The Fractured Logic of Blinded Peer Review in Journals](http://blogs.plos.org/absolutely-maybe/2017/10/31/the-fractured-logic-of-blinded-peer-review-in-journals/), Hilda Bastian
+- [The peer review process: challenges and progress](https://www.editage.com/insights/the-peer-review-process-challenges-and-progress), Irene Hames
+- [Responsible metrics: Where it's at?](https://thebibliomagician.wordpress.com/2018/02/16/responsible-metrics-where-its-at/), Lizzie Gadd
+- [Goodhart's Law and why measurement is hard](https://www.ribbonfarm.com/2016/06/09/goodharts-law-and-why-measurement-is-hard/), David Manheim
+- [Academe's prestige problem: We're all complicit in perpetuating a rigged system](https://www.chronicle.com/article/Academe-s-Prestige-Problem/241432), Maximillian Alvarez
+- [Let's move beyond the rhetoric: it's time to change how we judge research](https://www.nature.com/articles/d41586-018-01642-w) ,Stephen Curry
+- [Blockchain offers a true route to a scholarly commons](https://www.researchresearch.com/news/article/?articleId=1373351), Lambert Heller
 
 **Other**
 
-- [Metrics and Research
-,Assessment](https://www.scienceopen.com/search#collection/78c15291-27e3-493a-99ec-7e5a00387745),
-,ScienceOpen collection
-- [The Open Access Citation
-,Advantage](https://www.scienceopen.com/search#collection/996823e0-8104-4490-b26a-f2f733f810fb),
-,ScienceOpen collection
-- [Citation Behaviour and
-,Practice](https://www.scienceopen.com/search#collection/2d601af5-aa90-4c63-9a11-85f2dc768868),
-,ScienceOpen collection
-- [Scholarly Publication Practices and Impact Factor Calculation and
-,Manipulation](https://www.scienceopen.com/search#collection/e4870106-eea5-4ba3-88cf-e769c7d49ebe),
-,ScienceOpen collection
-- [Peer Review in the Age of Open
-,Science](https://www.slideshare.net/OpenAIRE_eu/peer-review-in-the-age-of-open-science),
-,Tony Ross-Hellauer, 2017
-- [The San Francisco Declaration on Research
-,Assessment](http://www.ascb.org/dora/)[
-,(DORA) and ][Leiden
-,Manifesto](http://www.leidenmanifesto.org/)[
-- [The ][Humane Metrics
-,Initiative](http://humetricshss.org/about/)[
-- [Open Research
-,Badges](https://openresearchbadges.org/)[
-- [OpenUpHub must
-,reads](https://www.openuphub.eu/review/must-reads)[
-- [NISO Alternative Assessment Metrics (Altmetrics)
-,Initiative](http://www.niso.org/standards-committees/altmetrics)[
-- [Snowball
-,Metrics](https://www.snowballmetrics.com/),
-,standardized research metrics
+- [Metrics and Research Assessment](https://www.scienceopen.com/search#collection/78c15291-27e3-493a-99ec-7e5a00387745), ScienceOpen collection
+- [The Open Access Citation Advantage](https://www.scienceopen.com/search#collection/996823e0-8104-4490-b26a-f2f733f810fb), ScienceOpen collection
+- [Citation Behaviour and Practice](https://www.scienceopen.com/search#collection/2d601af5-aa90-4c63-9a11-85f2dc768868), ScienceOpen collection
+- [Scholarly Publication Practices and Impact Factor Calculation and Manipulation](https://www.scienceopen.com/search#collection/e4870106-eea5-4ba3-88cf-e769c7d49ebe),
+ ScienceOpen collection
+- [Peer Review in the Age of Open Science](https://www.slideshare.net/OpenAIRE_eu/peer-review-in-the-age-of-open-science), Tony Ross-Hellauer, 2017
+- [The San Francisco Declaration on Research Assessment](http://www.ascb.org/dora/) (DORA) 
+- [The Leiden Manifesto](http://www.leidenmanifesto.org/)
+- [The Humane Metrics Initiative](http://humetricshss.org/about/)
+- [Open Research Badges](https://openresearchbadges.org/)
+- [OpenUpHub must reads](https://www.openuphub.eu/review/must-reads)
+- [NISO Alternative Assessment Metrics (Altmetrics) Initiative](http://www.niso.org/standards-committees/altmetrics)
+- [Snowball Metrics](https://www.snowballmetrics.com/), standardized research metrics
 
 ------------------------------------------------------------------------
 
-**8: Public Engagement with Science**
+**8: Public Engagement with Science** <a name="eight"></a>
 
 **Tools**
 
@@ -1308,7 +1233,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 ------------------------------------------------------------------------
 
-**9: Open Educational Resources**
+**9: Open Educational Resources** <a name="nine"></a>
 
 - [Open Education Handbook](https://en.wikibooks.org/wiki/Open_Education_Handbook), CC BY 4.0
 - [Open Education Handsheet](https://sparcopen.org/wp-content/uploads/2017/04/Open-Education-Fact-Sheet_SPARC.11.10-2.pdf), SPARC
@@ -1397,7 +1322,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 ------------------------------------------------------------------------
 
-**10: Open Advocacy**
+**10: Open Advocacy** <a name="ten"></a>
 
 **Tools**
 
