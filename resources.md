@@ -76,62 +76,23 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 **Other**
 
-- [The Open Science
-,Manifesto](https://ocsdnet.org/manifesto/open-science-manifesto/),
-,OCSD Net
-- [The Open
-,Definition](http://opendefinition.org/),
-,The Open Knowledge Foundation
-- [Vienna
-,Principles](http://viennaprinciples.org/)[:
-,A vision for scholarly communication
-- [Summer School Open Science
-,course](https://www.utrechtsummerschool.nl/courses/science/open-science-and-scholarship-changing-your-research-workflow),
-,Utrecht University
-- [A short lecture on Open
-,Licensing](https://figshare.com/articles/A_short_lecture_on_Open_Licensing/4516892/1)[
-,(Lorena, 2017; presenter notes also on
-,][SpeakerDeck](https://speakerdeck.com/labarba/a-short-lecture-on-open-licensing)[.
-,][Bonus
-,interview](http://rtalbert.org/blog/2015/interview-lorena-barba)[)
-- [The Panton Principles of Open
-,Science](https://en.wikipedia.org/wiki/Panton_Principles)[
-- [List of advocacy organisations for Open
-,Access](http://oad.simmons.edu/oadwiki/Advocacy_organizations_for_OA),
-,Open Access Directory
-- [OpenCitations](http://opencitations.net/)[
-,and the ][Initiative for Open
-,Citations](https://i4oc.org/)[
-,(I4OC)
-- [The Knowledge Gap: Geopolitics of Academic
-,Production](http://knowledgegap.org/)[
-- [The Open Archives
-,Initiative](https://www.openarchives.org/)[
-,-- Standards for Web content
-,interoperability
-- [Force11 ][Scholarly Commons Working
-,Group charters
-,database](https://docs.google.com/spreadsheets/d/1-aRXFiRg-VL9hpLpxoJqX6-OC-A0R2oCogHfIx52Nug/edit#gid=956616118)[
-- [Open Science
-,101](https://github.com/OKScienceDE/Open_Science_101),
-,Konrad FÃ¶rstner (CC0)
-- [101 Innovations in Scholarly
-,Communication](https://101innovations.wordpress.com/),
-,Bianca Kramer and Jeroen Bosman
-,(][interactive
-,version](https://bmkramer.databox.me/Public/Wheel_of_Open_Science/)[)
-- [Open Science
-,101](https://github.com/OKScienceDE/Open_Science_101)[
-,(OK Science Deutschland)
-- [European Open Science
-,Cloud](http://ec.europa.eu/research/openscience/index.cfm?pg=open-science-cloud)[
-,(EOSC)
-- [Open Research
-,2015](https://courses.p2pu.org/en/courses/3230/open-research-2015/)[
-,(P2PU)
-,- [The accompanying
-,,textbook](https://openresearch.pressbooks.com/)[
-,,(Pitt et al., 2016)
+- [The Open Science Manifesto](https://ocsdnet.org/manifesto/open-science-manifesto/), OCSD Net
+- [The Open Definition](http://opendefinition.org/), The Open Knowledge Foundation
+- [Vienna Principles](http://viennaprinciples.org/), A vision for scholarly communication
+- [Summer School Open Science course](https://www.utrechtsummerschool.nl/courses/science/open-science-and-scholarship-changing-your-research-workflow), Utrecht University
+- [A short lecture on Open Licensing](https://figshare.com/articles/A_short_lecture_on_Open_Licensing/4516892/1), Barba, 2017; presenter notes also on [SpeakerDeck](https://speakerdeck.com/labarba/a-short-lecture-on-open-licensing), [Bonus interview](http://rtalbert.org/blog/2015/interview-lorena-barba)
+- [The Panton Principles of Open Science](https://en.wikipedia.org/wiki/Panton_Principles)
+- [List of advocacy organisations for Open Access](http://oad.simmons.edu/oadwiki/Advocacy_organizations_for_OA), Open Access Directory
+- [OpenCitations](http://opencitations.net/) and the [Initiative for Open Citations](https://i4oc.org/) (I4OC)
+- [The Knowledge Gap: Geopolitics of Academic Production](http://knowledgegap.org/)
+- [The Open Archives Initiative](https://www.openarchives.org/)
+- [Force11 Scholarly Commons Working Group charters database](https://docs.google.com/spreadsheets/d/1-aRXFiRg-VL9hpLpxoJqX6-OC-A0R2oCogHfIx52Nug/edit#gid=956616118)
+- [Open Science 101](https://github.com/OKScienceDE/Open_Science_101), Konrad Förstner (CC0)
+- [101 Innovations in Scholarly Communication](https://101innovations.wordpress.com/), Bianca Kramer and Jeroen Bosman; [interactive version](https://bmkramer.databox.me/Public/Wheel_of_Open_Science/)
+- [Open Science 101](https://github.com/OKScienceDE/Open_Science_101), OK Science Deutschland
+- [European Open Science Cloud](http://ec.europa.eu/research/openscience/index.cfm?pg=open-science-cloud) (EOSC)
+- [Open Research 2015](https://courses.p2pu.org/en/courses/3230/open-research-2015/), P2PU
+ - [The accompanying textbook](https://openresearch.pressbooks.com/), Pitt et al., 2016
 
 ------------------------------------------------------------------------
 
