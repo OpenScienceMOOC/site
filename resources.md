@@ -99,89 +99,40 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 **Tools**
 
-- [Mozilla Science study group
-,lessons](https://github.com/mozillascience/studyGroupLessons/issues)[
-,- [Working Open
-,,Workshop](https://github.com/mozillascience/working-open-workshop),
-,,Mozilla Science Lab
-- [Overleaf](https://www.overleaf.com/),
-,][Authorea](https://www.authorea.com/product),
-,][PaperHive](https://paperhive.org/),
-,][Figshare](https://figshare.com/),
-,][ScienceOpen](https://www.scienceopen.com/),
-,][Hypothes.is](https://web.hypothes.is/),
-,][Protocols.io](https://www.protocols.io/)[
-- [Open Science
-,Framework](https://osf.io/)[ (OSF),
-,][Center for Open
-,Science](https://cos.io/)[
-,(COS)
-- [ScholarlyHub](https://www.scholarlyhub.org/),
-,][Academia.edu](https://www.academia.edu/),
-,][ResearchGate](https://www.researchgate.net/),
-,][Humanities
-,Commons](https://hcommons.org/)[
-- [Discipline-specific platform examples:]
-,- [NMR Lipids
-,,Project](http://nmrlipids.blogspot.de/)[:
-,,Collaboration platform to find a lipid force field that matches
-,,NMR order parameters[\
-,,][Synapse](http://synapse.org/)[:
-,,open source, free to use, goals of enabling open science and
-,,collaborative research in real-time, integrates with R/Python
-,,via analytic clients, and has advanced data access controls for
-,,sharing human subjects data
-,- [HackMD](https://hackmd.io/)[: can
-,,be used to clean up other collaboratively written documents
-,,before conversion to markdown files and archived in
-,,GitHub
-,- [Leishmaniasis Virtual
-,,Laboratory](http://lvl.i3m.upv.es/#home)[
-,- [The Open Source Malaria
-,,project](http://opensourcemalaria.org/)[
-,- [Benchling](https://benchling.com/)[
-,- [Tools for open geospatial science
-,,course](https://ncsu-geoforall-lab.github.io/open-science-course/)[
-,,(NCSU)
-- [Google
-,docs](https://docs.google.com/document/u/0/)[
-,(and sheets and slides)
-- [CRediT](http://docs.casrai.org/CRediT),
-,defining contributor roles in research outputs
-,(CASRAI)
-- [Quartzy](https://www.quartzy.com/), a
-,lab management platform
+- [Mozilla Science study group lessons](https://github.com/mozillascience/studyGroupLessons/issues)
+ - [Working Open Workshop](https://github.com/mozillascience/working-open-workshop), Mozilla Science Lab
+- [Overleaf](https://www.overleaf.com/), for collaborative writing in LaTeX
+- [HackMD](https://hackmd.io/), can be used to clean up other collaboratively written documents before conversion to markdown files and archived in GitHub
+- [Authorea](https://www.authorea.com/), for collaborative writing
+- [PaperHive](https://paperhive.org/), for collaborative annotation
+- [Figshare](https://figshare.com/), for sharing all sorts of research outputs
+- [ScienceOpen](https://www.scienceopen.com/), a discovery and open science platform
+- [Hypothes.is](https://web.hypothes.is/), for Web annotation
+- [Protocols.io](https://www.protocols.io/), for sharing research protocols
+- [Open Science Framework](https://osf.io/) (OSF), [Center for Open Science](https://cos.io/) (COS)
+- [ScholarlyHub](https://www.scholarlyhub.org/)
+- [Google docs](https://docs.google.com/document/u/0/)
+- [Quartzy](https://www.quartzy.com/), a lab management platform
+- Discipline-specific platform examples:
+ - [NMR Lipids Project](http://nmrlipids.blogspot.de/), Collaboration platform to find a lipid force field that matches NMR order parameters
+ - [Synapse](http://synapse.org/), open source, free to use, goals of enabling open science and collaborative research in real-time, integrates with R/Python via analytic clients, and has advanced data access controls for sharing human subjects data
+ - [Humanities Commons](https://hcommons.org/)
+ - [Leishmaniasis Virtual Laboratory](http://lvl.i3m.upv.es/#home)
+ - [The Open Source Malaria project](http://opensourcemalaria.org/)
+ - [Benchling](https://benchling.com/
+ - [Tools for open geospatial science course](https://ncsu-geoforall-lab.github.io/open-science-course/), NCSU
+- [CRediT](http://docs.casrai.org/CRediT), defining contributor roles in research outputs (CASRAI)
 
 **Research Articles and Reports**
 
-- [Virtual research environment collaborative landscape
-,study](https://www.webarchive.org.uk/wayback/archive/20140615234259/http://www.jisc.ac.uk/media/documents/publications/vrelandscapereport.pdf)[
-,(Carusi and Reimer, 2010; JISC)]
-- [Virtual research environments: An overview and research
-,agenda](https://www.jstage.jst.go.jp/article/dsj/12/0/12_GRDI-013/_article/-char/ja/)[
-,(Candela et al., 2013)
-- [Creating and maintaining high-performance collaborative research
-,teams: the importance of diversity and interpersonal
-,skills](http://onlinelibrary.wiley.com/doi/10.1890/130001/full?wol1URL=/doi/10.1890/130001/full&regionCode=DE-BE&identityKey=7b1fdb0f-b092-4ce4-8fe6-14c943f803f6)[
-,(Cheruvelil et al., 2014)
-- [Collaborative research and development (R&D) for climate
-,technology transfer and uptake in developing countries: Towards a
-,needs driven
-,approach](http://sro.sussex.ac.uk/49408/1/RD_paper_Ockwell.pdf)[
-,(Ockwell et al., 2014)
-- [Multinational teams and diseconomies of scale in collaborative
-,research](http://advances.sciencemag.org/content/1/8/e1500211)[
-,(Hsiehchen et al., 2015)
-- [Ten simple rules for establishing international research
-,collaborations](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004311)[
-,(de Grijs, 2015)
-- [Collaborative research and the co-production of knowledge for
-,practice: an illustrative case
-,study](https://implementationscience.biomedcentral.com/articles/10.1186/s13012-016-0383-9)[
-,(Heaton et al., 2016)
-- [Current reflections on collaborative and engaged
-,research](http://jrp.icaap.org/index.php/jrp/article/view/518)[
-,(Rodrigues et al., 2017)
+- [Virtual research environment collaborative landscape study](https://www.webarchive.org.uk/wayback/archive/20140615234259/http://www.jisc.ac.uk/media/documents/publications/vrelandscapereport.pdf), Carusi and Reimer, 2010; JISC
+- [Virtual research environments: An overview and research agenda](https://www.jstage.jst.go.jp/article/dsj/12/0/12_GRDI-013/_article/-char/ja/), Candela et al., 2013
+- [Creating and maintaining high-performance collaborative research teams: the importance of diversity and interpersonal skills](http://onlinelibrary.wiley.com/doi/10.1890/130001/full?wol1URL=/doi/10.1890/130001/full&regionCode=DE-BE&identityKey=7b1fdb0f-b092-4ce4-8fe6-14c943f803f6), Cheruvelil et al., 2014
+- [Collaborative research and development (R&D) for climate technology transfer and uptake in developing countries: Towards a needs driven approach](http://sro.sussex.ac.uk/49408/1/RD_paper_Ockwell.pdf), Ockwell et al., 2014
+- [Multinational teams and diseconomies of scale in collaborative research](http://advances.sciencemag.org/content/1/8/e1500211), Hsiehchen et al., 2015
+- [Ten simple rules for establishing international research collaborations](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004311), de Grijs, 2015
+- [Collaborative research and the co-production of knowledge for practice: an illustrative case study](https://implementationscience.biomedcentral.com/articles/10.1186/s13012-016-0383-9), Heaton et al., 2016
+- [Current reflections on collaborative and engaged research](http://jrp.icaap.org/index.php/jrp/article/view/518), Rodrigues et al., 2017
 
 **Key Posts**
 
