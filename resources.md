@@ -1,10 +1,10 @@
 ---
+title: "Resources"
+header-img: img/home-bg.jpg
 layout: page
-title: "Resources" 
 logo: /img/logos/mooc_logo.png
-description: "Open Science Resources" 
-header-img: "img/home-bg.jpg"
-ordernumber: 3 
+ordernumber: 3
+description: Open Science Resources
 ---
 
 ## Module list
@@ -36,7 +36,6 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [Rainbow of Open Science practices](https://zenodo.org/record/1147025#.Wnib8yXwaM8), Kramer and Bosman, 2018
 - [Creative Commons license Chooser](https://creativecommons.org/choose/)
 - [Open Content](https://meta.wikimedia.org/wiki/Open_Content_-_A_Practical_Guide_to_Using_Creative_Commons_Licences/The_Creative_Commons_licencing_scheme)
-- A practical guide to using Creative Commons licenses/the Creative Commons licensing scheme
 - [Open Research glossary](http://www.righttoresearch.org/resources/OpenResearchGlossary/index.shtml), Right to Research Coalition
 - [Scholarly Communications super-collection](https://www.scienceopen.com/search#collection/69988c7e-1855-4007-ba94-caa4c4638b1f), ScienceOpen
 
@@ -54,7 +53,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [When will 'open science' become simply 'science'?](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0669-2), Watson, 2015
 - [How does one "open" science? Questions of value in biological research](http://journals.sagepub.com/doi/10.1177/0162243916672071), Levin and Leonelli, 2016
 - [Big Data: A Report on Algorithmic Systems, Opportunity, and Civil Rights](https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/2016_0504_data_discrimination.pdf), White House, 2016
-- [Providing researchers with the skills and competencies they need to practice Open Science: Open Science Skills Working Group ,Report](https://ec.europa.eu/research/openscience/pdf/os_skills_wgreport_final.pdf#view=fit&pagemode=none), European Commission, 2017
+- [Providing researchers with the skills and competencies they need to practice Open Science: Open Science Skills Working Group Report](https://ec.europa.eu/research/openscience/pdf/os_skills_wgreport_final.pdf), European Commission, 2017
 - [Do you speak open science? Resources and tips to learn the language](https://peerj.com/preprints/2689/), Masuzzo and Martens, 2017
 - [Early-career researchers' perceptions of the prevalence of questionable research practices, potential causes, and Open Science](https://econtent.hogrefe.com/doi/full/10.1027/1864-9335/a000324), Starmer et al., 2017
 - [Making Science Transparent By Default; Introducing the TOP Statement](https://osf.io/sm78t/), Aalbersberg et al., 2018
