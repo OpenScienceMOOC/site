@@ -19,4 +19,4 @@ Now that you are an expert at applying Open Science at each step of your researc
 * The research will prepare an open science statement to distribute to administrative staff at their research institute, as well as any other relevant local stakeholders.
 * Together with like-minded colleagues, the researcher will start the ‘open access conversation’ with the editorial board of a relevant journal in their field.
 
-[_Resources_](http://opensciencemooc.eu/open-science-resources/#ten)
+[_Resources_](http://opensciencemooc.eu/resources/#ten)

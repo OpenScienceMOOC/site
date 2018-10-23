@@ -11,7 +11,7 @@ ordernumber: 5
 
 # Open Research Software and Open Source
 
-**STATUS**: The first release for this module is now ready, and has been published on Zenodo: 
+**STATUS**: The first release for this module is now ready, and has been published on Zenodo:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1325081.svg)](https://doi.org/10.5281/zenodo.1325081)
 
@@ -30,4 +30,4 @@ developments come with a specific ethical, legal and economic challenges that im
 * Individual researchers will be able to transform code designed for their personal
 use into code that is accessible and re-usable by others.
 
-[_Resources_](http://opensciencemooc.eu/open-science-resources/#five)
+[_Resources_](http://opensciencemooc.eu/resources/#five)

@@ -18,4 +18,4 @@ Virtual Research Environments (VRE) are the way of the future in collaboration a
 * After deciding what works optimally for their workflow, the researcher will be able to use collaborative tools such as GitHub and the Open Science Framework for increased collaboration for the research process, writing/authoring, and sharing your research outputs.
 * The researcher will be able to collaborate with colleagues to annotate preprints or other published articles, and share this discussion with the original authors and wider research community.
 
-[_Resources_](http://opensciencemooc.eu/open-science-resources/#two)
+[_Resources_](http://opensciencemooc.eu/resources/#two)

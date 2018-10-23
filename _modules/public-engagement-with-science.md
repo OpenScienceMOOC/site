@@ -21,4 +21,4 @@ of citizen science and public engagement with science.
 * Each researcher will be able to identify relevant press/communication contacts at their institute, and be able to convey to them why their research is of importance for wider dissemination.
 * The researcher will be able to write a blog post or non-specialist summary about either their own research or research that they are familiar with, and communicate this to wider non-academic audiences.
 
-[_Resources_](http://opensciencemooc.eu/open-science-resources/#eight)
+[_Resources_](http://opensciencemooc.eu/resources/#eight)

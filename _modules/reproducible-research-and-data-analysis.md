@@ -18,4 +18,4 @@ own set of challenges, which include designing workflows that can be adopted by 
 * Researchers will be able to describe the key factors that affect the reproducibility of research, including workflow design, data management, and reporting.
 * The researcher will be able to use a range of resources to create and implement a workflow for reproducible research, including using lab notebooks and tools for sharing code and data.
 
-[_Resources_](http://opensciencemooc.eu/open-science-resources/#three)
+[_Resources_](http://opensciencemooc.eu/resources/#three)

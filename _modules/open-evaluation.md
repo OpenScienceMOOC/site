@@ -21,4 +21,4 @@ traditional methods are emerging, and with these come a range of practical, ethi
 * The researcher will be able to use a range of services to build and demonstrate their personal research impact profile, both quantitatively and qualitatively.
 * The researcher will become familiar with the relevant criteria for research evaluation to them, and be able to have a critical discussion about them with their colleagues and those who drafted them.
 
-[_Resources_](http://opensciencemooc.eu/open-science-resources/#seven)
+[_Resources_](http://opensciencemooc.eu/resources/#seven)

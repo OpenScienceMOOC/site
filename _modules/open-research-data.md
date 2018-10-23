@@ -18,4 +18,4 @@ Open research data refers to the publishing the data underpinning scientific res
 * Researchers will be able to share their research data openly to a relevant public repository in a way that conforms to the FAIR principles.
 * The researcher will be able to locate and re-use datasets for their research from relevant disciplinary repositories.
 
-[_Resources_](http://opensciencemooc.eu/open-science-resources/#four)
+[_Resources_](http://opensciencemooc.eu/resources/#four)

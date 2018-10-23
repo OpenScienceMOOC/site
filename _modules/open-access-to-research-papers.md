@@ -22,4 +22,4 @@ Making scholarly research outputs openly available is easy, legal, and has demon
 * Researchers will be able to describe the current ebb and flow in the debates around preprints, and be able to locate and use relevant disciplinary preprint platforms.
 * Researchers will be able to use services like ImpactStory to track the proportion of their research that is Open Access.
 
-[_Resources_](http://opensciencemooc.eu/open-science-resources/#six)
+[_Resources_](http://opensciencemooc.eu/resources/#six)

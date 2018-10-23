@@ -23,4 +23,4 @@ To innovate in a field frequently implies moving against prevailing trends and c
 * Using the guidelines published by their research laboratories, departments, or institutes, researchers will identify the policies for career progression and assessment, publishing and open access, data sharing, and intellectual property.
 * Researchers will collaborate with colleagues and international peers to develop a shared definition of Open Science.
 
-[_Resources_](http://opensciencemooc.eu/open-science-resources/#one)
+[_Resources_](http://opensciencemooc.eu/resources/#one)
