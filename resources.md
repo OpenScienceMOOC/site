@@ -405,197 +405,81 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 **Tools**
 
-- [Think, Check,
-,Submit](http://thinkchecksubmit.org/)[
-,and ][Cofactor journal selector
-,tool](http://cofactorscience.com/journal-selector)[
-- [SPARC Author
-,Addendum](https://sparcopen.org/our-work/author-rights/brochure-html/)[
-,and the ][Termination of Transfer
-,tool](https://rightsback.org/), by
-,Authors Alliance and Creative Commons
-- [Open Access Journal
-,Whitelist](http://s-quest.bihealth.org:3838/OAWhitelist/),
-,QUEST Center. Contains biomedical open access journals that are
-,listed on the Directory of Open Access Journals (DOAJ) and Pubmed
-,Central
-- [Unpaywall](https://oadoi.org/),
-,][Open Access
-,Button](https://openaccessbutton.org/)[
-- [APCDOI](https://github.com/ryregier/APCDOI),
-,a program for determining how many DOIs are 'gold' or 'hybrid' Open
-,Access and how much was spent on the article processing charge (APC)
-,for these (Ryan Regier)
-- [Open Science
-,Framework](https://osf.io/preprints/)[
-,preprints and
-,][PrePubMed](http://www.prepubmed.org/)[.
-,Other repositories including:]
-,- [SSRN](https://ssrn.com/en/index.cfm?)[
-,,(Social Sciences Research Network)
-,- [ChemRxiv](https://chemrxiv.org/)[
-,,(Chemistry)
-,- [ESSOAr](https://www.essoar.org/)[
-,,(Earth Sciences)
-,- [Cogprints](http://www.cogprints.org/)[
-,,(Psychology, Neuroscience and
-,,Linguistics)
-- [CORE](https://core.ac.uk/), an
-,aggregator of 125 million Open Access
-,articles
-- [Social Science Open Access
-,Repository](https://www.gesis.org/ssoar/home/)[
-,(SSOAR)
-- [LOADB](http://www.loadb.org/), Listing
-,of Open Access Databases
-- [REDALYC](http://www.redalyc.org/home.oa),
-,network of scientific journals of Latin America and the Caribbean,
-,Spain and Portugal
-,- [LA
-,,Referencia](http://www.lareferencia.info/joomla/en/)[
-- [Language-specific servers:]
-,- [Aribixiv](https://arabixiv.org/)[
-,- [Frenxiv](https://frenxiv.org/)[
-,- [INA-Rxiv](https://osf.io/preprints/inarxiv/)[
-- [SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php)[
-,-- Publisher Copyright Policies and
-,Self-Archiving
-,- [DULCINEA](http://www.accesoabierto.net/dulcinea/)[
-,,(for Spanish journals)
-,- [HÃ©loÃ¯se](https://heloise.ccsd.cnrs.fr/)[
-,,(for French journals)
-- [SHERPA
-,Juliet](http://v2.sherpa.ac.uk/juliet/)[
-,-- Research Funders' Open Access
-,policies
-- [Wellcome Open
-,Research](https://wellcomeopenresearch.org/)[
-,and ][Gates Open
-,Research](https://gatesopenresearch.org/)[
-- [Open Access publishers:]
-,- [MDPI](http://www.mdpi.com/),
-,,][F1000](https://f1000research.com/),
-,,][Hindawi](https://www.hindawi.com/),
-,,][Cogent
-,,OA](https://www.cogentoa.com/),
-,,][Open Library of
-,,Humanities](https://olh.openlibhums.org/),
-,,][BioMed
-,,Central](https://www.biomedcentral.com/journals),
-,,][eLIFE](https://elifesciences.org/),
-,,][Frontiers](https://www.frontiersin.org/),
-,,][PLOS](https://www.plos.org/)[.
-,,]
-- [Open Knowledge
-,Maps](https://openknowledgemaps.org/)[
-- [PASTEUR4OA](http://www.pasteur4oa.eu/),
-,Open Access Policy Alignment Strategies for European Union
-,Research
-- [The Publishing
-,Trap](https://copyrightliteracy.org/resources/the-publishing-trap/)[
-,board game, to help researchers understand how money, intellectual
-,property rights, and both open and closed publishing models affect
-,the dissemination and impact of their work (UK Copyright
-,Literacy)
-- [Mathoverflow](https://mathoverflow.net/)[
-,and
-,][PhysicsOverflow](https://physicsoverflow.org/)[
-- [PubPub](https://www.pubpub.org/),
-,collaborative community publishing
-- [JSTOR](http://www.jstor.org/open/?cid=SOC_JSTOR),
-,a portal for open content
-- [Dimensions](https://www.dimensions.ai/),
-,for information on grants, publications, citations, clinical trials
-,and patents
-- [Preprint recommendation services:]
-,- [preLights](https://prelights.biologists.com/)[
-,- [Peer Community
-,,in](https://peercommunityin.org/)[
-- [Overlay journals:
- - [Open Journals](http://www.theoj.org/)[
-- [Discrete Analysis](http://discreteanalysisjournal.com/)
-,- [biOverlay](https://www.bioverlay.org/post/welcome/)[
+- [Think, Check, Submit](http://thinkchecksubmit.org/) and [Cofactor journal selector tool](http://cofactorscience.com/journal-selector)
+- [SPARC Author Addendum](https://sparcopen.org/our-work/author-rights/brochure-html/) and the [Termination of Transfer tool](https://rightsback.org/), by Authors Alliance and Creative Commons
+- [Open Access Journal Whitelist](http://s-quest.bihealth.org:3838/OAWhitelist/), QUEST Center. Contains biomedical open access journals that are listed on the Directory of Open Access Journals (DOAJ) and Pubmed Central
+- [Unpaywall](https://oadoi.org/) and the [Open Access Button](https://openaccessbutton.org/)
+- [APCDOI](https://github.com/ryregier/APCDOI), a program for determining how many DOIs are 'gold' or 'hybrid' Open Access and how much was spent on the article processing charges (APC) for these, Ryan Regier
+- [Open Science Framework](https://osf.io/preprints/) preprints and [PrePubMed](http://www.prepubmed.org/)
+- Other repositories including:
+ - [SSRN](https://ssrn.com/en/index.cfm?) (Social Sciences Research Network)
+ - [ChemRxiv](https://chemrxiv.org/), Chemistry
+ - [ESSOAr](https://www.essoar.org/), Earth Sciences
+ - [Cogprints](http://www.cogprints.org/), Psychology, Neuroscience and Linguistics
+ - [CORE](https://core.ac.uk/), an aggregator of 125 million Open Access articles
+ - [Social Science Open Access Repository](https://www.gesis.org/ssoar/home/) (SSOAR)
+- [LOADB](http://www.loadb.org/), Listing of Open Access Databases
+- [REDALYC](http://www.redalyc.org/home.oa), network of scientific journals of Latin America and the Caribbean, Spain and Portugal
+- [LA Referencia](http://www.lareferencia.info/joomla/en/)
+- Language-specific servers:
+ - [Aribixiv](https://arabixiv.org/)
+ - [Frenxiv](https://frenxiv.org/)
+ - [INA-Rxiv](https://osf.io/preprints/inarxiv/) 
+- [SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php), Publisher Copyright Policies and Self-Archiving
+- [DULCINEA](http://www.accesoabierto.net/dulcinea/), for Spanish journals
+- [HAL](https://heloise.ccsd.cnrs.fr/), for French journals
+- [SHERPA Juliet](http://v2.sherpa.ac.uk/juliet/),Research Funders' Open Access policies
+- [Wellcome Open Research](https://wellcomeopenresearch.org/) and [Gates Open Research](https://gatesopenresearch.org/)
+- Open Access publishers:
+ - [MDPI](http://www.mdpi.com/)
+ - [F1000](https://f1000research.com/)
+ - [Hindawi](https://www.hindawi.com/)
+ - [Cogent OA](https://www.cogentoa.com/)
+ - [Open Library of Humanities](https://olh.openlibhums.org/)
+ - [BioMed Central](https://www.biomedcentral.com/journals)
+ - [eLIFE](https://elifesciences.org/)
+ - [Frontiers](https://www.frontiersin.org/)
+ - [PLOS](https://www.plos.org/)
+- [Open Knowledge Maps](https://openknowledgemaps.org/)
+- [PASTEUR4OA](http://www.pasteur4oa.eu/), Open Access Policy Alignment Strategies for European Union Research
+- [The Publishing Trap](https://copyrightliteracy.org/resources/the-publishing-trap/), board game, to help researchers understand how money, intellectual property rights, and both open and closed publishing models affect the dissemination and impact of their work, UK Copyright Literacy
+- [Mathoverflow](https://mathoverflow.net/) and [PhysicsOverflow](https://physicsoverflow.org/)
+- [PubPub](https://www.pubpub.org/), collaborative community publishing
+- [JSTOR](http://www.jstor.org/open/?cid=SOC_JSTOR), a portal for open content
+- [Dimensions](https://www.dimensions.ai/), for information on grants, publications, citations, clinical trials and patents
+- Preprint recommendation services:
+ - [preLights](https://prelights.biologists.com/)
+ - [Peer Community in](https://peercommunityin.org/)
+- Overlay journals: 
+ - [Open Journals](http://www.theoj.org/)
+ - [Discrete Analysis](http://discreteanalysisjournal.com/)
+ - [biOverlay](https://www.bioverlay.org/post/welcome/)
 
 **Research Articles and Reports**
 
-- [The Nine Flavours of Open Access Scholarly
-,Publishing](http://www.jpgmonline.com/article.asp?issn=0022-3859;year=2003;volume=49;issue=3;spage=263;epage=267;aulast=Willinsky)[
-,(Willinsky, 2003)
-- [The Development of Open Access Journal Publishing from 1993 to
-,2009](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020961)[
-,(Laakso et al., 2011)
-- [A Study of Open Access Journals Using Article Processing
-,Charges](http://www.openaccesspublishing.org/apc2/preprint.pdf)[
-,(Solomon and BjÃ¶rk, 2012)
-- [Open Access (the
-,book)](https://cyber.harvard.edu/hoap/Open_Access_(the_book))[
-,(Suber, 2012)
-- [Anatomy of Green Open
-,Access](http://www.openaccesspublishing.org/apc8/Personal%20VersionGreenOa.pdf)[
-,(BjÃ¶rk et al., 2013)
-- [The case for open preprints in
-,biology](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001563)[
-,(Desjardins-Proulx et al., 2013)
-- [arXiv e-prints and the journal of record: An analysis of roles and
-,relationships](https://arxiv.org/abs/1306.3261)[
-,(LariviÃ¨re et al., 2013)]
-- [Proportion of Open Access Papers Published in Peer-Reviewed
-,Journals at the European and World
-,Levels---1996--2013](http://science-metrix.com/sites/default/files/science-metrix/publications/d_1.8_sm_ec_dg-rtd_proportion_oa_1996-2013_v11p.pdf)[
-,(European Commission, 2014)
-- [Disrupting the subscription journals' business model for the
-,necessary large-scale transformation to open
-,access](http://pubman.mpdl.mpg.de/pubman/faces/viewItemOverviewPage.jsp?itemId=escidoc:2148961)[
-,(Schimmer et al., 2015)
-- [Hybrid open access---A longitudinal
-,study](https://www.sciencedirect.com/science/article/pii/S1751157716301523?via%3Dihub)[
-,(Laakso and Bjork, 2016)
-- [Point of View: How open science helps researchers
-,succeed](https://elifesciences.org/articles/16800)[
-,(McKiernan et al., 2016)
-- [Converting scholarly journals to Open Access: A review of
-,approaches and
-,experiences](https://dash.harvard.edu/handle/1/27803834)[
-,(Solomon et al., 2016)
-- [The academic, economic and societal impacts of Open Access: an
-,evidence-based
-,review](https://f1000research.com/articles/5-632/v3)[
-,(Tennant et al., 2016)
-- [Open Access policies and Science Europe: State of
-,play](https://content.iospress.com/articles/information-services-and-use/isu839)[
-,(Crowfoot, 2017)
-- [Gold Open Access Publishing in Mega-Journals: Developing Countries
-,Pay the Price of Western Premium Academic
-,Output](https://research.vu.nl/ws/files/41184625/2017ellerscrowther_harvey_Gold_Open_Access_Publishing_in_Mega_Journals.pdf)[
-,(Ellers et al., 2017)
-- [Looking into Pandora's Box: The Content of Sci-Hub and its
-,Usage](https://f1000research.com/articles/6-541/v1)[
-,(Greshake, 2017)
-- [On the origin of nonequivalent states: How we can talk about
-,preprints](https://f1000research.com/articles/6-608/v1)[
-,(Neylon et al., 2017)
-- [Open Access and OER in Latin America: A survey of the policy
-,landscape in Chile, Colombia and
-,Uruguay](https://zenodo.org/record/1094840#.WoAX4SXwaM9)[
-,(Toledo, 2017)
-- [Research: Sci-Hub provides access to nearly all scholarly
-,literature](https://elifesciences.org/articles/32822)[
-,(Himmelstein et al., 2018)
-- [Converting the Literature of a Scientific Field to Open Access
-,Through Global Collaboration: the Experience of SCOAP3 in Particle
-,Physics](https://www.preprints.org/manuscript/201802.0149/v1)[
-,(Kohls and Mele, 2018)
-- [Open Access Initiatives and Networking in the Global
-,South](https://zenodo.org/record/1176573#.Wpf28WrwaM_)[
-,(Kuchma, 2018)
-- [The State of OA: A large-scale analysis of the prevalence and
-,impact of Open Access
-,articles](https://peerj.com/articles/4375/)[
-,(Piwowar et al., 2018)
-- [Authorial and institutional stratification in open access
-,publishing: the case of global health
-,research](https://peerj.com/articles/4269/)[
-,(Siler et al., 2018)
+- [The Nine Flavours of Open Access Scholarly Publishing](http://www.jpgmonline.com/article.asp?issn=0022-3859;year=2003;volume=49;issue=3;spage=263;epage=267;aulast=Willinsky), Willinsky, 2003
+- [The Development of Open Access Journal Publishing from 1993 to 2009](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0020961), Laakso et al., 2011
+- [A Study of Open Access Journals Using Article Processing Charges](http://www.openaccesspublishing.org/apc2/preprint.pdf), Solomon and Bjork, 2012
+- [Open Access (the book)](https://cyber.harvard.edu/hoap/Open_Access_(the_book)), Suber, 2012
+- [Anatomy of Green Open Access](http://www.openaccesspublishing.org/apc8/Personal%20VersionGreenOa.pdf), Bjork et al., 2013
+- [The case for open preprints in biology](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001563), Desjardins-Proulx et al., 2013
+- [arXiv e-prints and the journal of record: An analysis of roles and relationships](https://arxiv.org/abs/1306.3261), Lariviere et al., 2013
+- [Proportion of Open Access Papers Published in Peer-Reviewed Journals at the European and World Levels - 1996 - 2013](http://science-metrix.com/sites/default/files/science-metrix/publications/d_1.8_sm_ec_dg-rtd_proportion_oa_1996-2013_v11p.pdf), European Commission, 2014
+- [Disrupting the subscription journals' business model for the necessary large-scale transformation to open access](http://pubman.mpdl.mpg.de/pubman/faces/viewItemOverviewPage.jsp?itemId=escidoc:2148961), Schimmer et al., 2015
+- [Hybrid open access- A longitudinal study](https://www.sciencedirect.com/science/article/pii/S1751157716301523?via%3Dihub), Laakso and Bjork, 2016
+- [Point of View: How open science helps researchers succeed](https://elifesciences.org/articles/16800), McKiernan et al., 2016
+- [Converting scholarly journals to Open Access: A review of approaches and experiences](https://dash.harvard.edu/handle/1/27803834), Solomon et al., 2016
+- [The academic, economic and societal impacts of Open Access: an evidence-based review](https://f1000research.com/articles/5-632/v3), Tennant et al., 2016
+- [Open Access policies and Science Europe: State of play](https://content.iospress.com/articles/information-services-and-use/isu839), Crowfoot, 2017
+- [Gold Open Access Publishing in Mega-Journals: Developing Countries Pay the Price of Western Premium Academic Output](https://research.vu.nl/ws/files/41184625/2017ellerscrowther_harvey_Gold_Open_Access_Publishing_in_Mega_Journals.pdf), Ellers et al., 2017
+- [Looking into Pandora's Box: The Content of Sci-Hub and its Usage](https://f1000research.com/articles/6-541/v1), Greshake, 2017
+- [On the origin of nonequivalent states: How we can talk about preprints](https://f1000research.com/articles/6-608/v1), Neylon et al., 2017
+- [Open Access and OER in Latin America: A survey of the policy landscape in Chile, Colombia and Uruguay](https://zenodo.org/record/1094840#.WoAX4SXwaM9), Toledo, 2017
+- [Research: Sci-Hub provides access to nearly all scholarly literature](https://elifesciences.org/articles/32822), Himmelstein et al., 2018
+- [Converting the Literature of a Scientific Field to Open Access Through Global Collaboration: the Experience of SCOAP3 in Particle Physics](https://www.preprints.org/manuscript/201802.0149/v1), Kohls and Mele, 2018
+- [Open Access Initiatives and Networking in the Global South](https://zenodo.org/record/1176573#.Wpf28WrwaM_), Kuchma, 2018
+- [The State of OA: A large-scale analysis of the prevalence and impact of Open Access articles](https://peerj.com/articles/4375/), Piwowar et al., 2018
+- [Authorial and institutional stratification in open access publishing: the case of global health research](https://peerj.com/articles/4269/), Siler et al., 2018
 
 **Key posts**
 
@@ -639,107 +523,35 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 **Research Articles and Reports**
 
-- [Why the impact factor of journals should not be used for
-,evaluating
-,research](http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC2126010&blobtype=pdf)[
-,(Seglen, 1997)
-- [Effect of open peer review on quality of reviews and on reviewers'
-,recommendations: a randomised
-,trial](http://www.bmj.com/content/318/7175/23)[
-,(van Rooyen et al., 1999)
-- [A Reliability-Generalization Study of Journal Peer Reviews: A
-,Multilevel Meta-Analysis of Inter-Rater Reliability and Its
-,Determinants](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0014331)[
-,(Bornmann et al., 2010)
-- [Effect on peer review of telling reviewers that their signed
-,reviews might be posted on the web: randomised controlled
-,trial](http://www.bmj.com/content/341/bmj.c5729)[
-,(van Rooyen et al., 2010)
-- [Open peer review: A randomised controlled
-,trial](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/open-peer-review-a-randomised-controlled-trial/1F81447FC67B3BAFDCCCCE82B6C7A187)[
-,(Walsh et al., 2010)
-- [Deep impact: unintended consequences of journal
-,rank](https://www.frontiersin.org/articles/10.3389/fnhum.2013.00291/full)[
-,(Brembs et al., 2013)
-- **[Excellence by Nonsense: The Competition for Publications in
-,Modern
-,Science](https://link.springer.com/chapter/10.1007/978-3-319-00026-8_3)[
-,(Binswanger, 2014)**
-- [Attention! A study of open access vs non-open access
-,articles](https://figshare.com/articles/Attention_A_study_of_open_access_vs_non_open_access_articles/1213690)[
-,(Adie, 2014)
-- [Publishing: Credit where credit is
-,due](http://www.nature.com/news/publishing-credit-where-credit-is-due-1.15033)[
-,(Allen et al., 2014)
-- [The Metric
-,Tide](https://responsiblemetrics.org/the-metric-tide/)[
-,report (Wilsdon et al., 2015)
-- [Grand challenges in altmetrics: heterogeneity, data quality and
-,dependencies](https://arxiv.org/abs/1603.04939)[
-,(Haustein, 2016)
-- [Badges to Acknowledge Open Practices: A Simple, Low-Cost,
-,Effective Method for Increasing
-,Transparency](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002456)[
-,(Kidwell et al., 2016)
-- [A framework to monitor open science trends in the
-,EU](https://www.oecd.org/sti/063%20-%20OECD%20Blue%20Sky%202016_Open%20Science.pdf)[
-,(Smith et al., 2016)
-- [Peer Review Survey 2015: Key
-,Findings](http://publishingresearchconsortium.com/index.php/134-news-main-menu/prc-peer-review-survey-2015-key-findings/172-peer-review-survey-2015-key-findings)[
-,(Mark Ware Consulting, 2016)
-- [Point of View: How open science helps researchers
-,succeed](https://elifesciences.org/articles/16800)[
-,(McKiernan et al., 2016)
-- [Peer Review Quality and Transparency of the Peer-Review Process in
-,Open Access and Subscription
-,Journals](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0147913)[
-,(Wicherts, 2016)
-- [Next-generation metrics: Responsible metrics and evaluation for
-,open
-,science](https://ec.europa.eu/research/openscience/pdf/report.pdf)[
-,(European Commission, 2017)
-- [Evaluation of Research Careers fully acknowledging Open Science
-,Practices: Rewards, incentives and/or recognition for researchers
-,practicing Open
-,Science](https://ec.europa.eu/research/openscience/pdf/os_rewards_wgreport_final.pdf)[
-,(European Commission, 2017)
-- [Research: Gender bias in scholarly peer
-,review](https://elifesciences.org/articles/21718)[
-,(Helmer et al., 2017)
-- ["Excellence R Us": university research and the fetishisation of
-,excellence](https://www.nature.com/articles/palcomms2016105)[
-,(Moore et al., 2017)
-- [Metrics for
-,openness](https://researchcommons.waikato.ac.nz/handle/10289/10842)[
-,(Nichols and Twidale, 2017)
-- [What is open peer review? A systematic
-,review](https://f1000research.com/articles/6-588/v2)[
-,(Ross-Hellauer, 2017)
-- [Survey on open peer review: Attitudes and experience amongst
-,editors, authors and
-,reviewers](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189311)[
-,(Ross-Hellauer et al., 2017)
-- [A multi-disciplinary perspective on emergent and future
-,innovations in peer
-,review](https://f1000research.com/articles/6-1151/v3)[
-,(Tennant et al., 2017)
-- [Reviewer bias in single- versus double-blind peer
-,review](http://www.pnas.org/content/114/48/12708)[
-,(Tomkins et al., 2017)
-- [Prestigious science journals struggle to reach even average
-,reliability](https://www.frontiersin.org/articles/10.3389/fnhum.2018.00037/full)[
-,(Brembs, 2018)
-- [Making research evaluation more transparent: Aligning research
-,philosophy, institutional values, and
-,reporting](https://psyarxiv.com/48qux/)[
-,(Dougherty et al., 2018)
-- [Research excellence indicators: time to reimagine the 'making
-,of'?](https://academic.oup.com/spp/advance-article/doi/10.1093/scipol/scy007/4858431)[
-,(Ferretti et al., 2018)
-- [The Journal Impact Factor: A brief history, critique, and
-,discussion of adverse
-,effects](https://arxiv.org/abs/1801.08992)[
-,(Lariviere and Sugimoto, 2018)
+- [Why the impact factor of journals should not be used for evaluating research](http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC2126010&blobtype=pdf), Seglen, 1997
+- [Effect of open peer review on quality of reviews and on reviewers' recommendations: a randomised trial](http://www.bmj.com/content/318/7175/23), van Rooyen et al., 1999
+- [A Reliability-Generalization Study of Journal Peer Reviews: A Multilevel Meta-Analysis of Inter-Rater Reliability and Its Determinants](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0014331), Bornmann et al., 2010
+- [Effect on peer review of telling reviewers that their signed reviews might be posted on the web: randomised controlled trial](http://www.bmj.com/content/341/bmj.c5729), van Rooyen et al., 2010
+- [Open peer review: A randomised controlled trial](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/open-peer-review-a-randomised-controlled-trial/1F81447FC67B3BAFDCCCCE82B6C7A187), Walsh et al., 2010
+- [Deep impact: unintended consequences of journal rank](https://www.frontiersin.org/articles/10.3389/fnhum.2013.00291/full), Brembs et al., 2013
+- [Excellence by Nonsense: The Competition for Publications in Modern Science](https://link.springer.com/chapter/10.1007/978-3-319-00026-8_3), Binswanger, 2014
+- [Attention! A study of open access vs non-open access articles](https://figshare.com/articles/Attention_A_study_of_open_access_vs_non_open_access_articles/1213690), Adie, 2014
+- [Publishing: Credit where credit is due](http://www.nature.com/news/publishing-credit-where-credit-is-due-1.15033), Allen et al., 2014
+- [The Metric Tide](https://responsiblemetrics.org/the-metric-tide/) report, Wilsdon et al., 2015
+- [Grand challenges in altmetrics: heterogeneity, data quality and dependencies](https://arxiv.org/abs/1603.04939), Haustein, 2016
+- [Badges to Acknowledge Open Practices: A Simple, Low-Cost, Effective Method for Increasing Transparency](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002456), Kidwell et al., 2016
+- [A framework to monitor open science trends in the EU](https://www.oecd.org/sti/063%20-%20OECD%20Blue%20Sky%202016_Open%20Science.pdf), Smith et al., 2016
+- [Peer Review Survey 2015: Key Findings](http://publishingresearchconsortium.com/index.php/134-news-main-menu/prc-peer-review-survey-2015-key-findings/172-peer-review-survey-2015-key-findings), Mark Ware Consulting, 2016
+- [Point of View: How open science helps researchers succeed](https://elifesciences.org/articles/16800), McKiernan et al., 2016 
+- [Peer Review Quality and Transparency of the Peer-Review Process in Open Access and Subscription Journals](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0147913), Wicherts, 2016
+- [Next-generation metrics: Responsible metrics and evaluation for open science](https://ec.europa.eu/research/openscience/pdf/report.pdf), European Commission, 2017
+- [Evaluation of Research Careers fully acknowledging Open Science Practices: Rewards, incentives and/or recognition for researchers practicing Open Science](https://ec.europa.eu/research/openscience/pdf/os_rewards_wgreport_final.pdf), European Commission, 2017
+- [Research: Gender bias in scholarly peer review](https://elifesciences.org/articles/21718), Helmer et al., 2017
+- ["Excellence R Us": university research and the fetishisation of excellence](https://www.nature.com/articles/palcomms2016105), Moore et al., 2017
+- [Metrics for openness](https://researchcommons.waikato.ac.nz/handle/10289/10842), Nichols and Twidale, 2017
+- [What is open peer review? A systematic review](https://f1000research.com/articles/6-588/v2), Ross-Hellauer, 2017
+- [Survey on open peer review: Attitudes and experience amongst editors, authors and reviewers](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189311), Ross-Hellauer et al., 2017
+- [A multi-disciplinary perspective on emergent and future innovations in peer review](https://f1000research.com/articles/6-1151/v3), Tennant et al., 2017
+- [Reviewer bias in single- versus double-blind peer review](http://www.pnas.org/content/114/48/12708), Tomkins et al., 2017
+- [Prestigious science journals struggle to reach even average reliability](https://www.frontiersin.org/articles/10.3389/fnhum.2018.00037/full), Brembs, 2018
+- [Making research evaluation more transparent: Aligning research philosophy, institutional values, and reporting](https://psyarxiv.com/48qux/), Dougherty et al., 2018
+- [Research excellence indicators: time to reimagine the 'making of'?](https://academic.oup.com/spp/advance-article/doi/10.1093/scipol/scy007/4858431), Ferretti et al., 2018
+- [The Journal Impact Factor: A brief history, critique, and discussion of adverse effects](https://arxiv.org/abs/1801.08992), Lariviere and Sugimoto, 2018
 
 **Key posts**
 
@@ -799,13 +611,12 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [Citizen Science Terminology Matters: Exploring Key Terms](https://theoryandpractice.citizenscienceassociation.org/article/10.5334/cstp.96/), Eitzel et al., 2017
 - [Leveraging the power of place in citizen science for effective conservation decision making](https://www.sciencedirect.com/science/article/pii/S0006320716302841), Newman et al., 2017
 - [Austrian Citizen Science Conference 2017: Expanding Horizons](https://www.researchgate.net/profile/Susanne_Hecker/publication/322721621_Storytelling_in_Citizen_Science_-_Potential_for_Science_Communication_and_Practical_Guideline/links/5a6b28eaa6fdcc2aedee7713/Storytelling-in-Citizen-Science-Potential-for-Science-Communication-and-Practical-Guideline.pdf#page=26)
-- Setting up crowd science projects](http://journals.sagepub.com/doi/full/10.1177/0963662516678514), Scheliga et al., 2016
+- [Setting up crowd science projects](http://journals.sagepub.com/doi/full/10.1177/0963662516678514), Scheliga et al., 2016
 
 **Key posts:**
 
 - [Public-friendly Open Science](https://www.authorea.com/users/2/articles/50890-public-friendly-open-science/_show_article), Matteo Cantiello
-- [Guidelines for good science Public
-,Relations](https://www.wissenschaft-im-dialog.de/fileadmin/user_upload/Ueber_uns/Gut_Siggen/Dokumente/Guidelines_for_good_science_PR_final.pdf), Wissenschaft im Dialog and the Bundesverband Hochschulkommunikation
+- [Guidelines for good science Public Relations](https://www.wissenschaft-im-dialog.de/fileadmin/user_upload/Ueber_uns/Gut_Siggen/Dokumente/Guidelines_for_good_science_PR_final.pdf), Wissenschaft im Dialog and the Bundesverband Hochschulkommunikation
 - [Effective communication, better science](https://blogs.scientificamerican.com/guest-blog/effective-communication-better-science/), Manica I. Felaumajer
 - [Five strategies for identifying an audience](http://www.cdnsciencepub.com/blog/five-strategies-for-identifying-an-audience.aspx), Lisa Willemse
 - [Policy: The art of science advice to government](https://www.nature.com/news/policy-the-art-of-science-advice-to-government-1.14838), Peter Gluckman
@@ -815,7 +626,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 **Other:**
 
 - [European Citizen Science Association](http://ecsa.citizen-science.net/), ECSA
-,- [10 Principles of Citizen Science](https://ecsa.citizen-science.net/engage-us/10-principles-citizen-science)
+  - [10 Principles of Citizen Science](https://ecsa.citizen-science.net/engage-us/10-principles-citizen-science)
 - [Alan Alda Center for Communicating Science](http://www.centerforcommunicatingscience.org/)
 - [Open Science Monitor, Citizen Science](https://ec.europa.eu/research/openscience/index.cfm?pg=citizen&section=monitor), European Commission
 - [Cientopolis](https://www.cientopolis.org/), Citizen science and open science platform for Latin America
