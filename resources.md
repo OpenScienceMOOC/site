@@ -20,7 +20,7 @@ description: Open Science Resources
 9. [Open Educational Resources](#nine)
 10. [Open Advocacy](#ten)
 
-**See something missing? Please [write to us](http://opensciencemooc.eu/contact-us/) or leave a comment [here](https://github.com/OpenScienceMOOC)!**
+**See something missing? Please [write to us](https://opensciencemooc.eu/contact/) or leave a comment [here](https://github.com/OpenScienceMOOC)!**
 
 All research articles and reports below are Open Access versions (i.e., free to read and re-use).
 
