@@ -4,7 +4,7 @@ This website provides information about our MOOC, its rationale, the current sta
 
 This is a mission-driven project to help make 'Open' the default setting for all global research. We want to help create a welcoming and supporting community, with good tools, teachers, and role-models, and built upon a solid values-based foundation of freedom and equitable access to research.
 
-Therefore, we see Open Science as a goal: broad adoption of good scientific practices as a fundamental and essential part of the research process.
+Therefore, we see Open Science as a goal: broad adoption of good scientific practices as a fundamental and essential part of the research process. 
 
 <br/>
 
@@ -22,11 +22,13 @@ Therefore, we see Open Science as a goal: broad adoption of good scientific prac
 
 ### CURRENT STATUS: IN DEVELOPMENT
 
-This project is being developed in an open and agile way, meaning that all content is instantly available for re-use and iterative improvements, including as a teaching resource. You can also follow regular updates on [Slack](https://openmooc-ers-slackin.herokuapp.com/) or [Twitter](https://twitter.com/OpenScienceMOOC) or [Facebook](https://www.facebook.com/OpenScienceMOOC/), and join the development team [here](https://open-science-mooc-invite.herokuapp.com/).
+This project is being developed in an open and agile way, meaning that all content is instantly available for re-use and iterative improvements, including as a teaching resource. It is all freely available and openly licensed as such. 
 
-The second release of [Module 5](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/content_development) on **Open Source and Open Research Software** has been completed and undergoing feedback from the wider community. At is now **LIVE** via [Eliademy](https://eliademy.com/app/a/courses/02d7338a7e).
+The second release of Module 5 on **Open Source and Open Research Software** is now **LIVE** via [Eliademy](https://eliademy.com/app/a/courses/02d7338a7e). You can find all content online [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/content_development) for further re-use and feedback.
 
 [Module 1](https://github.com/OpenScienceMOOC/Module-1-Open-Principles/tree/master/content_development#in-markdown-format) on **Open Principles** is also currently in the early stages of development.
+
+You can also follow regular updates on [Slack](https://openmooc-ers-slackin.herokuapp.com/) or [Twitter](https://twitter.com/OpenScienceMOOC) or [Facebook](https://www.facebook.com/OpenScienceMOOC/), and join the development team [here](https://open-science-mooc-invite.herokuapp.com/).
 
 <br/>
 
