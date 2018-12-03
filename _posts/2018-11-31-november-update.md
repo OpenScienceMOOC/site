@@ -11,7 +11,12 @@ categories: newsletter
 
 That's right, the pilot module on Open Research Software and Open Source is now [**LIVE**](https://eliademy.com/app/a/courses/02d7338a7e) on the open source platform, Elidaemy.
 
-![Module 5](https://eliademy.com/app/pluginfile.php/1787115/mod_resource/content/0/open-research-software_white.png)
+<p align="center">
+  <img src="https://eliademy.com/app/pluginfile.php/1787115/mod_resource/content/0/open-research-software_white.png?raw=true" width="600px" height="125px"/>
+</p>
+
+<p align="center"><i>Module 5</i></p>
+
 
 **Rationale**: Software and technology underpin modern science. There is an increasing demand for more sophisticated open source software, matched by an increasing willingness for researchers to openly collaborate on new tools. These developments come with a specific ethical, legal and economic challenges that impact upon research workflows. This module will introduce the necessary tools required for transforming software into something that can be openly accessed and re-used by others.
 
