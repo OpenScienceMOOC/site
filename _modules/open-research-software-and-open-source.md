@@ -11,17 +11,20 @@ ordernumber: 5
 
 # Open Research Software and Open Source
 
-**STATUS**: The first release for this module is now ready, and has been published on Zenodo:
+**STATUS**: LIVE!
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1325081.svg)](https://doi.org/10.5281/zenodo.1325081)
+This module is now freely available online via [Eliademy](https://eliademy.com/app/a/courses/02d7338a7e).
+
+The second release for this module is now ready, and has been published on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288)
 
 To cite this work, please use the following:
 
-Tennant, J. et al. (01/08/2018) Open Science MOOC: Module 5, Open Research Software and Open Source (Version 1.0) Zenodo. [https://doi.org/10.5281/zenodo.1325081](https://zenodo.org/record/1325081#.W2GqGtL7RPY)
+Jon Tennant, Simon Worthington, Tania Allard, Philipp Zumstein, Daniel S. Katz, Alexander Morley, … Alessandro Sarretta. (2018, September 23). OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source (Version 2.0). Zenodo. [http://doi.org/10.5281/zenodo.1434288](http://doi.org/10.5281/zenodo.1434288).
 
 **Rationale**
-Software and technology underpin modern science. There is an increasing demand for more sophisticated open source software, matched by an increasing willingness for researchers to openly collaborate on new tools. These
-developments come with a specific ethical, legal and economic challenges that impact upon research workflows. This module will introduce the necessary tools required for transforming software into something that can be openly accessed and re-used by others.
+Software and technology underpin modern science. There is an increasing demand for more sophisticated open source software, matched by an increasing willingness for researchers to openly collaborate on new tools. These developments come with a specific ethical, legal and economic challenges that impact upon research workflows. This module will introduce the necessary tools required for transforming software into something that can be openly accessed and re-used by others.
 
 **Learning outcomes**
 * The researcher will be able to define the characteristics of open source research software, and the ethical, legal, economic and research impact arguments for and against it.

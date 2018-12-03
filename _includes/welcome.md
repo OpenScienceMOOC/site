@@ -22,13 +22,9 @@ Therefore, we see Open Science as a goal: broad adoption of good scientific prac
 
 ### CURRENT STATUS: IN DEVELOPMENT
 
-This project is being developed in an open and agile way, meaning that all content is instantly available for re-use and iterative improvements, including as a teaching resource. You can also follow regular updates on [Slack](https://openmooc-ers-slackin.herokuapp.com/) or [Twitter](https://twitter.com/OpenScienceMOOC) or [Facebook](https://www.facebook.com/OpenScienceMOOC/).
+This project is being developed in an open and agile way, meaning that all content is instantly available for re-use and iterative improvements, including as a teaching resource. You can also follow regular updates on [Slack](https://openmooc-ers-slackin.herokuapp.com/) or [Twitter](https://twitter.com/OpenScienceMOOC) or [Facebook](https://www.facebook.com/OpenScienceMOOC/), and join the development team [here](https://open-science-mooc-invite.herokuapp.com/).
 
-<br/>
-
-The first release of [Module 5](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/content_development) on **Open Source and Open Research Software** has been completed and undergoing feedback from the wider community. We are currently improving this module by diversifying the content.
-
-<br/>
+The second release of [Module 5](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/tree/master/content_development) on **Open Source and Open Research Software** has been completed and undergoing feedback from the wider community. At is now **LIVE** via [Eliademy](https://eliademy.com/app/a/courses/02d7338a7e).
 
 [Module 1](https://github.com/OpenScienceMOOC/Module-1-Open-Principles/tree/master/content_development#in-markdown-format) on **Open Principles** is also currently in the early stages of development.
 
