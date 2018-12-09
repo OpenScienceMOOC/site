@@ -34,6 +34,8 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [Why Open Research](http://whyopenresearch.org/), Erin McKiernan
 - [Transparent and Open Social Science MOOC](http://www.bitss.org/events/mooc-transparent-and-open-social-science/), Berkeley Initiative for Transparency in the Social Sciences (BITSS)
 - [Rainbow of Open Science practices](https://zenodo.org/record/1147025#.Wnib8yXwaM8), Kramer and Bosman, 2018
+- [Open Educational Practice (OEP): collection of scenarios](https://doi.org/10.5281/zenodo.1183805), Steiner, 2018
+- [Striving Toward Openness: But What Do We Really Mean?](http://dx.doi.org/10.19173/irrodl.v18i7.3207), Rolfe, 2017
 - [Creative Commons license Chooser](https://creativecommons.org/choose/)
 - [Open Content](https://meta.wikimedia.org/wiki/Open_Content_-_A_Practical_Guide_to_Using_Creative_Commons_Licences/The_Creative_Commons_licencing_scheme)
 - [Open Research glossary](http://www.righttoresearch.org/resources/OpenResearchGlossary/index.shtml), Right to Research Coalition
@@ -173,7 +175,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
  - [Vagrant](https://www.vagrantup.com/)
  - [BinderHub](https://github.com/jupyterhub/binderhub)
  - [nteract.io](https://nteract.io/)
- - [Binder Documentation](https://mybinder.readthedocs.io/en/latest/) for creating custom computing environments that can be shared and used by multiple remote users 
+ - [Binder Documentation](https://mybinder.readthedocs.io/en/latest/) for creating custom computing environments that can be shared and used by multiple remote users
 - [Statcheck](http://statcheck.io/), GRIM
 - [Scienceroot](https://www.scienceroot.com/), the first blockchain-based scientific ecosystem
 - Online repositories for open hardware:
@@ -236,8 +238,8 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 **Other**
 
-- Institutions, projects, and companies using or providing open hardware/materials: 
- - [CERN's Open Hardware Repository](http://www.ohwr.org/) and Open Hardware License 
+- Institutions, projects, and companies using or providing open hardware/materials:
+ - [CERN's Open Hardware Repository](http://www.ohwr.org/) and Open Hardware License
  - [UFRGS Centro de Tecnologia Academica](http://cta.if.ufrgs.br/), CTA
  - [Michigan Tech Open Sustainability Technology research group](http://www.mse.mtu.edu/~pearce/Index.html)
  - [Open Plant](https://www.openplant.org/)
@@ -246,7 +248,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
  - [PhotosynQ](https://photosynq.org/)
  - [PublicLab](https://publiclab.org/)
  - [BackyardBrains](https://backyardbrains.com/)
- - [OpenPCR](http://www.openpcr.org/) 
+ - [OpenPCR](http://www.openpcr.org/)
  - [OpenROV](https://www.openrov.com/)
  - [Prometheus Science](http://www.prometheus-science.com/)
  - [senseBox](https://sensebox.de/en/)
@@ -320,6 +322,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [A reputation economy: how individual reward considerations trump systemic arguments for open access to data](https://www.nature.com/articles/palcomms201751), Fecher et al., 2017
 - [Cloudy, increasingly FAIR; revisiting the FAIR Data guiding principles for the European Open Science Cloud](https://content.iospress.com/articles/information-services-and-use/isu824), Mons et al., 2017
 - [Code of practice for research data usage metrics release 1](https://peerj.com/preprints/26505/), Fenner et al., 2018
+- [Open Data as Open Educational Resources: Towards Transversal Skills and Global Citizenship](http://dx.doi.org/10.5944/openpraxis.7.4.233), Atenas, Havemann, Priego, 2015
 
 **Key posts**
 
@@ -424,7 +427,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - Language-specific servers:
  - [Aribixiv](https://arabixiv.org/)
  - [Frenxiv](https://frenxiv.org/)
- - [INA-Rxiv](https://osf.io/preprints/inarxiv/) 
+ - [INA-Rxiv](https://osf.io/preprints/inarxiv/)
 - [SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php), Publisher Copyright Policies and Self-Archiving
 - [DULCINEA](http://www.accesoabierto.net/dulcinea/), for Spanish journals
 - [HAL](https://heloise.ccsd.cnrs.fr/), for French journals
@@ -450,7 +453,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - Preprint recommendation services:
  - [preLights](https://prelights.biologists.com/)
  - [Peer Community in](https://peercommunityin.org/)
-- Overlay journals: 
+- Overlay journals:
  - [Open Journals](http://www.theoj.org/)
  - [Discrete Analysis](http://discreteanalysisjournal.com/)
  - [biOverlay](https://www.bioverlay.org/post/welcome/)
@@ -503,7 +506,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [SCOAP3](https://scoap3.org/), Sponsoring Consortium for Open Access Publishing in Particle Physics
 - [SPARC article and data sharing requirements by federal agency](http://researchsharing.sparcopen.org/)
 - [Open APC initiative](https://treemaps.intact-project.org/), information on fees paid for OA journal articles by universities and research institutions under an Open Database License
-- [Free Journal Network](http://freejournals.org/), 
+- [Free Journal Network](http://freejournals.org/),
 - [Information Note: Towards a Horizon 2020 platform for Open Access](https://ec.europa.eu/research/openscience/pdf/information_note_platform_public.pdf), European Commission
 - [Declarations in Support of Open Access](http://oad.simmons.edu/oadwiki/Declarations_in_support_of_OA), the Open Access Directory
  - [The Budapest Open Access Initiative](http://www.budapestopenaccessinitiative.org/)
@@ -537,7 +540,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [Badges to Acknowledge Open Practices: A Simple, Low-Cost, Effective Method for Increasing Transparency](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002456), Kidwell et al., 2016
 - [A framework to monitor open science trends in the EU](https://www.oecd.org/sti/063%20-%20OECD%20Blue%20Sky%202016_Open%20Science.pdf), Smith et al., 2016
 - [Peer Review Survey 2015: Key Findings](http://publishingresearchconsortium.com/index.php/134-news-main-menu/prc-peer-review-survey-2015-key-findings/172-peer-review-survey-2015-key-findings), Mark Ware Consulting, 2016
-- [Point of View: How open science helps researchers succeed](https://elifesciences.org/articles/16800), McKiernan et al., 2016 
+- [Point of View: How open science helps researchers succeed](https://elifesciences.org/articles/16800), McKiernan et al., 2016
 - [Peer Review Quality and Transparency of the Peer-Review Process in Open Access and Subscription Journals](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0147913), Wicherts, 2016
 - [Next-generation metrics: Responsible metrics and evaluation for open science](https://ec.europa.eu/research/openscience/pdf/report.pdf), European Commission, 2017
 - [Evaluation of Research Careers fully acknowledging Open Science Practices: Rewards, incentives and/or recognition for researchers practicing Open Science](https://ec.europa.eu/research/openscience/pdf/os_rewards_wgreport_final.pdf), European Commission, 2017
@@ -574,7 +577,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [Scholarly Publication Practices and Impact Factor Calculation and Manipulation](https://www.scienceopen.com/search#collection/e4870106-eea5-4ba3-88cf-e769c7d49ebe),
  ScienceOpen collection
 - [Peer Review in the Age of Open Science](https://www.slideshare.net/OpenAIRE_eu/peer-review-in-the-age-of-open-science), Tony Ross-Hellauer, 2017
-- [The San Francisco Declaration on Research Assessment](http://www.ascb.org/dora/) (DORA) 
+- [The San Francisco Declaration on Research Assessment](http://www.ascb.org/dora/) (DORA)
 - [The Leiden Manifesto](http://www.leidenmanifesto.org/)
 - [The Humane Metrics Initiative](http://humetricshss.org/about/)
 - [Open Research Badges](https://openresearchbadges.org/)
@@ -642,12 +645,12 @@ All research articles and reports below are Open Access versions (i.e., free to 
 
 **9: Open Educational Resources** <a name="nine"></a>
 
+- [GO-GN: Openness and education - a-beginner's guide/ ](http://go-gn.net/go-gn/openness-and-education-a-beginners-guide/),
 - [Open Education Handbook](https://en.wikibooks.org/wiki/Open_Education_Handbook), CC BY 4.0
 - [Open Education Handsheet](https://sparcopen.org/wp-content/uploads/2017/04/Open-Education-Fact-Sheet_SPARC.11.10-2.pdf), SPARC
 - [OER World Map](https://oerworldmap.org/)
 - [OER Commons](https://www.oercommons.org/), a public digital library of Open Educational Resources
 - [OER Hub](http://oerhub.net/), researching the impact of Open Educational Resources
-- [Temoa](http://www.temoa.info/), Open Educational Resources Portal
 - Open education course directories:
  - [NovoEd](https://course.novoed.com/courses/)
  - [Class Central](https://www.class-central.com/)
@@ -664,11 +667,13 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [Giving knowledge for free: The emergence of Open Educational Resources](http://www.oecd.org/education/ceri/38654317.pdf), OECD, 2007
 - [Open content and Open Educational Resources: Enabling universal education](http://www.irrodl.org/index.php/irrodl/article/view/469), Caswell et al., 2008
 - [Linking open course wares and open education resources: creating an effective search and recommendation system](https://www.sciencedirect.com/science/article/pii/S187705091000325X), Shelton et al., 2010
-- [Evaluating Open Educational Resources: Lessons learned, DeVries, 2013 ## NEED LINK HERE
+- [Evaluating Open Educational Resources: Lessons learned](https://oerknowledgecloud.org/sites/oerknowledgecloud.org/files/1-s2.0-S1877042813010422-main.pdf), DeVries, 2013
+- [Effects of Open Textbook Adoption on Teachers’ Open Practices](http://dx.doi.org/10.19173/irrodl.v19i3.3517) Mason, Kimmons, 2018
 - [Open Educational Resources](https://www.sciencedirect.com/science/article/pii/S1877042813032862), Marcus-Quinn and Diggins, 2013
 - [State of the art review of quality issues related to Open Educational Resources (OER)](http://www.pedocs.de/frontdoor.php?source_opus=9101), Camilleri et al., 2014
 - [Open Data as Open Educational Resources: Case studies of emerging practice](https://education.okfn.org/files/2015/11/Book-Open-Data-as-Open-Educational-Resources1.pdf), Atenas and Havemann, 2015
 - [Open data as Open Educational Resources: Towards transversal skills and global citizenship](http://www.openpraxis.org/~openprax/index.php/OpenPraxis/article/view/233), Atenas et al., 2015
+- [Openness and Praxis: Exploring the Use of Open Educational Practices in Higher Education](http://dx.doi.org/10.19173/irrodl.v18i5.3096), Cronin, 2017
 - [Multimedia resources as examples of polymorphic educational hypertexts in the post-literacy era](https://www.sciencedirect.com/science/article/pii/S1877042815060346), Goodova et al., 2015
 - [The Power of the Three Words and One Acronym: OER vs OER: Subtitle: I'm not an Ogre of the Enchanted Realm (of cyberspace). I'm an Omnipresent Educational Rescuer (because I use the OER!)](https://www.sciencedirect.com/science/article/pii/S1877042815027299), Holotescu et al., 2015
 - [Open Educational Resources development model for an inquiring cultural skill of Higher Education students](https://www.sciencedirect.com/science/article/pii/S1877042815009246), Kaosaiyaporn et al., 2015
@@ -685,6 +690,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [Policy Approaches to Open Education -- Case Studies from 28 EU Member States (OpenEdu Policies)](https://ec.europa.eu/jrc/en/publication/policy-approaches-open-education-case-studies-28-eu-member-states-openedu-policies), European Commission, 2017
 - [Open Educational Resources as a diver for manufacturing-related education for learning of sustainable development](https://www.sciencedirect.com/science/article/pii/S2351978917300148), Roeder et al., 2017
 - [Open pathways to student success: Academic library partnerships for Open Educational Resource and affordable content creation adoption](https://www.sciencedirect.com/science/article/pii/S0099133316301409). Salem Jr., 2017
+- [Conceptualising OEP: A review of theoretical and empirical literature in Open Educational Practices](http://dx.doi.org/10.5944/openpraxis.10.2.825), Cronin, MacLaren, 2018
 
 **Key posts**
 
@@ -698,6 +704,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [BC Campus OpenEd](https://open.bccampus.ca/)
 - [Wikimedia](https://www.wikimedia.org/), a global movement whose mission is to bring free educational content to the world
 - [Discovering Open Educational Resources (OER)](http://guides.temple.edu/OER), Temple University
+- [Open Educational Practice (OEP): collection of scenarios](https://doi.org/10.5281/zenodo.1183805), Steiner, 2018
 - [The Cape Town Open Education Declaration](http://www.capetowndeclaration.org/read-the-declaration) ,Unlocking the promise of Open Educational Resources
 - [The 2012 Paris OER Declaration](http://www.unesco.org/fileadmin/MULTIMEDIA/HQ/CI/WPFD2009/English_Declaration.html)
 - [Open Educational Resources](https://www.hewlett.org/strategy/open-educational-resources/) ,Hewlett Foundation
@@ -705,7 +712,10 @@ All research articles and reports below are Open Access versions (i.e., free to 
 - [Global Report ,2017](http://oasis.col.org/handle/11599/2788)
 - [Definition of OER](http://www.opencontent.org/definition/), OpenContent
 - [MERLOT](https://www.merlot.org/merlot/index.htm), Multimedia Educational Resource for Learning and Online Teaching
+- [OASIS meta search](https://oasis.geneseo.edu/), search engine filtering through a huge collection of OER repositories (see https://oasis.geneseo.edu/sources.php)
+- [Temoa](http://www.temoa.info/), Open Educational Resources Portal
 - Open textbook initiatives:
+ - [Making Open Textbooks with Students @ rebus.foundation](https://press.rebus.community/makingopentextbookswithstudents/)
  - [Unglue it](https://unglue.it/)
  - [FreeBooks4Doctors](http://www.freebooks4doctors.com/)
  - [InTech Open](https://www.intechopen.com/)
@@ -758,7 +768,7 @@ All research articles and reports below are Open Access versions (i.e., free to 
 **Key posts**
 
 - [An early career researcher's view on modern and open scholarship](https://lgatto.github.io/EPFL-open-science/), Laurent Gatto
-- [Lingua is dead. Long live Glossa!](http://languagelog.ldc.upenn.edu/nll/?p=22162), Eric Bakovia 
+- [Lingua is dead. Long live Glossa!](http://languagelog.ldc.upenn.edu/nll/?p=22162), Eric Bakovia
 - [The Open Access movement and activism for the knowledge ,commons](http://www.asanet.org/sites/default/files/savvy/footnotes/mayjun14/asaforum_0514.html), Jackie Smith
 - [Defending the global knowledge commons](https://www.opendemocracy.net/jackie-smith/defending-global-knowledge-commons), Jackie Smith
 
