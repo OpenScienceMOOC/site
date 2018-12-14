@@ -16,8 +16,8 @@
 title: Open Science MOOC
 description: ""
 
-url: "https://OpenScienceMOOC.github.io"
-baseurl: "/site"
+url: "https://opensciencemooc.eu"
+baseurl: ""
 
 permalink: pretty
 paginate: 10
@@ -28,17 +28,6 @@ collections:
   pages:
     output: true
     permalink: /:path
-
-defaults:
-  # Set front matter values for people's image
-  #  
-  # We can use avatar variable to look in the static_files object and get all 
-  # static files that have this front matter property.
-  -
-    scope:
-      path: "assets/img/team" 
-    values:
-      avatar: true
 
 # Build settings
 markdown: kramdown
