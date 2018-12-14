@@ -1,5 +1,4 @@
 ---
-title: Ivo Grigorov
 name: Ivo Grigorov
 role: Steering Committee, Open Source Robin
 location: Denmark

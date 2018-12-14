@@ -1,5 +1,4 @@
 ---
-title: Monika Schlatter
 name: Monika Schlatter
 role: Steering Committee
 location: Switzerland

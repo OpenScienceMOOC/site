@@ -1,5 +1,4 @@
 ---
-title: Jo Havemann
 name: Jo Havemann
 role: Research in Africa Highlighter
 location: Germany

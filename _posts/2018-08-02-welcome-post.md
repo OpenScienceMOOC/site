@@ -1,10 +1,9 @@
 ---
 title: "Welcome to the Open Science MOOC!"
 author: "Jon Tennant"
-date: '2018-08-02'
-output: pdf_document
+date: 2018-08-02
 layout: post
-categories: uncategorized
+categories: news
 ---
 
 Welcome to the new blog for the Open Science MOOC! A special thanks to [Danny Colin](https://twitter.com/@dannycolincom) for getting this set up for us.

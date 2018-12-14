@@ -1,5 +1,4 @@
 ---
-title: Bastian Greshake Tzovaras
 name: Bastian Greshake Tzovaras
 role: Participatory scientist
 location: Berkeley, CA, USA

@@ -1,5 +1,4 @@
 ---
-title: Alex Morley
 name: Alex Morley
 role: Open Sourceror
 location: UK

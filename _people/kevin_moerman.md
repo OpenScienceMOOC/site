@@ -1,5 +1,4 @@
 ---
-title: Kevin Moerman
 name: Dr. Kevin M Moerman
 role: Open Sourceror
 location: USA

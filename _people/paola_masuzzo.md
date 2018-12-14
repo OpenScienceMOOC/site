@@ -1,5 +1,4 @@
 ---
-title: Paola Masuzzo
 name: Paola Masuzzo
 role: Steering Committee, Open Source Batman
 location: Italy

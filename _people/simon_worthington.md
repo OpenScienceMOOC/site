@@ -1,5 +1,4 @@
 ---
-title: Simon Worthington
 name: Simon Worthington
 role: Book Liberationist
 location: Germany

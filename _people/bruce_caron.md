@@ -1,5 +1,4 @@
 ---
-title: Bruce Caron
 name: Bruce Caron
 role: Culture Work Architect
 location: USA

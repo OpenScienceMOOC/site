@@ -1,5 +1,4 @@
 ---
-title: Gareth O'Neill
 name: Dr. Gareth O'Neill
 role: Language Lubber
 location: Amsterdam

@@ -1,5 +1,4 @@
 ---
-title: Christopher Madan
 name: Dr. Christopher Madan
 role: Steering Committee
 location: UK

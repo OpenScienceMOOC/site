@@ -1,5 +1,4 @@
 ---
-title: Bianca Kramer
 name: Bianca Kramer
 role: Steering Committee
 location: Netherlands

@@ -1,5 +1,4 @@
 ---
-title: Tanja de Bie
 name: Tanja de Bie
 role: Steering Committee
 location: Netherlands

@@ -1,5 +1,4 @@
 ---
-title: Lisa Matthias
 name: Lisa Matthias
 role: Steering Committee
 location: Germany

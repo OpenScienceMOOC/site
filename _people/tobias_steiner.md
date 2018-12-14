@@ -1,5 +1,4 @@
 ---
-title: Tobias Steiner
 name: Tobias Steiner
 role: Open Scholarship Nomad 
 location: online, Germany

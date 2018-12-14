@@ -1,5 +1,4 @@
 ---
-title: Philipp Zumstein
 name: Philipp Zumstein
 role: Open Source Librarian
 location: Germany

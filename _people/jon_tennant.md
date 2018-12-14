@@ -1,5 +1,4 @@
 ---
-title: Jonathan Tennant
 name: Dr. Jonathan Tennant
 role: Founder, Rogue Scientist
 location: Rest of World

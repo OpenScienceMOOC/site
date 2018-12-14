@@ -1,12 +1,5 @@
 ---
-layout: page
 title: "Open collaboration"
-logo: /img/logos/mooc_logo.png
-description: ""
-header-img: "img/home-bg.jpg"
-thumbnail:  "assets/img/modules/open-collaboration.png"
-cardcolor:  rgba(254,232,153,0.5)
-ordernumber: 2
 ---
 
 # Open Collaboration

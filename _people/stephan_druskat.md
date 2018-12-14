@@ -1,5 +1,4 @@
 ---
-title: Stephan Druskat
 name: Stephan Druskat
 role: Software Citationist
 location: Germany

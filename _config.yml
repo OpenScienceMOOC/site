@@ -1,45 +1,72 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: Open Science MOOC
 description: ""
 
-url: "https://opensciencemooc.eu"
-baseurl: ""
-
-header-img: img/home-bg.jpg
-headercolor: "#000000"
-logo: img/logos/mooc_logo.png
-
-github_username: OpenScienceMOOC
-twitter_username: OpenScienceMOOC
-altmetric: true
+url: "https://OpenScienceMOOC.github.io"
+baseurl: "/site"
 
 permalink: pretty
 paginate: 10
-exclude: [
-  "Gemfile",
-  "Gemfile.lock",
-  "LICENSE",
-  "README.md"
-]
 
 collections:
   modules:
     output: true
-  people:
+  pages:
     output: true
+    permalink: /:path
 
 defaults:
-  # default to people's layout for people's page
+  # Set front matter values for people's image
+  #  
+  # We can use avatar variable to look in the static_files object and get all 
+  # static files that have this front matter property.
   -
     scope:
-      path: ""
-      type: "people"
-    values:
-      layout: "profile"
-  # Set a avatar variable to be able to loop trought people's avatar in
-  # people's page.
-  -
-    scope:
-      path: "assets/img/people"
+      path: "assets/img/team" 
     values:
       avatar: true
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Sass settings
+sass:
+  style: compressed
+
+# Custom plugins and symbolic links
+#
+#   false = allow
+#   true  = disallow
+safe: true
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - .bundle/
+  - vendor/
+  - .gitignore
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - Rakefile
+  - README.md

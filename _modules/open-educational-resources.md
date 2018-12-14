@@ -1,12 +1,5 @@
 ---
-layout: page
 title: "Open Educational Resources"
-logo: /img/logos/mooc_logo.png
-description: ""
-header-img: "img/home-bg.jpg"
-thumbnail:  "assets/img/modules/open-educational-resources.png"
-cardcolor:  rgba(247,187,168,0.5)
-ordernumber: 9
 ---
 
 # Open Educational Resources

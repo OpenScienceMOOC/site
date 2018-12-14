@@ -1,5 +1,4 @@
 ---
-title: "Danny Colin"
 name: "Danny Colin"
 role: "Webdev Wizard"
 location: "Canada"

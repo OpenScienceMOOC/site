@@ -1,5 +1,4 @@
 ---
-title: Antonio Hartley
 name: Antonio Hartley
 role: Steering Committee
 location: Chile

@@ -1,5 +1,4 @@
 ---
-title: Julien Colomb
 name: Dr. Julien Colomb
 role: Steering Committee
 location: Germany

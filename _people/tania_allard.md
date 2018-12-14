@@ -1,5 +1,4 @@
 ---
-title: Tania Allard
 name: Dr. Tania Allard
 role: Open Sourceress, Data Enchantress
 location: UK

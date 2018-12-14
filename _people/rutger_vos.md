@@ -1,5 +1,4 @@
 ---
-title: Rutger Vos
 name: Rutger Vos
 role: Steering Committee
 location: Netherlands

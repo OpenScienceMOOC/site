@@ -1,5 +1,4 @@
 ---
-title: Nicolas Schmelling
 name: Nicolas Schmelling
 role: Steering Committee
 location: Germany

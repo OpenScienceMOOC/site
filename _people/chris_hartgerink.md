@@ -1,5 +1,4 @@
 ---
-title: Chris Hartgerink
 name: Chris Hartgerink
 role: Steering Committee
 location: Netherlands

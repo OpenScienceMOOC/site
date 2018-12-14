@@ -1,5 +1,4 @@
 ---
-title: Bruce Becker
 name: Bruce Becker
 role: Steering Committee
 location: Italy

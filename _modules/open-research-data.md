@@ -1,12 +1,5 @@
 ---
-layout: page
 title: "Open Research Data"
-logo: /img/logos/mooc_logo.png
-description: ""
-header-img: "img/home-bg.jpg"
-thumbnail:  "assets/img/modules/open-research-data.png"
-cardcolor:  rgba(244,154,169,0.5)
-ordernumber: 4
 ---
 
 # Open Research Data
