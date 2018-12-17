@@ -3,6 +3,11 @@
   {% include head.html %}
   <body>
     {{ content }}
+    
+    <!-- javascript files -->
+    {% if site.environment == "dev" %}
+      {% include scripts.html %}
+    {% endif %}
   </body>
 </html>
 
