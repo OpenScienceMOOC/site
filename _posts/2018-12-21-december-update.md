@@ -16,7 +16,7 @@ Well, what a year it has been! Very recently we finally [**launched**](https://e
 Honestly, after so much effort, this comes as a huge relief. People are already completing the tasks, getting certified, and the feedback we are getting is all overwhelmingly positive.
 
 <p align="center">
-  <img src="https://github.com/OpenScienceMOOC/site/tree/master/img/certificate.png" width="600px" height="400px"/>
+  <img src="https://github.com/OpenScienceMOOC/site/tree/master/img/certificate.png?raw=true" width="600px" height="400px"/>
 </p>
 
 <p align="center"><i>An example of the certificate you get upon completion</i></p>
