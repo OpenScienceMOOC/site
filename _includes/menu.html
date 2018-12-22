@@ -1,0 +1,16 @@
+<ul
+{% if include.dropdown %} 
+  class="dropdown menu" data-dropdown-menu
+{% elsif include.vertical %} 
+  class="vertical menu"
+{% endif %}
+>
+  {% for item in include.menu %}
+  <li>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+    {% if item.submenu %}
+      {% include menu.html menu=item.submenu vertical=true %}
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>

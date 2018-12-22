@@ -1,0 +1,12 @@
+<div class="grid-container">
+  <nav class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Site Title</li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        {% include menu.html menu=site.data.menus.topbar dropdown=true %}
+      </div>
+  </nav>
+</div>
