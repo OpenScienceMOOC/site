@@ -1,0 +1,33 @@
+# Topbar menu 
+#
+# How to create a menu
+#
+# - title:  "your page title
+#   url:    "/page-link"
+# - title:  "an other page title"
+#   url:    "/an-other-page-link"
+#   submenu:
+#   - title:  "title for the dropdown menu item"
+#     url:    "/item-link"
+
+- title:  "Home"
+  url:    "/"
+- title:  "Blog"
+  url:    "/blog"
+- title:  "Modules"
+  url:    "/modules"
+- title:  "Get Involved"
+  url:    "/get-involved"
+- title:  "About Us"
+  url:    "#"
+  submenu:
+  - title:  "Our Mission"
+    url:    "/about/mission"
+  - title:  "Our Steering Committee"
+    url:    "/about/steering-committee"
+  - title:  "Our Team"
+    url:    "/about/team"
+  - title:  "Our Partners"
+    url:    "/about/partners"
+- title:  "Contact"
+  url: "/contact"
