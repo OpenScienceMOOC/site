@@ -23,8 +23,6 @@ permalink: pretty
 paginate: 10
 
 collections:
-  modules:
-    output: true
   pages:
     output: true
     permalink: /:path
