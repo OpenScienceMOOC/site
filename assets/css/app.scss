@@ -27,7 +27,7 @@
 // -----------------------------------------
 // Generic components
 // -----------------------------------------
-// @include foundation-button;
+@include foundation-button;
 // @include foundation-button-group;
 // @include foundation-close-button;
 // @include foundation-label;
@@ -80,5 +80,5 @@
 // -----------------------------------------
 // @include foundation-float-classes;
 // @include foundation-flex-classes;
-// @include foundation-visibility-classes;
+@include foundation-visibility-classes;
 // @include foundation-prototype-classes;
