@@ -1,7 +1,7 @@
 ---
 title: "Reblog: What is open science and why is it important?"
 author: "Jon Tennant"
-date: '2018-01-17'
+date: '2019-01-17'
 output:
   html_document:
     df_print: paged
