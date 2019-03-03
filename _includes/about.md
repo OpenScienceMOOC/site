@@ -2,7 +2,7 @@
 
 Welcome to the Open Science MOOC! Here you can find out a little more about us, what we are doing, and why.
 
-This project is carried out mostly by volunteer work. If you would like to contribute, please join our slack channel [Sign up for slack Open Science MOOC](https://openmooc-ers-slackin.herokuapp.com/) or join our [GitHub project team](https://open-science-mooc-invite.herokuapp.com/).
+This project is carried out mostly by volunteer work. If you would like to contribute, please join our slack channel [Sign up for slack Open Science MOOC](https://osmooc.herokuapp.com/) or join our [GitHub project team](https://open-science-mooc-invite.herokuapp.com/).
 
 There are 14 people forming the [Steering Committee](https://opensciencemooc.eu/people/#steering) for this project, as well as a core [Production Team](https://opensciencemooc.eu/people/#production) which is [open to anyone to join](https://github.com/OpenScienceMOOC/site#how-to-add-a-person-to-be-listedrendered-on-the-website).
 
