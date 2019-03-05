@@ -7,7 +7,12 @@
 >
   {% for item in include.menu %}
   <li>
-    <a href="{{ item.url }}">{{ item.title }}</a>
+    <a href="{{ item.url }}">
+      {{ item.title }} 
+      {% if item.submenu %}
+        <span class="fa fa-caret-down"></span>
+      {% endif %}
+    </a>
     {% if item.submenu %}
       {% include menu.html menu=item.submenu vertical=true %}
     {% endif %}
