@@ -1,0 +1,56 @@
+<footer id="page-footer">
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x grid-padding-y">
+      <div class="cell small-12 medium-4">
+        <h2 class="h5">Open Science MOOC</h2>  
+        <p>
+          Unless otherwise stated the content of this website is licensed
+          under <a href="#">CC-BY-SA 4.0</a> license and the source code 
+          is licensed under <a href="#">MIT</a> license.
+        </p>
+        <ul class="menu">
+          {% for network in site.data.footer.networks %}
+          <li>
+            <a href="{{ network.url }}">
+              <span class="fa fa-2x {{ network.icon }}"></span>
+              <span class="show-for-sr">{{ network.name }}</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="cell small-12 medium-4">
+        <h2 class="h5">SPONSORS</h2>  
+        <ul>
+          {% for sponsor in site.data.footer.sponsors %}
+          <li>
+            <a href="{{ sponsor.url }}">
+              <img src="{{ sponsor.image | relative_url}}" 
+                   alt="{{ sponsor.name }}">
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="cell small-12 medium-4">
+        <h2 class="h5">NEWSLETTER</h2>  
+        <form action="">
+          <div class="grid-container">
+            <div class="grid-x grid-padding-y">
+              <div class="cell small-12">
+                <label for="#">
+                  <span class="show-for-sr">Email:</span>
+                  <input type="text" 
+                         placeholder="your@email.com">
+                </label>
+              </div>
+              <div class="cell small-12">
+                <button class="button primary expanded">Subcribe now</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>

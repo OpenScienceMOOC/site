@@ -1,0 +1,28 @@
+networks:
+-
+  name: "Slack"
+  url: "#"
+  icon: "fa-slack"
+- 
+  name: "GitHub"
+  url: "#"
+  icon: "fa-github"
+- 
+  name: "Facebook"
+  url: "#"
+  icon: "fa-facebook"
+- 
+  name: "Twitter"
+  url: "#"
+  icon: "fa-twitter"
+
+sponsors:
+- 
+  name: "Shuttleworth Foundation"
+  url: "https://www.shuttleworthfoundation.org/"
+  image: "/assets/img/sponsors/shuttleworth-foundation.png"
+- 
+  name: "Code Ocean"
+  url: "https://codeocean.com/"
+  image: "/assets/img/sponsors/codeocean.png"
+
