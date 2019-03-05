@@ -84,6 +84,74 @@
 // Helpers
 // -----------------------------------------
 // @include foundation-float-classes;
-// @include foundation-flex-classes;
+@include foundation-flex-classes;
 @include foundation-visibility-classes;
-// @include foundation-prototype-classes;
+@include foundation-prototype-classes;
+
+// -----------------------------------------
+// Custom CSS goes here
+// -----------------------------------------
+
+.font-green {
+  color: #21784a;
+}
+.font-bold {
+  font-weight: 600;
+}
+
+// Custom variables
+$input-radius: 50px;
+
+.hero {
+  background-image:
+    url('/assets/img/osm/osm-hero.png');
+  background-size: cover;
+  color: $white;
+  &-section {
+    height: 400px;
+  }
+}
+
+// -----------------------------------------
+// Topbar
+// -----------------------------------------
+.top-bar {
+  a {
+    color: white;
+
+    &:hover {
+      color: #21784a;
+    }
+  }
+  .submenu {
+    background-color: #252525;
+    border-color: #333333;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.35);
+  }
+}
+
+// -----------------------------------------
+// Footer
+// -----------------------------------------
+#page-footer {
+  background-color: #111111;
+  color: #ffffff;
+
+  ul li {
+    list-style-type: none;
+    a:first-child {
+      color: white;
+      &:hover {
+        color: #21784a;
+      }
+    }
+  }
+
+  input[type=text] {
+    border-radius: $input-radius;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+  }
+}
