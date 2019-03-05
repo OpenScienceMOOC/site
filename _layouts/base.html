@@ -3,7 +3,9 @@
   {% include head.html %}
   <body>
     {{ content }}
-    
+
+    {% include footer.html %}
+
     <!-- javascript files -->
     {% if site.environment == "dev" %}
       {% include scripts.html %}
