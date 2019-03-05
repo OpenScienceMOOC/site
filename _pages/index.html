@@ -2,5 +2,86 @@
 layout: base
 ---
 
-<h1>Hello World</h1>
-<p>Lorem ipsum dolot sit <a href="#">amet</a></p>
+<header class="hero" >
+  <div class="grid-container">
+    {% include topbar.html %}
+  </div>
+  <div class="hero-section grid-x align-center-middle">
+    <div class="cell large-4 text-center">
+      <h1 class="show-for-sr">Homepage</h1>
+      <h2 class="show-for-sr">Our vision</h2>
+      <p class="h3">
+        We want to make <span class="font-bold font-underline">open</span> 
+        the default setting for all global research
+      </p>
+      <p class="h3">And you?</p>
+      <a class="h4 button large primary shadow" 
+         href="https://eliademy.com/opensciencemooc"
+         style="margin-top: 20px;">Enroll to our courses now</a>
+      <p>Propulsed by <a href="https://eliademy.com/">Eliademy</a></p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x grid-padding-y">
+      <div class="cell small-12 text-center">
+        <h2 class="h3 font-bold font-green">How can you help?</h2>
+      </div>  
+      <div class="cell small-12 medium-4 text-center">
+        <span class="fa fa-3x fa-bullhorn"></span>
+        <h3 class="h4">Spread the World</h3>
+        <p>
+          Fusce sem quam, porttitor nec consequat quis, elementum feugiat est. 
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+          per inceptos himenaeos. Fusce quis erat tempus eros egestas pulvinar 
+          sit amet id justo. Suspendisse potenti. Maecenas a faucibus lorem, in 
+          sed. 
+        </p>
+      </div>
+      <div class="cell small-12 medium-4 text-center">
+        <span class="fa fa-3x fa-group"></span>
+        <h3 class="h4">Join our Team</h3>
+        <p>
+          Fusce sem quam, porttitor nec consequat quis, elementum feugiat est. 
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+          per inceptos himenaeos. Fusce quis erat tempus eros egestas pulvinar 
+          sit amet id justo. Suspendisse potenti. Maecenas a faucibus lorem, in 
+          sed. 
+        </p>
+      </div>
+      <div class="cell small-12 medium-4 text-center">
+        <span class="fa fa-3x fa-handshake-o"></span>
+        <h3 class="h4">Become a Partner</h3>
+        <p>
+          Fusce sem quam, porttitor nec consequat quis, elementum feugiat est. 
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+          per inceptos himenaeos. Fusce quis erat tempus eros egestas pulvinar 
+          sit amet id justo. Suspendisse potenti. Maecenas a faucibus lorem, in 
+          sed. 
+        </p>
+      </div>
+      <div class="cell small-12 text-center">
+        <h2 class="h3 font-bold font-green">Discover our courses</h2>
+      </div>
+      <div class="cell small-12 text-center">
+        <h2 class="h3 font-bold font-green">What's new?</h2>
+      </div>
+      
+      {% for post in site.posts limit:3 %}
+        <div class="cell small-12 medium-4">
+          <img src="holder.js/380x200" alt="Icons">
+          <h3 class="h4">{{ post.title }}</h3>
+          <p>
+            Posted on {{ post.date | date: "%B %d, %Y" }} by 
+            <a href="#">{{ post.author }}</a> in
+            {% for category in post.categories %}
+              <a href="#">{{ category }}</a>
+            {% endfor %}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</main>
