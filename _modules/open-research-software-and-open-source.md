@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Open Research Software and Open Source"
 ---
 

@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Public Engagement with Science"
 ---
 

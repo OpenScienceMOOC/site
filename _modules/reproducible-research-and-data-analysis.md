@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Reproducible Research and Data Analysis"
 ---
 
