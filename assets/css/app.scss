@@ -93,7 +93,7 @@
 // -----------------------------------------
 
 .font-green {
-  color: #21784a;
+  color: get-color(primary);
 }
 .font-bold {
   font-weight: 600;
@@ -117,7 +117,7 @@ $input-radius: 50px;
 // -----------------------------------------
 .top-bar {
   a {
-    color: white;
+    color: $white;
 
     &:hover {
       color: #21784a;
@@ -128,6 +128,45 @@ $input-radius: 50px;
     border-color: #333333;
     border-radius: 5px;
     box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.35);
+  }
+}
+
+// -----------------------------------------
+// Discover
+// -----------------------------------------
+.discover-wrapper {
+  background-image: url('/assets/img/osm/osm-modules-background.png');
+  min-height: 725px;
+  padding: 25px 0;
+}
+
+// -----------------------------------------
+// Modules' button
+// -----------------------------------------
+.module {
+  align-items: center;
+  border-radius: 3px;
+  color: $white;
+  display: flex;
+  flex: 1;
+    background-color: get-color(primary);
+    border: solid 1px darken(get-color(primary), 10%);
+    border-bottom: solid 5px darken(get-color(primary), 5%);
+  &:hover {
+    color: $white;
+      background-color: darken(get-color(primary), 5%);
+      border-bottom: solid 5px darken(get-color(primary), 10%);
+  }
+  &:active {
+    margin-top: 5px;
+    border-bottom: none;
+  }
+  .module-image {
+    padding: 10px;
+  }
+  .module-title {
+    font-weight: 500;
+    font-size: 1.25em;
   }
 }
 
