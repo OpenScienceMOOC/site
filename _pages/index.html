@@ -62,9 +62,33 @@ layout: base
           sed. 
         </p>
       </div>
-      <div class="cell small-12 text-center">
-        <h2 class="h3 font-bold font-green">Discover our courses</h2>
+    </div>
+  </div>
+
+  <div class="discover-wrapper">
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x grid-padding-y">
+        <div class="cell small-12 text-center">
+          <h2 class="h3 font-bold font-green">Discover our courses</h2>
+        </div>
+        {% for module in site.modules %}
+        <div class="cell small-12 medium-4">
+          <a class="module green" href="{{ module.url | relative_url }}">
+            <div class="module-image">
+              <img src="holder.js/64x64" alt="#">
+            </div>
+            <div class="module-title">
+              {{ module.title }}
+            </div>
+          </a>
+        </div>
+        {% endfor %}
       </div>
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x grid-padding-y">
       <div class="cell small-12 text-center">
         <h2 class="h3 font-bold font-green">What's new?</h2>
       </div>
@@ -72,7 +96,9 @@ layout: base
       {% for post in site.posts limit:3 %}
         <div class="cell small-12 medium-4">
           <img src="holder.js/380x200" alt="Icons">
-          <h3 class="h4">{{ post.title }}</h3>
+          <h3 class="h4">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
           <p>
             Posted on {{ post.date | date: "%B %d, %Y" }} by 
             <a href="#">{{ post.author }}</a> in
