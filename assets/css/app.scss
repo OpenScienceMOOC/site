@@ -115,6 +115,16 @@ $input-radius: 50px;
 // -----------------------------------------
 // Topbar
 // -----------------------------------------
+
+.page-top-bar {
+  background-color: #111111;
+  .top-bar,
+  .top-bar-left > ul,
+  .top-bar-right > ul {
+    background-color: inherit;
+  }
+}
+
 .top-bar {
   a {
     color: $white;
