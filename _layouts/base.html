@@ -2,9 +2,18 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    {{ content }}
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+        <!-- Your menu or Off-canvas content goes here -->
+        {% include offcanvas.html %}
+      </div>
+      <div class="off-canvas-content" data-off-canvas-content>
+        <!-- Your page content lives here -->
+        {{ content }}
 
-    {% include footer.html %}
+        {% include footer.html %}
+      </div>
+    </div>
 
     <!-- javascript files -->
     {% if site.environment == "dev" %}

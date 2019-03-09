@@ -1,13 +1,24 @@
   <div class="grid-container">
     <nav class="top-bar">
-        <div class="top-bar-left">
-          <ul class="dropdown menu" data-dropdown-menu>
-            <li class="menu-text">
-            <a href="{{ site.url }}">{{ site.title }}</a></li>
-          </ul>
-        </div>
-        <div class="top-bar-right">
-          {% include menu.html menu=site.data.menus.main dropdown=true %}
-        </div>
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">
+          <a href="{{ site.url }}">{{ site.title }}</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right hide-for-large">
+        <ul class="menu">
+          <li>
+            <button type="button" 
+                    data-toggle="offCanvas"
+                    style="color: white;">
+              <span class="fa fa-bars"></span> Menu
+            </button>       
+          </li>
+        </ul>
+      </div>
+      <div class="top-bar-right show-for-large">
+        {% include menu/dropdown.html menu=site.data.menus.main %}
+      </div>
     </nav>
   </div>
