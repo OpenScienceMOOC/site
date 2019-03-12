@@ -117,20 +117,20 @@ $input-radius: 50px;
 // -----------------------------------------
 
 .page-top-bar {
-  background-color: #111111;
-  .top-bar,
-  .top-bar-left > ul,
-  .top-bar-right > ul {
-    background-color: inherit;
-  }
+  background-color: #21784a;
 }
 
 .top-bar {
-  a {
-    color: $white;
+  .top-bar-left > ul,
+  .top-bar-right > ul {
+    background-color: inherit;
+    .is-dropdown-submenu-parent a,
+    a {
+      color: $white;
 
-    &:hover {
-      color: #21784a;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
   .submenu {
