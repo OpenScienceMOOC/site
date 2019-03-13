@@ -19,7 +19,7 @@ For now, don't forget that the course is totally [free to join](https://eliademy
 
 A couple of days ago, we also released this **brand new video** for the forthcoming module on Open Principles:
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=CNKt8B07Kwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CNKt8B07Kwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This video is for a task designed for researchers who want to help to build their online profile while helping to amplify their work. Think of this task like a way of creating an online CV for showcasing your research. It teaches four tools you can use for this: 
 
