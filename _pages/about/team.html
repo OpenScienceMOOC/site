@@ -20,11 +20,20 @@ title: "Our Team"
         <div class="card-section">
           <h2 class="h4">{{ member.name }}</h2>
           <p>{{ member.location }}</p>
+          <h3 class="show-for-sr">Follow {{ member.name }}</h3>
           <ul class="menu align-center">
-            <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-2x fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-2x fa-envelope"></i></a></li>
-            <li><a href="#"><i class="fa fa-2x fa-globe"></i></a></li>
+            {% for network in site.data.networks %}
+            {% for contact in member.contact %}
+            <li>
+              {% if network.name == contact[0] %}
+              <a href="{{ network.url }}{{ contact[1] }}">
+                <i class="fa fa-2x fa-{{ network.icon }}"></i>
+                <span class="show-for-sr">{{ contact[1] }}</span>
+              </a>
+              {% endif %}
+            </li>
+            {% endfor %}
+            {% endfor %}
           </ul>
         </div>
       </div>
