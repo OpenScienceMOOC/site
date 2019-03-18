@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-centered
 title: "Open Access to Research Papers"
 ---
 
