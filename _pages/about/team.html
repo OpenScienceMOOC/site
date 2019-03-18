@@ -1,0 +1,30 @@
+---
+layout: page
+title: "Our Team"
+---
+<div class="grid-container">
+  <div class="grid-x grid-padding-x small-up-1 medium-up-3">
+    {% for i in (1..10) %}
+    <div class="cell">
+      <div class="card text-center">
+        <div class="card-section">
+          <img class="rounded" src="holder.js/128x128">
+        </div>
+        <div class="card-section">
+          <h2 class="h4">Full Name</h2>
+          <p>Role</p>
+          <p>City, Country</p>
+        </div>
+        <div class="card-section">
+          <ul class="menu align-center">
+            <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-2x fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-2x fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa fa-2x fa-globe"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
