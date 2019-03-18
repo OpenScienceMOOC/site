@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Our Team"
+title: "Steering Committee"
 ---
 <div class="grid-container">
   <div class="grid-x grid-padding-x small-up-1 medium-up-3">
     {% for member_hash in site.data.team %}
     {% assign member = member_hash[1] %}
-    {% if member.team == "production" %}
+    {% if member.team == "steering-committee" %}
     <div class="cell">
       <div class="card text-center">
         <div class="card-section">
