@@ -1,0 +1,45 @@
+---
+layout: base
+---
+
+<header>
+  <div class="page-top-bar">
+    {% include topbar.html %}
+  </div>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-y align-center">
+      <div class="cell small-12 medium-8 text-center">
+        <h1>{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-y">
+      {% for post in site.posts %}
+      <div class="cell small-12">
+        <div class="grid-x grid-padding-x">
+          <div class="cell small-12 medium-4">
+            <img src="holder.js/100px225" alt="">
+          </div>
+          <div class="cell small-12 medium-8">
+            <h2 class="h3"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p>Posted on {{ post.date | date: "%B %d, %Y"}} 
+               by {{ post.author }} in
+               {{ post.categories }}
+            </p>
+            <p>{{ post.excerpt }}</p>
+            <p>
+              <a href="{{ post.url }}">
+                Read more <span class="show-for-sr">about {{ post.title }}</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</main>
