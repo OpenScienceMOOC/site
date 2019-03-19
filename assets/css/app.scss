@@ -104,7 +104,7 @@ $input-radius: 50px;
 
 .hero {
   background-image:
-    url('/assets/img/osm/osm-hero.png');
+    url('/assets/img/osm/osm-hero.jpg');
   background-size: cover;
   color: $white;
   &-section {
@@ -145,7 +145,7 @@ $input-radius: 50px;
 // Discover
 // -----------------------------------------
 .discover-wrapper {
-  background-image: url('/assets/img/osm/osm-modules-background.png');
+  background-image: url('/assets/img/osm/osm-modules-background.jpg');
   min-height: 725px;
   padding: 25px 0;
 }
