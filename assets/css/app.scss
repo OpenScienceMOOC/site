@@ -110,6 +110,20 @@ $input-radius: 50px;
   &-section {
     height: 400px;
   }
+
+  a {
+    color: get-color(primary-alt);
+    &:hover {
+      color: lighten(get-color(primary-alt), 10%);
+    }
+  }
+
+  .button.primary {
+    background-color: get-color(primary-alt);
+    &:hover {
+      background-color: lighten(get-color(primary-alt), 10%);
+    }
+  }
 }
 
 // -----------------------------------------
@@ -191,9 +205,20 @@ $input-radius: 50px;
     list-style-type: none;
     a:first-child {
       color: white;
-      &:hover {
-        color: #21784a;
-      }
+    }
+  }
+
+  a {
+    color: get-color(primary-alt);
+    &:hover {
+      color: lighten(get-color(primary-alt), 10%);
+    }
+  }
+
+  .button.primary {
+    background-color: get-color(primary-alt);
+    &:hover {
+      background-color: lighten(get-color(primary-alt), 10%);
     }
   }
 
@@ -215,8 +240,21 @@ $input-radius: 50px;
   }
   .drilldown a {
     background-color: $black;
+    color: $white;
+    &:hover::after {
+      border-color: transparent transparent transparent $black;
+    }
+    &:hover::before {
+      border-color: transparent $black transparent transparent;
+    }
+    &::after {
+      border-color: transparent transparent transparent $white;
+    }
+    &::before {
+      border-color: transparent $white transparent transparent;
+    }
     &:hover {
-      background-color: get-color(primary);
+      background-color: get-color(primary-alt);
       color: $black;
     }
   }
