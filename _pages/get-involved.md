@@ -31,7 +31,7 @@ Secondly, contacting us directly to be part of the core development team for
 each module.
 
 {: .h3} 
-## Partnership
+## Partnerships
 
 {: .h5} 
 ### Core partners 
