@@ -114,14 +114,14 @@ $input-radius: 50px;
   a {
     color: get-color(primary-alt);
     &:hover {
-      color: lighten(get-color(primary-alt), 10%);
+      color: lighten(get-color(primary-alt), 5%);
     }
   }
 
   .button.primary {
     background-color: get-color(primary-alt);
     &:hover {
-      background-color: lighten(get-color(primary-alt), 10%);
+      background-color: lighten(get-color(primary-alt), 5%);
     }
   }
 }
@@ -174,12 +174,12 @@ $input-radius: 50px;
   display: flex;
   flex: 1;
     background-color: get-color(primary);
-    border: solid 1px darken(get-color(primary), 10%);
+    border: solid 1px darken(get-color(primary), 5%);
     border-bottom: solid 5px darken(get-color(primary), 5%);
   &:hover {
     color: $white;
       background-color: darken(get-color(primary), 5%);
-      border-bottom: solid 5px darken(get-color(primary), 10%);
+      border-bottom: solid 5px darken(get-color(primary), 5%);
   }
   &:active {
     margin-top: 5px;
@@ -211,14 +211,15 @@ $input-radius: 50px;
   a {
     color: get-color(primary-alt);
     &:hover {
-      color: lighten(get-color(primary-alt), 10%);
+      color: lighten(get-color(primary-alt), 5%);
     }
   }
 
   .button.primary {
     background-color: get-color(primary-alt);
+    color: $black;
     &:hover {
-      background-color: lighten(get-color(primary-alt), 10%);
+      background-color: lighten(get-color(primary-alt), 5%);
     }
   }
 
