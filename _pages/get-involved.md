@@ -5,17 +5,21 @@ title: "Get Involved"
 
 There are a number of ways to engage with the MOOC.
 
+{: .h3} 
 ## Our teams
 
+{: .h5} 
 ### Steering Committee 
 
 To help focus the strategic direction of the whole project.
 
+{: .h5} 
 ### Executive Institutional Committee 
 
 Guides the co-ordination and implementation of the MOOC at the institute level.
 [Contact us](mailto:info@opensciencemooc.eu) if you are interested here.
 
+{: .h5} 
 ### Production team 
 
 Each module has a core development team. If you would like to join, there are 
@@ -26,22 +30,27 @@ Firstly, simply by adding yourself to the open GitHub teams.
 Secondly, contacting us directly to be part of the core development team for 
 each module.
 
+{: .h3} 
 ## Partnership
 
+{: .h5} 
 ### Core partners 
 
 Our core partners help us with the critical development of the MOOC. 
 
+{: .h5} 
 ### Strategic partners
 
 Groups or organisations who we can work with together to help advance Open 
 Science together. If you believe that your work is aligned with that of the 
 MOOC, come and join us in making Open Science a reality!
 
+{: .h5} 
 ### Institutional partners
 
 Institutional organizations that help to locally deliver the MOOC modules.
 
+{: .h3} 
 ## Sponsors
 
 The Open Science MOOC is a volunteer-driven project. We rely on the goodwill 
