@@ -1,6 +1,6 @@
 ---
 layout: page-centered
-title: "Open principles"
+title: "Open Principles"
 ---
 
 **Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-1-Open-Principles/tree/master/content_development).

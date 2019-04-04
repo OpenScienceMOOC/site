@@ -1,6 +1,6 @@
 ---
 layout: page-centered
-title: "Open collaboration"
+title: "Open Collaboration"
 ---
 
 ## Rationale
