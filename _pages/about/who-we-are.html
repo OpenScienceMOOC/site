@@ -1,0 +1,130 @@
+---
+layout: page
+title: "Who We Are"
+---
+
+<div class="grid-container">
+  <div class="grid-x">
+    <div class="cell auto text-center">
+      <h2>Steering Committee</h2>
+    </div>
+  </div>
+  <div class="grid-x grid-padding-x small-up-1 medium-up-3">
+    {% for member_hash in site.data.teams.steering-committee %}
+    {% assign member = member_hash[1] %}
+    <div class="cell">
+      <div class="card text-center">
+        <div class="card-section">
+          <img class="rounded" 
+               width="128"
+               src="{{ "/assets/img/people/" | 
+                       append: member_hash[0] | 
+                       append: ".jpg" | 
+                       relative_url }}">
+        </div>
+        <div class="card-section">
+          <h2 class="h4">{{ member.name }}</h2>
+          <p>{{ member.location }}</p>
+          <h3 class="show-for-sr">Follow {{ member.name }}</h3>
+          <ul class="menu align-center">
+            {% for network in site.data.networks %}
+            {% for contact in member.contact %}
+            <li>
+              {% if network.name == contact[0] %}
+              <a href="{{ network.url }}{{ contact[1] }}">
+                <i class="fa fa-2x fa-{{ network.icon }}"></i>
+                <span class="show-for-sr">{{ contact[1] }}</span>
+              </a>
+              {% endif %}
+            </li>
+            {% endfor %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="grid-x">
+    <div class="cell auto text-center">
+      <h2>Advisors</h2>
+    </div>
+  </div>
+  <div class="grid-x grid-padding-x small-up-1 medium-up-3">
+    {% for member_hash in site.data.teams.advisors %}
+    {% assign member = member_hash[1] %}
+    <div class="cell">
+      <div class="card text-center">
+        <div class="card-section">
+          <img class="rounded" 
+               width="128"
+               src="{{ "/assets/img/people/" | 
+                       append: member_hash[0] | 
+                       append: ".jpg" | 
+                       relative_url }}">
+        </div>
+        <div class="card-section">
+          <h2 class="h4">{{ member.name }}</h2>
+          <p>{{ member.location }}</p>
+          <h3 class="show-for-sr">Follow {{ member.name }}</h3>
+          <ul class="menu align-center">
+            {% for network in site.data.networks %}
+            {% for contact in member.contact %}
+            <li>
+              {% if network.name == contact[0] %}
+              <a href="{{ network.url }}{{ contact[1] }}">
+                <i class="fa fa-2x fa-{{ network.icon }}"></i>
+                <span class="show-for-sr">{{ contact[1] }}</span>
+              </a>
+              {% endif %}
+            </li>
+            {% endfor %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="grid-x">
+    <div class="cell auto text-center">
+      <h2>Production Team</h2>
+    </div>
+  </div>
+  <div class="grid-x grid-padding-x small-up-1 medium-up-3">
+    {% for member_hash in site.data.teams.production %}
+    {% assign member = member_hash[1] %}
+    <div class="cell">
+      <div class="card text-center">
+        <div class="card-section">
+          <img class="rounded" 
+               width="128"
+               src="{{ "/assets/img/people/" | 
+                       append: member_hash[0] | 
+                       append: ".jpg" | 
+                       relative_url }}">
+        </div>
+        <div class="card-section">
+          <h2 class="h4">{{ member.name }}</h2>
+          <p>{{ member.location }}</p>
+          <h3 class="show-for-sr">Follow {{ member.name }}</h3>
+          <ul class="menu align-center">
+            {% for network in site.data.networks %}
+            {% for contact in member.contact %}
+            <li>
+              {% if network.name == contact[0] %}
+              <a href="{{ network.url }}{{ contact[1] }}">
+                <i class="fa fa-2x fa-{{ network.icon }}"></i>
+                <span class="show-for-sr">{{ contact[1] }}</span>
+              </a>
+              {% endif %}
+            </li>
+            {% endfor %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
