@@ -14,4 +14,4 @@ contact:
 type: lead
 ---
 
-Lisa has a Master's degree in North American Studies at Freie Universit?t Berlin. She is now working as an Assistant Editor for the Open Library of Humanities, and managing the social media accounts of the Academic Mental Health Collective and Aletheia, an open source publishing platform.   
+Lisa has a Master's degree in North American Studies at Freie Universitat Berlin. She is now working as an Assistant Editor for the Open Library of Humanities, and managing the social media accounts of the Academic Mental Health Collective and Aletheia, an open source publishing platform. In her spare time, she is doing a PhD in North American Studies and Political Science at the FU in Berlin. 

@@ -14,4 +14,4 @@ contact:
 type: lead
 ---
 
-I'm the founder of the Open Science MOOC and the publishing platform paleorXiv, which I work on alongside rogue research activities as a palaeontologist.  
+I'm the founder of the Open Science MOOC and the publishing platform paleorXiv, and an independent researcher associated with IGDORE.
