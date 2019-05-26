@@ -1,5 +1,5 @@
 ---
-layout: page-centered
+layout: page
 title: "Open Educational Resources"
 ---
 
