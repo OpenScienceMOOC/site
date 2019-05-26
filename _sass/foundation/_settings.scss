@@ -1,4 +1,4 @@
-
+//  Foundation for Sites Settings
 //  -----------------------------
 //
 //  Table of Contents:
@@ -69,28 +69,27 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #21784a,
-  primary-alt: #278c56,
+  primary: #1779ba,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
-  alert: #cc4b37
+  alert: #cc4b37,
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #000000;
-$white: #ffffff;
+$black: #0a0a0a;
+$white: #fefefe;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, 'Liberation Sans', sans-serif;
+$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 5px;
+$global-radius: 0;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
@@ -131,7 +130,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Roboto, Arial, 'Liberation Sans', sans-serif;
+$header-font-family: $body-font-family;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -287,8 +286,7 @@ $button-background: $primary-color;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
-//$button-radius: $global-radius;
-$button-radius: 50px;
+$button-radius: $global-radius;
 $button-hollow-border-width: 1px;
 $button-sizes: (
   tiny: 0.6rem,
@@ -327,9 +325,9 @@ $callout-link-tint: 30%;
 // 14. Card
 // --------
 
-$card-background: inherit;
-$card-font-color: inherit;
-$card-divider-background: inherit;
+$card-background: $white;
+$card-font-color: $body-font-color;
+$card-divider-background: $light-gray;
 $card-border: 1px solid $light-gray;
 $card-shadow: none;
 $card-border-radius: $global-radius;
@@ -387,8 +385,7 @@ $dropdown-sizes: (
 // 18. Dropdown Menu
 // -----------------
 
-//$dropdownmenu-arrows: true;
-$dropdownmenu-arrows: false;
+$dropdownmenu-arrows: true;
 $dropdownmenu-arrow-color: $anchor-color;
 $dropdownmenu-arrow-size: 6px;
 $dropdownmenu-arrow-padding: 1.5rem;
@@ -502,8 +499,7 @@ $offcanvas-sizes: (
 $offcanvas-vertical-sizes: (
   small: 250px,
 );
-//$offcanvas-background: $light-gray;
-$offcanvas-background: $black;
+$offcanvas-background: $light-gray;
 $offcanvas-shadow: 0 0 10px rgba($black, 0.7);
 $offcanvas-inner-shadow-size: 20px;
 $offcanvas-inner-shadow-color: rgba($black, 0.25);
@@ -850,12 +846,11 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-//$topbar-background: $light-gray;
-$topbar-background: transparent;
+$topbar-background: $light-gray;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
-$topbar-unstack-breakpoint: small;
+$topbar-unstack-breakpoint: medium;
 
 // 56. Xy Grid
 // -----------
