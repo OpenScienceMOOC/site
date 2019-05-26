@@ -1,56 +1,52 @@
-<footer id="page-footer">
+<footer>
   <div class="grid-container">
-    <div class="grid-x grid-margin-x grid-padding-y">
-      <div class="cell small-12 medium-4">
-        <h2 class="h5">Open Science MOOC</h2>  
-        <p>
-          Unless otherwise stated the content of this website is licensed
-          under <a href="#">CC-BY-SA 4.0</a> license and the source code 
-          is licensed under <a href="#">MIT</a> license.
-        </p>
-        <ul class="menu">
-          {% for network in site.data.footer.networks %}
-          <li>
-            <a href="{{ network.url }}">
-              <span class="fa fa-2x {{ network.icon }}"></span>
-              <span class="show-for-sr">{{ network.name }}</span>
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
+    <section class="grid-x grid-padding-x grid-padding-y">
+      <div class="cell small-12 medium-2">
+        <img src="holder.js/128x128" alt="#">
       </div>
       <div class="cell small-12 medium-4">
-        <h2 class="h5"><span class="text-uppercase">Sponsors</span></h2>  
-        <ul>
-          {% for sponsor in site.data.footer.sponsors %}
-          <li>
-            <a href="{{ sponsor.url }}">
-              <img src="{{ sponsor.image | relative_url}}" 
-                   alt="{{ sponsor.name }}">
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
+        <h2>Stay Updated!</h2>
+        <p>Get the latest news from Open Science MOOC about our courses.</p>
       </div>
-      <div class="cell small-12 medium-4">
-        <h2 class="h5"><span class="text-uppercase">Newsletter</span></h2>  
+      <div class="cell small-12 medium-6">
         <form action="">
-          <div class="grid-container">
-            <div class="grid-x grid-padding-y">
-              <div class="cell small-12">
-                <label for="#">
-                  <span class="show-for-sr">Email:</span>
-                  <input type="text" 
-                         placeholder="your@email.com">
-                </label>
-              </div>
-              <div class="cell small-12">
-                <button class="button primary expanded">Subcribe now</button>
-              </div>
-            </div>
-          </div>
+          <label>
+            <span class="show-for-sr">
+              Enter your e-mail address:
+            </span>
+            <input type="email" placeholder="youremail@example.com">
+          </label>
+          <input type="submit" 
+                 class="expanded primary hollow button" 
+                 value="Sign Up Now">
         </form>
       </div>
-    </div>
+    </section>
+    <section class="grid-x grid-padding-x">
+      <div class="cell small-12 medium-auto">
+        <nav class="grid-x">
+          <section class="cell small-12 medium-shrink">
+            <a href="{{ site.url | relative_url }}">
+              <img src="holder.js/200x50" alt="Open Science MOOC">
+            </a>
+          </section>
+          <section class="cell small-12 medium-auto">
+            <ul class="menu horizontal">
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+      <div class="cell small-12 medium-shrink">
+        <nav>
+          <ul class="menu vertical medium-horizontal">
+            <li><a href="#">License</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
   </div>
 </footer>
