@@ -3,12 +3,9 @@
   <li>
     <a href="{{ item.url }}">
       {{ item.title }} 
-      {% if item.submenu %}
-        <span class="fa fa-caret-down"></span>
-      {% endif %}
     </a>
     {% if item.submenu %}
-    <ul class="menu">
+    <ul class="vertical menu">
       {% for subitem in item.submenu %}
       <li><a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
       {% endfor %}
