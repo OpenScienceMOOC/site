@@ -5,20 +5,21 @@
         <img src="holder.js/128x128" alt="#">
       </div>
       <div class="cell small-12 medium-4">
-        <h2>Stay Updated!</h2>
-        <p>Get the latest news from Open Science MOOC about our courses.</p>
+        <h2>{{ site.data.footer.newsletter.title }}</h2>
+        <p>{{ site.data.footer.newsletter.text | markdownify }}</p>
       </div>
       <div class="cell small-12 medium-6">
         <form action="">
           <label>
             <span class="show-for-sr">
-              Enter your e-mail address:
+              {{ site.data.footer.newsletter.label }}
             </span>
-            <input type="email" placeholder="youremail@example.com">
+            <input type="email" 
+                   placeholder="{{ site.data.footer.newsletter.input }}">
           </label>
           <input type="submit" 
                  class="expanded primary hollow button" 
-                 value="Sign Up Now">
+                 value="{{ site.data.footer.newsletter.button }}">
         </form>
       </div>
     </section>
@@ -32,9 +33,9 @@
           </section>
           <section class="cell small-12 medium-auto">
             <ul class="menu horizontal">
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
-              <li><a href="#">link</a></li>
+              {% for network in site.data.footer.networks %}
+              <li><a href="{{ network.url }}">{{ network.name }}</a></li>
+              {% endfor %}
             </ul>
           </section>
         </nav>
@@ -42,8 +43,9 @@
       <div class="cell small-12 medium-shrink">
         <nav>
           <ul class="menu vertical medium-horizontal">
-            <li><a href="#">License</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            {% for link in site.data.footer.links %}
+            <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+            {% endfor %}
           </ul>
         </nav>
       </div>
