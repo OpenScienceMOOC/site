@@ -8,52 +8,26 @@ description: "Your description goes here"
   <div class="hero-top-bar">
     {% include topbar.html %}
   </div>
-  <div class="hero-section grid-x align-center-middle">
-    <div class="cell large-4 text-center">
-      <h1 class="show-for-sr">Homepage</h1>
-      <h2 class="show-for-sr">Our vision</h2>
-      <p class="h3">
-        We want to make <span class="font-bold font-underline">open</span> 
-        the default setting for all global research
-      </p>
-      <p class="h3">And you?</p>
-      <a class="h4 button large primary shadow" 
-         href="https://eliademy.com/opensciencemooc"
-         style="margin-top: 20px;">Enroll to our courses now</a>
-      <p>Propulsed by <a href="https://eliademy.com/">Eliademy</a></p>
-    </div>
-  </div>
+  <h1 class="show-for-sr">Homepage</h1>
 </header>
 
 <main>
-  <div class="grid-container">
-    <div class="grid-x grid-margin-x grid-padding-y">
-      <div class="cell small-12 text-center">
-        <h2 class="h3 font-bold font-green">How can you help?</h2>
-      </div>  
-      <div class="cell small-12 medium-4 text-center">
-        <span class="fa fa-3x fa-bullhorn"></span>
-        <h3 class="h4">Spread the Word</h3>
-        <p>
-          {% include_relative index/spread-the-word.html %}
-        </p>
-      </div>
-      <div class="cell small-12 medium-4 text-center">
-        <span class="fa fa-3x fa-group"></span>
-        <h3 class="h4">Join our Team</h3>
-        <p>
-          {% include_relative index/join-our-team.html %}
-        </p>
-      </div>
-      <div class="cell small-12 medium-4 text-center">
-        <span class="fa fa-3x fa-handshake-o"></span>
-        <h3 class="h4">Become a Partner</h3>
-        <p>
-          {% include_relative index/become-a-partner.html %}
-        </p>
-      </div>
+  <!-- Hero -->
+  <section class="grid-x grid-padding-y align-center-middle">
+    <div class="cell large-4 text-center">
+      <h2 class="show-for-sr">Our vision</h2>
+      <p>
+        Become an open sourcerer or sorceress and make open science the 
+        default setting for all global research
+      </p>
+      <a class="primary hollow button" 
+         href="https://eliademy.com/opensciencemooc">
+         Learn the Magic
+      </a>
+      <p>Propulsed by <a href="https://eliademy.com/">Eliademy</a></p>
     </div>
-  </div>
+  </section>
+  <!-- END Hero -->
   
   <!-- How Can You Help? -->
   <div class="grid-container">
