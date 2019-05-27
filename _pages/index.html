@@ -77,27 +77,43 @@ description: "Your description goes here"
     </div>
   </div>
 
+  <!-- What's New? -->
   <div class="grid-container">
-    <div class="grid-x grid-margin-x grid-padding-y">
+    <section class="grid-x grid-padding-x grid-padding-y">
       <div class="cell small-12 text-center">
-        <h2 class="h3 font-bold font-green">What's new?</h2>
+        <h2>What's New?</h2>
       </div>
-      
       {% for post in site.posts limit:3 %}
-        <div class="cell small-12 medium-4">
-          <img src="holder.js/380x200" alt="Icons">
-          <h3 class="h4">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h3>
-          <p>
-            Posted on {{ post.date | date: "%B %d, %Y" }} by 
-            <a href="#">{{ post.author }}</a> in
-            {% for category in post.categories %}
-              <a href="#">{{ category }}</a>
-            {% endfor %}
-          </p>
-        </div>
+      <div class="cell small-12 medium-4">
+        <article>
+          <header>
+            <img src="holder.js/380x200" alt="Article's image">
+            <h3>
+             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+            <div class="grid-x grid-padding-x">
+              <address class="cell shrink" 
+                       style="border-right: solid 1px #ccc;">
+                <a href="#">{{ post.author }}</a>
+              </address>
+              <time class="cell auto">
+                {{ post.date | date: "%B %d, %Y" }}
+              </time>
+            </div>
+          </header>
+          <p>{{ post.excerpt }}</p>
+          <footer>
+            <a href="{{ post.url | relative_url }}">
+              Read more 
+              <span class="show-for-sr">
+                about {{ post.title }} article.
+              </span>
+            </a>
+          </footer>
+        </article>
+      </div>
       {% endfor %}
-    </div>
+    </section>
   </div>
+  <!-- END What's New? -->
 </main>
