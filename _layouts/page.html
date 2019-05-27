@@ -15,4 +15,17 @@ layout: base
   </div>
 </header>
 
-{{ content }}
+<main>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y align-center"> 
+      <div class="cell medium-8">
+        {{ content }}
+      </div>
+      {% if page.collection == "modules" %}
+      <div class="cell medium-4">
+        {% include toc/module.html %} 
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</main>
