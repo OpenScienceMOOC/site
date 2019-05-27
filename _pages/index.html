@@ -54,6 +54,27 @@ description: "Your description goes here"
       </div>
     </div>
   </div>
+  
+  <!-- How Can You Help? -->
+  <div class="grid-container">
+    <section class="grid-x grid-padding-x grid-padding-y">
+      <div class="cell small-12 text-center">
+        <h2>How Can You Help?</h2>
+      </div>
+      {% for i in (0..2) %}
+      <section class="cell medium-4 text-center">
+        <img src="holder.js/96x96" alt="Icon">
+        <h3>Title</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
+          condimentum faucibus augue, sed gravida quam elementum eget. 
+          Vivamus justo eros. 
+        </p>
+      </section>
+      {% endfor %}
+    </section>
+  </div>
+  <!-- END How Can You Help? -->
 
   <!-- Discover our Courses -->
   <section class="grid-container">
@@ -63,7 +84,7 @@ description: "Your description goes here"
       </div>
     </div>
 
-    <ul class="grid-x grid-padding-x grid-padding-y large-up-3 no-bullet">
+    <ul class="grid-x grid-padding-x grid-padding-y medium-up-3 no-bullet">
       {% for module in site.modules %}
       <li class="cell text-center">
         <div class="card" style="height: 100%;">
