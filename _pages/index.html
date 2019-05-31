@@ -33,7 +33,9 @@ description: "Your description goes here"
       </div>
       {% for block in site.data.pages.index.help.blocks %}
       <section class="cell medium-4 text-center">
-        <img src="{{ block.icon }}" alt="{{ block.icon-alt-text }}">
+        {% if block.icon and block.icon != "" %}
+          {% include {{ block.icon }} %}
+        {% endif %}
         <h3>{{ block.title }}</h3>
         <p>
           {{ block.text | markdownify }}
@@ -55,9 +57,11 @@ description: "Your description goes here"
     <ul class="grid-x grid-padding-x grid-padding-y medium-up-3 no-bullet">
       {% for module in site.modules %}
       <li class="cell text-center">
-        <div class="card" style="height: 100%;">
+        <div class="card" >
           <div class="card-section">
-            <img src="assets/img/generic/rectangle-1.jpg">
+            {% if module.icon %}
+              {% include {{ module.icon }} %}
+            {% endif %}
           </div>
           <div class="card-section">
             <a href="{{ module.url | relative_url }}">

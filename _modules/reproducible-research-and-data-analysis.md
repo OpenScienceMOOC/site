@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Reproducible Research and Data Analysis"
+icon: "icons/trends.html"
 ---
 
 ## Rationale

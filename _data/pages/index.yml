@@ -7,16 +7,13 @@ help:
   blocks:
   - title: "Spread the Word"
     text: "Open Science is for everyone. Help us spread the word by [joining our open Slack channel](https://osmooc.herokuapp.com/) and invite your friends and colleagues to be part of our community."
-    icon: "holder.js/96x96"
-    icon-alt-text: "icon"
+    icon: icons/megaphone.html
   - title: "Join Our Team"
     text: "Everything we develop and produce is in the open. You can [join our team on GitHub](https://open-science-mooc-invite.herokuapp.com/). If you want to become an instructor [email us](mailto:info@opensciencemooc.eu)."
-    icon: "holder.js/96x96"
-    icon-alt-text: "icon"
+    icon: ""
   - title: "Become a Partner"
     text: "We have three different partner levels (Core, Strategic and Institutional) that help us to develop the MOOC, advance Open Science and locally deliver the MOOC modules. If you want to become a partner [email us](mailto:info@opensciencemooc.eu)." 
-    icon: "holder.js/96x96"
-    icon-alt-text: "icon"
+    icon: ""
 
 discover:
   title: "Discover Our Courses"

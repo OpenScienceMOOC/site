@@ -92,3 +92,19 @@
 // Custom CSS goes here
 // -----------------------------------------
 
+// Hero
+#hero {
+  background: url('/assets/img/osm/osm-hero.jpg') 0 0 no-repeat;
+  color: $white;
+  height: 600px;
+}
+
+// _includes/footer.html
+#footer {
+  #footer--newsletter {
+    background-color: #ccc;
+  }
+  #footer--nav {
+    background-color: #aaa;
+  }
+}

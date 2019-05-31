@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Public Engagement with Science"
+icon: "icons/globe.html"
 ---
 
 ## Rationale

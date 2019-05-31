@@ -7,6 +7,7 @@ newsletter:
   label: "Enter Your Email Address:"
   input: "email@example.com"
   button: "Sign Up Now"
+  icon: "icons/newspaper.html"
 
 networks:
 - name: "Slack"

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Open Advocacy"
+icon: "icons/megaphone-alt.html"
 ---
 
 ## Rationale

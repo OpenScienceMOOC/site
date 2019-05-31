@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Open Research Data"
+icon: "icons/stack.html"
 ---
 
 ## Rationale

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Open Evaluation"
+icon: "icons/check.html"
 ---
 
 ## Rationale
