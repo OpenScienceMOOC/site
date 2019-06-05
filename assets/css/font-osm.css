@@ -1,0 +1,54 @@
+/*
+  Icon Font: font-osm
+*/
+
+@font-face {
+  font-family: "font-osm";
+  src: url("../fonts/font-osm.eot");
+  src: url("../fonts/font-osm.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/font-osm.woff2") format("woff2"),
+       url("../fonts/font-osm.woff") format("woff"),
+       url("../fonts/font-osm.ttf") format("truetype"),
+       url("../fonts/font-osm.svg#font-osm") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "font-osm";
+    src: url("../fonts/font-osm.svg#font-osm") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-envelope:before,
+.icon-github:before,
+.icon-globe:before,
+.icon-impactstory:before,
+.icon-linkedin:before,
+.icon-orcid:before,
+.icon-twitter:before {
+  display: inline-block;
+  font-family: "font-osm";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-envelope:before { content: "\f392"; }
+.icon-github:before { content: "\f221"; }
+.icon-globe:before { content: "\f393"; }
+.icon-impactstory:before { content: "\f25c"; }
+.icon-linkedin:before { content: "\f280"; }
+.icon-orcid:before { content: "\f2c3"; }
+.icon-twitter:before { content: "\f38f"; }

@@ -1,0 +1,42 @@
+---
+layout: page
+title: "Who we are"
+description: "Your description goes here"
+---
+
+<article>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x small-up-1 medium-up-3">
+      {% assign people = site.data.people | sort: person[0] %}
+      {% for person in people %}
+      <div class="cell">
+        <div class="card text-center">
+          <div class="card-section">
+          {% assign img_path = person[0] | append: ".jpg" %}
+          <img src="{{ "assets/img/people/" | append: img_path | relative_url }}"
+               alt="{{ person[1].name }} profile's picture" 
+               class="rounded">
+          <h2 class="h4">{{ person[1].name }}</h2>
+          <ul class="menu">
+          {% for contact in person[1].contact %}
+          {% for network in site.data.networks %}
+            {% if contact[0] == network.name %}
+            <li>
+              <a href="{{ network.url }}{{ contact[1] }}">
+                <span class="icon-{{ network.name }}" 
+                      style="font-size: 1.5em"
+                      aria-hidde="true"></span>
+                <span class="show-for-sr">{{ network.name }}</span>
+              </a>
+            </li>
+            {% endif %}
+          {% endfor %}
+          {% endfor %}
+          </ul>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</article>
