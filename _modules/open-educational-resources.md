@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Open Educational Resources"
+icon: "icons/cap.html"
 ---
 
 ## Rationale

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Open Research Data"
-icon: "icons/stack.html"
+icon: "icons/trends.html"
 ---
 
 ## Rationale

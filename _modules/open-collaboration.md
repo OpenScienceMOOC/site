@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Open Collaboration"
+icon: "icons/group.html"
 ---
 
 ## Rationale
