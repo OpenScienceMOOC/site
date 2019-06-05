@@ -50,12 +50,15 @@
         <div class="cell small-12 medium-auto">
           <nav class="grid-x">
             <section class="cell small-12 medium-auto">
-              <ul class="menu horizontal">
+              <ul class="menu horizontal" style="margin-top: -10px;">
                 {% for network in site.data.footer.networks %}
                 <li>
                   <a href="{{ network.url }}">
-                    <span class="icon-{{ network.name | downcase }}"></span>
-                    {{ network.name }}
+                    <span class="icon-2x icon-{{ network.name | downcase }}">
+                    </span>
+                    <span class="show-for-sr">
+                      {{ network.name }}
+                    </span>
                   </a>
                 </li>
                 {% endfor %}
