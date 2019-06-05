@@ -11,16 +11,16 @@ newsletter:
 
 networks:
 - name: "Facebook"
-  url: "#"
+  url: "https://www.facebook.com/OpenScienceMOOC/"
   icon: "fa-facebook"
 - name: "GitHub"
-  url: "#"
+  url: "https://github.com/OpenScienceMOOC"
   icon: "fa-github"
 - name: "Slack"
-  url: "#"
+  url: "https://openmooc-ers.slack.com"
   icon: "fa-slack"
 - name: "Twitter"
-  url: "#"
+  url: "https://twitter.com/OpenScienceMOOC"
   icon: "fa-twitter"
 
 links:
