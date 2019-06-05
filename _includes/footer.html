@@ -19,7 +19,7 @@
                      placeholder="{{ site.data.footer.newsletter.input }}">
             </label>
             <input type="submit" 
-                   class="expanded primary hollow button" 
+                   class="expanded white hollow button" 
                    value="{{ site.data.footer.newsletter.button }}">
           </form>
         </div>
@@ -31,15 +31,15 @@
       <section class="grid-x grid-padding-x grid-padding-y">
         <div class="cell small-12 medium-auto">
           <nav class="grid-x">
-            <section class="cell small-12 medium-shrink">
-              <a href="{{ site.url | relative_url }}">
-                <img src="holder.js/200x50" alt="Open Science MOOC">
-              </a>
-            </section>
             <section class="cell small-12 medium-auto">
               <ul class="menu horizontal">
                 {% for network in site.data.footer.networks %}
-                <li><a href="{{ network.url }}">{{ network.name }}</a></li>
+                <li>
+                  <a href="{{ network.url }}">
+                    <span class="icon-{{ network.name | downcase }}"></span>
+                    {{ network.name }}
+                  </a>
+                </li>
                 {% endfor %}
               </ul>
             </section>
@@ -49,7 +49,11 @@
           <nav>
             <ul class="menu vertical medium-horizontal">
               {% for link in site.data.footer.links %}
-              <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+              <li>
+                <a href="{{ link.url }}">
+                  {{ link.name }}
+                </a>
+              </li>
               {% endfor %}
             </ul>
           </nav>

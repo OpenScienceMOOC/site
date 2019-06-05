@@ -97,9 +97,20 @@
 // _includes/footer.html
 #footer {
   #footer--newsletter {
-    background-color: #ccc;
+    background-color: get-color(primary);
+    color: $white;
+    margin-top: 25px;
+    padding: 15px 0;
   }
   #footer--nav {
-    background-color: #aaa;
+    background-color: $black;
+    color: $white;
+    a {
+      color: $white;
+
+      &:hover {
+        color: get-color(primary);
+      }
+    }
   }
 }
