@@ -58,16 +58,16 @@ description: "Your description goes here"
       {% for module in site.modules %}
       <li class="cell text-center">
         <div class="card" >
+          <a style="font-size: 1.25em" href="{{ module.url | relative_url }}">
           <div class="card-section">
             {% if module.icon %}
               {% include {{ module.icon }} %}
             {% endif %}
           </div>
           <div class="card-section">
-            <a href="{{ module.url | relative_url }}">
-              {{ module.title }} 
-            </a>
+            {{ module.title }} 
           </div>
+          </a>
         </div>
       </li>
       {% endfor %}
