@@ -28,3 +28,9 @@ links:
   url: "/license"
 - name: "Privacy Policy"
   url: "/privacy-policy"
+
+sponsors:
+- name: "Code Ocean"
+  img: "assets/img/sponsors/codeocean.png"
+- name: "Shuttleworth Foundation"
+  img: "assets/img/sponsors/shuttleworth.png"
