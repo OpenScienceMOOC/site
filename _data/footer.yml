@@ -32,5 +32,7 @@ links:
 sponsors:
 - name: "Code Ocean"
   img: "assets/img/sponsors/codeocean.png"
+  url: "https://codeocean.com/"
 - name: "Shuttleworth Foundation"
   img: "assets/img/sponsors/shuttleworth.png"
+  url: "https://shuttleworthfoundation.org/"

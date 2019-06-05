@@ -34,8 +34,11 @@
         </div>
         {% for sponsor in site.data.footer.sponsors %}
         <div class="cell medium-4">
-          <img src="{{ sponsor.img | relative_url }}"
-               alt="{{ sponsor.name }}">   
+          <a href="{{ sponsor.url }}">
+            <img src="{{ sponsor.img | relative_url }}"
+                 alt="{{ sponsor.name }}">   
+            <span class="show-for-sr">{{ sponsor.name }}</span>
+          </a>
         </div>
         {% endfor %}
       </section>
