@@ -136,6 +136,10 @@
     }
   }
 }
+.page-top-bar {
+  border-bottom: solid 1px $light-gray;
+  box-shadow: 0 5px 5px 0 #fafafa;
+}
 
 // Off-Canvas
 .off-canvas {
