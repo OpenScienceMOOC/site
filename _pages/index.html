@@ -86,13 +86,13 @@ description: "Your description goes here"
         <article>
           <header>
             <img src="holder.js/380x200" alt="Article's image">
-            <h3>
+            <h3 class="h4">
              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>
             <div class="grid-x grid-padding-x">
               <address class="cell shrink" 
                        style="border-right: solid 1px #ccc;">
-                <a href="#">{{ post.author }}</a>
+                {{ post.author }}
               </address>
               <time class="cell auto">
                 {{ post.date | date: "%B %d, %Y" }}
