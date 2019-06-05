@@ -123,3 +123,31 @@
     }
   }
 }
+
+// Topbar
+.top-bar {
+  .menu {
+    a {
+      &:hover {
+        background-color: get-color(primary);
+        color: $white;
+      }
+    }
+  }
+}
+
+// Off-Canvas
+.off-canvas {
+  background-color: #111;
+
+  .drilldown {
+    a {
+      color: $white;
+  
+      &:hover {
+        background-color: get-color(primary);
+        color: $white;
+      }
+    }
+  }
+}
