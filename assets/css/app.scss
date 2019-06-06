@@ -134,6 +134,13 @@
         color: $white;
       }
     }
+    .menu-text {
+      a {
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
   }
 }
 .page-top-bar {
