@@ -2,6 +2,7 @@
 layout: page
 title: "Open Principles"
 icon: "icons/pillar.html"
+link: ""
 ---
 
 **Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-1-Open-Principles/tree/master/content_development).

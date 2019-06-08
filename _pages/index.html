@@ -54,24 +54,37 @@ description: "Your description goes here"
       </div>
     </div>
 
-    <ul class="grid-x grid-padding-x grid-padding-y medium-up-3 no-bullet">
+    <div class="grid-x grid-padding-x grid-padding-y medium-up-3 no-bullet">
       {% for module in site.modules %}
-      <li class="cell text-center">
-        <div class="card" >
-          <a style="font-size: 1.25em" href="{{ module.url | relative_url }}">
+      <div class="cell text-center">
+        <article class="card" >
           <div class="card-section">
             {% if module.icon %}
               {% include {{ module.icon }} %}
             {% endif %}
           </div>
           <div class="card-section">
-            {{ module.title }} 
+            <h3 class="h4">{{ module.title }}</h3>
+            <ul class="menu horizontal align-center">
+              <li style="padding-right: 15px;">
+                <a class="button primary hollow" 
+                   href="{{ module.url | relative_url }}">
+                   Learn More
+                </a>
+              </li>
+              <li>
+              {% if module.link %}
+                <a class="button primary" href="{{ module.link }}">
+                  Enroll Now
+                </a>
+              {% endif %}
+              </li>
+            </ul>
           </div>
-          </a>
-        </div>
-      </li>
+        </article>
+      </div>
       {% endfor %}
-    </ul>
+    </div>
   </section>
   <!-- END Discover our Courses -->
 
