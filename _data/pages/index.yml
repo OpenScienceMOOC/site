@@ -10,10 +10,10 @@ help:
     icon: icons/megaphone.html
   - title: "Join Our Team"
     text: "Everything we develop and produce is in the open. You can [join our team on GitHub](https://open-science-mooc-invite.herokuapp.com/). If you want to become an instructor [email us](mailto:info@opensciencemooc.eu)."
-    icon: ""
+    icon: icons/group2.html
   - title: "Become a Partner"
     text: "We have three different partner levels (Core, Strategic and Institutional) that help us to develop the MOOC, advance Open Science and locally deliver the MOOC modules. If you want to become a partner [email us](mailto:info@opensciencemooc.eu)." 
-    icon: ""
+    icon: icons/handshake.html
 
 discover:
   title: "Discover Our Courses"
