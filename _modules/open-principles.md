@@ -2,7 +2,7 @@
 layout: page
 title: "Open Principles"
 icon: "icons/pillar.html"
-link: ""
+link: "https://eliademy.com/catalog/oer/module-1-open-principles.html"
 ---
 
 **Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-1-Open-Principles/tree/master/content_development).
