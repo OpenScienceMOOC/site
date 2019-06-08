@@ -10,17 +10,27 @@
           <p>{{ site.data.footer.newsletter.text | markdownify }}</p>
         </div>
         <div class="cell small-12 medium-6">
-          <form action="">
+          <form action="https://tinyletter.com/OpenScienceMOOC" 
+                method="post" 
+                target="popupwindow" 
+                onsubmit="window.open(
+                  'https://tinyletter.com/OpenScienceMOOC', 
+                  'popupwindow', 
+                  'scrollbars=yes,width=400,height=300'
+                ); return true">
             <label>
               <span class="show-for-sr">
                 {{ site.data.footer.newsletter.label }}
               </span>
-              <input type="email" 
+              <input name="email" 
+                     id="tlemail" 
+                     type="text"
                      placeholder="{{ site.data.footer.newsletter.input }}">
             </label>
-            <input type="submit" 
-                   class="expanded white hollow button" 
-                   value="{{ site.data.footer.newsletter.button }}">
+            <input value="1" name="embed" type="hidden">
+            <input value="{{ site.data.footer.newsletter.button }}" 
+                   class="expanded white hollow button"
+                   type="submit">
           </form>
         </div>
       </section>
