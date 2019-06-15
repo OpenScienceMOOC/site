@@ -11,7 +11,8 @@ To clone this repository locally use:
 ```
 git clone https://github.com/OpenScienceMOOC/site.git
 ```
-**New to GIT and GitHub?** See [these learning resources](https://help.github.com/articles/git-and-github-learning-resources/) and this [10 min. GIT tutorial](https://try.github.io/levels/1/challenges/1).   
+**New to GIT and GitHub?** See 
+[these learning resources](https://help.github.com/articles/git-and-github-learning-resources/).
 
 ### Where are images?
 Images are located in the `/img` and `assets/img` folders.
