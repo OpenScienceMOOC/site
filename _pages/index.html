@@ -65,20 +65,20 @@ description: "Your description goes here"
           </div>
           <div class="card-section">
             <h3 class="h4">{{ module.title }}</h3>
-            <ul class="menu horizontal align-center">
-              <li style="padding-right: 15px;">
+            <ul class="menu align-center">
+              <li>
                 <a class="button primary hollow" 
                    href="{{ module.url | relative_url }}">
                    Learn More
                 </a>
               </li>
-              <li>
               {% if module.link %}
+              <li style="padding-left: 15px;">
                 <a class="button primary" href="{{ module.link }}">
                   Enroll Now
                 </a>
-              {% endif %}
               </li>
+              {% endif %}
             </ul>
           </div>
         </article>
