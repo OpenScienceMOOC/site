@@ -26,8 +26,6 @@ networks:
 links:
 - name: "License"
   url: "/license"
-- name: "Privacy Policy"
-  url: "/privacy-policy"
 
 sponsors:
 - name: "Code Ocean"
