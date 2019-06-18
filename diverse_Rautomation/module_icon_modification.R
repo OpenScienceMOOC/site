@@ -1,0 +1,1 @@
+# modifying icons for the modules with magick
