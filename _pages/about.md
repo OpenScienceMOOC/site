@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-about
 title: "About Us"
 ---
 
