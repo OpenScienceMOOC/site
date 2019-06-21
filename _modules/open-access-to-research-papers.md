@@ -2,6 +2,7 @@
 layout: page
 title: "Open Access to Research Papers"
 icon: "icons/paper.html"
+order: 6
 ---
 
 ## Rationale

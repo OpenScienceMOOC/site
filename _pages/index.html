@@ -55,7 +55,8 @@ description: "Your description goes here"
     </div>
 
     <div class="grid-x grid-padding-x grid-padding-y medium-up-3 no-bullet">
-      {% for module in site.modules %}
+      {% assign modules = site.modules | sort: "order" %}
+      {% for module in modules %}
       <div class="cell text-center">
         <article class="card" >
           <div class="card-section">

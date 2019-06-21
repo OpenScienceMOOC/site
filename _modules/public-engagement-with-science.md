@@ -2,6 +2,7 @@
 layout: page
 title: "Public Engagement with Science"
 icon: "icons/globe.html"
+order: 8
 ---
 
 ## Rationale

@@ -2,6 +2,7 @@
 layout: page
 title: "Reproducible Research and Data Analysis"
 icon: "icons/stack.html"
+order: 3
 ---
 
 ## Rationale

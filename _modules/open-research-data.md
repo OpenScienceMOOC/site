@@ -2,6 +2,7 @@
 layout: page
 title: "Open Research Data"
 icon: "icons/trends.html"
+order: 4
 ---
 
 ## Rationale

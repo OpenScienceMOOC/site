@@ -2,6 +2,7 @@
 layout: page
 title: "Open Evaluation"
 icon: "icons/check.html"
+order: 7
 ---
 
 ## Rationale

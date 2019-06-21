@@ -2,6 +2,7 @@
 layout: page
 title: "Open Principles"
 icon: "icons/pillar.html"
+order: 1
 link: "https://eliademy.com/catalog/oer/module-1-open-principles.html"
 ---
 

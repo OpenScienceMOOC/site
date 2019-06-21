@@ -2,6 +2,7 @@
 layout: page
 title: "Open Research Software and Open Source"
 icon: "icons/computer.html"
+order: 5
 link: "https://eliademy.com/app/a/courses/02d7338a7e"
 ---
 

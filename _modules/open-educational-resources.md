@@ -2,6 +2,7 @@
 layout: page
 title: "Open Educational Resources"
 icon: "icons/cap.html"
+order: 9
 ---
 
 ## Rationale
