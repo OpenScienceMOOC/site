@@ -27,6 +27,7 @@ description: "Your description goes here"
                 alt="Profile Picture's of {{ person[1].name }}">
 
           <h4>{{ person[1].name }}</h4>
+          <p>{{ person[1].location }}</p>
           <ul class="menu align-center">
             {% for contact in person[1].contact %}
               {% for network in site.data.networks %}
