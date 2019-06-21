@@ -4,6 +4,9 @@ author: "Jon Tennant"
 date: "2018-09-12"
 layout: post
 categories: news
+image: 
+  url: "assets/img/osm/osm-logo.png"
+  description: ""
 ---
 
 Traditionally, MOOC stands for 'Massive open online course'. Typically, a course can be defined as something like 'a series of lectures or lessons in a particular subject, typically leading to a qualification', and implies a fairly unidirectional manner of learning.

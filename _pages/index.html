@@ -99,7 +99,8 @@ description: "Your description goes here"
       <div class="cell small-12 medium-4">
         <article>
           <header>
-            <img src="holder.js/380x200" alt="Article's image">
+            <img src="{{ post.image.url | relative_url }}" 
+                 alt="{{ post.image.description }}">
             <h3 class="h4">
              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>

@@ -4,6 +4,9 @@ author: "Jon Tennant"
 date: "2018-09-02"
 layout: post
 categories: news
+image: 
+  url: "assets/img/osm/osm-logo.png"
+  description: ""
 ---
 
 Hi everyone,
