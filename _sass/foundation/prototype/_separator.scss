@@ -26,10 +26,6 @@ $prototype-separator-width: 3rem !default;
 /// @type Color
 $prototype-separator-background: $primary-color !default;
 
-/// Default color of a separator.
-/// @type Color
-$prototype-separator-background-image: unset !default;
-
 /// Top Margin of a separator.
 /// @type Number
 $prototype-separator-margin-top: $global-margin !default;
@@ -45,7 +41,6 @@ $prototype-separator-margin-top: $global-margin !default;
   $height: $prototype-separator-height,
   $width: $prototype-separator-width,
   $background: $prototype-separator-background,
-  $background-image: $prototype-separator-background-image,
   $top: $prototype-separator-margin-top
 ) {
   text-align: $align !important;
@@ -55,7 +50,6 @@ $prototype-separator-margin-top: $global-margin !default;
     @include position(relative);
     width: $width;
     border-bottom: $height solid $background;
-    border-image: $background-image;
     margin: $top auto 0;
 
     @if $align == left {
