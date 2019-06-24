@@ -11,10 +11,77 @@ This project adheres to the [Contributor Covenant code of conduct][coc]. By
 participating, you are expected to uphold this code. Please report unacceptable
 behavior to EMAIL@ADDRESS.HERE.
 
+### Altering the module content.   
+
+Modules descriptions are rendered from markdown files 
+([here is a useful markdown cheatsheet][md-ss]) located in the `_modules` folder.
+The module markdown files are plain markdown file. However, the top of each file 
+contains some [YAML][yaml] data helping to render the content on the website. 
+This YAML lines set the page layout, the title to render, and the icon picture 
+to use on the page.
+
+Here's an example:
+
+```yml
+---
+layout: page
+title: "Open Access to Research Papers"
+icon: "icons/paper.html"
+order: 6
+---
+```
+
+### How to add a person to be listed/rendered on the website
+
+Currently adding a person involves adding a YAML file in the `_data/people` 
+folder. Perhaps the easiest thing to do is to copy an existing file, e.g.  
+`jon_tennant.yml`. In this file, the data is used to define a member profile.
+
+The _contact_ item currently supports:
+
+* email
+* github
+* impactstory
+* linkedin
+* orcid
+* twitter
+* website
+
+Depending on which team you're in, you can use the following value for the
+_team_ item:
+
+* advisors
+* production
+* steering-committee
+
+Here's an example:
+
+```yml
+name: Dr. Jonathan Tennant
+location: Rest of World
+contact:
+  email: jon.tennant.2@gmail.com
+  github: Protohedgehog
+  impactstory: 0000-0001-7794-0218
+  linkedin: jonathan-tennant-3546953a
+  orcid: 0000-0001-7794-0218
+  twitter: Protohedgehog
+  website: fossilsandshit.com
+team: steering-committee
+```
+
+If you want to add a picture of you, you simply need to add an image in the 
+folder `assets/img/people`.
+
+The image should be in a JPG format and have the same name as your YAML file in 
+`_people` (e.g jon_tennant.yml -> jon_tennant.jpg).
+
+<!-- TODO
 ## Contributing
 
 For more information on how you can contribute to this project, please read
 our [contributing guide][contribute].
+-->
 
 ## License
 
@@ -44,7 +111,8 @@ with this program. If not, see <https://www.gnu.org/licenses/>.
 [cc]:         https://creativecommons.org/licenses/by-sa/4.0/
 [coc]:        CODE_OF_CONDUCT.md
 [contribute]: CONTRIBUTING.md
+[md-ss]:      https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [slack]:      https://openmooc-ers-slackin.herokuapp.com/ 
 [twitter]:    https://twitter.com/OpenScienceMOOC
 [website]:    https://opensciencemooc.eu
-
+[yaml]:       https://en.wikipedia.org/wiki/YAML 
