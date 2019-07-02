@@ -31,7 +31,8 @@ layout: base
           <div class="card">
             <img src="{{ "assets/img/partners/" | 
                           append: partner[0] | 
-                          append: ".png" }}"
+                          append: ".png" | 
+                          relative_url }}" 
                  alt="{{ partner[1].name }}"
                  width="320">
             <span class="show-for-sr">{{ partner[1].name }}</span>

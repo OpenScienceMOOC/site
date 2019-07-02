@@ -20,12 +20,13 @@ url: "https://opensciencemooc.eu"
 baseurl: ""
 
 permalink: pretty
-paginate: 10
+paginate: 2
+paginate_path: "/blog/page/:num/"
 
 collections:
-  pages:
-    output: true
-    permalink: /:path
+  #  pages:
+  #    output: true
+  #    permalink: /:path
   modules:
     output: true
 
