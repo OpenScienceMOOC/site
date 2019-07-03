@@ -6,6 +6,7 @@ layout: post
 categories: news
 image: 
   url: "assets/img/osm/osm-logo.png"
+  url: "assets/img/osm/osm-news-default.png"
   description: ""
 ---
 
