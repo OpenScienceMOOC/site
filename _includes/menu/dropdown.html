@@ -1,0 +1,16 @@
+<ul class="dropdown menu" data-dropdown-menu>
+  {% for item in include.menu %}
+  <li>
+    <a href="{{ item.url }}">
+      {{ item.title }} 
+    </a>
+    {% if item.submenu %}
+    <ul class="vertical menu">
+      {% for subitem in item.submenu %}
+      <li><a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>

@@ -1,33 +1,26 @@
 ---
-layout: default
+layout: base
 ---
 
-<!-- Post Header -->
-
-<!-- Page Header -->
-<header class="intro-header" style="background-image: url('{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading" style="padding: 50px 0 15px 0">
-					<!-- {% if page.thumbnail %}
-          <img src= "{{ page.thumbnail }}" style="height: 50px">
-					{% endif %} -->
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <hr class="small">
-                    <span class="subheading">{% if page.subtitle %}{{ page.subtitle }}{% endif %}</span>
-                    <small><i>{{ page.author }}, {{ page.date | date: "%B %-d, %Y" }}</i></small>
-                </div>
-            </div>
-        </div>
+<header>
+  <div class="page-top-bar">
+    {% include topbar.html %}
+  </div>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-y align-center">
+      <div class="cell small-12 medium-8 text-center">
+        <h1>{{ page.title }}</h1>
+      </div>
     </div>
+  </div>
 </header>
 
-<!-- Main Content -->
-<div style="margin-left: 3rem; margin-right: 3rem;">
-  <article style="width: 100%; ">
-  		{{ content }}
-  </article>
-</div>
-
-<hr>
+<main>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-y align-center">
+      <div class="cell small-12 medium-8">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</main>

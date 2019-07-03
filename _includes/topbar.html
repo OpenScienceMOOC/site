@@ -1,0 +1,30 @@
+  <div class="grid-container">
+    <nav class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">
+            <a href="{{ site.url | relative_url }}">
+              <img src="{{ "assets/img/osm/osm-logo.png" | relative_url }}" 
+                   width="200"
+                   alt="Open Science MOOC logo"
+                   aria-hidden="true">
+              <span class="show-for-sr">{{ site.title }}'s homepage</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="top-bar-right hide-for-large">
+        <ul class="menu">
+          <li>
+            <button class="button primary hollow" 
+                    data-toggle="offCanvas">
+              Open Menu
+            </button>       
+          </li>
+        </ul>
+      </div>
+      <div class="top-bar-right show-for-large">
+        {% include menu/dropdown.html menu=site.data.menus.main %}
+      </div>
+    </nav>
+  </div>

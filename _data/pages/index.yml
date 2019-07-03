@@ -1,0 +1,22 @@
+hero:
+  slogan: "We want to help make **open** the default setting for all global research."
+  button: "Button..."
+
+help:
+  title: "How Can You Help?"
+  blocks:
+  - title: "Spread the Word"
+    text: "Open Science is for everyone. Help us spread the word by [joining our open Slack channel](https://osmooc.herokuapp.com/) and invite your friends and colleagues to be part of our community."
+    icon: icons/megaphone.html
+  - title: "Join Our Team"
+    text: "Everything we develop and produce is in the open. You can [join our team on GitHub](https://open-science-mooc-invite.herokuapp.com/). If you want to become an instructor [email us](mailto:info@opensciencemooc.eu)."
+    icon: icons/group2.html
+  - title: "Become a Partner"
+    text: "We have three different partner levels (Core, Strategic and Institutional) that help us to develop the MOOC, advance Open Science and locally deliver the MOOC modules. If you want to become a partner [email us](mailto:info@opensciencemooc.eu)." 
+    icon: icons/handshake.html
+
+discover:
+  title: "Discover Our Courses"
+
+news:
+  title: "What's New?"

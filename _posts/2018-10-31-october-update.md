@@ -1,12 +1,12 @@
 ---
 title: "Halloween update for the Open Science SPOOK"
 author: "Jon Tennant"
-date: '2018-10-31'
-output:
-  html_document:
-    df_print: paged
+date: "2018-10-31"
 layout: post
-categories: newsletter
+categories: news 
+image: 
+  url: "assets/img/osm/osm-news-default.png"
+  description: ""
 ---
 
 Apologies for that terrible title - the author has now been fired.

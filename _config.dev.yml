@@ -1,0 +1,31 @@
+# this settings override those in _config.yml
+environment: "dev"
+
+# General settings
+url: ""
+baseurl: ""
+
+# Sass settings
+sass:
+  style: expanded
+
+# Custom plugins and symbolic links
+#
+#   false = allow
+#   true  = disallow
+safe: false
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - .bundle/
+  - vendor/
+  - .gitignore
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - Rakefile
+  - README.md

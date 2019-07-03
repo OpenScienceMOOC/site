@@ -1,12 +1,12 @@
 ---
 title: "The Open Science MOOC is now live on Eliademy"
 author: "Jon Tennant"
-date: '2018-11-31'
-output:
-  html_document:
-    df_print: paged
+date: "2018-11-31"
 layout: post
-categories: newsletter
+categories: news
+image: 
+  url: "assets/img/osm/osm-news-default.png"
+  description: ""
 ---
 
 That's right, the pilot module on Open Research Software and Open Source is now [**LIVE**](https://eliademy.com/app/a/courses/02d7338a7e) on the open source platform, Elidaemy.
