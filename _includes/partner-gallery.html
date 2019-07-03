@@ -1,0 +1,30 @@
+
+
+<div>
+   <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+  {% for image in site.static_files %}
+     {% if image.path contains 'img/partnergallery' %}
+
+       <li data-thumb={{ site.baseurl }}{{ image.path }} style="text-align:center">
+           <img src="{{ site.baseurl }}{{ image.path }}" alt="image" width="60%" align="middle" >
+           </br>
+           <b> <a alt="{{ image.name }}" href="{{ site.baseurl }}{{ image.path }}">{{ image.name }}</a> </b>
+           <a rel="Content license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Website content license" style="border-width:0" src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" /></a>
+           <!-- <p>{{ image.path }}</p> -->
+       </li>
+
+         <!-- <div  class=" col-md-4 col-xs-12 full" style=" border-width: 0px; margin-top:35px;">
+           <div class="well" style="height:300px; height:relative; background: url({{ site.baseurl }}{{ image.path }}); background-size: 100%; background-position:center; background-repeat: no-repeat; margin: 0px;">
+             <div style="height:50px; position:relative; top:250px; background:rgba(0,0,0,0.9); color: white; font-size: 16px; text-align: left; margin: -20px -20px -20px -20px">
+                <a href="{{ site.baseurl }}{{ image.path }}" target="_blank" style="color: white !important"><p style="font-size:1em; position:relative; top:0px; width: 75%; white-space: nowrap; overflow: hidden !important; text-overflow: ellipsis; margin-left:5px">{{ image.name }}</p>
+               <i class="fa fa-chevron-right ico" style="font-size: 30px; color: white; position:relative; margin: -44px 5px 0px 0px; float:right"></i></a>
+             </div>
+           </div>
+         </div> -->
+
+     {% endif %}
+ {% endfor %}
+
+</ul>
+
+</div>

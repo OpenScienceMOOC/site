@@ -1,12 +1,12 @@
 ---
 title: "August update for the Open Science MOOC!"
 author: "Jon Tennant"
-date: "2018-09-02"
+date: '2018-09-02'
+output:
+  html_document:
+    df_print: paged
 layout: post
-categories: news
-image: 
-  url: "assets/img/osm/osm-news-default.png"
-  description: ""
+categories: uncategorized
 ---
 
 Hi everyone,

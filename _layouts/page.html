@@ -1,35 +1,40 @@
 ---
-layout: base
+layout: default
 ---
 
-<header>
-  <div class="page-top-bar">
-    {% include topbar.html %}
-  </div>
-  <div class="grid-container">
-    <div class="grid-x grid-padding-y align-center">
-      <div class="cell small-12 medium-8 text-center">
-        <h1>{{ page.title }}</h1>
-      </div>
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ page.header-img | relative_url }}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" style="padding: 50px 0 15px 0">
+					{% if page.url == '/' %}
+					{% if site.logo %}
+					<img src= "{{ site.logo | relative_url }}" style="height: 175px">
+					{% endif %}
+					{% else %}{% endif %}
+                    <!-- <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1> -->
+                    {% if page.logo %}
+                    <div>
+                    <img src= "{{ page.logo | relative_url }}" style="height: 175px">
+                  </div>
+                    {% endif %}
+                    <br>
+                    <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
+                    <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </header>
 
-<main>
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x grid-padding-y align-center"> 
-      {% if page.collection == "modules" %}
-      <div class="cell medium-8">
-        {{ content }}
-      </div>
-      <div class="cell medium-4">
-        {% include toc/module.html %} 
-      </div>
-      {% else %}
-      <div class="cell medium-12">
-        {{ content }}
-      </div>
-      {% endif %}
-    </div>
-  </div>
-</main>
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			{{ content }}
+		</div>
+	</div>
+</div>
+
+<hr>

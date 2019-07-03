@@ -1,149 +1,62 @@
-# Contributing to Open Science MOOC website
+## Contributing to the website
 
-Welcome message here.
+You can contribute by directly altering/proposing content on the [GitHub repository](https://github.com/OpenScienceMOOC/site).   
 
-## Table of Contents
-
-1. [Before you contribute](#before-you-contribute)
-1. [How to contribute](#how-to-contribute)
-1. [Adding content](#adding-content)
-   1. [How to add a person to be listed/rendered on the website](#how-to-add-a-person)
-   1. [Altering the module content](#altering-the-module-content)
-1. [Help with the development](#help-with-the-development)
-   1. [Setting up your environment](#setting-up-your-environment)
-   1. [Style guide](#style-guide)
-1. [Report issues/bugs](#report-bugs)
-
-## Before you contribute
-
-TODO 
-
-* Talk about CoC
-* How to use Git
-* How to use Markdown
-
-## How to contribute
-
-### Adding content
-
-#### How to add a person to be listed/rendered on the website
-
-Create a file in `_people` folder (e.g jon_tennant.md). Make sure there's no 
-uppercase and that you replace every space characters with an underscore.
-
-Inside your file add the following:
-
+To clone this repository locally use:
 ```
----
-title: "Your name"
-role: "Your role"
-team: team_name
-location: "Your location"
-contact:
-  email: "your@email.com"
-  github: "username"
-  impactstory: "0000-0000-0000-0000"
-  linkedin: "username"
-  orcid: "0000-0000-0000-0000"
-  twitter: "username"
-  website: "yourwebsite.com"
----
-
-My fancy bio in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
+git init   
+git https://github.com/OpenScienceMOOC/site.git
 ```
+**New to GIT and GitHub?** See [these learning resources](https://help.github.com/articles/git-and-github-learning-resources/) and this [10 min. GIT tutorial](https://try.github.io/levels/1/challenges/1).   
 
-Here's an example:
-```
+### Where are images?
+Images are located in the `/img` and `assets/img` folders.
+
+### Altering the module content.   
+Modules descriptions are rendered from markdown files ([here is a useful markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)) located in the [`_modules`](https://github.com/OpenScienceMOOC/site/tree/master/_modules) folder. The module markdown files are plain markdown file. However, the top of each file contains some [YAML](https://en.wikipedia.org/wiki/YAML) data helping to render the content on the website. This YAML lines set the page layout, the title to render, the logo picture to use on the page, the description to use (rendered under title if provided), the page top header background image, a thumbnail to use when the module is rendered as a card, the cardcolor (as [RGBA](https://en.wikipedia.org/wiki/RGBA_color_space) values)
+
+```yml
 ---
-title: Dr. Jonathan Tennant
-role: Founder, Rogue Scientist
-team: steering-committee
-location: Rest of World
-contact:
-  email: jon.tennant.2@gmail.com
-  github: Protohedgehog
-  impactstory: 0000-0001-7794-0218
-  linkedin: jonathan-tennant-3546953a
-  orcid: 0000-0001-7794-0218
-  twitter: Protohedgehog
-  website: fossilsandshit.com
+layout: page
+title: "Open Advocacy"
+logo: /img/logos/mooc_logo.png
+description: ""
+header-img: "img/home-bg.jpg"
+thumbnail:  "/img/logos/mooc_logo.png"
+cardcolor:  rgba(178,223,197,0.5)
+ordernumber: 10
 ---
+  ```
 
-My fancy bio in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
-```
+### How to add a person to be listed/rendered on the website
 
-- team
+Currently adding a person involves adding a markdown file in the [`_people`](https://github.com/OpenScienceMOOC/site/blob/master/_people) folder. Perhaps the easiest thing to do is to copy an existing file, e.g.  `Jonathan Tennant.md`. The people markerdown files contain some YML data at the top which is used to define items like the location of the profile image:
 
-  There's two possible values: steering_committee or production.
+  ```yml
+  ---
+  title: Jonathan Tennant
+  name: Dr. Jonathan Tennant
+  role: Founder, Rogue Scientist
+  location: Rest of World
+  contact:
+    email: jon.tennant.2@gmail.com
+    github: Protohedgehog
+    impactstory: 0000-0001-7794-0218
+    linkedin: jonathan-tennant-3546953a
+    orcid: 0000-0001-7794-0218
+    twitter: Protohedgehog
+    website: fossilsandshit.com
+  type: lead
+  ---
 
-#### Altering the module content
+  My fancy bio in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
 
-Modules descriptions are rendered from markdown files located in the `_modules` 
-folder. The module markdown files are plain markdown file. However, the top of 
-each file contains some YAML data helping to render the content on the website. 
+  ```
 
-```
----
-title: 
-  main: "Open Research Software"
-  extra: "& Open Source"
-module:
-  color: "blue"
-  status: "in progress"
-weight: 1
----
-```
+If you want to add a picture of you, you simply need to add an image in the folder `assets/img/people`.
+The image should have the same name as your markdown file in `_people` (e.g jon_tennant.md -> jon_tennant.jpg).
 
-- title
-  - main
-  
-    Any text. It will be displayed in regular font size
-  - extra
-  
-    Any text. It will be displayed in blod font size
-- module
-  - color
-  
-    Here's the possible value: name the colors
-- weight
+# License
+The code for this site is covered by the MIT license: [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/OpenScienceMOOC/site/blob/master/LICENSE)   
 
-  A digit. It represent the order in each the module will be displayed. Lower
-  digits are displayed first.
-
-### Setting up your environment
-
-#### Installing Jekyll
-
-To install Jekyll, we suggest that you [read the installation guide][jekyll-install-guide]
-on their website. It should guide you through the install of Jekyll and it's 
-dependencies on Windows, MacOS or Linux.
-
-If you have any questions or problems with the install process don't hesitate 
-to [open an issue][open-an-issue] on this repository and would be glad to help you. 
-
-#### Get a copy of the source code
-
-TODO
-
-* How to create a fork
-* How to git clone
-
-#### Workflow 
-
-TODO
-
-* add upstream
-* Keep master branch in sync with upstream
-* Always use a different branch to work on your modification
-
-### Style guide
-
-TODO
-
-* Add examples of code style
-
-## Contribution review process
-
-<!-- footnote -->
-[jekyll-install-guide]: https://jekyllrb.com/docs/installation/
-[open-an-issue]: https://github.com/OpenScienceMOOC/site/issues
+Website content license: [![conten license](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)   

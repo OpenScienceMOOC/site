@@ -1,140 +1,110 @@
 ---
-layout: page
-title: "Who we are"
-description: "Your description goes here"
+layout: pagefullwidth
+title: "People"
+logo: /img/logos/mooc_logo.png
+description: "The Open Science MOOC people"
+header-img: "img/home-bg.jpg"
+ordernumber: 8
 ---
 
-<div class="grid-container">
-  <!-- Steering Committee -->
-  <div class="grid-x grid-padding-x grid-padding-y">
-    <div class="cell auto text-center">
-      <h2>Steering Committee</h2>
-    </div>
-  </div>
-  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-3">
-  {% for person in site.data.people %}
-    {% if person[1].team == "steering-committee" %}
-    <div class="cell text-center">
+<div>
+
+	<div class="row">
+		<center>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	  	<h1> <a href="#steering"> <i class="fa fa-angle-double-down"></i> Steering committee</a> </h1>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<h1> <a href="#production"><i class="fa fa-angle-double-down"></i> Production team</a> </h1>
+		</div>
+	</center>
+	</div>
+
+<hr>
+
+<div class="row">
+	<h2>Steering committee</h2> <a name="steering"></a>
+  {% assign people = site.people | where: "type", "lead" %}
+  {% for person in people %}
+	<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
       <div class="card">
-        <div class="card-section">
-          {% assign img_path = "assets/img/people/" | 
-                                append: person[0] | 
-                                append: ".jpg" |
-                                relative_url %}
-           <img src="{{ img_path }}" 
-                class="rounded"
-                width="128"
-                alt="Profile Picture's of {{ person[1].name }}">
-
-          <h4>{{ person[1].name }}</h4>
-          <p>{{ person[1].location }}</p>
-          <ul class="menu align-center">
-            {% for contact in person[1].contact %}
-              {% for network in site.data.networks %}
-                {% if network.name == contact[0] %}
-                <li>
-                  <a href="{{ network.url }}{{ contact[1] }}">
-                    <span class="icon icon-{{ network.icon }}"></span>
-                    <span class="show-for-sr">{{ contact[0] }}</span>
-                  </a>
-                </li>
-                {% endif %}
-              {% endfor %}
-            {% endfor %}
-          </ul>
-        </div>
+      <!-- person avatar -->
+      {% assign avatars = site.static_files | where: "avatar", true %}
+      {% assign person_basename = person.path | remove: "_people/" | remove: ".md"  %}
+      {% for avatar in avatars %}
+        {% if avatar.basename == person_basename %}
+          <div class="portrait">
+            <a href="{{ person.url | relative_url }}">
+              <img src="{{ avatar.path | relative_url }}" 
+                   alt="Picture of {{ person.name }}"
+                   class="profile_img">
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+      <!-- person name, role and location -->
+      <h3><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
+      {{ person.role }}<br>
+      {{ person.location }}<br>
+      
+      <!-- person contact -->
+      {% for contact in person.contact %}
+        {% for network in site.data.networks %}
+          <!-- contact[0] = key, contact[1] = value -->
+          {% if contact[0] == network.name %}
+            <a href="{{ network.url }}{{ contact[1] }}">
+              <i class="fa fa-2x fa-{{ network.name }}" aria-hidde="true"></i>
+              <span class="sr-only">{{ network.name }}</span>
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
       </div>
-    </div>
-    {% endif %}
+	</div>
   {% endfor %}
-  </div>
-  <!-- END Steering Committee -->
+</div>
 
-   <!-- Advisors -->
-  <div class="grid-x grid-padding-x grid-padding-y">
-    <div class="cell auto text-center">
-      <h2>Advisors</h2>
-    </div>
-  </div>
-  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-3">
-  {% for person in site.data.people %}
-    {% if person[1].team == "advisors" %}
-    <div class="cell text-center">
+<hr>
+
+<div class="row">
+	<h2>Production team</h2> <a name="production"></a>
+  {% assign people = site.people | where: "type", "production" %}
+  {% for person in people %}
+	<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
       <div class="card">
-        <div class="card-section">
-          {% assign img_path = "assets/img/people/" | 
-                                append: person[0] | 
-                                append: ".jpg" |
-                                relative_url %}
-           <img src="{{ img_path }}" 
-                class="rounded"
-                width="128"
-                alt="Profile Picture's of {{ person[1].name }}">
-
-          <h4>{{ person[1].name }}</h4>
-          <ul class="menu align-center">
-            {% for contact in person[1].contact %}
-              {% for network in site.data.networks %}
-                {% if network.name == contact[0] %}
-                <li>
-                  <a href="{{ network.url }}{{ contact[1] }}">
-                    <span class="icon icon-{{ network.icon }}"></span>
-                    <span class="show-for-sr">{{ contact[0] }}</span>
-                  </a>
-                </li>
-                {% endif %}
-              {% endfor %}
-            {% endfor %}
-          </ul>
-        </div>
+      <!-- person avatar -->
+      {% assign avatars = site.static_files | where: "avatar", true %}
+      {% assign person_basename = person.path | remove: "_people/" | remove: ".md"  %}
+      {% for avatar in avatars %}
+        {% if avatar.basename == person_basename %}
+          <div class="portrait">
+            <a href="{{ person.url | relative_url }}">
+              <img src="{{ avatar.path | relative_url }}" 
+                   alt="Picture of {{ person.name }}"
+                   class="profile_img">
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+      <!-- person name, role and location -->
+      <h3><a href="{{ person.url | relative_url }}">{{ person.name }}</a></h3>
+      {{ person.role }}<br>
+      {{ person.location }}<br>
+      
+      <!-- person contact -->
+      {% for contact in person.contact %}
+        {% for network in site.data.networks %}
+          <!-- contact[0] = key, contact[1] = value -->
+          {% if contact[0] == network.name %}
+            <a href="{{ network.url }}{{ contact[1] }}">
+              <i class="fa fa-2x fa-{{ network.name }}" aria-hidde="true"></i>
+              <span class="sr-only">{{ network.name }}</span>
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
       </div>
-    </div>
-    {% endif %}
+	</div>
   {% endfor %}
-  </div>
-  <!-- END Production Team --> 
-  <!-- Production Team -->
-  <div class="grid-x grid-padding-x grid-padding-y">
-    <div class="cell auto text-center">
-      <h2>Production Team</h2>
-    </div>
-  </div>
-  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-3">
-  {% for person in site.data.people %}
-    {% if person[1].team == "production" %}
-    <div class="cell text-center">
-      <div class="card">
-        <div class="card-section">
-          {% assign img_path = "assets/img/people/" | 
-                                append: person[0] | 
-                                append: ".jpg" |
-                                relative_url %}
-           <img src="{{ img_path }}" 
-                class="rounded"
-                width="128"
-                alt="Profile Picture's of {{ person[1].name }}">
-
-          <h4>{{ person[1].name }}</h4>
-          <ul class="menu align-center">
-            {% for contact in person[1].contact %}
-              {% for network in site.data.networks %}
-                {% if network.name == contact[0] %}
-                <li>
-                  <a href="{{ network.url }}{{ contact[1] }}">
-                    <span class="icon icon-{{ network.icon }}"></span>
-                    <span class="show-for-sr">{{ contact[0] }}</span>
-                  </a>
-                </li>
-                {% endif %}
-              {% endfor %}
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </div>
-    {% endif %}
-  {% endfor %}
-  </div>
-  <!-- END Production Team -->
-  
+</div>
 </div>
