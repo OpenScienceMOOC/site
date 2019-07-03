@@ -10,7 +10,7 @@ This website also use other open source projects :
 
 - [Font OSM][font-osm] based on [Fork Awesome][forkawesome]
 - [Foundation Zurb][foundation]
-- [Icon OSM][icons-osm] based on [Beautiful Flat Icons by Elegant Themes][bfi]
+- [Icon OSM][icon-osm] based on [Beautiful Flat Icons by Elegant Themes][bfi]
 - [Chalkboard Background][chalkboard] by Karin Daiziel
 
 [AGPLv3]: https://www.gnu.org/licenses/agpl-3.0.txt
@@ -20,4 +20,4 @@ This website also use other open source projects :
 [font-osm]: https://github.com/OpenScienceMOOC/font-osm
 [forkawesome]: https://github.com/ForkAwesome/Fork-Awesome
 [foundation]: https://github.com/zurb/foundation-sites
-[icons-osm]: https://github.com/OpenScienceMOOC/icons-osm
+[icon-osm]: https://github.com/OpenScienceMOOC/icon-osm
