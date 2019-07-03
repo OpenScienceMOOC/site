@@ -40,9 +40,7 @@ description: "Your description goes here"
           {% include {{ block.icon }} %}
         {% endif %}
         <h3>{{ block.title }}</h3>
-        <p>
-          {{ block.text | markdownify }}
-        </p>
+        {{ block.text | markdownify }}
       </section>
       {% endfor %}
     </section>
