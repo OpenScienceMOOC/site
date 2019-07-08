@@ -69,14 +69,21 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
+  // Color names needs to be quoted to avoid conflict with Sass interpolation
+  // especially with "white" in that case.
+  // 
+  // Error message:
+  // You probably don't mean to use the color value white' in interpolation here. 
+  // It may end up represented as #ffffff, which will likely produce invalid CSS. 
+  // Always quote color names when using them as strings (for example, "white").
+
   //primary: #1779ba,
-  primary: #21784a,
-  secondary: #767676,
-  success: #3adb76,
-  warning: #ffae00,
-  alert: #cc4b37,
-  // custom
-  white: #ffffff,
+  "primary": #21784a,
+  "secondary": #767676,
+  "success": #3adb76,
+  "warning": #ffae00,
+  "alert": #cc4b37,
+  "white": #ffffff,
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
