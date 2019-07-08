@@ -8,24 +8,24 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.7.3"
+gem "jekyll", "~> 3.8.5"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed",      "~> 0.9"
-  gem "jekyll-seo-tag",   "~> 2.1"
-  gem "jekyll-sitemap",   "~> 1.2"
-  gem "jekyll-paginate",  "~> 1.1"
+  gem "jekyll-feed",      "~> 0.11.0"
+  gem "jekyll-seo-tag",   "~> 2.5.0"
+  gem "jekyll-sitemap",   "~> 1.2.0"
+  gem "jekyll-paginate",  "~> 1.1.0"
 end
 
 # Taskrunner
-gem "rake", "~> 12.3.1"
+gem "rake", "~> 12.3.2"
 
 # SassC 
-gem "sassc", "~> 1.12.1"
+#gem "sassc", "~> 1.12.1"
 
 # Use SassC in Jekyll instead of Sass-ruby
-gem "jekyll-sass-converter", :git => "https://github.com/searls/jekyll-sassc-converter.git"
+#gem "jekyll-sass-converter", :git => "https://github.com/searls/jekyll-sassc-converter.git"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
