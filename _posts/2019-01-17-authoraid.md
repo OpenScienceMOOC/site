@@ -2,11 +2,11 @@
 title: "Reblog: What is open science and why is it important?"
 author: "Jon Tennant"
 date: '2019-01-17'
-output:
-  html_document:
-    df_print: paged
 layout: post
 categories: open science
+image: 
+  url: "assets/img/osm/osm-news-default.png"
+  description: ""
 ---
 
 Welcome to the first blog post of 2019! We will have more to announce shortly, but for now we just want to share a [blog post that was written with our friends at AuthorAID](https://www.authoraid.info/en/news/details/1347/). Enjoy!
