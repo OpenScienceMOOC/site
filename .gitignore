@@ -1,6 +1,8 @@
 _site/
+.bundle/
 .sass-cache/
 .jekyll-cache/
+vendor/
 .jekyll-metadata
 .Rhistory
 

@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/searls/jekyll-sassc-converter.git
+  revision: 67fe1bd55dd898afe5457802ef1a11cd227d6d5d
+  specs:
+    jekyll-sass-converter (1.5.2)
+      sassc (~> 1.12)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -9,7 +16,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    ffi (1.11.1)
+    ffi (1.9.25)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
@@ -30,8 +37,6 @@ GEM
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
     jekyll-paginate (1.1.0)
-    jekyll-sass-converter (1.5.2)
-      sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
       jekyll (~> 3.3)
     jekyll-sitemap (1.2.0)
@@ -41,7 +46,9 @@ GEM
     kramdown (1.17.0)
     liquid (4.0.3)
     listen (3.1.5)
+      rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
     mercenary (0.3.6)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -51,12 +58,16 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     rouge (3.5.1)
+    ruby_dep (1.5.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    sassc (1.12.1)
+      ffi (~> 1.9.6)
+      sass (>= 3.3.0)
 
 PLATFORMS
   ruby
@@ -65,9 +76,11 @@ DEPENDENCIES
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.11.0)
   jekyll-paginate (~> 1.1.0)
+  jekyll-sass-converter!
   jekyll-seo-tag (~> 2.5.0)
   jekyll-sitemap (~> 1.2.0)
   rake (~> 12.3.2)
+  sassc (~> 1.12.1)
   tzinfo-data
 
 BUNDLED WITH
