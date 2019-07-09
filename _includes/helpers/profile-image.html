@@ -1,0 +1,23 @@
+{% comment %}
+  Profile Image Helper
+
+  Loop through all the assets to find if there's an image with the same name
+  as a user profile. It currently support JPEG and PNG images.
+{% endcomment %}
+
+{% assign img_formats = ".jpg|.JPG|.jpeg|.JPEG|.png|.PNG" | 
+                         split: "|" %}
+{% assign img_path = "assets/img/people/" | 
+                      append: person[0] |
+                      relative_url %}
+{% for static_file in site.static_files %}
+ {% for img_format in img_formats %}
+   {% assign img = img_path | append: img_format %}
+   {% if static_file.path == img %}
+     <img src="{{ img }}" 
+          class="rounded"
+          width="128"
+          alt="Profile Picture's of {{ person[1].name }}">
+   {% endif %}
+ {% endfor %}
+{% endfor %}
