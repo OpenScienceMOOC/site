@@ -94,11 +94,25 @@
 
 // Hero
 #hero {
-  background: url('/assets/img/osm/osm-hero.jpg') 0 0 no-repeat;
+  background: url('/assets/img/osm/osm-hero-book.jpg') 0 0 no-repeat;
+  background-size: cover;
   color: $white;
   height: 500px;
+  #slogan {
+    background-color: rgba(0,0,0,0.5);
+  }
 }
 
+  @include breakpoint(small only) {
+    #hero {
+      background: url('/assets/img/osm/osm-hero-book-small.jpg') 0 0 no-repeat;
+      background-size: cover;
+      height: 200px;
+      #slogan {
+        margin-top: 25px;
+      }
+    }
+  }
 // _includes/footer.html
 #footer {
   #footer--newsletter {

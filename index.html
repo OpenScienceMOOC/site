@@ -12,11 +12,13 @@ description: "Your description goes here"
 <main>
   <!-- Hero -->
   <section id="hero" class="grid-x grid-padding-y align-center-middle">
-    <div class="cell large-4 text-center">
+    <div class="cell medium-5 text-center">
       <h2 class="show-for-sr">Our vision</h2>
         {% assign slogan = site.data.pages.index.hero.slogan | markdownify %}
       <div class="h3" style="margin-bottom: 50px;">
-        {{ slogan }}
+        <div id="slogan">
+          {{ slogan }}
+        </div>
       </div>
       <!--
       <a class="primary large button" 
