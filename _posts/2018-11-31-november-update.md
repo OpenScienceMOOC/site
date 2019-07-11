@@ -4,9 +4,6 @@ author: "Jon Tennant"
 date: "2018-11-31"
 layout: post
 categories: news
-image: 
-  url: "assets/img/osm/osm-news-default.png"
-  description: ""
 ---
 
 That's right, the pilot module on Open Research Software and Open Source is now [**LIVE**](https://eliademy.com/app/a/courses/02d7338a7e) on the open source platform, Elidaemy.

@@ -4,9 +4,6 @@ author: "Jon Tennant"
 date: '2019-03-13'
 layout: post
 categories: monthly update
-image: 
-  url: "assets/img/osm/osm-news-default.png"
-  description: ""
 ---
 
 Good news everyone!

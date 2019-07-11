@@ -100,8 +100,16 @@ description: "Your description goes here"
       <div class="cell small-12 medium-4">
         <article>
           <header>
+            {% include helpers/file_exists.html 
+                       filename=post.image.url %}
+            {% if filename_exists == "true" %}
             <img src="{{ post.image.url | relative_url }}" 
                  alt="{{ post.image.description }}">
+            {% else %}
+            <img src="{{ "/assets/img/osm/osm-news-default.png" | 
+                          relative_url }}" 
+                 alt="{{ post.image.description }}">
+            {% endif %}
             <h3 class="h4">
              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>

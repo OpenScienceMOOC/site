@@ -4,9 +4,6 @@ author: "Jon Tennant"
 date: '2018-12-21'
 layout: post
 categories: newsletter
-image: 
-  url: "assets/img/osm/osm-news-default.png"
-  description: ""
 ---
 
 Welcome to the final MOOC monthly update of 2018!

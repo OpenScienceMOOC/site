@@ -4,9 +4,6 @@ author: "Jon Tennant"
 date: '2019-01-30'
 layout: post
 categories: monthly update
-image: 
-  url: "assets/img/osm/osm-news-default.png"
-  description: ""
 ---
 
 Welcome to the January 2019 update for the MOOC! We hope that you are all having a great start to the year, and managing to take some time for yourself to relax in between catching up after the festive break.
