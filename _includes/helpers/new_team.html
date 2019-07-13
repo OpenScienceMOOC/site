@@ -16,7 +16,19 @@
   <div class="cell text-center">
     <div class="card">
       <div class="card-section">
-        {% include helpers/profile-image.html %}
+        {% include helpers/avatar_exists.html %}
+        {% if avatar_exists == "true" %}
+          <img src="{{ avatar_path_exists }}" 
+               class="rounded"
+               width="128"
+               alt="Profile Picture's of {{ person[1].name }}">
+        {% elsif avatar_exists == "false" %}
+          <img src="/assets/img/osm/osm-avatar-default.png" 
+               class="rounded"
+               width="128"
+               aria-hidden="true"
+               alt="Profile Picture's of {{ person[1].name }}">
+        {% endif %}
         <h4>{{ person[1].name }}</h4>
         <p>{{ person[1].location }}</p>
         <ul class="menu align-center">
