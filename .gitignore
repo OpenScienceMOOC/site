@@ -5,4 +5,5 @@ _site/
 vendor/
 .jekyll-metadata
 .Rhistory
+Gemfile.lock
 
