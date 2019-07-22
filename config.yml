@@ -1,0 +1,16 @@
+# ------------------------------
+# Configuration file
+# ------------------------------
+
+# Website specific
+baseURL: https://opensciencemooc.eu/
+languageCode: en-us
+title: Open Science MOOC
+
+params:
+  description: "Insert your website description here"
+  twitter: "@OpenScienceMOOC" 
+
+# Hugo specific
+disableHugoGeneratorInject: true
+metaDataFormat: "yaml"

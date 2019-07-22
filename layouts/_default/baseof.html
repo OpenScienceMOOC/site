@@ -1,0 +1,62 @@
+<!--
+  Copyright Danny Colin (c) 2017
+
+  This file is part of OpenScienceMOOC.
+
+  OpenScienceMOOC is free software: you can redistribute it and/or modify it
+  under the terms of the GNU Affero General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  OpenScienceMOOC is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with OpenScienceMOOC. If not, see <http://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="creator" content="Open Science MOOC">
+  <meta name="description" content="{{ .Site.Params.Description }}">
+  <title>{{ .Site.Title }}</title>
+
+  <!-- common social tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:image" 
+        content="/url/to/osmooc/logo">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" 
+        content="/url/to/osmooc/logo">
+  <meta name="twitter:site" content="{{ .Site.Params.Twitter }}">
+  <meta name="twitter:creator" content="{{ .Site.Params.Twitter }}">
+
+  <!-- document-specific social tags -->
+  <meta property="og:title" content="{{ .Page.Title }}">
+  <meta property="og:url" content="{{ .Page.Permalink }}">
+  <meta property="og:description" content="{{ .Site.Params.Description }}">
+
+  <meta name="twitter:title" content="{{ .Page.Title }}">
+  <meta name="twitter:url" content="{{ .Page.Permalink }}">
+  <meta name="twitter:description" content="{{ .Site.Params.Description }}">
+  
+</head>
+<body>
+  {{ block "header"  . }}
+
+  {{ end }}
+
+  {{ block "main" . }}
+
+  {{ end }}
+
+  {{ block "footer" . }}
+
+  {{ end }}
+</body>
+</html>
