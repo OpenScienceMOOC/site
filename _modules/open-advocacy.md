@@ -28,7 +28,7 @@ various aspects of Open Science.
   administrative staff at their research institute, as well as any other 
   relevant local stakeholders.
 * Together with like-minded colleagues, the researcher will start the 
-  ‘open access conversation’ with the editorial board of a relevant journal in 
+  open access conversation with the editorial board of a relevant journal in 
   their field.
 
 ## Resources

@@ -14,7 +14,7 @@ The second release for this module is now ready, and has been published on Zenod
 
 To cite this work, please use the following:
 
-Jon Tennant; Bruce Caron; Jo Havemann; Samuel Guay; Julien Colomb; Eva Lantsoght; Erzsébet Tóth-Czifra; Katharina Kriegel; Justin Sègbédji Ahinon; Cooper Smout (2019, March 16) OpenScienceMOOC/Module-1-Open-Principles: Second release (Version 2.0.0). Zenodo. [http://doi.org/10.5281/zenodo.2595951](http://doi.org/10.5281/zenodo.2595951)
+Jon Tennant; Bruce Caron; Jo Havemann; Samuel Guay; Julien Colomb; Eva Lantsoght; ErzsÃ©bet TÃ³th-Czifra; Katharina Kriegel; Justin SÃ¨gbÃ©dji Ahinon; Cooper Smout (2019, March 16) OpenScienceMOOC/Module-1-Open-Principles: Second release (Version 2.0.0). Zenodo. [http://doi.org/10.5281/zenodo.2595951](http://doi.org/10.5281/zenodo.2595951)
 
 
 ## Rationale
@@ -105,7 +105,7 @@ the impact that they are having.
 - [The Knowledge Gap: Geopolitics of Academic Production](http://knowledgegap.org/)
 - [The Open Archives Initiative](https://www.openarchives.org/)
 - [Force11 Scholarly Commons Working Group charters database](https://docs.google.com/spreadsheets/d/1-aRXFiRg-VL9hpLpxoJqX6-OC-A0R2oCogHfIx52Nug/edit#gid=956616118)
-- [Open Science 101](https://github.com/OKScienceDE/Open_Science_101), Konrad FÃ¶rstner (CC0)
+- [Open Science 101](https://github.com/OKScienceDE/Open_Science_101), Konrad FÃƒÂ¶rstner (CC0)
 - [101 Innovations in Scholarly Communication](https://101innovations.wordpress.com/), Bianca Kramer and Jeroen Bosman; [interactive version](https://bmkramer.databox.me/Public/Wheel_of_Open_Science/)
 - [Open Science 101](https://github.com/OKScienceDE/Open_Science_101), OK Science Deutschland
 - [European Open Science Cloud](http://ec.europa.eu/research/openscience/index.cfm?pg=open-science-cloud) (EOSC)

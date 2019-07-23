@@ -52,7 +52,7 @@ the motivations behind OERs and how to develop your own.
 - [Open content and Open Educational Resources: Enabling universal education](http://www.irrodl.org/index.php/irrodl/article/view/469), Caswell et al., 2008
 - [Linking open course wares and open education resources: creating an effective search and recommendation system](https://www.sciencedirect.com/science/article/pii/S187705091000325X), Shelton et al., 2010
 - [Evaluating Open Educational Resources: Lessons learned](https://oerknowledgecloud.org/sites/oerknowledgecloud.org/files/1-s2.0-S1877042813010422-main.pdf), DeVries, 2013
-- [Effects of Open Textbook Adoption on Teachers’ Open Practices](http://dx.doi.org/10.19173/irrodl.v19i3.3517) Mason, Kimmons, 2018
+- [Effects of Open Textbook Adoption on Teachersâ Open Practices](http://dx.doi.org/10.19173/irrodl.v19i3.3517) Mason, Kimmons, 2018
 - [Open Educational Resources](https://www.sciencedirect.com/science/article/pii/S1877042813032862), Marcus-Quinn and Diggins, 2013
 - [State of the art review of quality issues related to Open Educational Resources (OER)](http://www.pedocs.de/frontdoor.php?source_opus=9101), Camilleri et al., 2014
 - [Open Data as Open Educational Resources: Case studies of emerging practice](https://education.okfn.org/files/2015/11/Book-Open-Data-as-Open-Educational-Resources1.pdf), Atenas and Havemann, 2015
