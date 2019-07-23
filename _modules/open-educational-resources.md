@@ -5,6 +5,8 @@ icon: "icons/cap.html"
 order: 9
 ---
 
+**Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-9-Open-Educational-Resources)
+
 ## Rationale
 
 Open Educational Resources (OERs) are freely accessible, openly licensed 

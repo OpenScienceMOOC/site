@@ -5,6 +5,8 @@ icon: "icons/stack.html"
 order: 3
 ---
 
+**Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-3-Reproducible-Research-and-Data-Analysis)
+
 ## Rationale
 
 Reproducible research is at the heart of science. There has been an increased 

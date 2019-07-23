@@ -5,6 +5,8 @@ icon: "icons/group.html"
 order: 2
 ---
 
+**Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-2-Open-Collaboration)
+
 ## Rationale
 
 Virtual Research Environments (VRE) are the way of the future in collaboration 

@@ -5,6 +5,8 @@ icon: "icons/check.html"
 order: 7
 ---
 
+**Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-7-Open-Evaluation)
+
 ## Rationale
 Concurrent with broader developments in Open Science and increased transparency 
 in research, Open Peer Review is a complex, and rapidly evolving topic. 

@@ -6,21 +6,17 @@ order: 5
 link: "https://eliademy.com/app/a/courses/02d7338a7e"
 ---
 
-**Status**: Completed
+**Status**: This module is currently live [and freely available online](https://eliademy.com/catalog/oer/module-1-open-principles.html).
 
-This module is now freely available online via [Eliademy](https://eliademy.com/app/a/courses/02d7338a7e).
+The third release for this module is now ready, and has been published on Zenodo:
 
-The second release for this module is now ready, and has been published on 
-Zenodo:
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1434288.svg)](https://doi.org/10.5281/zenodo.1434288)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1937708.svg)](https://doi.org/10.5281/zenodo.1937708)
 
 To cite this work, please use the following:
 
-Jon Tennant, Simon Worthington, Tania Allard, Philipp Zumstein, Daniel S. Katz, 
-Alexander Morley, … Alessandro Sarretta. (2018, September 23). 
-OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source (Version 2.0). 
-Zenodo. [http://doi.org/10.5281/zenodo.1434288](http://doi.org/10.5281/zenodo.1434288).
+Jon Tennant; Simon Worthington; Tania Allard; Philipp Zumstein; Daniel S. Katz; Alexander Morley; Stephan Druskat; Julien Colomb; Arfon Smith; Ina Smith; Tobias Steiner; Rutger Vos; Konrad Foerstner; Heidi Seibold; Alessandro Sarretta; Abigail Cabunoc Mayes. (2018, December 4). 
+OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source (Version 3.0). 
+Zenodo. [http://doi.org/10.5281/zenodo.1937708](http://doi.org/10.5281/zenodo.1937708).
 
 ## Rationale
 

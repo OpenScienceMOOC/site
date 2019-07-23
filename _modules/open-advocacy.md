@@ -5,6 +5,8 @@ icon: "icons/megaphone-alt.html"
 order: 10
 ---
 
+**Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-10-Open-Advocacy)
+
 ## Rationale
 
 Now that you are an expert at applying Open Science at each step of your research

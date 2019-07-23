@@ -5,6 +5,8 @@ icon: "icons/trends.html"
 order: 4
 ---
 
+**Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-4-Open-Research-Data)
+
 ## Rationale
 
 Open research data refers to the publishing the data underpinning scientific 

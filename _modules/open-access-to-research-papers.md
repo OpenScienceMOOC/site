@@ -5,6 +5,8 @@ icon: "icons/paper.html"
 order: 6
 ---
 
+**Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-6-Open-Access-to-Research-Papers)
+
 ## Rationale
 
 Making scholarly research outputs openly available is easy, legal, and has 

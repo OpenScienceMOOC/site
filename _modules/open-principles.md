@@ -6,7 +6,16 @@ order: 1
 link: "https://eliademy.com/catalog/oer/module-1-open-principles.html"
 ---
 
-**Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-1-Open-Principles/tree/master/content_development).
+**Status**: This module is currently live and [and freely available online](https://eliademy.com/catalog/oer/module-1-open-principles.html).
+
+The second release for this module is now ready, and has been published on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2595951.svg)](https://doi.org/10.5281/zenodo.2595951)
+
+To cite this work, please use the following:
+
+Jon Tennant; Bruce Caron; Jo Havemann; Samuel Guay; Julien Colomb; Eva Lantsoght; Erzsébet Tóth-Czifra; Katharina Kriegel; Justin Sègbédji Ahinon; Cooper Smout (2019, March 16) OpenScienceMOOC/Module-1-Open-Principles: Second release (Version 2.0.0). Zenodo. [http://doi.org/10.5281/zenodo.2595951](http://doi.org/10.5281/zenodo.2595951)
+
 
 ## Rationale
 
@@ -15,7 +24,7 @@ cultural inertia. Open Science is no different. No matter how convinced you are,
 you will come across resistance from peers and colleagues, and the best defence 
 is strong personal conviction that what you are doing may not be perfect now, 
 but is the right decision in the long run. This module will introduce the 
-guiding principles of the â€˜open movementâ€™, the different actors involved, and 
+guiding principles of the 'open movement', the different actors involved, and 
 the impact that they are having.   
 
 ## Learning outcomes

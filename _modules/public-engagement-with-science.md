@@ -5,6 +5,8 @@ icon: "icons/globe.html"
 order: 8
 ---
 
+**Status**: This module is currently [in development](https://github.com/OpenScienceMOOC/Module-8-Public-Engagement-with-Science)
+
 ## Rationale
 
 Science communication is often seen as a unidirectional process from scientist 
