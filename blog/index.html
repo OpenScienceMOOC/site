@@ -1,5 +1,6 @@
 ---
 layout: base
+title: Blog
 ---
 
 <header>
@@ -18,6 +19,9 @@ layout: base
 <main>
   <div class="grid-container">
     <div class="grid-x grid-padding-y">
+      <div class="cell small-12 show-for-sr">
+        <h2>List of Blog Posts</h2>
+      </div>
       {% for post in paginator.posts %}
       <div class="cell small-12">
         <div class="grid-x grid-padding-x">
@@ -34,7 +38,7 @@ layout: base
             {% endif %}
           </div>
           <div class="cell small-12 medium-8">
-            <h2 class="h3"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <p>Posted on {{ post.date | date: "%B %d, %Y"}} 
                by {{ post.author }} in
                {{ post.categories }}
