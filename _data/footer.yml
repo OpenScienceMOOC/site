@@ -24,8 +24,8 @@ networks:
   icon: "fa-twitter"
 
 links:
-- name: "License"
-  url: "/license"
+- name: "Colophon"
+  url: "/colophon"
 
 sponsors:
 - name: "Code Ocean"
