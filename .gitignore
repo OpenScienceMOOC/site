@@ -7,3 +7,7 @@ vendor/
 .Rhistory
 Gemfile.lock
 
+// temporary ignored v3.0
+_jekyll
+public/
+
