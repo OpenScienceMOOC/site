@@ -47,16 +47,20 @@
   
 </head>
 <body>
-  {{ block "header"  . }}
+  <header>
+    {{ block "navigation"  . }}
 
-  {{ end }}
+    {{ end }}
+  </header>
 
   {{ block "main" . }}
 
   {{ end }}
 
-  {{ block "footer" . }}
+  <footer>
+    {{ block "footer" . }}
 
-  {{ end }}
+    {{ end }}
+  </footer>
 </body>
 </html>
