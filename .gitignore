@@ -1,2 +1,8 @@
 _jekyll/
 public/
+
+# temporarily ignore files autogenerate on master
+.bundle/
+_site/
+vendor/
+Gemfile.lock
