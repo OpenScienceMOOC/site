@@ -41,7 +41,7 @@ the motivations behind OERs and how to develop your own.
  - [OpenLearn](http://www.open.edu/openlearn/)
  - [OpenHPI](https://open.hpi.de/?locale=en)
  - [OpenMed](http://openmedproject.eu/)
- - [Open2Study](https://www.open2study.com/)
+ - [Classpert](https://www.classpert.com/)
  - [OpenClassrooms](https://openclassrooms.com/)
 
 ### Research Articles and Reports
