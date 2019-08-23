@@ -6,7 +6,7 @@ order: 5
 link: "https://eliademy.com/app/a/courses/02d7338a7e"
 ---
 
-**Status**: This module is currently live [and freely available online](https://eliademy.com/catalog/oer/module-1-open-principles.html).
+**Status**: This module is currently live [and freely available online](https://eliademy.com/catalog/oer/module-5-open-research-software-and-open-source.html).
 
 The third release for this module is now ready, and has been published on Zenodo:
 
