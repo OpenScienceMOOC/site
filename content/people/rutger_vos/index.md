@@ -1,0 +1,13 @@
+---
+name: Rutger Vos
+location: Netherlands
+contact:
+  email: rutgeraldo@gmail.com
+  github: rvosa
+  linkedin: rutgervos
+  impactstory: 0000-0001-9254-7318
+  orcid: 0000-0001-9254-7318
+  twitter: rvosa
+  website: rutgervos.blogspot.com
+team: steering-committee
+---

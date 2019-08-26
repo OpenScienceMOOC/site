@@ -1,0 +1,13 @@
+---
+name: Jon Tennant
+location: Rest of World
+contact:
+  email: jon.tennant.2@gmail.com
+  github: Protohedgehog
+  impactstory: 0000-0001-7794-0218
+  linkedin: jonathan-tennant-3546953a
+  orcid: 0000-0001-7794-0218
+  twitter: Protohedgehog
+  website: fossilsandshit.com
+team: steering-committee
+---

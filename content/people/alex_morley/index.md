@@ -1,0 +1,12 @@
+---
+name: Alex Morley
+location: UK
+contact:
+  email: alex0morley@gmail.com
+  github: alexmorley
+  impactstory: 0000-0001-7051-2624
+  orcid: 0000-0001-7051-2624
+  twitter: alex__morley
+  website: alexmorley.me
+team: production
+---

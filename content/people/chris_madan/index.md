@@ -1,0 +1,13 @@
+---
+name: Christopher Madan
+location: UK
+contact:
+  email: christopher.madan@nottingham.ac.uk
+  github: cMadan
+  impactstory: 0000-0003-3228-6501
+  linkedin: cmadan
+  orcid: 0000-0003-3228-6501
+  twitter: cMadan
+  website: www.cmadan.com
+team: steering-committee
+---

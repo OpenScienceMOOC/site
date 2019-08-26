@@ -1,0 +1,10 @@
+---
+name: "Danny Colin"
+location: "Canada"
+contact:
+  email:   "contact@dannycolin.com"  
+  github:  "dannycolin"
+  twitter: "dannycolincom"
+  website: "dannycolin.com"
+team: "production"
+---

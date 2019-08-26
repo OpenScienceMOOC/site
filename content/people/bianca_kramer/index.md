@@ -1,0 +1,13 @@
+---
+name: Bianca Kramer
+location: Netherlands
+contact:
+  email: bianca.kramer@gmail.com
+  github: bmkramer
+  impactstory: 0000-0002-5965-6560
+  linkedin: bmrkramer
+  orcid: 0000-0002-5965-6560
+  twitter: MsPhelps
+  website: 101innovations.wordpress.com/
+team: steering-committee
+---

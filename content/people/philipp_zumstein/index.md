@@ -1,0 +1,9 @@
+---
+name: Philipp Zumstein
+location: Germany
+contact:
+  github: zuphilip
+  twitter: zuphilip
+  website: www.bib.uni-mannheim.de/en/contact-persons/dr-philipp-zumstein/
+team: production
+---

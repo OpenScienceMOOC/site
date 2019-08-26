@@ -1,0 +1,11 @@
+---
+name: Daniel S. Katz
+location: USA
+contact:
+  email: dskatz@illinois.edu
+  github: danielskatz
+  orcid: 0000-0001-5934-7525
+  twitter: danielskatz
+  website: danielskatz.org
+team: production
+---
