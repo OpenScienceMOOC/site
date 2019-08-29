@@ -13,15 +13,4 @@ params:
 
 # Hugo specific
 disableHugoGeneratorInject: true
-disableKinds: [
-  "404",
-  "page",
-  "RSS", 
-  "robotsTXT", 
-  "section",
-  "single",
-  "sitemap", 
-  "taxonomy", 
-  "taxonomyTerm", 
-]
 metaDataFormat: "yaml"
