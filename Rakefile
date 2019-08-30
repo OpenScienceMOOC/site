@@ -53,13 +53,13 @@ namespace 'serve' do
   # Run Jekyll in production mode (default)
   task :prod do
     puts "Run Jekyll in production mode..."
-    system("bundle exec jekyll serve --watch --config _config.yml")
+    system("bundle exec jekyll serve --config _config.yml")
   end
 
   desc "Run Jekyll in development mode"
   task :dev do
     puts "Starting Jekyll in development mode..."
-    system("bundle exec jekyll serve --watch --config _config.yml,_config.dev.yml")
+    system("bundle exec jekyll serve --config _config.yml,_config.dev.yml")
   end
 
 end

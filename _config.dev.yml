@@ -1,23 +1,13 @@
-# this settings override those in _config.yml
-environment: "dev"
+# ---------------------------------------
+# Jekyll Development Configuration
+# ---------------------------------------
 
-# General settings
-url: ""
+# Website specific
 baseurl: ""
+url: ""
 
-# Sass settings
-sass:
-  style: expanded
-
-# Custom plugins and symbolic links
-#
-#   false = allow
-#   true  = disallow
-safe: false
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# Jekyll specific
+environment: "dev"
 exclude:
   - .bundle/
   - vendor/
@@ -29,3 +19,7 @@ exclude:
   - LICENSE
   - Rakefile
   - README.md
+incremental: 1
+livereload: true
+sass:
+  style: expanded
