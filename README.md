@@ -1,67 +1,118 @@
-# Repository for the Open Science MOOC website
+<img src="/assets/img/osm/osm-logo.png" 
+     alt="Open Science MOOC logo"
+     width="256">
 
-Currently at: [`https://opensciencemooc.eu`](https://opensciencemooc.eu)
+Visit [our website][website] to learn more about the project.
 
-[![OpenScienceMooc](/img/moocgif.gif)](https://opensciencemooc)
+Follow [@OpenScienceMOOC on Twitter][twitter] for important announcements or 
+come talk with us on [our slack channel][slack].
 
-# Contributing to the website
-You can contribute by directly altering/proposing content on the [GitHub repository](https://github.com/OpenScienceMOOC/site).   
-
-To clone this repository locally use:
-```
-git init   
-git https://github.com/OpenScienceMOOC/site.git
-```
-**New to GIT and GitHub?** See [these learning resources](https://help.github.com/articles/git-and-github-learning-resources/) and this [10 min. GIT tutorial](https://try.github.io/levels/1/challenges/1).   
-
-### Where are images?
-Images are located in the `/img` and `assets/img` folders.
+This project adheres to the [Contributor Covenant code of conduct][coc]. By 
+participating, you are expected to uphold this code. Please report unacceptable
+behavior to EMAIL@ADDRESS.HERE.
 
 ### Altering the module content.   
-Modules descriptions are rendered from markdown files ([here is a useful markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)) located in the [`_modules`](https://github.com/OpenScienceMOOC/site/tree/master/_modules) folder. The module markdown files are plain markdown file. However, the top of each file contains some [YAML](https://en.wikipedia.org/wiki/YAML) data helping to render the content on the website. This YAML lines set the page layout, the title to render, the logo picture to use on the page, the description to use (rendered under title if provided), the page top header background image, a thumbnail to use when the module is rendered as a card, the cardcolor (as [RGBA](https://en.wikipedia.org/wiki/RGBA_color_space) values)
+
+Modules descriptions are rendered from markdown files 
+([here is a useful markdown cheatsheet][md-ss]) located in the `_modules` folder.
+The module markdown files are plain markdown file. However, the top of each file 
+contains some [YAML][yaml] data helping to render the content on the website. 
+This YAML lines set the page layout, the title to render, and the icon picture 
+to use on the page.
+
+Here's an example:
 
 ```yml
 ---
 layout: page
-title: "Open Advocacy"
-logo: /img/logos/mooc_logo.png
-description: ""
-header-img: "img/home-bg.jpg"
-thumbnail:  "/img/logos/mooc_logo.png"
-cardcolor:  rgba(178,223,197,0.5)
-ordernumber: 10
+title: "Open Access to Research Papers"
+icon: "icons/paper.html"
+order: 6
 ---
-  ```
+```
 
 ### How to add a person to be listed/rendered on the website
 
-Currently adding a person involves adding a markdown file in the [`_people`](https://github.com/OpenScienceMOOC/site/blob/master/_people) folder. Perhaps the easiest thing to do is to copy an existing file, e.g.  `Jonathan Tennant.md`. The people markerdown files contain some YML data at the top which is used to define items like the location of the profile image:
+Currently adding a person involves adding a YAML file in the `_data/people` 
+folder. Perhaps the easiest thing to do is to copy an existing file, e.g.  
+`jon_tennant.yml`. In this file, the data is used to define a member profile.
 
-  ```yml
-  ---
-  title: Jonathan Tennant
-  name: Dr. Jonathan Tennant
-  role: Founder, Rogue Scientist
-  location: Rest of World
-  contact:
-    email: jon.tennant.2@gmail.com
-    github: Protohedgehog
-    impactstory: 0000-0001-7794-0218
-    linkedin: jonathan-tennant-3546953a
-    orcid: 0000-0001-7794-0218
-    twitter: Protohedgehog
-    website: fossilsandshit.com
-  type: lead
-  ---
+The _contact_ item currently supports:
 
-  My fancy bio in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
+* email
+* github
+* impactstory
+* linkedin
+* orcid
+* twitter
+* website
 
-  ```
+Depending on which team you're in, you can use the following value for the
+_team_ item:
 
-If you want to add a picture of you, you simply need to add an image in the folder `assets/img/people`.
-The image should have the same name as your markdown file in `_people` (e.g jon_tennant.md -> jon_tennant.jpg).
+* advisors
+* production
+* steering-committee
 
-# License
-The code for this site is covered by the MIT license: [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/OpenScienceMOOC/site/blob/master/LICENSE)   
+Here's an example:
 
-Website content license: [![conten license](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)   
+```yml
+name: Dr. Jonathan Tennant
+location: Rest of World
+contact:
+  email: jon.tennant.2@gmail.com
+  github: Protohedgehog
+  impactstory: 0000-0001-7794-0218
+  linkedin: jonathan-tennant-3546953a
+  orcid: 0000-0001-7794-0218
+  twitter: Protohedgehog
+  website: fossilsandshit.com
+team: steering-committee
+```
+
+If you want to add a picture of you, you simply need to add an image in the 
+folder `assets/img/people`.
+
+The image should be in a JPG format and have the same name as your YAML file in 
+`_people` (e.g jon_tennant.yml -> jon_tennant.jpg).
+
+<!-- TODO
+## Contributing
+
+For more information on how you can contribute to this project, please read
+our [contributing guide][contribute].
+-->
+
+## License
+
+### Content
+
+Unless otherwise stated the content is licensed under the 
+[CC-BY-SA 4.0](cc).
+
+### Source code
+
+Copyright (C) 2019 OpenScienceMOOC
+
+This program is free software: you can redistribute it and/or modify it under 
+the terms of the GNU Affero General Public License as published by the Free 
+Software Foundation, either version 3 of the License, or (at your option) any 
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along 
+with this program. If not, see <https://www.gnu.org/licenses/>. 
+
+---
+<!-- Reference are in alphabetical order -->
+[cc]:         https://creativecommons.org/licenses/by-sa/4.0/
+[coc]:        CODE_OF_CONDUCT.md
+[contribute]: CONTRIBUTING.md
+[md-ss]:      https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[slack]:      https://openmooc-ers-slackin.herokuapp.com/ 
+[twitter]:    https://twitter.com/OpenScienceMOOC
+[website]:    https://opensciencemooc.eu
+[yaml]:       https://en.wikipedia.org/wiki/YAML 

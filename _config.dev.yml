@@ -1,0 +1,25 @@
+# ---------------------------------------
+# Jekyll Development Configuration
+# ---------------------------------------
+
+# Website specific
+baseurl: ""
+url: ""
+
+# Jekyll specific
+environment: "dev"
+exclude:
+  - .bundle/
+  - vendor/
+  - .gitignore
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - Rakefile
+  - README.md
+incremental: 1
+livereload: true
+sass:
+  style: expanded

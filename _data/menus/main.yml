@@ -1,0 +1,43 @@
+# Topbar menu 
+#
+# How to create a menu
+#
+# - title:  "your page title
+#   url:    "/page-link"
+# - title:  "an other page title"
+#   url:    "/an-other-page-link"
+#   submenu:
+#   - title:  "title for the dropdown menu item"
+#     url:    "/item-link"
+
+- title:  "Home"
+  url:    "/"
+- title:  "Blog"
+  url:    "/blog"
+- title:  "Modules"
+  url:    "#"
+  submenu:
+  - title: "Open principles"
+    url: "/modules/open-principles"
+  - title: "Open collaboration"
+    url: "/modules/open-collaboration"
+  - title: "Reproducible research and data analysis"
+    url: "/modules/reproducible-research-and-data-analysis"
+  - title: "Open research data"
+    url: "/modules/open-research-data"
+  - title: "Open research software and Open Source"
+    url: "/modules/open-research-software-and-open-source"
+  - title: "Open access to research papers"
+    url: "/modules/open-access-to-research-papers"
+  - title: "Open evaluation"
+    url: "/modules/open-evaluation"
+  - title: "Public engagement with science"
+    url: "/modules/public-engagement-with-science"
+  - title: "Open educational resources"
+    url: "/modules/open-educational-resources"
+  - title: "Open advocacy"
+    url: "/modules/open-advocacy"
+- title:  "People"
+  url:    "/people"
+- title:  "About"
+  url:    "/about"

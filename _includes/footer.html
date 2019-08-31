@@ -1,64 +1,98 @@
-<!-- Footer -->
-<footer>
-  <div style="margin-left: 3rem; margin-right: 3rem;">
-                <ul class="list-inline text-center">
-                  {% if site.email_address %}
-                  <li>
-                      <a href="mailto:{{ site.email_address }}">
-                        <img alt="e-mail" style="height:2rem;" src="{{ site.baseurl }}/img/icons/email_icon.png" />
-                      </a>
-                  </li>
-                  {% endif %}
-                  {% if site.github_username %}
-                  <li>
-                      <a href="https://github.com/{{ site.github_username }}">
-                        <img alt="GitHub profile" style="height:2rem;" src="{{ site.baseurl }}/img/icons/github-icon.png" />
-                      </a>
-                  </li>
-                  {% endif %}
-                  {% if site.orcid_id %}
-                  <li>
-                      <a href="http://orcid.org/{{ site.orcid_id }}">
-                        <img alt="ORCiD profile" style="height:2rem;" src="{{ site.baseurl }}/img/icons/orcid.png" />
-                      </a>
-                  </li>
-                  {% endif %}
-                  {% if site.impactstory_id %}
-                  <li>
-                      <a href="http://impactstory.org/{{ site.impactstory_id }}">
-                        <img alt="ImpactStory profile" style="height:2rem;" src="{{ site.baseurl }}/img/icons/impactStory.png" />
-                      </a>
-                  </li>
-                  {% endif %}
-
-                  {% if site.googlescholar_url %}
-                  <li>
-                      <a href="{{ site.googlescholar_url }}">
-                        <img alt="Google Scholar" style="height:2rem;" src="{{ site.baseurl }}/img/icons/google-scholar.png" />
-                      </a>
-                  </li>
-                  {% endif %}
-
-                    {% if site.twitter_username %}
-                    <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
-                          <img alt="Twitter profile" style="height:2rem;" src="{{ site.baseurl }}/img/icons/twitter.png" />
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.linkedin_username %}
-                    <li>
-                        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-                          <img alt="LinkedIn profile" style="height:2rem;" src="{{ site.baseurl }}/img/icons/linkedin.png" />
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-                <p class="copyright text-muted">
-                  <b> © Open Science MOOC</b>
-                  <br/>
-                  <br/>Website content license: <a rel="Website license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="CC-BY-4.0" style="border-width:0" src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" /></a>
-                  <br/>Website design by <a rel="Kevin Moerman" href="https://kevinmoerman.org/">Kevin Moerman</a>
-                </p>
+<footer id="footer">
+  <div id="footer--newsletter">
+    <div class="grid-container">
+      <section class="grid-x grid-padding-x grid-padding-y">
+        <div class="cell small-12 medium-2">
+          {% include {{ site.data.footer.newsletter.icon }} %}
+        </div>
+        <div class="cell small-12 medium-4">
+          <h2>{{ site.data.footer.newsletter.title }}</h2>
+          <p>{{ site.data.footer.newsletter.text | markdownify }}</p>
+        </div>
+        <div class="cell small-12 medium-6">
+          <form action="https://tinyletter.com/OpenScienceMOOC" 
+                method="post" 
+                target="popupwindow" 
+                onsubmit="window.open(
+                  'https://tinyletter.com/OpenScienceMOOC', 
+                  'popupwindow', 
+                  'scrollbars=yes,width=400,height=300'
+                ); return true">
+            <label>
+              <span class="show-for-sr">
+                {{ site.data.footer.newsletter.label }}
+              </span>
+              <input name="email" 
+                     id="tlemail" 
+                     type="text"
+                     placeholder="{{ site.data.footer.newsletter.input }}">
+            </label>
+            <input value="1" name="embed" type="hidden">
+            <input value="{{ site.data.footer.newsletter.button }}" 
+                   class="expanded white hollow button"
+                   type="submit">
+          </form>
+        </div>
+      </section>
     </div>
+  </div>
+  <div id="footer--sponsors">
+    <div class="grid-container">
+      <section class="grid-x grid-padding-x grid-padding-y align-center">
+        <div class="cell small-12 text-center">
+          <h2 class="h5">Sponsored by</h2>
+        </div>
+        {% for sponsor in site.data.footer.sponsors %}
+        <div class="cell medium-4">
+          <a href="{{ sponsor.url }}">
+            <img src="{{ sponsor.img | relative_url }}"
+                 alt="{{ sponsor.name }}">   
+            <span class="show-for-sr">{{ sponsor.name }}</span>
+          </a>
+        </div>
+        {% endfor %}
+      </section>
+    </div>
+  </div>
+  <div id="footer--nav">
+    <div class="grid-container">
+      <section class="grid-x grid-padding-x grid-padding-y">
+        <div class="cell small-12 medium-auto">
+          <div class="cell small-12 show-for-sr">
+            <h2>Additional informations</h2>
+          </div>
+          <nav class="grid-x">
+            <section class="cell small-12 medium-auto">
+              <ul class="menu horizontal">
+                {% for network in site.data.footer.networks %}
+                <li>
+                  <a href="{{ network.url }}">
+                    <span class="icon icon-{{ network.name | downcase }}">
+                    </span>
+                    <span class="show-for-sr">
+                      {{ network.name }}
+                    </span>
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </section>
+          </nav>
+        </div>
+        <div class="cell small-12 medium-shrink">
+          <nav>
+            <ul class="menu vertical medium-horizontal">
+              {% for link in site.data.footer.links %}
+              <li>
+                <a href="{{ link.url }}">
+                  {{ link.name }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </div>
+  </div>
 </footer>

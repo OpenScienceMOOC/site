@@ -1,0 +1,45 @@
+---
+layout: base
+---
+
+<header>
+  <div class="page-top-bar">
+    {% include topbar.html %}
+  </div>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-y align-center">
+      <div class="cell small-12 medium-8 text-center">
+        <h1>{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y"> 
+      <div class="cell small-12">
+        {{ content }}
+      </div>
+      <div class="cell small-12">
+        <h2>Our Partners</h2>
+      </div>
+    </div>
+    <ul class="grid-x grid-padding-x grid-padding-y medium-up-4 no-bullet">
+      {% for partner in site.data.partners %}
+        <li class="cell">
+          <div class="card">
+            <img src="{{ "assets/img/partners/" | 
+                          append: partner[0] | 
+                          append: ".png" | 
+                          relative_url }}" 
+                 alt="{{ partner[1].name }}"
+                 width="320">
+            <span class="show-for-sr">{{ partner[1].name }}</span>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+      
+  </div>
+</main>

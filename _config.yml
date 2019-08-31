@@ -1,45 +1,47 @@
-# Site settings
+# ---------------------------------------
+# Jekyll Production Configuration
+# ---------------------------------------
+
 title: Open Science MOOC
 description: ""
 
 url: "https://opensciencemooc.eu"
 baseurl: ""
 
-header-img: img/home-bg.jpg
-headercolor: "#000000"
-logo: img/logos/mooc_logo.png
-
-github_username: OpenScienceMOOC
-twitter_username: OpenScienceMOOC
-altmetric: true
-
 permalink: pretty
 paginate: 10
-exclude: [
-  "Gemfile",
-  "Gemfile.lock",
-  "LICENSE",
-  "README.md"
-]
+paginate_path: "/blog/page/:num/"
 
 collections:
+  #  pages:
+  #    output: true
+  #    permalink: /:path
   modules:
     output: true
-  people:
-    output: true
 
-defaults:
-  # default to people's layout for people's page
-  -
-    scope:
-      path: ""
-      type: "people"
-    values:
-      layout: "profile"
-  # Set a avatar variable to be able to loop trought people's avatar in
-  # people's page.
-  -
-    scope:
-      path: "assets/img/people"
-    values:
-      avatar: true
+# Build settings
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Sass settings
+sass:
+  style: compressed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - .bundle/
+  - vendor/
+  - .gitignore
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - Rakefile
+  - README.md

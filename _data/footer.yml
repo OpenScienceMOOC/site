@@ -1,0 +1,36 @@
+logo: "holder.js/200x50"
+logo-alt-text: "Open Science MOOC logo"
+  
+newsletter:
+  title: "Stay Updated!"
+  text: "Get the latest news from Open Science MOOC about our courses."
+  label: "Enter Your Email Address:"
+  input: "email@example.com"
+  button: "Sign Up Now"
+  icon: "icons/newspaper.html"
+
+networks:
+- name: "Facebook"
+  url: "https://www.facebook.com/OpenScienceMOOC/"
+  icon: "fa-facebook"
+- name: "GitHub"
+  url: "https://github.com/OpenScienceMOOC"
+  icon: "fa-github"
+- name: "Slack"
+  url: "https://openmooc-ers.slack.com"
+  icon: "fa-slack"
+- name: "Twitter"
+  url: "https://twitter.com/OpenScienceMOOC"
+  icon: "fa-twitter"
+
+links:
+- name: "Colophon"
+  url: "/colophon"
+
+sponsors:
+- name: "Code Ocean"
+  img: "assets/img/sponsors/codeocean.png"
+  url: "https://codeocean.com/"
+- name: "Shuttleworth Foundation"
+  img: "assets/img/sponsors/shuttleworth.png"
+  url: "https://shuttleworthfoundation.org/"

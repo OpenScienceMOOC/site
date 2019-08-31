@@ -1,6 +1,13 @@
 _site/
+.bundle/
 .sass-cache/
 .jekyll-cache/
+vendor/
 .jekyll-metadata
 .Rhistory
+Gemfile.lock
+
+// temporary ignored v3.0
+_jekyll
+public/
 
