@@ -19,6 +19,7 @@ by [Tobias Steiner][osmoocpeople]
   </figcaption>
 </figure>
 
+
 > Everything we have gained by opening content and data will be under threat if
 > we allow the enclosure of scholarly infrastructures.
 
