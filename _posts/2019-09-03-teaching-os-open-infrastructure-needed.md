@@ -50,7 +50,7 @@ Now, with the evolution of the Open Science MOOC over the last two years towards
 Right from Day One, we have always negotiated the trade-offs between easy availability of services, usability and pragmatic access, and counter-questions towards real openness that includes being able to control what happens to one's personal and project data, particularly from proponents arguing along the lines of the Free, Libre and Open Source (FLOSS) community. Also, did we mention that with no available project budget to speak of, we have been, and still are, dependent on freely available services? Right...
 
 Now, as Richard Stallmann has it, *free* in the sense of a variety of open movements should entail not only the gratis - or *free beer* - aspect of basic subscription to commercial services, but also the *libre* element  - as in *free speech*. This included long, and recurring debates about if we e.g. want to use Google Docs or rather should explore other, more privacy-phile ventures, since Google (or *G-Corp*, as many of us simply address the internet giant in
-reference to the fictional E-Corp of *Mr. Robot* fame - although Open Publishing sure has an E-Corp of its own ;) ) definitely feeds on our data (see e.g. [Forbes][forbes], or [this account of more disturbing consequences][npr], or [this2][creativegood] of what Google does with its search algorithms).
+reference to the fictional E-Corp of *Mr. Robot* fame - although Open Publishing sure has an E-Corp of its own ;) ) definitely feeds on our data (see e.g. [Forbes][forbes], or [this account of more disturbing consequences][npr], or [this more detailed opion piece][creativegood] on what Google does with its search algorithms).
 
 ![Someone looking at the E-Corp statue in Mr. Robot TV show. Animation.][/assets/img/posts/e-corp.gif]
 
@@ -82,7 +82,7 @@ Drawing from the experiences made with the OpenScienceMOOC, we think that for re
 - [Mattermost][mattermost] as an established open source alternative to Slack for scholarly communication in self-governed fora, and with the benefit of full control of one's data;
 - [Nextcloud][nextcloud] for file sharing purposes to replace commercial services such as Google Drive or Dropbox;
 - [Collabora Online][collabora-online] or [OnlyOffice][onlyoffice] integrated to NextCloud as an alternative to the omnipresent Google Docs Suite that is still often perceived as the most versatile solution for easy collaboration.
-- Plus implementation of an internationally-recognized standard such as LRMI/schema.org ([1][lrmi1], [2][lrmi2]) for teaching and learning resources (OER), in order to make the open data and content we produce availble in a FAIR way 
+- Plus implementation of an internationally-recognized standard such as LRMI/schema.org ([1][lrmi1], [2][lrmi2]) for teaching and learning resources (OER), in order to make the open data and content we produce availble in a FAIR way
 
 ...because in the end, what we as scholars should have learned by now is that an altruistic provision of services is **not** in the best interest of corporate strategy. This is why we think it is crucial to highlight the need of further
 public-sector investment in the tools necessary to facilitate training, teaching and learning of and with Open Scholarship, so as to ensure that public access to knowledge in all its forms can become an equitable process.
@@ -97,6 +97,7 @@ public-sector investment in the tools necessary to facilitate training, teaching
 - Budroni, P., Claude-Burgelman, J. & Schouppe, M. (2019). Architectures of
   Knowledge: The European Open Science Cloud. ABI Technik, 39(2), pp. 130-141.
   retrieved 2019/08/15, doi: [10.1515/abitech-2019-2006][abitechdoi]
+- Campbell, L. M., and Barker, P. (2014) LRMI Implementation: Overview Issues and Experiences. Bolton, UK: Cetis, 2014. [PDF][lrmipdf].
 - McGonagle‐O’Connell, A. and Ratan, K. (2019), Can we transform scholarly
   communication with open source and community‐owned infrastructure?. Learned
   Publishing, 32: 75-78. retrieved 2019/08/15, doi: [10.1002/leap.1215][leapdoi]
@@ -135,3 +136,4 @@ public-sector investment in the tools necessary to facilitate training, teaching
 [osmoocpeople]: https://opensciencemooc.eu/people/
 [lrmi1]: https://creativecommons.org/2013/05/05/lrmi-accepted-into-schema-org/
 [lrmi2]: https://blogs.pjjk.net/phil/reports/lrmi-implementation-overview-issues-and-experiences/
+[lrmipdf]: https://blogs.pjjk.net/phil/content/uploads/lrmiImplementationSynthesis.pdf
