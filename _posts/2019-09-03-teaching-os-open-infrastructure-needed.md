@@ -6,9 +6,6 @@ layout: post
 categories: community
 ---
 
-
-# Teaching practices & values of Open Science and Scholarship needs open infrastructure!
-
 by [Tobias Steiner][osmoocpeople]
 
 <figure>
