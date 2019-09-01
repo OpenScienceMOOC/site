@@ -28,13 +28,12 @@ by [Tobias Steiner][osmoocpeople]
 
 > The need to empower scholars as well as the general public to practice Open
 > Scholarship has been a recurring theme in public scholarly discourse of the
-> last dacade and beyond. Still, the tools and platforms required to make this a
+> last decade and beyond. Still, the tools and platforms required to make this a
 > reality are usually in the hands of - often US-based - for-profit companies.
-> And while there exist a lot of specialized platforms out there, publicly-funded
-> training, project management and scholarly communications platforms are close
-> to non-existent. With this post, the OpenScienceMOOC team wants to open a
-> discussion about how an open networked scholarly infrastructure for learning,
-> teaching and scholarly communication for Open Scholarship could look like.
+> And while there do exist a lot of specialized platforms out there, publicly-funded
+> and -hosted training, project management, and scholarly communications platforms are close
+> to non-existent. With this post, we want to open a discussion about how an open networked
+> scholarly infrastructure for learning, teaching and scholarly communications for Open Scholarship could look like.
 
 Open Science has been the talk of the town for quite some time now. And while there has been amazing progress on a variety of levels, we still face certain blind spots when it comes to the provision of basic infrastructure that would allow us to truly make knowledge an equitable public good independent from corporate influence and control.
 
