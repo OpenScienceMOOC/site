@@ -82,6 +82,7 @@ Drawing from the experiences made with the OpenScienceMOOC, we think that for re
 - [Mattermost][mattermost] as an established open source alternative to Slack for scholarly communication in self-governed fora, and with the benefit of full control of one's data;
 - [Nextcloud][nextcloud] for file sharing purposes to replace commercial services such as Google Drive or Dropbox;
 - [Collabora Online][collabora-online] or [OnlyOffice][onlyoffice] integrated to NextCloud as an alternative to the omnipresent Google Docs Suite that is still often perceived as the most versatile solution for easy collaboration.
+- Plus implementation of an internationally-recognized standard such as LRMI/schema.org ([1][lrmi1], [2][lrmi2]) for teaching and learning resources (OER), in order to make the open data and content we produce availble in a FAIR way 
 
 ...because in the end, what we as scholars should have learned by now is that an altruistic provision of services is **not** in the best interest of corporate strategy. This is why we think it is crucial to highlight the need of further
 public-sector investment in the tools necessary to facilitate training, teaching and learning of and with Open Scholarship, so as to ensure that public access to knowledge in all its forms can become an equitable process.
@@ -132,3 +133,5 @@ public-sector investment in the tools necessary to facilitate training, teaching
 [schroedersiegel]: https://pdxscholar.library.pdx.edu/ulib_fac/66/
 [schroedersiegeldoi]: https://doi.org/10.1353/scp.2006.0006
 [osmoocpeople]: https://opensciencemooc.eu/people/
+[lrmi1]: https://creativecommons.org/2013/05/05/lrmi-accepted-into-schema-org/
+[lrmi2]: https://blogs.pjjk.net/phil/reports/lrmi-implementation-overview-issues-and-experiences/
