@@ -63,7 +63,7 @@ to the open source FLOSS perspective, we now want to set up a stack of web tools
 
 The question that we have been asking ourselves, then, is:
 
-**Are we really alone with this need for openly-available infrastructures for training, education and scholarly communication that more closly stick to open principles?**
+**Are we really alone with this need for openly-available infrastructures for training, education and scholarly communication that more closely stick to open principles?**
 
 Overall, more elegant and sensible solutions to these dilemmata ranging from non-profit, community-led approaches to other forms of scholar-led ventures have been outlined by many scholars since the dawn of the internet - let me just highlight one example from the not-so-recent scholarly history of thirteen years ago, title: "[A Cooperative Publishing Model for Sustainable Scholarship][schroedersiegel]". Sounds familiar? That is because I think at large - and with notable exceptions that include great initiatives such as [ScholarLed][scholarled], [osf.io][osf], or the [Open Library of Humanities][olh] in open publishing - it seems as if we've been running around in circles again and again, and ever since... and by doing so, particularly the field of training and education has been left to be dominated by corporate interests.
 
