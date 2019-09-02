@@ -8,13 +8,9 @@ categories: community
 
 by [Tobias Steiner][osmoocpeople]
 
-<figure>
-  ![A freeway interchange. Illustration.][/assets/img/posts/cars-2605953_1920.jpg]
-  <figcaption>
-    <a href="https://pixabay.com/de/photos/2605953/">A freeway interchange</a>.
-    Illustration by <a href="https://pixabay.com/de/users/StockSnap-894430/">StockSnap</a>.
-  </figcaption>
-</figure>
+![A freeway interchange. Illustration.](/assets/img/posts/cars-2605953_1920.jpg)
+Illustration by <a href="https://pixabay.com/de/users/StockSnap-894430/">StockSnap</a>.
+
 
 
 > Everything we have gained by opening content and data will be under threat if
@@ -47,7 +43,7 @@ Right from Day One, we have always negotiated the trade-offs between easy availa
 
 Now, as [Richard Stallman][stallman] has it, *free* in the sense of a variety of open movements should entail not only the gratis - or *free beer* - aspect of basic subscription to commercial services, but also the *libre* element  - as in *free speech*. This included long, and recurring debates about if we e.g. want to use Google Docs or rather should explore other, more privacy-phile ventures, since Google (or *G-Corp*, as many of us simply address the internet giant in reference to the fictional E-Corp of *Mr. Robot* fame - although Open Publishing sure has an E-Corp of its own ;) ) has been feeding on our data ever since (for illustrative snapshots, see e.g. [Forbes][forbes], or [this account of more disturbing consequences][npr] and [this more detailed follow-up opion piece][creativegood] on what Google does with its search algorithms).
 
-![Someone looking at the E-Corp statue in Mr. Robot TV show. Animation.][/assets/img/posts/e-corp.gif]
+![Someone looking at the E-Corp statue in Mr. Robot TV show. Animation.](/assets/img/posts/e-corp.gif)
 
 We have long tried to run the OpenScienceMOOC's development backbone via GitHub.com, a free service that itself used to be a harbinger of open source projects, but had to face tremendous loss in support by the open source community over the last few years, particularly since its having been bought by Microsoft. Things have gotten worse when, over the last few months, there's also been a massive increase in selective refusals of service and block-outs of researchers by GitHub.com, which faced being used as a tool by the United States' government enforcing trade
 policy and sanctions against countries such as Cuba and Iran (see e.g. [LinuxInsider][linuxinsider], [ZDNet][zdnet]).
