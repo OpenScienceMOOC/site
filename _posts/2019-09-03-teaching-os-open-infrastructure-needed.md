@@ -6,20 +6,6 @@ layout: post
 categories: community
 ---
 
-by [Tobias Steiner][osmoocpeople]
-
-![A freeway interchange. Illustration.](/assets/img/posts/cars-2605953_1920.jpg)
-Illustration by <a href="https://pixabay.com/de/users/StockSnap-894430/">StockSnap</a>.
-
-
-
-> Everything we have gained by opening content and data will be under threat if
-> we allow the enclosure of scholarly infrastructures.
-
-— Geoffrey Bilder, Jennifer Lin, Cameron Neylon (2015).
-
----
-
 #### **tldr;**
 
 > The need to empower scholars as well as the general public to practice Open
@@ -30,6 +16,19 @@ Illustration by <a href="https://pixabay.com/de/users/StockSnap-894430/">StockSn
 > and -hosted training, project management, and scholarly communications platforms are close
 > to non-existent. With this post, we want to open a discussion about how an open networked
 > scholarly infrastructure for learning, teaching and scholarly communications for Open Scholarship could look like.
+
+![A freeway interchange. Illustration.](/assets/img/posts/cars-2605953_1920.jpg)
+Illustration by <a href="https://pixabay.com/de/users/StockSnap-894430/">StockSnap</a>.
+
+by [Tobias Steiner][osmoocpeople]
+
+> Everything we have gained by opening content and data will be under threat if
+> we allow the enclosure of scholarly infrastructures.
+
+— Geoffrey Bilder, Jennifer Lin, Cameron Neylon (2015).
+
+---
+
 
 Open Science has been the talk of the town for quite some time now. And while there has been amazing progress on a variety of levels, we still face certain blind spots when it comes to the provision of basic infrastructure that would allow us to truly make knowledge an equitable public good independent from corporate influence and control.
 
