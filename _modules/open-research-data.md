@@ -18,13 +18,12 @@ reproducible research and how to curate and share your own research data.
 
 ## Learning outcomes
 
-* The researcher will be able to define the characteristics of open data, the 
-  advantages and disadvantages associated with sharing different types of data 
-  openly, and the FAIR principles.
-* Researchers will be able to share their research data openly to a relevant 
-  public repository in a way that conforms to the FAIR principles.
-* The researcher will be able to locate and re-use datasets for their research 
-  from relevant disciplinary repositories.
+At the end of this module, the participants will be able to:
+
+1. Understand the benefits of embracing open data practices.
+2. Recognize the importance of data documentation (metadata), by getting familiarized with the FAIR principles and the research data management concepts.
+3. Identify data format issues and their relation to data archiving and analysis.
+4. Publish data in a data repository relevant to their scientific discipline or community.
 
 ## Resources
 
