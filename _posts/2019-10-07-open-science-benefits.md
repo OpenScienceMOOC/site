@@ -42,8 +42,13 @@ Hard work from Open Science researchers has led most journals and conferences to
 
 Open Science promotes, on the one hand, a healthier research environment and, on the other hand, helps researchers promote their work. What are you waiting for?
 
+Cheers!
+
+[Lonni][https://twitter.com/lonnibesancon].
+
 
 ## References <a name="Ref"></a>
+
 [1] [https://www.tidningencurie.se/podcasts/jon-tennant-open-science-is-just-science-done-right/] 
 [2] [[https://www.mdw.ac.at/magazin/index.php/2019/02/25/was-ist-open-science-und-zu-welchem-ende-ist-science-open/?lang=en]] 
 [3] S. Hitchcock. The effect of open access and downloads (’hits’) on citation impact: a bibliography of studies. 2016
