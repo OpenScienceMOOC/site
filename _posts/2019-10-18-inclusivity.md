@@ -1,7 +1,8 @@
 ---
 title: "Pragmatic steps for inclusivity in modern scholarly research"
 author: "Jon Tennant"
-date: "2019-10-17"
+date: '2019-10-17'
+output: pdf_document
 layout: post
 categories: community
 ---
