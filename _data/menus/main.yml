@@ -39,5 +39,7 @@
     url: "/modules/open-advocacy"
 - title:  "People"
   url:    "/people"
+- title:  "Code of Conduct"
+  url:    "/coc"
 - title:  "About"
   url:    "/about"
