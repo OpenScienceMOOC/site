@@ -21,16 +21,23 @@ We will further consult with external experts and our community and might be tak
 The OS MOOC SC is taking the following steps, effective immediately:
 
 (1)  Jon Tennant has volunteered to step down from the SC and relinquished control over the OS MOOC’s official communication channels until further notice. He is also permanently replaced as CoC contact point and sole lead instructor on Eliademy.
+
 (2)  Chris Hartgerink steps down from the SC in order to act instead as an interim external member of the OS MOOC CoC committee.
+
 (3)  Johanna Havemann and Lisa Hehnke are appointed as co-lead instructors on Eliademy and share all responsibilities regarding the operations of the OS MOOC on this platform until further notice.
+
 (4)  The CoC was updated and is now more prominent on the OS MOOC’s website as well as in all 10 module repositories on GitHub.
 
 In addition, the OS MOOC SC commits to urgency on dealing with the following items below, and will address those allowing the necessary time to design and implement mid-term and long-term solutions. We hold ourselves accountable to provide monthly public updates on our website. 
 
 (5)  We will restructure the inner operations of the OS MOOC and distribute its core responsibilities - including, but not limited to, managing all official communication channels - more broadly and aim to demonstrate enhanced transparency during this process.
+
 (6)  An external CoC referee detached from the SC activities will be appointed. In addition, we are seeking and will soon announce a public call for a second external, independent CoC expert to advise the SC impartially in future cases.
+
 (7)  We will create an additional email-address for all CoC-related questions, comments, and other inquiries that only the CoC committee will have access to. The members of the CoC committee will treat all communication via this channel as strictly confidential, unless they are explicitly allowed to disclose it.
+
 (8)  The OS MOOC's CoC incident reporting protocol will be revised by the CoC committee in the interest of better protecting our members. This will be opened up for community feedback.
+
 (9)  We will consider adding an official module or submodule on Ethics in Open Science to the core curriculum of the OS MOOC and will seek community input on the content.
 
 Regarding the above-mentioned solutions, we will provide regular open updates via our blog on the advancements in these issues.
