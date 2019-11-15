@@ -1,5 +1,5 @@
 ---
-title: "Official announcement from the Open Science MOOC Steering Committee addressing organizational changes concerning our (former) steering committee member and OS MOOC founder Jon Tennant"
+title: "Official announcement from the Open Science MOOC Steering Committee"
 author: "steering committee"
 date: "2019-11-15"
 layout: post
