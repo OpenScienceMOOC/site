@@ -49,16 +49,28 @@ All current members of the SC (i.e. excluding Jon Tennant) were involved in deve
 **Signatories** in alphabetical order:
 
 Julien Colomb (@j_colomb)
+
 Valentina Goglio
+
 Ivo Grigorov (@OAforClimate)
+
 Chris Hartgerink (@chartgerink)
+
 Ricardo Hartley (@ametodic0)
+
 Johanna Havemann (@johave)
+
 Lisa Hehnke (@DataPlanes)
+
 Bianca Kramer (@MsPhelps)
+
 Christopher Madan (@cMadan)
+
 Paola Masuzzo (@pcmasuzzo)
+
 Tobias Steiner (@cmplxtv_studies)
+
 Erzsébet Tóth-Czifra (@etothczifra)
+
 Rutger Vos (@rvosa)
 
