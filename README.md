@@ -35,7 +35,7 @@ order: 6
 
 Currently adding a person involves adding a YAML file in the `_data/people` 
 folder. Perhaps the easiest thing to do is to copy an existing file, e.g.  
-`jon_tennant.yml`. In this file, the data is used to define a member profile.
+`chris_madan.yml`. In this file, the data is used to define a member profile.
 
 The _contact_ item currently supports:
 
@@ -57,16 +57,16 @@ _team_ item:
 Here's an example:
 
 ```yml
-name: Dr. Jonathan Tennant
-location: Rest of World
+name: Christopher Madan
+location: UK
 contact:
-  email: jon.tennant.2@gmail.com
-  github: Protohedgehog
-  impactstory: 0000-0001-7794-0218
-  linkedin: jonathan-tennant-3546953a
-  orcid: 0000-0001-7794-0218
-  twitter: Protohedgehog
-  website: fossilsandshit.com
+  email: name@email.com
+  github: cMadan
+  impactstory: 0000-0003-3228-6501
+  linkedin: cmadan
+  orcid: 0000-0003-3228-6501
+  twitter: cMadan
+  website: http://cmadan.com/
 team: steering-committee
 ```
 
@@ -74,7 +74,7 @@ If you want to add a picture of you, you simply need to add an image in the
 folder `assets/img/people`.
 
 The image should be in a JPG format and have the same name as your YAML file in 
-`_people` (e.g jon_tennant.yml -> jon_tennant.jpg).
+`_people` (e.g chris_madan.yml -> chris_madan.jpg).
 
 <!-- TODO
 ## Contributing
