@@ -55,18 +55,15 @@ My fancy bio in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown
 Here's an example:
 ```
 ---
-title: Dr. Jonathan Tennant
-role: Founder, Rogue Scientist
-team: steering-committee
-location: Rest of World
+name: Lisa Hehnke
+location: Germany
 contact:
-  email: jon.tennant.2@gmail.com
-  github: Protohedgehog
-  impactstory: 0000-0001-7794-0218
-  linkedin: jonathan-tennant-3546953a
-  orcid: 0000-0001-7794-0218
-  twitter: Protohedgehog
-  website: fossilsandshit.com
+  email: lisa@dataplanes.org
+  github: lhehnke
+  orcid: 0000-0002-4103-0658
+  twitter: DataPlanes
+  website: dataplanes.org
+team: steering-committee
 ---
 
 My fancy bio in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format.
