@@ -3,11 +3,11 @@ layout: page-about
 title: "About Us"
 ---
 
-Welcome to the Open Science MOOC! Here you can find out a little more about us, what we are doing, and why. MOOC traditionally stands for 'Massively Open Online Course'. However, we feel that we are more like a community than a course, so consider the C to stand for that for us. You can learn more about this in an article we published in the [Journal of Collaborative Librarianship](https://digitalcommons.du.edu/collaborativelibrarianship/vol11/iss2/2/).
+Welcome to the Open Science MOOC! Here you can find out a little more about us, what we are doing, and why. MOOC traditionally stands for 'Massively Open Online Course'. However, we feel that we are more like a community than a course, so consider the C to stand for all of us. You can learn more about this in an article we published in the [Journal of Collaborative Librarianship](https://digitalcommons.du.edu/collaborativelibrarianship/vol11/iss2/2/).
 
 This project is carried out almost entirely by volunteer work. If you would like to contribute, please join our slack channel [Sign up for slack Open Science MOOC](https://osmooc.herokuapp.com/) or join our [GitHub project team](https://open-science-mooc-invite.herokuapp.com/).
 
-There are 14 people forming the Steering Committee for this project, as well as a core Production Team and Advisory Network, both of which are [open to anyone to join](https://github.com/OpenScienceMOOC/site).
+There are 12 people forming the Steering Committee for this project, as well as a core Production Team and Advisory Network, both of which are [open to anyone to join](https://github.com/OpenScienceMOOC/site).
 
 ## Rationale
 
@@ -17,6 +17,6 @@ Research is getting a global makeover, in part thanks to the power of the intern
 
 This MOOC is designed to help equip students and researchers with the skills they need to excel in a modern research environment. It brings together the efforts and resources of hundreds of researchers and practitioners who have all dedicated their time and experience to create a community to help propel research forward.
 
-The content of this MOOC will be distilled into 10 core modules. Each module will comprise a complete range of resources including videos, research articles, dummy datasets and code, as well as tasks to complete as individuals or groups. Certificates are awarded upon completuon of each module. The MOOC is hosted primarily in the Open Source provider [Eliademy](https://eliademy.com/opensciencemooc).
+The content of this MOOC will be distilled into 10 core modules. Each module will comprise a complete range of resources including videos, research articles, dummy datasets and code, as well as tasks to complete as individuals or groups. Certificates are awarded upon completion of each module. The MOOC is hosted primarily in the Open Source provider [Eliademy](https://eliademy.com/opensciencemooc).
 
 **_Disclaimer_**: We, the contributors, are fully aware that there is no magic one size fits all solution when it comes to implementing Open Science philosophies and best practices, especially when covering all research disciplines. However, we also believe that we should not limit ourselves from the onset, just because pragmatic solutions may not exist today for certain disciplines. We aim to set a highly inclusive standard, fully accepting the risk that for some disciplines this strategy may not be fully appropriate. Through that failure, we hope that you, the course users, will join us as course contributors and help us co-create bespoke solutions to your discipline based on principles of transparency, provenance, reproducibility and reuse of knowledge.

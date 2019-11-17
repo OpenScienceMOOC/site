@@ -182,3 +182,18 @@
 .icon {
   font-size: 1.25em;
 }
+
+// Syntaxt highlighter
+.highlighter-rouge {
+  border: solid 1px #cccccc;
+  border-radius: 2px;
+  background-color: #eeeeee;
+}
+div.highlighter-rouge {
+  padding: 8px;
+  margin-bottom: 8px;
+}
+code {
+  border: none;
+  background-color: transparent;
+}

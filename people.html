@@ -5,7 +5,18 @@ description: "Your description goes here"
 ---
 
 <div class="grid-container">
+  {% for person in site.data.people %}
+    {% if person[1].team == "code-of-conduct-committee" %}
+      {% assign coc = true %}
+    {% endif %}
+  {% endfor %}
+
   {% include helpers/new_team.html name="Steering Committee" %}
+
+  {% if coc %}
+    {% include helpers/new_team.html name="Code of Conduct Committee" %}
+  {% endif %}
+
   {% include helpers/new_team.html name="Advisors" %}
   {% include helpers/new_team.html name="Production" %}
 </div>
