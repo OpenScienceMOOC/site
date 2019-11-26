@@ -58,9 +58,9 @@ a project may be further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting [chris@libscie.org](mailto:chris@libscie.org) or [bianca.kramer@gmail.com](mailto:bianca.kramer@gmail.com). All
-complaints will be reviewed and investigated and will result in a response that
+reported by contacting our [Code of Conduct Committee members](https://opensciencemooc.eu/people) Bianca Kramer, Chris Hartgerink and Ricardo Hartley Belmar via [conduct@opensciencemooc.eu](mailto:conduct@opensciencemooc.eu). All
 is deemed necessary and appropriate to the circumstances. The project team is
+complaints will be reviewed and investigated and will result in a response that
 obligated to maintain confidentiality with regard to the reporter of an incident.
 Further details of specific enforcement policies may be posted separately.
 
@@ -78,3 +78,10 @@ available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.ht
 For answers to common questions about this code of conduct, see
 https://www.contributor-covenant.org/faq
 
+
+---
+
+#### Log of revisions:
+
+* 2019-11-15: publication of CoC, 1st version
+* 2019-11-26: update of section `Enforcement` to include new contact details (email), and log of revisions
