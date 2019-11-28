@@ -6,11 +6,15 @@
   name:     "github"
   url:      "https://github.com/"
   icon:     "github"
-- 
+-
+  name:     "gitlab"
+  url:      "https://gitlab.com/"
+  icon:     "gitlab"
+-
   name:     "impactstory"
   url:      "https://profiles.impactstory.org/u/"
   icon:     "impactstory"
-- 
+-
   name:     "linkedin"
   url:      "https://www.linkedin.com/in/"
   icon:     "linkedin"
@@ -18,11 +22,11 @@
   name:     "orcid"
   url:      "https://orcid.org/"
   icon:     "orcid"
-- 
+-
   name:     "twitter"
   url:      "https://twitter.com/"
   icon:     "twitter"
-- 
+-
   name:     "website"
   url:      "//"
   icon:     "globe"
