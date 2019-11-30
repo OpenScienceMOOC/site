@@ -28,7 +28,7 @@ Jon Tennant was performing most of the communication work of the OS-MOOC. We too
 - [Twitter](https://twitter.com/opensciencemooc):  Lisa Hehnke
 - [Facebook](https://facebook.com/opensciencemooc): Ivo Grigorov, Johanna Havemann
 - [info@opensciencemooc.eu](mailto:info@opensciencemooc.eu): Lisa Hehnke, Johanna Havemann, Tobias Steiner
-- [GitHub](https://github.com/OpenScienceMOOC) (pull request reviews, admin work): Tobias Steiner, Danny Collin
+- [GitHub](https://github.com/OpenScienceMOOC) (pull request reviews, admin work): Tobias Steiner, Danny Colin
 - [Eliademy](https://eliademy.com/opensciencemooc): Ivo Grigorov, Tobias Steiner (infrastructure); Johanna Havemann, Lisa Hehnke (content)
 - [Slack](openmooc-ers.slack.com): Julien Colomb
 
