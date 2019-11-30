@@ -1,4 +1,4 @@
-# Topbar menu 
+# Topbar menu
 #
 # How to create a menu
 #
@@ -14,6 +14,8 @@
   url:    "/"
 - title:  "Blog"
   url:    "/blog"
+- title:  "Calendar"
+  url:    "https://cal.flavoursofopen.science/"
 - title:  "Modules"
   url:    "#"
   submenu:
