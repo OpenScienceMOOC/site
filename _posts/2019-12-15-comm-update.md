@@ -24,14 +24,14 @@ Jon Tennant was performing most of the communication work. We redistributed resp
 - [info@opensciencemooc.eu](mailto:info@opensciencemooc.eu): Lisa Hehnke, Jo Havemann, Tobias Steiner
 - [GitHub](https://github.com/OpenScienceMOOC) (pull request reviews, admin work): Tobias Steiner, Danny Colin
 - [Eliademy](https://eliademy.com/opensciencemooc): Ivo Grigorov, Tobias Steiner (infrastructure); Jo Havemann, Lisa Hehnke (content)
-- [Slack](openmooc-ers.slack.com): Julien Colomb
+- [Slack](https://openmooc-ers.slack.com): Julien Colomb
 
 
 ## Finding a new Learning platform
 
 Our current MOOC platform Eliademy has [recently declared bankruptcy](https://blog.eliademy.com/2019/11/15/sad-news/), so we are now currently on the lookout for alternative platforms and would very much welcome your input and collaboration on this important matter. 
 
-Do you have good experience and would like to suggest possible solutions for the OpenScienceMOOC? Don't hesitate to get in touch via [the #platform channel in our open Slack group](openmooc-ers.slack.com), [Twitter](https://twitter.com/OpenScienceMOOC/), or drop us an email at [info@opensciencemooc.eu](mailto:info@opensciencemooc.eu).
+Do you have good experience and would like to suggest possible solutions for the OpenScienceMOOC? Don't hesitate to get in touch via [the #platform channel in our open Slack group](https://openmooc-ers.slack.com), [Twitter](https://twitter.com/OpenScienceMOOC/), or drop us an email at [info@opensciencemooc.eu](mailto:info@opensciencemooc.eu).
 
 
 **We whish you all a happy end of 2019 and a good start into 2020!
