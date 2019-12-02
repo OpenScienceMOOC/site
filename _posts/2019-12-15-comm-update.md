@@ -8,7 +8,7 @@ categories: community_update
 
 Dear Open Science MOOCers and interested individuals,
 
-The past month has been quite intense for us all, when the Steering Committee has put their heads together to keep the MOOC afloat and reorganize its governance. Module developments and translation work will soon continue and we welcome all your suggestions, input and ideas to any of the debeloping stages along the way.
+The past month has been quite intense for us all, when the Steering Committee has put their heads together to keep the MOOC afloat and reorganize its governance. Module developments and translation work will soon continue and we welcome all your suggestions, input and ideas to any of the developing stages along the way.
 
 
 ## Code of Conduct
@@ -29,11 +29,13 @@ Jon Tennant was performing most of the communication work. We redistributed resp
 
 ## Finding a new Learning platform
 
-Eliademy has announced bankruptcy (add url to their announcement) so we are currently looking into alternative platforms. Do you have good experience adn would like to suggest one for the OS-MOOC? Contact us at ((Slack/ public teering channel), Twitter (url) or by email to info@opensciencemooc.eu
+Our current MOOC platform Eliademy has [recently declared bankruptcy](https://blog.eliademy.com/2019/11/15/sad-news/), so we are now currently on the lookout for alternative platforms and would very much welcome your input and collaboration on this important matter. 
+
+Do you have good experience and would like to suggest possible solutions for the OpenScienceMOOC? Don't hesitate to get in touch via [the #platform channel in our open Slack group](openmooc-ers.slack.com), [Twitter](https://twitter.com/OpenScienceMOOC/), or drop us an email at [info@opensciencemooc.eu](mailto:info@opensciencemooc.eu).
 
 
 **We whish you all a happy end of 2019 and a good start into 2020!
-The OS MOOC steering committee** (link to ppl page on website)
+Your [OpenScienceMOOC steering committee](https://opensciencemooc.eu/people/)**
 
 ---
 
