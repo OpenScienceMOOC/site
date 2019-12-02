@@ -9,7 +9,7 @@ come talk with us on [our slack channel][slack].
 
 This project adheres to the [Contributor Covenant code of conduct][coc]. By 
 participating, you are expected to uphold this code. Please report unacceptable
-behavior to EMAIL@ADDRESS.HERE.
+behavior to [conduct@opensciencemooc.eu](mailto:conduct@opensciencemooc.eu).
 
 ### Altering the module content.   
 
@@ -53,6 +53,7 @@ _team_ item:
 * advisors
 * production
 * steering-committee
+* code-of-conduct-committee
 
 Here's an example:
 
@@ -112,7 +113,7 @@ with this program. If not, see <https://www.gnu.org/licenses/>.
 [coc]:        CODE_OF_CONDUCT.md
 [contribute]: CONTRIBUTING.md
 [md-ss]:      https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-[slack]:      https://openmooc-ers-slackin.herokuapp.com/ 
+[slack]:      https://openmooc-ers.herokuapp.com/ 
 [twitter]:    https://twitter.com/OpenScienceMOOC
 [website]:    https://opensciencemooc.eu
 [yaml]:       https://en.wikipedia.org/wiki/YAML 
