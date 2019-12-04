@@ -12,7 +12,7 @@ The past month has been quite intense for us all, when the Steering Committee ha
 
 
 ## Code of Conduct
-(ask Bianka and Chris H to write a short notification for this?)
+(Bianka and Chris H to write a short notification)
 
 
 ## Tasks distribution
@@ -34,37 +34,7 @@ Our current MOOC platform Eliademy has [recently declared bankruptcy](https://bl
 Do you have good experience and would like to suggest possible solutions for the OpenScienceMOOC? Don't hesitate to get in touch via [the #platform channel in our open Slack group](https://openmooc-ers.slack.com), [Twitter](https://twitter.com/OpenScienceMOOC/), or drop us an email at [info@opensciencemooc.eu](mailto:info@opensciencemooc.eu).
 
 
-**We whish you all a happy end of 2019 and a good start into 2020!
-Your [OpenScienceMOOC steering committee](https://opensciencemooc.eu/people/)**
+**We whish you all a happy end of 2019 and a good start into 2020!**
 
----
-
-**Signatories** in alphabetical order: (do we need to sign this or can we just say on behalf of the SC)
-
-Julien Colomb (@j_colomb)
-
-Valentina Goglio
-
-Ivo Grigorov (@OAforClimate)
-
-Chris Hartgerink (@chartgerink)
-
-Ricardo Hartley (@ametodic0)
-
-Johanna Havemann (@johave)
-
-Lisa Hehnke (@DataPlanes)
-
-Bianca Kramer (@MsPhelps)
-
-Christopher Madan (@cMadan)
-
-Paola Masuzzo (@pcmasuzzo)
-
-Tobias Steiner (@cmplxtv_studies)
-
-Erzsébet Tóth-Czifra (@etothczifra)
-
-Rutger Vos (@rvosa)
-
+Your [OpenScienceMOOC steering committee](https://opensciencemooc.eu/people/), Bianca Kramer and Chris Hartgerink 
 
