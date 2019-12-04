@@ -1,5 +1,5 @@
 ---
-title: "OSMOOC Community update, december 2019"
+title: "OSMOOC Community Update, December 2019"
 author: "steering committee"
 date: "2019-12-15"
 layout: post
