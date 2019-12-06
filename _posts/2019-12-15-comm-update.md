@@ -12,7 +12,10 @@ The past month has been quite intense for us all, when the Steering Committee ha
 
 
 ## Code of Conduct
-(Bianka and Chris H to write a short notification)
+
+The Code of Conduct committee can be reached at <conduct@opensciencemooc.eu>. Per the [recent announcement](https://opensciencemooc.eu/statement/2019/11/15/official-sc-statement/), a few changes occurred, resulting in a new composition of the committee: Bianca Kramer, Ricardo Hartley, and Chris Hartgerink. We are working on a clearer reporting protocol, to provide clarity in how reports are dealt with in a responsible manner. 
+
+We are also preparing a call for nominations for an external member of the committee, which we expect to launch in January 2020. With this, we hope to increase our accountability and improve our knowledge and expertise in defining, implementing and enforcing our code of conduct. We also want to ensure the necessary representativeness and inclusiveness. 
 
 
 ## Tasks distribution
