@@ -39,5 +39,5 @@ Do you have good experience and would like to suggest possible solutions for the
 
 **We wish you all a happy end of 2019 and a good start into 2020!**
 
-Your [Open Science MOOC steering committee](https://opensciencemooc.eu/people/) and Chris Hartgerink
+Your [Open Science MOOC steering committee](https://opensciencemooc.eu/people/)
 
