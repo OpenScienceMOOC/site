@@ -18,9 +18,9 @@ The Code of Conduct committee can be reached at <conduct@opensciencemooc.eu>. Pe
 We are also preparing a call for nominations for an external member of the committee, which we expect to launch in January 2020. With this, we hope to increase our accountability and improve our knowledge and expertise in defining, implementing and enforcing our code of conduct. We also want to ensure the necessary representativeness and inclusiveness. 
 
 
-## Tasks distribution
+## Governance and tasks distribution
 
-Jon Tennant was performing most of the communication work. We redistributed responsibilities for the different channels as follows:
+We are working on a new governance for the MOOC and its steering committee. In a first step, we have been listing and distributing the functions and working package between us. In a second step, we will implement a selection process for steering committee members and we plan to start the process early 2020. In addition, Jon Tennant was performing most of the communication work. We redistributed responsibilities for the different channels as follows:
 
 - [Twitter](https://twitter.com/opensciencemooc): Lisa Hehnke for important announcements
 - [Facebook](https://facebook.com/opensciencemooc): Ivo Grigorov, Jo Havemann
@@ -37,7 +37,7 @@ Our current MOOC platform Eliademy has [recently declared bankruptcy](https://bl
 Do you have good experience and would like to suggest possible solutions for the Open Science MOOC? Don't hesitate to get in touch via [the #platform channel in our open Slack group](https://openmooc-ers.slack.com), [Twitter](https://twitter.com/OpenScienceMOOC/), or drop us an email at [info@opensciencemooc.eu](mailto:info@opensciencemooc.eu).
 
 
-**We wish you all a happy end of 2019 and a good start into 2020!**
+**We wish you all a happy enad of 2019 and a good start into 2020!**
 
-Your [Open Science MOOC steering committee](https://opensciencemooc.eu/people/)
+Your [Open Science MOOC steering and Coc committees](https://opensciencemooc.eu/people/).
 
