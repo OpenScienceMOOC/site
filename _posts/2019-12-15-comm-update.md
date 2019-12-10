@@ -22,10 +22,10 @@ We are also preparing a call for nominations for an external member of the commi
 
 We are working on a new governance for the MOOC and its steering committee. In a first step, we have been listing and distributing the functions and working package between us. In a second step, we will implement a selection process for steering committee members and we plan to start the process early 2020. In addition, Jon Tennant was performing most of the communication work. We redistributed responsibilities for the different channels as follows:
 
-- [Twitter](https://twitter.com/opensciencemooc): Lisa Hehnke for important announcements
+- [Twitter](https://twitter.com/opensciencemooc): Lisa Hehnke (important announcements)
 - [Facebook](https://facebook.com/opensciencemooc): Ivo Grigorov, Jo Havemann
 - [info@opensciencemooc.eu](mailto:info@opensciencemooc.eu): Lisa Hehnke, Jo Havemann, Tobias Steiner
-- [GitHub](https://github.com/OpenScienceMOOC) (pull request reviews, admin work): Tobias Steiner, Danny Colin
+- [GitHub](https://github.com/OpenScienceMOOC): Tobias Steiner, Danny Colin (pull request reviews, admin work)
 - [Eliademy](https://eliademy.com/opensciencemooc): Ivo Grigorov, Tobias Steiner (infrastructure); Jo Havemann, Lisa Hehnke (content)
 - [Slack](https://openmooc-ers.slack.com): Julien Colomb
 
