@@ -39,5 +39,5 @@ Do you have good experience and would like to suggest possible solutions for the
 
 **We wish you all a happy enad of 2019 and a good start into 2020!**
 
-Your [Open Science MOOC steering and Coc committees](https://opensciencemooc.eu/people/).
+Your [Open Science MOOC steering and CoC committees](https://opensciencemooc.eu/people/).
 
