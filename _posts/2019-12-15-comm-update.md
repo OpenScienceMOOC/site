@@ -18,7 +18,7 @@ Together with the Code of Conduct committee, we are now also preparing a call fo
 
 ## Governance and tasks distribution
 
-We are now also working on a new governance model for the MOOC and its [Steering Committee](https://opensciencemooc.eu/people/. In a first step, we have been listing and distributing the roles, responsibilities and work packages between us. In a second step, we will implement a selection process for a new steering committee members, and we plan to start the process in early 2020. In addition, we now have redistributed all communication responsibilities as follows:
+We are now also working on a new governance model for the MOOC and its [Steering Committee](https://opensciencemooc.eu/people/). In a first step, we have been listing and distributing the roles, responsibilities and work packages between us. In a second step, we will implement a selection process for a new steering committee members, and we plan to start the process in early 2020. In addition, we now have redistributed all communication responsibilities as follows:
 
 - [Twitter](https://twitter.com/opensciencemooc): Lisa Hehnke (important announcements)
 - [Facebook](https://facebook.com/opensciencemooc): Ivo Grigorov, Jo Havemann
