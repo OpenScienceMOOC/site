@@ -8,17 +8,17 @@ categories: community_update
 
 Dear Open Science MOOCers and all interested,
 
-The past month has been quite intense for us all, when the Steering Committee has put their heads together to keep the MOOC afloat and reorganize its governance. Module developments and translation work will continue soon, and we welcome all your suggestions, input and ideas to any of the developing stages along the way.
+The past month has been intense for us all, when the Steering Committee has put their heads together to keep the MOOC afloat and reorganize its governance. Module developments and translation work will continue soon, and we welcome all your suggestions, input and ideas to any of the developing stages along the way.
 
 ## Code of Conduct
 
 The Code of Conduct committee can be reached at <conduct@opensciencemooc.eu>. Per our [recent announcement](https://opensciencemooc.eu/statement/2019/11/15/official-sc-statement/), a few changes were implemented, resulting in a new composition of the committee: we thank Bianca Kramer, Ricardo Hartley, and Chris Hartgerink for volunteering to fill this important position. We are working on a clearer reporting protocol, so as to be able to provide clarity in how reports are dealt with in a responsible manner. 
 
-Together wit the Code of Conduct committee, we are now also preparing a call for nominations for an external member of the Code of Conduct committee, which we expect to launch in January 2020. With this, we hope to further increase our accountability and expand expertise and knowledge in defining, implementing and enforcing our code of conduct. We also want to ensure the necessary representativeness and inclusiveness. 
+Together with the Code of Conduct committee, we are now also preparing a call for nominations for an external member of the Code of Conduct committee, which we plan to launch in January 2020. With this, we hope to further increase our accountability and expand expertise and knowledge in defining, implementing and enforcing our [Code of Conduct](https://opensciencemooc.eu/coc/). We thereby aim to also ensure the necessary representativeness and inclusiveness across gender and world regions.
 
 ## Governance and tasks distribution
 
-We are now also working on a new governance model for the MOOC and its steering committee. In a first step, we have been listing and distributing the functions and working package between us. In a second step, we will implement a selection process for steering committee members, and we plan to start the process in early 2020. In addition, since Jon Tennant was performing most of the communication work, we now have redistributed responsibilities for the different channels as follows:
+We are now also working on a new governance model for the MOOC and its [Steering Committee](https://opensciencemooc.eu/people/. In a first step, we have been listing and distributing the roles, responsibilities and work packages between us. In a second step, we will implement a selection process for a new steering committee members, and we plan to start the process in early 2020. In addition, we now have redistributed all communication responsibilities as follows:
 
 - [Twitter](https://twitter.com/opensciencemooc): Lisa Hehnke (important announcements)
 - [Facebook](https://facebook.com/opensciencemooc): Ivo Grigorov, Jo Havemann
@@ -27,9 +27,9 @@ We are now also working on a new governance model for the MOOC and its steering 
 - [Eliademy](https://eliademy.com/opensciencemooc): Ivo Grigorov, Tobias Steiner (infrastructure); Jo Havemann, Lisa Hehnke (content)
 - [Slack](https://openmooc-ers.slack.com): Julien Colomb
 
-## Finding a new Learning platform
+## Identifying a new learning platform
 
-Our current MOOC platform Eliademy has [recently declared bankruptcy](https://blog.eliademy.com/2019/11/15/sad-news/), so we are now on the lookout for an alternative platform and would very much welcome your input and collaboration on this important matter. 
+Our current MOOC platform Eliademy has [announced cease of operations](https://blog.eliademy.com/2019/11/15/sad-news/), so we are now on the lookout for an alternative platform and would very much welcome your input and collaboration on this important matter. 
 
 Do you have experience in running a learning platform and would like to suggest possible solutions for the Open Science MOOC to move forward? Don't hesitate to get in touch via [the #platform channel in our open Slack group](https://openmooc-ers.slack.com), [Twitter](https://twitter.com/OpenScienceMOOC/), or drop us an email at [info@opensciencemooc.eu](mailto:info@opensciencemooc.eu).
 
