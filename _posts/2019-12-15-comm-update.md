@@ -1,7 +1,7 @@
 ---
 title: "OSMOOC Community Update, December 2019"
 author: "steering committee"
-date: "2019-12-13"
+date: "2019-12-17"
 layout: post
 categories: community_update
 ---
