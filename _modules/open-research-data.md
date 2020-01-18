@@ -59,6 +59,8 @@ At the end of this module, the participants will be able to:
 - [Expert tour guide on Data Management](https://www.cessda.eu/Research-Infrastructure/Training/Expert-tour-guide-on-Data-Management), Consortium of European Social Science Data Archives
 - [DataCite](https://www.datacite.org/), a leading global provider of DOIs for research data
 - [CKAN](https://github.com/ckan/ckan), an open source data management system (DMS) for powering data hubs and data portals
+- [R Markdown: Setting R input and output in stone, beautifully](https://rmarkdown.rstudio.com/)
+- [R Shiny: Reproducible, open-source data dashboards (aka web applications)](https://shiny.rstudio.com/)
 
 ### Research Articles and Reports
 
@@ -86,6 +88,7 @@ At the end of this module, the participants will be able to:
 - [Cloudy, increasingly FAIR; revisiting the FAIR Data guiding principles for the European Open Science Cloud](https://content.iospress.com/articles/information-services-and-use/isu824), Mons et al., 2017
 - [Code of practice for research data usage metrics release 1](https://peerj.com/preprints/26505/), Fenner et al., 2018
 - [Open Data as Open Educational Resources: Towards Transversal Skills and Global Citizenship](http://dx.doi.org/10.5944/openpraxis.7.4.233), Atenas, Havemann, Priego, 2015
+- [Thinking Outside the Box: Developing Dynamic Data Visualizations for Psychology with Shiny](https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01782/full)
 
 ### Key posts
 
@@ -114,3 +117,4 @@ At the end of this module, the participants will be able to:
 - [What is a Smart City? A Comprehensive Introduction](https://www.opendatasoft.com/2017/07/18/what-is-a-smart-city-a-comprehensive-introduction/), OpenDataSoft
 - [Open Data as Terraces](https://www.opendatasoft.com/2016/12/27/open-data-terraces/), OpenDataSoft
 - [Author Reagent Table: A proposal](https://f1000research.com/posters/6-449), Crosby et al., 2017
+- [(Blog post) Data visualisation apps: What they add](https://www.linkedin.com/pulse/shiny-data-presentation-added-value-pablo-bernabeu)
