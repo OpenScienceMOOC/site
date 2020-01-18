@@ -30,7 +30,8 @@ transparent reporting which is reproducible and readable.
 
 ### Tools
 
-- Open Science Framework (COS)
+ - [Center for Open Science (COS)](https://cos.io/)
+ - [Open Science Framework (OSF)](https://osf.io/)
  - [Reproducibility Project: Cancer Biology](https://osf.io/e81xl/wiki/home/)
  - [Reproducibility Project: Psychological Science](https://osf.io/ezcuj/wiki/home/)
  - [Registered Reports](https://cos.io/rr/)
