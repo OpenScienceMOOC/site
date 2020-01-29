@@ -117,4 +117,5 @@ At the end of this module, the participants will be able to:
 - [What is a Smart City? A Comprehensive Introduction](https://www.opendatasoft.com/2017/07/18/what-is-a-smart-city-a-comprehensive-introduction/), OpenDataSoft
 - [Open Data as Terraces](https://www.opendatasoft.com/2016/12/27/open-data-terraces/), OpenDataSoft
 - [Author Reagent Table: A proposal](https://f1000research.com/posters/6-449), Crosby et al., 2017
-- [(Blog post) Data visualisation apps: What they add](https://www.linkedin.com/pulse/shiny-data-presentation-added-value-pablo-bernabeu)
+- [A case for data dashboards: first steps with R Shiny](https://www.linkedin.com/pulse/shiny-data-presentation-added-value-pablo-bernabeu), Pablo Bernabeu
+- [Data sharing and how it can benefit your scientific career](https://www.nature.com/articles/d41586-019-01506-x), Gabriel Popkin
