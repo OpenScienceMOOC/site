@@ -1,11 +1,19 @@
 <ul class="vertical menu drilldown" data-drilldown>
   {% for item in include.menu %}
   <li>
-    <a href="{{ item.url }}">{{ item.title }}</a>
+    <a href="{{ item.url }}"
+      {% if item.newtab == true %}target="_blank"{% endif %}>
+        {{ item.title }}
+    </a>
     {% if item.submenu %}
     <ul class="menu vertical nested">
       {% for subitem in item.submenu %}
-        <li><a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+        <li>
+          <a href="{{ subitem.url }}"
+             {% if item.newtab == true %}target="_blank"{% endif %}>
+               {{ subitem.title }}
+          </a>
+        </li>
       {% endfor %}
     </ul>
     {% endif %}

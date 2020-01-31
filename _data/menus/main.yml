@@ -16,6 +16,7 @@
   url:    "/blog"
 - title:  "Calendar"
   url:    "https://cal.flavoursofopen.science/"
+  newtab: true
 - title:  "Modules"
   url:    "#"
   submenu:
