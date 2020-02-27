@@ -28,6 +28,9 @@ links:
   url: "/colophon"
 
 sponsors:
+- name: "Digital Ocean"
+  img: "assets/img/sponsors/do.png"
+  url: "https://m.do.co/c/e51179c353a0"
 - name: "Code Ocean"
   img: "assets/img/sponsors/codeocean.png"
   url: "https://codeocean.com/"
