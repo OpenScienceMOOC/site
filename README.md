@@ -86,7 +86,7 @@ our [contributing guide][contribute].
 
 ## Sponsors
 
-[![Digital Ocean](assets/img/sponsors/do.png)][do]
+[![Digital Ocean](https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PNG/DO_Logo_Horizontal_Blue.png)][do]
 
 ## License
 
@@ -116,7 +116,7 @@ with this program. If not, see <https://www.gnu.org/licenses/>.
 [cc]:         https://creativecommons.org/licenses/by-sa/4.0/
 [coc]:        CODE_OF_CONDUCT.md
 [contribute]: CONTRIBUTING.md
-[do]:         https://m.do.co/c/e51179c353a0
+[do]:         https://digitalocean.com/
 [md-ss]:      https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [slack]:      https://openmooc-ers.herokuapp.com/ 
 [twitter]:    https://twitter.com/OpenScienceMOOC
