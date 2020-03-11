@@ -14,7 +14,15 @@ After the rush of last year, we needed some time to rest and we are entering a n
 
 ## Governance and tasks distribution
 
-Our key priority is to renew our Steering Committee. If you are interested to join us, please contact us on the Slack #steering channel.
+We have been discussing a new organisation to drive the OSMOOC community effort. In accordance to this new organisation, our key priority is to renew our Steering Committee (SC).
+We came to the conclusion to collectively step down from the SC on April first, in order to allow for a fair election of a novel SC, providing space for a new group of committed individuals to continue [our vision and mission](https://opensciencemooc.eu/about/). The OS MOOC as brought exciting collaborations to life and will certainly continue to do so. Being part of the SC was an honor and a great adventure, that may not stop.
+
+As member of the OSMOOC community, you are therefore asked to propose a human being who you think will be able to steer this project in the right direction, we will then contact them to see if they are interested: please send us an email: [info@opensciencemooc.eu](mailto:info@opensciencemooc.eu) stating who you would like to see take a SC chair, giving contact information. You can of course name yourself as well as members of the present SC.
+
+A very important message we took home from session 11 of the barcamp (see below) is that non-experts are better at teaching and reaching out to newbies, and we would encourage anyone with very little experience in open science to feel empowered: the MOOC needs your expertise and we would love to see you taking the wheel of this project.
+
+We will then come with a voting system later in April.
+
 
 ## Identifying a new learning platform
 
@@ -24,7 +32,8 @@ The decision is not taken yet, so if you have experience in running a learning p
 
 ## open science barcamp
 
-Many of us participated in one of the most exciting Open Science events of the year. We proposed several sessions for the Open Science Barcamp, the innovative day 0 of the more formal Berlin Open Science Conference. You can find more details here: https://etherpad.wikimedia.org/p/oscibar2020. Come and explore what is there for you in the MOOC or how you can integrate your own perspectives on Open Science!
+Many of us participated in one of the most exciting Open Science events of the year. We proposed several sessions for the Open Science Barcamp, the innovative day 0 of the more formal Berlin Open Science Conference. You can find more details at https://etherpad.wikimedia.org/p/oscibar2020 (especially sessions 2,3,5,7,11, and 12) . Come and explore what is there for you in the MOOC or how you can integrate your own perspectives on Open Science!
+
 
 You can follow the event on twitter via the #oscibar hashtag and listen to last year's highlights on the Open Science Radio : http://www.openscienceradio.org/.
 
