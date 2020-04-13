@@ -41,3 +41,5 @@ A crowdfunding campaign to help Jon’s family bringing him back home to Leicest
 *Erzsébet Tóth-Czifra*
 
 *Rutger Vos*
+
+*Danny Colin*
