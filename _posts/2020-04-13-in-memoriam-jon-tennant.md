@@ -26,6 +26,8 @@ A crowdfunding campaign to help Jon’s family bringing him back home to Leicest
 
 *Ivo Grigorov*
 
+*Ricardo Hartley*
+
 *Jo Havemann*
 
 *Lisa Hehnke*
