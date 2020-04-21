@@ -6,6 +6,9 @@ layout: post
 categories: community
 ---
 
+*Archived on SocArXiv*, DOI: [10.31235/osf.io/aksxq](https://doi.org/10.31235/osf.io/aksxq)
+
+
 #### **tldr;**
 
 > The need to empower scholars as well as the general public to practice Open
