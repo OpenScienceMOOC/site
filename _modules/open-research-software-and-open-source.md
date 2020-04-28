@@ -67,11 +67,11 @@ and re-used by others.
 - [An open source pharma roadmap](http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002276), Balasegaram et al., 2017
 - [An introduction to Rocker: Docker containers for R](https://arxiv.org/abs/1710.03675), Boettiger and Eddelbuettel, 2017
 - [Upon the Shoulders of Giants: Open-Source Hardware and Software in Analytical Chemistry](https://pubs.acs.org/doi/abs/10.1021/acs.analchem.7b00485), Dryden et al., 2017
-- [Four simple recommendations to encourage best practices in research software](https://f1000research.com/articles/6-876/v1), Jimanez et al., 2017
+- [Four simple recommendations to encourage best practices in research software](https://f1000research.com/articles/6-876/v1), Jimenez et al., 2017
 - [Perspectives on Reproducibility and Sustainability of Open-Source Scientific Software from Seven Years of the Dedalus Project](https://arxiv.org/abs/1801.08200), Oishi et al., 2018
 - [Good enough practices in scientific computing](https://doi.org/10.1371/journal.pcbi.1005510), Wilson et al.,2017
 - [The Software Sustainability Institute: Changing research software attitudes and practices](https://www.software.ac.uk/software-sustainability-institute-changing-research-software-attitudes-and-practices), Crouch et al. (2013)
-- [Thinking Outside the Box: Developing Dynamic Data Visualizations for Psychology with Shiny](https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01782/full), Ellis & Merdian (2015)
+- [Thinking Outside the Box: Developing Dynamic Data Visualizations for Psychology with Shiny](https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01782/full), Ellis and Merdian, 2015
 
 ### Key Posts
 
