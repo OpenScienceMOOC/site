@@ -1,7 +1,7 @@
 ---
 title: "Invitation to co-sign "Open Science Saves Lives"?"
 author: "Lonni Besançon"
-date: "2020-28-08"
+date: "2020-08-28"
 layout: post
 categories: community
 ---
