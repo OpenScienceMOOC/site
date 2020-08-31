@@ -1,5 +1,5 @@
 ---
-title: "Invitation to co-sign “Open Science Saves Lives”?"
+title: "Invitation to co-sign "Open Science Saves Lives"?"
 author: "Lonni Besançon"
 date: "2020-28-08"
 layout: post
@@ -23,7 +23,7 @@ You have to provide an institutional email address that we will manually verify 
 
 (We welcome feedback on the preprint and may make some minor changes to the text prior to submission.)
 
-We hope that the OSMooc community, who has always been very responsive and supportive of this kind of approach, will join our 300+ co-signatories. Please co-sign here:: https://forms.gle/vagxi5mrQLi5hHpx5 
+We hope that the OSMooc community, who has always been very responsive and supportive of this kind of approach, will join our 400+ co-signatories. Please co-sign here:: https://forms.gle/vagxi5mrQLi5hHpx5 
 
 
 Cheers!
