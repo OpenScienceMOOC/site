@@ -23,7 +23,7 @@ You have to provide an institutional email address that we will manually verify 
 
 (We welcome feedback on the preprint and may make some minor changes to the text prior to submission.)
 
-Join the 300+ co-signatories of the manuscript now: https://forms.gle/vagxi5mrQLi5hHpx5 
+We hope that the OSMooc community, who has always been very responsive and supportive of this kind of approach, will join our 300+ co-signatories. Please co-sign here:: https://forms.gle/vagxi5mrQLi5hHpx5 
 
 
 Cheers!
