@@ -6,17 +6,33 @@ description: "Your description goes here"
 
 <div class="grid-container">
   {% for person in site.data.people %}
+    {% if person[1].team == "steering-committee" %}
+      {% assign steering = true %}
+    {% endif %}
     {% if person[1].team == "code-of-conduct-committee" %}
       {% assign coc = true %}
     {% endif %}
+    {% if person[1].team == "advisors" %}
+      {% assign advisors = true %}
+    {% endif %}
+    {% if person[1].team == "production" %}
+      {% assign production = true %}
+    {% endif %}
   {% endfor %}
 
-  {% include helpers/new_team.html name="Steering Committee" %}
+  {% if steering %}
+    {% include helpers/new_team.html name="Steering Committee" %}
+  {% endif %}
 
   {% if coc %}
     {% include helpers/new_team.html name="Code of Conduct Committee" %}
   {% endif %}
 
-  {% include helpers/new_team.html name="Advisors" %}
-  {% include helpers/new_team.html name="Production" %}
+  {% if advisors %}
+    {% include helpers/new_team.html name="Advisors" %}
+  {% endif %}
+
+  {% if production %}
+    {% include helpers/new_team.html name="Production" %}
+  {% endif %}
 </div>

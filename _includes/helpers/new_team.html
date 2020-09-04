@@ -1,6 +1,6 @@
 {% comment %}
   New Team Helper
-  
+
   Create a new team that can be included in the people's page.
 {% endcomment %}
 
@@ -18,12 +18,14 @@
       <div class="card-section">
         {% include helpers/avatar_exists.html %}
         {% if avatar_exists == "true" %}
-          <img src="{{ avatar_path_exists }}" 
+          <img src="{{ avatar_path_exists }}"
                class="rounded"
                width="128"
+               height="128"
+               style="max-height: 128px; max-width: 128px;"
                alt="Profile Picture's of {{ person[1].name }}">
         {% elsif avatar_exists == "false" %}
-          <img src="/assets/img/osm/osm-avatar-default.png" 
+          <img src="/assets/img/osm/osm-avatar-default.png"
                class="rounded"
                width="128"
                aria-hidden="true"
