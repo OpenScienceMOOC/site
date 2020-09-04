@@ -21,7 +21,7 @@ description: "Your description goes here"
         </div>
       </div>
       <!--
-      <a class="primary large button" 
+      <a class="primary large button"
          href="https://eliademy.com/opensciencemooc">
          {{ site.data.pages.index.hero.button }}
       </a>
@@ -29,7 +29,7 @@ description: "Your description goes here"
     </div>
   </section>
   <!-- END Hero -->
-  
+
   <!-- How Can You Help? -->
   <div class="grid-container">
     <section class="grid-x grid-padding-x grid-padding-y">
@@ -71,7 +71,7 @@ description: "Your description goes here"
             <h3 class="h4">{{ module.title }}</h3>
             <ul class="menu align-center">
               <li>
-                <a class="button primary hollow" 
+                <a class="button primary hollow"
                    href="{{ module.url | relative_url }}">
                    Learn More
                 </a>
@@ -102,21 +102,21 @@ description: "Your description goes here"
       <div class="cell small-12 medium-4">
         <article>
           <header>
-            {% include helpers/file_exists.html 
+            {% include helpers/file_exists.html
                        filename=post.image.url %}
             {% if filename_exists == "true" %}
-            <img src="{{ post.image.url | relative_url }}" 
+            <img src="{{ post.image.url | relative_url }}"
                  alt="{{ post.image.description }}">
             {% else %}
-            <img src="{{ "/assets/img/osm/osm-news-default.png" | 
-                          relative_url }}" 
+            <img src="{{ "/assets/img/osm/osm-news-default.png" |
+                          relative_url }}"
                  alt="{{ post.image.description }}">
             {% endif %}
             <h3 class="h4">
              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h3>
             <div class="grid-x grid-padding-x">
-              <address class="cell shrink" 
+              <address class="cell shrink"
                        style="border-right: solid 1px #ccc;">
                 {{ post.author }}
               </address>
@@ -125,15 +125,12 @@ description: "Your description goes here"
               </time>
             </div>
           </header>
-          <p>{{ post.excerpt }}</p>
-          <footer>
-            <a href="{{ post.url | relative_url }}">
-              Read more 
-              <span class="show-for-sr">
-                about {{ post.title }} article.
-              </span>
-            </a>
-          </footer>
+          <a href="{{ post.url | relative_url }}">
+            Read more
+            <span class="show-for-sr">
+              about {{ post.title }} article.
+            </span>
+          </a>
         </article>
       </div>
       {% endfor %}
