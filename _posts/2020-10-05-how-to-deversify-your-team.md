@@ -9,3 +9,15 @@ that are lead mostly or even exclusively by white male men.
 
 This blog is gatehring the diverse advice they received from the community.
 
+resources:
+ https://openlifesci.org/posts/2020/10/01/annual-report-part-1/
+ 
+from malvika:
+
+>there is a small video tutorial we have created which should be launched at the JupyterCon this Friday on Open Source Community: inclusive practices. A preliminary set of resources can be seen here: https://github.com/jupytercon/2020-OpenSourceCommunities (presentations).
+This tutorial asks people to think about why we need diversity, who our community members are, why they would like to work on our project, what value exchange is created between our project and their involvements, what inclusive practices we can develop for them in the projects, and how we can start creating leadership roles for members who we want to see in the community. Would evaluating these aspects be useful?
+As Yo suggested, inviting people who are missing from your community will be the first step. Then, allowing them to make decisions around what is needed for them to feel supported in your project will be more important/effective than making decision for them/ 
+ 
+  
+
+actively inviting people who are outside your current representation, both to participate but also to the leadership team
