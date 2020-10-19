@@ -20,4 +20,14 @@ As Yo suggested, inviting people who are missing from your community will be the
  
   
 
-actively inviting people who are outside your current representation, both to participate but also to the leadership team
+actively inviting people who are outside your current representation, both to participate but also to the leadership team.
+
+From https://figshare.com/articles/presentation/Does_Research_Software_Engineering_have_a_diversity_crisis_and_what_can_we_do_/12955094/4:
+
+https://discover-cookbook.numfocus.org/ : cookbook on organising inclusive conferences
+
+https://www.recurse.com/manual :rule of the recurse place, put in particular social rules that are interesting.
+
+https://frameshiftconsulting.com/ally-skills-workshop/ : learn working against biais and exclusion while being part of the priviledged part of the society: become an ally.
+
+https://womeninhpc.org/community/resources : ressource on getting better at being inclusive
