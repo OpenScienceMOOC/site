@@ -6,7 +6,7 @@ layout: post
 categories: community
 
 
-The Steering Committee is excited to announce a new identity for the organization known as the Open Science MOOC: Open Science OpenEd. We will use the abbreviation OSOE.
+The Steering Committee is excited to announce a new identity for the organization known as the Open Science MOOC: Open Science OpenEd (a play on words in English). We will use the abbreviation OSOE.
 
 This new identity is aligned with our vision of expanding beyond the MOOC model to include all types of open education about open science. 
 
