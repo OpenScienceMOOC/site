@@ -1,9 +1,10 @@
-
+---
 title: "Announcing Open Science OpenEd!"
 author: "Open Science MOOC Steering Committee"
-date: "2020-02-xx"
+date: "2020-01-31"
 layout: post
 categories: community
+---
 
 
 The Steering Committee is excited to announce a new identity for the organization known as the Open Science MOOC: Open Science OpenEd (a play on words in English). We will use the abbreviation OSOE.
