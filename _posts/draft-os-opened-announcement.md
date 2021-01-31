@@ -1,7 +1,7 @@
 ---
 title: "Announcing Open Science OpenEd!"
 author: "Open Science MOOC Steering Committee"
-date: "2020-01-31"
+date: "2021-01-31"
 layout: post
 categories: community
 ---
